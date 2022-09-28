@@ -49,11 +49,11 @@ export default function Home({ posts }) {
         </Link>
         : Ecosystem for the IoT in Germany.
       </div>
-      <div className='posts'>
+      {/* <div className='posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
-      </div>
+      </div> */}
     </div>
   )
 }
