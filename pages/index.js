@@ -12,7 +12,7 @@ export default function Home({ posts }) {
       <Head>
         <title>Fang Zhang</title>
       </Head>
-      <div>I worked in IoT system development and project management in China for 10 years. When I came to New Zealand since 2019, I started to understand and develop MERN(MongoDB, ExpressJS, ReactJS and NodeJS) Full-Stack system.</div>
+      <div>I worked in IoT system development and project management in China for 10 years. When I came to New Zealand since 2019, I started to understand and involve MERN(MongoDB, ExpressJS, ReactJS and NodeJS) Full-Stack development.</div>
       <br/>
       <div>
         <h3>Mobile Dev: </h3>
@@ -24,7 +24,7 @@ export default function Home({ posts }) {
       <br/>
       <div>
         <h3>Full-Stack Dev: </h3>
-        <Link href="http://memories.fangzhang.me/">
+        <Link href="rainbow-profiterole-c64be5.netlify.app">
           <a target="_blank" style={{color: "blue"}}>Memories</a>
         </Link>
         : Showing some memories through the couple of lovely pictures.
