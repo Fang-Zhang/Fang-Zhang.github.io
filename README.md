@@ -33,3 +33,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deployment
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Custom URL
+
+Check out [GoDaddy Domain with GitHub Pages](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef) for more details.
