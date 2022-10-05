@@ -15,7 +15,7 @@ export default function Home({ posts }) {
       <div>I worked in IoT system development and project management in China for 10 years. When I came to New Zealand since 2019, I started to understand and involve MERN(MongoDB, ExpressJS, ReactJS and NodeJS) Full-Stack development.</div>
       <br/>
       <div>
-        <h3>Mobile Dev: </h3>
+        <h3>Mobile Dev: (React Native)</h3>
         <Link href="https://apps.apple.com/nz/app/ship2u/id1582385021">
           <a target="_blank" style={{color: "blue"}}>Ship2U</a>
         </Link>
@@ -23,7 +23,7 @@ export default function Home({ posts }) {
       </div>
       <br/>
       <div>
-        <h3>Full-Stack Dev: </h3>
+        <h3> MERN Full-Stack Dev: </h3>
         <Link href="rainbow-profiterole-c64be5.netlify.app">
           <a target="_blank" style={{color: "blue"}}>Memories</a>
         </Link>
@@ -49,11 +49,11 @@ export default function Home({ posts }) {
         </Link>
         : Ecosystem for the IoT in Germany.
       </div>
-      {/* <div className='posts'>
+      <div className='posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
-      </div> */}
+      </div>
     </div>
   )
 }
