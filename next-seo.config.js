@@ -6,8 +6,8 @@ export default {
       site_name: 'Fang Zhang',
     },
     twitter: {
-        handle: '@Official_R_deep',
-        site: '@Official_R_deep',
+        handle: '@WalterFangZhang',
+        site: '@WalterFangZhang',
         cardType: 'summary_large_image',
     }
   };
