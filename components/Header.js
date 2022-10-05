@@ -21,7 +21,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link href="/">
-            <a className="navbar-brand">Markdown + Nextjs</a>
+            <a className="navbar-brand">Fang Zhang</a>
           </Link>
 
           <button
@@ -42,7 +42,7 @@ export default function Header() {
                   <li className="nav-item"> Home </li>
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/About/">
                 <a className="nav-link">
                   <li className="nav-item">About </li>
                 </a>
