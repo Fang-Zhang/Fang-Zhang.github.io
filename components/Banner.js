@@ -3,9 +3,9 @@ export default function Banner() {
     <header className="py-5 bg-light border-bottom mb-4">
       <div className="container">
         <div className="text-center my-5">
-          <h1 className="fw-bolder">Welcome to my blog </h1>
+          <h1 className="fw-bolder">Welcome to MERN project </h1>
           <p className="lead mb-0">
-            Sharing some contents around MERN stack and myself.{" "}
+            Sharing the contents around MERN stack(MongoDB, Express.js, React.js and Node.js).
           </p>
         </div>
       </div>

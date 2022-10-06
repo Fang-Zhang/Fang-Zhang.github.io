@@ -30,7 +30,7 @@ export default function Home({ posts }) {
           site_name: "Fang Zhang",
         }}
       />
-      {/* <Banner /> */}
+      <Banner />
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
