@@ -1,17 +1,3 @@
-// import Link from 'next/link'
-
-// export default function Header() {
-//   return (
-//     <header>
-//       <div className='container'>
-//         <Link href='/' passHref>
-//           <h2>Fang Zhang</h2>
-//         </Link>
-//       </div>
-//     </header>
-//   )
-// }
-
 import Link from "next/link";
 
 
@@ -21,7 +7,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link href="/">
-            <a className="navbar-brand">Fang Zhang</a>
+            <a className="navbar-brand">MERN Projects</a>
           </Link>
 
           <button
@@ -42,7 +28,12 @@ export default function Header() {
                   <li className="nav-item"> Home </li>
                 </a>
               </Link>
-              <Link href="/About/">
+              <Link href="/collections/">
+                <a className="nav-link">
+                  <li className="nav-item">Collections </li>
+                </a>
+              </Link>
+              <Link href="/about/">
                 <a className="nav-link">
                   <li className="nav-item">About </li>
                 </a>
