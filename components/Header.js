@@ -13,17 +13,17 @@ export default function Header() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <Link href="/">
                 <a className="nav-link">
-                  <li className="nav-item">Home </li>
+                  <li className="nav-item">Home</li>
                 </a>
               </Link>
               <Link href="/collections/">
                 <a className="nav-link">
-                  <li className="nav-item">Collections </li>
+                  <li className="nav-item">Collections</li>
                 </a>
               </Link>
               <Link href="/about/">
                 <a className="nav-link">
-                  <li className="nav-item">About </li>
+                  <li className="nav-item">About</li>
                 </a>
               </Link>
             </ul>
