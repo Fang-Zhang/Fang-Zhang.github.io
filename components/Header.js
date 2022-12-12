@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link href="/">
-            <a className="navbar-brand">MERN Projects</a>
+            <a className="navbar-brand">Fang Zhang</a>
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -18,7 +18,7 @@ export default function Header() {
               </Link>
               <Link href="/collections/">
                 <a className="nav-link">
-                  <li className="nav-item">Collections</li>
+                  <li className="nav-item">Portfolios</li>
                 </a>
               </Link>
               <Link href="/about/">
