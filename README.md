@@ -37,3 +37,6 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 ## Custom URL
 
 Check out [GoDaddy Domain with GitHub Pages](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef) for more details.
+
+## CNAME
+Delete the CNAME file to point URL to the origin GitHub.
