@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Collections({ posts }) {
+export default function Portfolios({ posts }) {
   return (
     <div>
       <Head>
