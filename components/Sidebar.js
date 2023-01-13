@@ -64,10 +64,12 @@ export default function Sidebar() {
       </div>
 
       <div className="card mb-4">
-        <div className="card-header">Side Widget</div>
+        <div className="card-header">Useful Resources</div>
         <div className="card-body">
-          You can put anything you want inside of these side widgets. They are
-          easy to use, and feature the Bootstrap 5 card component!
+          <ul>
+            <li><a href="http://mdearth.io" target="_blank" rel="noreferrer" >MDearth</a></li>
+            <li><a href="https://www.zhouyi.cc/zhouyi/yijing64/" target="_blank" rel="noreferrer" >iChing</a></li>
+          </ul>
         </div>
       </div>
     </div>
