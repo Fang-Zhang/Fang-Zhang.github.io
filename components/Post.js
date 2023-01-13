@@ -31,9 +31,9 @@ export default function Post({ post }) {
       </a>
       <div className="card-body">
         <div className="small text-muted">{`${
-          date.getMonth() + 1
-        } - ${date.getDate()} - ${date.getFullYear()}`}</div>
-
+            date.getMonth() + 1
+          } - ${date.getDate()} - ${date.getFullYear()}`}
+        </div>
         <div>
           {" "}
           {post.frontmatter.tags.map((tag) => {
@@ -48,7 +48,9 @@ export default function Post({ post }) {
             );
           })}{" "}
         </div>
-        <h2 className="card-title">{post.frontmatter.title}</h2>
+        <a href={`/blog/${post.slug}`}>
+          <h2 className="card-title">{post.frontmatter.title}</h2>
+        </a>
         <p className="card-text">{post.frontmatter.summary}</p>
         <Link href={`/blog/${post.slug}`}>
           <a className="btn">Read More</a>
