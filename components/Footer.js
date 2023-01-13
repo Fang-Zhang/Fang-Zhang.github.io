@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-5 bg-dark">
       <div className="container">
         <p className="m-0 text-center text-white">
-          Copyright &copy; MERN Projects 2022
+          Copyright &copy; Fang Zhang Since 2022
         </p>
       </div>
     </footer>
