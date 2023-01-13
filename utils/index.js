@@ -14,7 +14,7 @@ export function slugify(title) {
     .trim()
     .replace(/[^\w ]+/g, "")
     .replace(/ +/g, "-");
-  // console.log("totalTile:", totalTitle);
+  console.log("The categories are:", totalTitle);
   // var removeDuplicates = totalTitle.filter((item, index) => totalTitle.indexOf(item) === index);
   // return removeDuplicates;
   return totalTitle;
