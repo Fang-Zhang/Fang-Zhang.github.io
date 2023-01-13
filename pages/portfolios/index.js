@@ -47,24 +47,23 @@ export default function Portfolios({ posts }) {
       </div>
       <br />
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
-        <h3>Mobile Dev: (React Native)</h3>
+        <h3>Mobile APP Dev: (React Native)</h3>
         <Link href="https://apps.apple.com/nz/app/ship2u/id1582385021">
           <a target="_blank" style={{ color: "blue" }}>
             Ship2U
           </a>
         </Link>
-        : Corporation with the Ship2U platform, it provides information about
-        customers.
+        : Corporation with the AionTech backend platform, it provides parcels and orders information of customers.
       </div>
       <br />
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
-        <h3> Full-Stack Dev: </h3>
+        <h3> Full-Stack Web Dev: </h3>
         <Link href="https://mdearth.io/">
           <a target="_blank" style={{ color: "blue" }}>
             MDearth.io
           </a>
         </Link>
-        : Help the local artists to touch with the web3 world.
+        : Help the local artists to touch with the Web3.0 world.
         <br />
         <Link href="rainbow-profiterole-c64be5.netlify.app">
           <a target="_blank" style={{ color: "blue" }}>
@@ -89,13 +88,20 @@ export default function Portfolios({ posts }) {
       </div>
       <br />
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
-        <h3>IoT Dev: </h3>
+        <h3>IoT Ecosystem Dev: </h3>
         <Link href="https://www.qivicon.com/en/">
           <a target="_blank" style={{ color: "blue" }}>
-            Smart Home ecosystem
+            Smart Home Ecosystem
           </a>
         </Link>
         : Ecosystem for the IoT in Germany.
+        <br />
+        <Link href="https://consumer.huawei.com/ph/offer/category/smart-home/">
+          <a target="_blank" style={{ color: "blue" }}>
+            Huawei Smart Home
+          </a>
+        </Link>
+        : Ecosystem for the IoT in China.
       </div>
     </div>
   );
