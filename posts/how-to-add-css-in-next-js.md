@@ -3,11 +3,7 @@ author: "Fang Zhang"
 categories:
   [
     "Next.js",
-    "Next",
-    "Next.js Framework",
-    "Next.js Tutorial",
-    "React.js",
-    "react.js tutorial",
+    "JS Dev"
   ]
 date: "2020-11-10T11:42:46Z"
 description: "Easy Ways Add CSS in Next.js #SeriesPart2"
@@ -18,11 +14,7 @@ summary: "Easy Ways Add CSS in Next.js #SeriesPart2 \n"
 tags:
   [
     "Next.js",
-    "Next",
-    "Next.js Framework",
-    "Next.js Tutorial",
-    "React.js",
-    "react.js tutorial",
+    "JS Dev"
   ]
 title: "How To Add CSS In Next js?"
 draft: false

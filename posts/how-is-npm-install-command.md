@@ -1,13 +1,21 @@
 ---
 author: "Fang Zhang"
-categories: ["npm", "npm-cli", "npm install command"]
+categories: 
+  [
+    "Basic Skill", 
+    "JS Dev"
+  ]
 date: "2022-03-20T13:09:24Z"
 description: "Npm install command help to install package from npmjs.org"
 image: "images/posts/img1.jpg"
 images: ["images/posts/img1.jpg"]
 slug: "how-is-npm-install-command"
 summary: "Npm install command help to install package from npmjs.org"
-tags: ["npm", "npm-cli", "npm install command"]
+tags: 
+  [
+    "Basic Skill", 
+    "JS Dev"
+  ]
 title: "What is the npm install command?"
 draft: false
 ---
