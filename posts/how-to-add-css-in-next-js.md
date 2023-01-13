@@ -2,7 +2,6 @@
 author: "Fang Zhang"
 categories:
   [
-    "Next.js",
     "JS Dev"
   ]
 date: "2020-11-10T11:42:46Z"

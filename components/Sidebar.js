@@ -43,7 +43,7 @@ export default function Sidebar() {
           <div className="row">
             <div className="col-sm-10">
               <ul className="list-unstyled mb-0">
-                {Search?.map((post) => {
+                {/* {Search?.map((post) => {
                   return post.frontmatter.categories.map((item) => {
                     const slug = slugify(item);
 
@@ -56,7 +56,17 @@ export default function Sidebar() {
                       </Link>
                     );
                   });
-                })}
+                })} */}
+                <Link href="/category/basic-skill">
+                  <a target="_blank" style={{ color: "black" }}>
+                    <li>Basic Skills</li>
+                  </a>
+                </Link>
+                <Link href="/category/js-dev">
+                  <a target="_blank" style={{ color: "black" }}>
+                    <li>JS Dev</li>
+                  </a>
+                </Link>
               </ul>
             </div>
           </div>

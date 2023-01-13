@@ -9,11 +9,15 @@ export function sortByDate(a, b) {
 }
 
 export function slugify(title) {
-  return title
+  var totalTitle = title
     .toLowerCase()
     .trim()
     .replace(/[^\w ]+/g, "")
     .replace(/ +/g, "-");
+  // console.log("totalTile:", totalTitle);
+  // var removeDuplicates = totalTitle.filter((item, index) => totalTitle.indexOf(item) === index);
+  // return removeDuplicates;
+  return totalTitle;
 }
 
 export function ImageUrl(url) {
