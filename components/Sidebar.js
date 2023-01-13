@@ -174,6 +174,11 @@ export default function Sidebar() {
         </div>
         <div className="card-body">
           <ul>
+            <Link href="/portfolios/">
+              <a target="_blank" style={{ color: "black" }}>
+                <li>My Portfolios</li>
+              </a>
+            </Link>
             <Link href="https://mdearth.io">
               <a target="_blank" style={{ color: "black" }}>
                 <li>MDearth</li>
