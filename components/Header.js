@@ -16,11 +16,11 @@ export default function Header() {
                   <li className="nav-item">Home</li>
                 </a>
               </Link>
-              <Link href="/portfolios/">
+              {/* <Link href="/portfolios/">
                 <a className="nav-link">
                   <li className="nav-item">Portfolios</li>
                 </a>
-              </Link>
+              </Link> */}
               {/* <Link href="/about/">
                 <a className="nav-link">
                   <li className="nav-item">About</li>
