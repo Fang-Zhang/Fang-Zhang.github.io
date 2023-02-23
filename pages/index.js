@@ -12,12 +12,12 @@ export default function Home({ posts }) {
     <div>
       <NextSeo
         title="Fang Zhang"
-        description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
+        description="Full-Time Open-Sourcerer & Father & Husband."
         openGraph={{
           url: "http://fang-zhang.com",
           title: "Fang Zhang",
           description:
-            "Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support",
+            "Full-Time Open-Sourcerer & Father & Husband.",
           images: [
             {
               url: `${ImageUrl("banner.png")}`,
