@@ -11,16 +11,36 @@ export default function Header() {
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <Link href="/">
+              {/* <Link href="/">
                 <a className="nav-link">
                   <li className="nav-item">Home</li>
                 </a>
-              </Link>
-              {/* <Link href="/portfolios/">
+              </Link> */}
+              <Link href="/portfolios/">
                 <a className="nav-link">
                   <li className="nav-item">Portfolios</li>
                 </a>
-              </Link> */}
+              </Link>
+              <Link href="/Donation/">
+                <a className="nav-link">
+                  <li className="nav-item">Donation</li>
+                </a>
+              </Link>
+              <Link href="/Supporters/">
+                <a className="nav-link">
+                  <li className="nav-item">Supporters</li>
+                </a>
+              </Link>
+              <Link href="/About/">
+                <a className="nav-link">
+                  <li className="nav-item">About</li>
+                </a>
+              </Link>
+              <Link href="https://medium.com/@fangzhangNZ">
+                <a className="nav-link">
+                  <li className="nav-item">Blog</li>
+                </a>
+              </Link>
               {/* <Link href="/about/">
                 <a className="nav-link">
                   <li className="nav-item">About</li>
