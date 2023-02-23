@@ -1,6 +1,4 @@
-import Head from "next/head";
 import Post from "../components/Post";
-import Banner from "../components/Banner";
 import search from "../search.json";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
@@ -50,7 +48,6 @@ export default function Search() {
           site_name: "Fang Zhang",
         }}
       />
-      <Banner />
       <div className="container">
         <div className="row">
           <div className="col-lg-8 m-auto">

@@ -3,8 +3,9 @@ import path from "path";
 import matter from "gray-matter";
 import { NextSeo } from "next-seo";
 import Post from "../components/Post";
-import Banner from "../components/Banner";
+import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
+import Footer from "../components/Footer";
 import { sortByDate, slugify, ImageUrl } from "../utils";
 
 export default function Home({ posts }) {
@@ -30,7 +31,7 @@ export default function Home({ posts }) {
           site_name: "Fang Zhang",
         }}
       />
-      <Banner />
+      <Header />
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
@@ -38,10 +39,10 @@ export default function Home({ posts }) {
               <Post key={index} post={post} />
             ))}
           </div>
-
           <Sidebar />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
