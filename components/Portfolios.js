@@ -1,15 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 export default function Portfolios() {
   return (
     <div>
-      <Head>
-        <title>Fang Zhang</title>
-      </Head>
-      <Header />
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
         I worked in IoT system development and project management in China for
         10 years.
@@ -106,7 +100,6 @@ export default function Portfolios() {
         </Link>
         : Ecosystem for the IoT in China.
       </div>
-      <Footer />
     </div>
   );
 }

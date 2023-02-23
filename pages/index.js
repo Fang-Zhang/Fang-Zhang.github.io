@@ -5,6 +5,7 @@ import { NextSeo } from "next-seo";
 import Post from "../components/Post";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
+import Portfolios from "../components/Portfolios";
 import Footer from "../components/Footer";
 import { sortByDate, slugify, ImageUrl } from "../utils";
 
@@ -32,7 +33,7 @@ export default function Home({ posts }) {
         }}
       />
       <Header />
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-lg-8">
             {posts.map((post, index) => (
@@ -41,7 +42,8 @@ export default function Home({ posts }) {
           </div>
           <Sidebar />
         </div>
-      </div>
+      </div> */}
+      <Portfolios />
       <Footer />
     </div>
   );
