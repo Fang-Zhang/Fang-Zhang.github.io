@@ -85,13 +85,13 @@ export default function PostPage({ content, frontmatter }) {
         title={frontmatter.title}
         description={frontmatter.summary}
         openGraph={{
-          url: "https://fang-zhang.github.io",
+          url: "https://fang-zhang.com",
           title: frontmatter.title,
           description: frontmatter.summary,
           type: "article",
           article: {
             publishedTime: frontmatter.date,
-            authors: ["https://fang-zhang.github.io/pages/about"],
+            authors: ["https://fang-zhang.com/pages/about"],
             tags: frontmatter.tags,
           },
           images: imageMeta,

@@ -14,7 +14,7 @@ export default function Home({ posts }) {
         title="Fang Zhang"
         description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
         openGraph={{
-          url: "http://fang-zhang.github.io",
+          url: "http://fang-zhang.com",
           title: "Fang Zhang",
           description:
             "Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support",
