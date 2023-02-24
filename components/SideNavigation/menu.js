@@ -4,7 +4,6 @@ const menu = [
   'services',
   'my-work',
   'testimonials',
-  'blog',
   'contact',
 ];
 
