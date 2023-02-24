@@ -52,11 +52,9 @@ function BannerNav(props) {
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
                   {t('profile-landing.banner_greeting')}
-                  ,
                 </Typography>
                 <Typography variant="h2" className={text.title}>
                   {t('profile-landing.banner_me')}
-                  &nbsp;Jena, UI Designer
                 </Typography>
                 {!isMobile && (
                   <Fragment>
@@ -65,13 +63,13 @@ function BannerNav(props) {
                     </Typography>
                     <div className={classes.socmed}>
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className="ion-logo-facebook" />
+                        <i className="ion-logo-github" />
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
                         <i className="ion-logo-twitter" />
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className="ion-logo-instagram" />
+                        <i className="ion-logo-linkedin" />
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
                         <i className="ion-logo-linkedin" />
