@@ -104,7 +104,7 @@ function Header(props) {
                   <span className={cx(classes.bar, 'hamburger-inner')} />
                 </span>
               </IconButton>
-              <div className={classes.logo}>
+              {/* <div className={classes.logo}>
                 {invert ? (
                   <Link href={curLang + routeLink.profile.home}>
                     <img src={logo} alt="logo" />
@@ -114,8 +114,8 @@ function Header(props) {
                     <img src={logo} alt="logo" />
                   </AnchorLink>
                 )}
-              </div>
-              <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} />
+              </div> */}
+              {/* <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} /> */}
             </nav>
           </div>
         </Container>
