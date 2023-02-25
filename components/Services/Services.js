@@ -13,28 +13,53 @@ import useStyle from './services-style';
 const services = [
   {
     icon: 'ion-ios-color-wand',
-    name: 'UI Interface Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Supporter 01',
+    desc: 'Thanks for your support.'
   },
   {
     icon: 'ion-logo-dribbble',
-    name: 'Icon Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Supporter 02',
+    desc: 'Thanks for your support.'
   },
   {
     icon: 'ion-ios-globe',
-    name: 'HTML Prototyping',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Supporter 03',
+    desc: 'Thanks for your support.'
   },
   {
     icon: 'ion-ios-camera',
-    name: 'Photo Editing',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Supporter 04',
+    desc: 'Thanks for your support.'
   },
   {
     icon: 'ion-ios-snow',
-    name: 'Graphic Illustrations',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Supporter 05',
+    desc: 'Thanks for your support.'
+  },
+  {
+    icon: 'ion-ios-color-wand',
+    name: 'Supporter 06',
+    desc: 'Thanks for your support.'
+  },
+  {
+    icon: 'ion-logo-dribbble',
+    name: 'Supporter 07',
+    desc: 'Thanks for your support.'
+  },
+  {
+    icon: 'ion-ios-globe',
+    name: 'Supporter 08',
+    desc: 'Thanks for your support.'
+  },
+  {
+    icon: 'ion-ios-camera',
+    name: 'Supporter 09',
+    desc: 'Thanks for your support.'
+  },
+  {
+    icon: 'ion-ios-snow',
+    name: 'Supporter 10',
+    desc: 'Thanks for your support.'
   }
 ];
 
