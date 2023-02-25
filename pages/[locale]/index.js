@@ -126,7 +126,7 @@ function Landing(props) {
         </div>
         {!isTablet && (
           <Fragment>
-            <Notification />
+            {/* <Notification /> */}
             <PageNav />
           </Fragment>
         )}
