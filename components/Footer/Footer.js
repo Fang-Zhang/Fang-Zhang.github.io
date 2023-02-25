@@ -46,9 +46,9 @@ function Footer() {
               <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.linkedin.com/in/fang-zhang-ba76aaa4/" target="_blank" style={{marginRight: 1 + 'em'}}>
                 <i className="ion-logo-linkedin" />
               </IconButton>
-              <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
+              {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
                 <i className="ion-logo-google" />
-              </IconButton>
+              </IconButton> */}
             </div>
             <div className={classes.contact}>
               <Typography className={text.paragraph}>
@@ -58,7 +58,9 @@ function Footer() {
               <Divider className={classes.divider} />
               <Typography className={text.paragraph}>
                 {t('profile-landing.footer_value_time')}
-                <Link href="https://www.google.com/search?q=succinct+emails" target="_blank">keep it succinct</Link>.
+                <IconButton aria-label="Delete" size="small" href="https://www.google.com/search?q=succinct+emails" target="_blank">
+                  <i className="ion-logo-google" />
+                </IconButton>
                 <br />
                 {t('profile-landing.footer_no_junk')}
               </Typography>
