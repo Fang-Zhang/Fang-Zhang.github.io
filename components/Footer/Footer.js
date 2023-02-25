@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Container from '@mui/material/Container';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
@@ -7,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'next-i18next';
-import logo from '/public/images/profile-logo.svg';
+import logo from '/public/images/walter-small.png';
 import brand from '/public/text/brand';
 import { useText } from '/theme/common';
 import useStyles from './footer-style';
@@ -36,30 +37,30 @@ function Footer() {
               </Typography>
             </div>
             <div className={classes.socmed}>
-              <IconButton aria-label="Delete" className={classes.margin} size="small">
-                <i className="ion-logo-facebook" />
+              <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://github.com/Fang-Zhang" target="_blank" style={{marginRight: 1 + 'em'}}>
+                <i className="ion-logo-github" />
               </IconButton>
-              <IconButton aria-label="Delete" className={classes.margin} size="small">
-                <i className="ion-logo-instagram" />
-              </IconButton>
-              <IconButton aria-label="Delete" className={classes.margin} size="small">
+              <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://twitter.com/WalterFangZhang" target="_blank" style={{marginRight: 1 + 'em'}}>
                 <i className="ion-logo-twitter" />
               </IconButton>
-              <IconButton aria-label="Delete" className={classes.margin} size="small">
+              <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.linkedin.com/in/fang-zhang-ba76aaa4/" target="_blank" style={{marginRight: 1 + 'em'}}>
                 <i className="ion-logo-linkedin" />
+              </IconButton>
+              <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
+                <i className="ion-logo-google" />
               </IconButton>
             </div>
             <div className={classes.contact}>
               <Typography className={text.paragraph}>
                 {t('profile-landing.footer_contact')}
                 <br />
-                +12 345 678 90
               </Typography>
               <Divider className={classes.divider} />
               <Typography className={text.paragraph}>
-                {t('profile-landing.footer_hello')}
+                {t('profile-landing.footer_value_time')}
+                <Link href="https://www.google.com/search?q=succinct+emails" target="_blank">keep it succinct</Link>.
                 <br />
-                jenadoe.skype
+                {t('profile-landing.footer_no_junk')}
               </Typography>
             </div>
           </Grid>
