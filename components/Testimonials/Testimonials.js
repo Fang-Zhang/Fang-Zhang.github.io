@@ -1,29 +1,25 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import ScrollAnimation from 'react-scroll-animation-wrapper';
-import Carousel from 'react-slick';
-import Paper from '@mui/material/Paper';
-import Container from '@mui/material/Container';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
-import Popover from '@mui/material/Popover';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import { useTranslation } from 'next-i18next';
-import { useText } from '/theme/common';
-import testiData from './testimonialsData';
-import Title from '../Title';
-import useStyle from './testi-style';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import ScrollAnimation from "react-scroll-animation-wrapper";
+import Carousel from "react-slick";
+import Paper from "@mui/material/Paper";
+import Container from "@mui/material/Container";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Popover from "@mui/material/Popover";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import { useTranslation } from "next-i18next";
+import { useText } from "/theme/common";
+import testiData from "./testimonialsData";
+import Title from "../Title";
+import useStyle from "./testi-style";
 
 function AvatarBuble(props) {
   const { classes } = useStyle();
 
-  const {
-    avatar, name,
-    x, y,
-    openPopover, closePopover
-  } = props;
+  const { avatar, name, x, y, openPopover, closePopover } = props;
 
   return (
     <div className={classes.person} style={{ left: x, top: y }}>
@@ -52,24 +48,24 @@ AvatarBuble.propTypes = {
   x: PropTypes.number.isRequired,
   y: PropTypes.number.isRequired,
   openPopover: PropTypes.func.isRequired,
-  closePopover: PropTypes.func.isRequired
+  closePopover: PropTypes.func.isRequired,
 };
 
 AvatarBuble.defaultProps = {
-  avatar: ''
+  avatar: "",
 };
 
 function Testimonials() {
   const [anchorEl, setAnchorEl] = useState(null);
   const [popupData, setPopupData] = useState({});
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
 
-  const isMobile = useMediaQuery(theme => theme.breakpoints.down('sm'));
+  const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
   const { classes, cx } = useStyle();
   const { classes: text } = useText();
   const open = Boolean(anchorEl);
 
-  const firsthChar = txt => txt.charAt(0);
+  const firsthChar = (txt) => txt.charAt(0);
 
   const settings = {
     dots: false,
@@ -77,7 +73,7 @@ function Testimonials() {
     speed: 500,
     autoplay: false,
     slidesToShow: 1,
-    arrows: false
+    arrows: false,
   };
 
   function handlePopoverOpen(event, item) {
@@ -100,12 +96,12 @@ function Testimonials() {
         open={open}
         anchorEl={anchorEl}
         anchorOrigin={{
-          vertical: 'top',
-          horizontal: 'center',
+          vertical: "top",
+          horizontal: "center",
         }}
         transformOrigin={{
-          vertical: 'bottom',
-          horizontal: 'center',
+          vertical: "bottom",
+          horizontal: "center",
         }}
         onClose={handlePopoverClose}
       >
@@ -113,21 +109,15 @@ function Testimonials() {
           <Typography gutterBottom display="block">
             {popupData.text}
           </Typography>
-          <Typography variant="h6">
-            {popupData.name}
-          </Typography>
-          <Typography className={classes.title}>
-            {popupData.title}
-          </Typography>
+          <Typography variant="h6">{popupData.name}</Typography>
+          <Typography className={classes.title}>{popupData.title}</Typography>
         </div>
       </Popover>
       <Container>
         <Title dark>
-          {t('profile-landing.testi_title')}
+          {t("profile-landing.testi_title")}
           &nbsp;
-          <strong>
-            {t('profile-landing.testi_titleBold')}
-          </strong>
+          <strong>{t("profile-landing.testi_titleBold")}</strong>
         </Title>
         <Grid container>
           <Grid item md={7} xs={12}>
@@ -159,15 +149,17 @@ function Testimonials() {
                         </Typography>
                         <div className={classes.name}>
                           {item.avatar ? (
-                            <Avatar alt={item.name} src={item.avatar} className={classes.avatar} />
+                            <Avatar
+                              alt={item.name}
+                              src={item.avatar}
+                              className={classes.avatar}
+                            />
                           ) : (
                             <Avatar alt={item.name} className={classes.avatar}>
                               {firsthChar(item.name)}
                             </Avatar>
                           )}
-                          <Typography variant="caption">
-                            {item.name}
-                          </Typography>
+                          <Typography variant="caption">{item.name}</Typography>
                         </div>
                       </Paper>
                     </div>
@@ -189,7 +181,7 @@ function Testimonials() {
                   variant="h3"
                   className={cx(classes.titleSerif, text.title2)}
                 >
-                  {t('profile-landing.testi_title2')}
+                  {t("profile-landing.testi_title2")}
                 </Typography>
               </ScrollAnimation>
               <ScrollAnimation
@@ -201,10 +193,28 @@ function Testimonials() {
               >
                 <div>
                   <Typography component="p" className={text.paragraph}>
-                    {t('profile-landing.testi_desc')}
+                    {t("profile-landing.testi_desc")}
                   </Typography>
-                  <Button color="secondary" href="#contact" size="large" className={classes.button} variant="contained">
-                    {t('profile-landing.testi_button')}
+                  <Button
+                    color="secondary"
+                    href="https://github.com/sponsors/fang-zhang"
+                    size="small"
+                    className={classes.button}
+                    variant="contained"
+                    target="_blank"
+                    style={{marginRight: 20 + 'px'}}
+                  >
+                    {t("profile-landing.testi_button_github_sponsorship")}
+                  </Button>
+                  <Button
+                    color="secondary"
+                    href="https://opencollective.com/fang-zhang"
+                    size="small"
+                    className={classes.button}
+                    variant="contained"
+                    target="_blank"
+                  >
+                    {t("profile-landing.testi_button_opencollective")}
                   </Button>
                 </div>
               </ScrollAnimation>
