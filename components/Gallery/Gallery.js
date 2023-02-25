@@ -13,67 +13,39 @@ import useStyle from './gallery-style';
 const portfolio = [
   {
     img: imgAPI.profile[4],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    title: 'work01',
+    link: 'https://fang-zhang.com',
     size: 'short',
     category: 'cat1'
   },
   {
     img: imgAPI.profile[3],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
+    title: 'work02',
+    link: 'https://fang-zhang.com',
+    size: 'short',
     category: 'cat2'
   },
   {
     img: imgAPI.profile[5],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
+    title: 'work03',
+    link: 'https://fang-zhang.com',
+    size: 'long',
     category: 'cat3'
   },
   {
     img: imgAPI.profile[6],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat1'
+    title: 'work04',
+    link: 'https://fang-zhang.com',
+    size: 'short',
+    category: 'cat4'
   },
   {
     img: imgAPI.profile[8],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    title: 'work05',
+    link: 'https://fang-zhang.com',
     size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.profile[7],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat3'
-  },
-  {
-    img: imgAPI.profile[3],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.profile[5],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.profile[4],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat2'
-  },
+    category: 'cat5'
+  }
 ];
 
 function Gallery() {
@@ -127,37 +99,37 @@ function Gallery() {
             onClick={() => filterChildren('all')}
             className={filter === 'all' ? classes.selected : ''}
           >
-            All
+            {t('profile-landing.gallery_cat_all')}
           </Button>
           <Button
             onClick={() => filterChildren('cat1')}
             className={filter === 'cat1' ? classes.selected : ''}
           >
-            Category 1
+            {t('profile-landing.gallery_cat_cat1')}
           </Button>
           <Button
             onClick={() => filterChildren('cat2')}
             className={filter === 'cat2' ? classes.selected : ''}
           >
-            Category 2
+            {t('profile-landing.gallery_cat_cat2')}
           </Button>
           <Button
             onClick={() => filterChildren('cat3')}
             className={filter === 'cat3' ? classes.selected : ''}
           >
-            Category 3
+            {t('profile-landing.gallery_cat_cat3')}
           </Button>
           <Button
             onClick={() => filterChildren('cat4')}
             className={filter === 'cat4' ? classes.selected : ''}
           >
-            Category 4
+            {t('profile-landing.gallery_cat_cat4')}
           </Button>
           <Button
             onClick={() => filterChildren('cat5')}
             className={filter === 'cat5' ? classes.selected : ''}
           >
-            Category 5
+            {t('profile-landing.gallery_cat_cat5')}
           </Button>
         </div>
         {!isMobile ? (

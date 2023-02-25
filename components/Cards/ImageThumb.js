@@ -33,7 +33,7 @@ export default function ImageThumb(props) {
       </div>
       <div className={classes.detail}>
         <Typography variant="h6" className={text.subtitle}>{title}</Typography>
-        <Link href="#">{link}</Link>
+        <Link href={link} target="_blank">{link}</Link>
       </div>
     </Paper>
   );
