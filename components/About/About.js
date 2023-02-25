@@ -25,7 +25,7 @@ function About() {
         <Grid container spacing={0}>
           <Grid item lg={2} xs={12} />
           <Grid item lg={9} xs={12}>
-            <div className={classes.about}>
+            {/* <div className={classes.about}>
               <div className={classes.reward}>
                 <div className={classes.item}>
                   <figure>
@@ -76,7 +76,7 @@ function About() {
                 </figure>
                 <span className={classes.frame} />
               </Paper>
-            </div>
+            </div> */}
             <div className={classes.line} />
           </Grid>
         </Grid>
