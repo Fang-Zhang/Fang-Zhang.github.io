@@ -44,11 +44,11 @@ function BannerNav(props) {
                   <div className={classes.overlay} />
                 </div>
               </div>
-              {!isTablet && (
+              {/* {!isTablet && (
                 <div className={classes.settingIcon}>
                   <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} />
                 </div>
-              )}
+              )} */}
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
                   {t('profile-landing.banner_greeting')}
