@@ -1,6 +1,6 @@
 const menu = [
   'home',
-  'about',
+  // 'about',
   'services',
   'my-work',
   'testimonials',

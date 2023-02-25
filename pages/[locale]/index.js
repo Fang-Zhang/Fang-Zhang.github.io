@@ -94,11 +94,11 @@ function Landing(props) {
             onToggleDir={onToggleDir}
           />
         </section>
-        <section id="about">
+        {/* <section id="about">
           <About />
           <Timeline />
           <Counter />
-        </section>
+        </section> */}
         <div className={classes.greyBg}>
           <div className={classes.parallaxWrap}>
             <Decoration />
@@ -116,9 +116,9 @@ function Landing(props) {
             <div className={classes.bottomDeco}>
               <Decoration />
             </div>
-            <section id="blog" className={classes.spaceTopShort}>
+            {/* <section id="blog" className={classes.spaceTopShort}>
               <Blog />
-            </section>
+            </section> */}
             <section id="contact" className={classes.spaceTop}>
               <Footer />
             </section>
