@@ -40,7 +40,7 @@ function BannerNav(props) {
             <div className={classes.banner}>
               <div className={classes.cover}>
                 <div className={classes.figure}>
-                  <img src={brand.profile.cover} alt="cover" />
+                  {/* <img src={brand.profile.cover} alt="cover" /> */}
                   <div className={classes.overlay} />
                 </div>
               </div>
