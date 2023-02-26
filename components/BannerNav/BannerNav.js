@@ -65,7 +65,7 @@ function BannerNav(props) {
                       <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://github.com/Fang-Zhang" target="_blank" style={{marginRight: 1 + 'em'}}>
                         <i className="ion-logo-github" />
                       </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://twitter.com/WalterFangZhang" target="_blank" style={{marginRight: 1 + 'em'}}>
+                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://twitter.com/WalterFangZhang" target="_blank" style={{marginRight: 1 + 'em'}}>
                         <i className="ion-logo-twitter" />
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.linkedin.com/in/fang-zhang-ba76aaa4/" target="_blank" style={{marginRight: 1 + 'em'}}>
@@ -73,7 +73,7 @@ function BannerNav(props) {
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
                         <i className="ion-logo-google" />
-                      </IconButton>
+                      </IconButton> */}
                     </div>
                   </Fragment>
                 )}
