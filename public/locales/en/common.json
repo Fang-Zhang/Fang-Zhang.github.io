@@ -23,7 +23,8 @@
   "pt": "󠁥󠁮󠁧󠁿Português",
   "id": "󠁥󠁮󠁧󠁿Bahasa Indonesia",
   "ar": "󠁥󠁮󠁧󠁿العربيّة",
-  "notif_msg": "This is an example of a message that is commonly used for important information to visitors or users. Please click the button beside to close this message.",
+  "notif_title": "Are you cool with cookies?",
+  "notif_msg": "Cookies help us personalize content and provide social media features. They also help us know who’s dropped by for a visit so that we can improve our website and services.",
   "profile-landing": {
     "header_language": "language",
     "header_theme": "Theme mode",
