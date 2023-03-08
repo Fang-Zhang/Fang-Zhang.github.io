@@ -87,6 +87,16 @@ function BannerNav(props) {
                       >
                         <i className="ion-logo-linkedin" />
                       </IconButton>
+                      <IconButton
+                        aria-label="Delete"
+                        className={classes.margin}
+                        size="small"
+                        href="https://medium.com/@fangzhangNZ"
+                        target="_blank"
+                        style={{ marginRight: 1 + "em" }}
+                      >
+                        <i className="ion-logo-wordpress" />
+                      </IconButton>
                       {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
                         <i className="ion-logo-google" />
                       </IconButton> */}
