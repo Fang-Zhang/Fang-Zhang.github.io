@@ -9,12 +9,14 @@ import { useText } from '/theme/common';
 import Title from '../Title';
 import IconTextCard from '../Cards/IconText';
 import useStyle from './services-style';
+import MDearthIcon from '../../public/images/supporters/MDearth.png';
+import testIcon from '../../public/images/walter-small.png';
 
 const services = [
   {
     icon: 'ion-ios-color-wand',
-    name: 'Supporter 01',
-    desc: 'Thanks for your support.'
+    name: 'MDearth.io',
+    desc: 'Indigenous NFT Marketplace.'
   },
   {
     icon: 'ion-logo-dribbble',
