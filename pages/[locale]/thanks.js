@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { makeStyles } from 'tss-react/mui';
 import Typography from '@mui/material/Typography';
@@ -24,10 +25,10 @@ const useStyles = makeStyles({ uniqId: 'thanks' })(theme => ({
     marginBottom: theme.spacing(20)
   },
   spaceTop: {
-    paddingTop: theme.spacing(20)
+    paddingTop: theme.spacing(1)
   },
   containerWrap: {
-    marginTop: theme.spacing(10),
+    marginTop: theme.spacing(1),
     padding: theme.spacing(4),
     '& > section': {
       position: 'relative'
@@ -60,7 +61,19 @@ function ThanksPage(props) {
               {t('thanks_title')}
             </Typography>
             <Typography variant="h4" align="center">
-              {t('thanks_subtitle')}
+              {t('thanks_subtitle')}  <Link href="https://github.com/sponsors/Fang-Zhang/" target="_blank">GitHub Sponsors</Link> and <Link href="https://patreon.com/user?u=63014909" target="_blank">Patreon</Link>.
+            </Typography>
+            <Typography variant="h3" align="left">
+              {t('thanks_premium_supporters')} 
+            </Typography>
+            <Typography variant="h3" align="left">
+              {t('thanks_gold_supporters')} 
+            </Typography>
+            <Typography variant="h3" align="left">
+              {t('thanks_silver_supporters')} 
+            </Typography>
+            <Typography variant="h3" align="left">
+              {t('thanks_supporters')} 
             </Typography>
           </section>
         </main>
