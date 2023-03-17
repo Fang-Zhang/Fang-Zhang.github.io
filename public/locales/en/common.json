@@ -1,6 +1,8 @@
 {
   "title": "A simple example",
   "subtitle": "It's a blank-page. Start to build your'e page from here.",
+  "thanks_title": "A simple example",
+  "thanks_subtitle": "It's a blank-page. Start to build your'e page from here.",
   "error_with_status": "An error occurred on server",
   "404": "This page could not be found.",
   "404_subtitle": "You can either stay and chill here, or go back to the beginning.",

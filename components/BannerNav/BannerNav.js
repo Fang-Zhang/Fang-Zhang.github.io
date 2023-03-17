@@ -71,7 +71,7 @@ function BannerNav(props) {
                         aria-label="Delete"
                         className={classes.margin}
                         size="small"
-                        href="https://twitter.com/WalterFangZhang"
+                        href="https://twitter.com/Fang_Zhang_NZ"
                         target="_blank"
                         style={{ marginRight: 1 + "em" }}
                       >
@@ -87,7 +87,7 @@ function BannerNav(props) {
                       >
                         <i className="ion-logo-linkedin" />
                       </IconButton>
-                      <IconButton
+                      {/* <IconButton
                         aria-label="Delete"
                         className={classes.margin}
                         size="small"
@@ -96,12 +96,15 @@ function BannerNav(props) {
                         style={{ marginRight: 1 + "em" }}
                       >
                         <i className="ion-logo-wordpress" />
-                      </IconButton>
-                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
-                        <i className="ion-logo-google" />
                       </IconButton> */}
-                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="mailto:walter.zhangfang@gmail.com" target="_blank">
+                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.youtube.com/@fang-zhang" target="_blank">
+                        <i className="ion-logo-youtube" />
+                      </IconButton> */}
+                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.facebook.com/FangZhangNZ" target="_blank">
                         <i className="ion-logo-facebook" />
+                      </IconButton> */}
+                      {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.instagram.com/Fang_Zhang_NZ/" target="_blank">
+                        <i className="ion-logo-instagram" />
                       </IconButton> */}
                     </div>
                   </Fragment>
