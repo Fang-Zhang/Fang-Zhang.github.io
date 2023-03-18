@@ -9,59 +9,67 @@ import { useText } from '/theme/common';
 import Title from '../Title';
 import IconTextCard from '../Cards/IconText';
 import useStyle from './services-style';
-import MDearthIcon from '../../public/images/supporters/MDearth.png';
-import testIcon from '../../public/images/walter-small.png';
 
 const services = [
   {
     icon: 'ion-ios-color-wand',
     name: 'MDearth.io',
-    desc: 'Indigenous NFT Marketplace.'
+    desc: 'Web3 and NFT SaaS Platform.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-logo-dribbble',
-    name: 'Supporter 02',
-    desc: 'Thanks for your support.'
+    name: 'Art NZ',
+    desc: 'Indigenous NFT Marketplace.',
+    url: 'https://artnz.io',
   },
   {
     icon: 'ion-ios-globe',
     name: 'Supporter 03',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-camera',
     name: 'Supporter 04',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-snow',
     name: 'Supporter 05',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-color-wand',
     name: 'Supporter 06',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-logo-dribbble',
     name: 'Supporter 07',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-globe',
     name: 'Supporter 08',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-camera',
     name: 'Supporter 09',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   },
   {
     icon: 'ion-ios-snow',
     name: 'Supporter 10',
-    desc: 'Thanks for your support.'
+    desc: 'Thanks for your support.',
+    url: 'https://mdearth.io',
   }
 ];
 
@@ -143,6 +151,7 @@ function Services() {
                   icon={item.icon}
                   text={item.name}
                   desc={item.desc}
+                  url={item.url}
                 />
               </div>
             ))}
