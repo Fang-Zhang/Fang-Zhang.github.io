@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 import { makeStyles } from 'tss-react/mui';
 import Typography from '@mui/material/Typography';
@@ -36,6 +37,10 @@ const useStyles = makeStyles({ uniqId: 'thanks' })(theme => ({
   },
 }));
 
+const loaderSupportersImage = ({ src, width, quality }) => {
+  return `https://github.com/Fang-Zhang/Fang-Zhang.github.io/blob/main/public/images/supporters/${src}?w=${width}&q=${quality || 75}`
+}
+
 function ThanksPage(props) {
   const { classes, cx } = useStyles();
   const { onToggleDark, onToggleDir } = props;
@@ -63,18 +68,35 @@ function ThanksPage(props) {
             <Typography variant="h4" align="center">
               {t('thanks_subtitle')}  <Link href="https://github.com/sponsors/Fang-Zhang/" target="_blank">GitHub Sponsors</Link> and <Link href="https://patreon.com/user?u=63014909" target="_blank">Patreon</Link>.
             </Typography>
+            <Image
+              loader={loaderSupportersImage}
+              src="MDearth.png"
+              alt="Logo of the MDearth"
+              width={266}
+              height={112}
+            />
+            <br />
+            <br />
             <Typography variant="h3" align="left">
-              {t('thanks_premium_supporters')} 
+              {t('thanks_premium_$1000_supporters')} 
             </Typography>
+            <br />
+            <br />
             <Typography variant="h3" align="left">
-              {t('thanks_gold_supporters')} 
+              {t('thanks_gold_$100_supporters')} 
             </Typography>
+            <br />
+            <br />
             <Typography variant="h3" align="left">
-              {t('thanks_silver_supporters')} 
+              {t('thanks_silver_$50_supporters')} 
             </Typography>
+            <br />
+            <br />
             <Typography variant="h3" align="left">
-              {t('thanks_supporters')} 
+              {t('thanks_$10_supporters')} 
             </Typography>
+            <br />
+            <br />
           </section>
         </main>
         {/* <Notification /> */}
