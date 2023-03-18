@@ -8,7 +8,9 @@ module.exports = withImages({
   //  i18n,
   trailingSlash: true,
   images: {
-    disableStaticImages: true
+    disableStaticImages: true,
+    unoptimized: true
+
   },
   publicRuntimeConfig: {
     localeSubpaths: typeof process.env.LOCALE_SUBPATHS === 'string'
