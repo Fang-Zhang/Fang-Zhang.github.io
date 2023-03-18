@@ -73,18 +73,35 @@ function ThanksPage(props) {
               <Image
                 src="/images/supporters/MDearth.png"
                 alt="Logo of the MDearth"
-                width={266}
-                height={112}
+                width={440}
+                height={100}
               />
             </Link>
             <Link href="https://artnz.io" target='_blank'>
               <Image
                 src="/images/supporters/artnz.png"
                 alt="Logo of the ArtNZ"
-                width={266}
-                height={112}
+                width={440}
+                height={100}
               />
             </Link>
+            <br />
+            {/* <Link href="https://artnz.io" target='_blank'>
+              <Image
+                src="/images/supporters/artnz.png"
+                alt="Logo of the ArtNZ"
+                width={440}
+                height={100}
+              />
+            </Link>
+            <Link href="https://mdearth.io" target='_blank'>
+              <Image
+                src="/images/supporters/MDearth.png"
+                alt="Logo of the MDearth"
+                width={440}
+                height={100}
+              />
+            </Link> */}
             <br />
             <br />
             <Typography variant="h3" align="left">
@@ -100,6 +117,7 @@ function ThanksPage(props) {
             <Typography variant="h3" align="left">
               {t('thanks_$10_supporters')} 
             </Typography>
+            <Link href="https://github.com/fang-zhang">Fang Zhang</Link>
             <br />
             <br />
           </section>
