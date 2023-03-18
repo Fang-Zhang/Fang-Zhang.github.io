@@ -15,6 +15,7 @@ import { useText } from "/theme/common";
 import testiData from "./testimonialsData";
 import Title from "../Title";
 import useStyle from "./testi-style";
+import Link from "next/link";
 
 function AvatarBuble(props) {
   const { classes } = useStyle();
@@ -118,6 +119,12 @@ function Testimonials() {
           {t("profile-landing.testi_title")}
           &nbsp;
           <strong>{t("profile-landing.testi_titleBold")}</strong>
+          &nbsp;
+          and my
+          &nbsp;
+          <Link href="https://fang-zhang.com/thanks/" target="_blank" style={{color:"white"}}>
+            {t("profile-landing.testi_title_thanks_page")}
+          </Link>
         </Title>
         <Grid container>
           <Grid item md={7} xs={12}>
@@ -197,7 +204,7 @@ function Testimonials() {
                   </Typography>
                   <Button
                     color="secondary"
-                    href="https://github.com/sponsors/fang-zhang"
+                    href="https://github.com/sponsors/Fang-Zhang/"
                     size="small"
                     className={classes.button}
                     variant="contained"
@@ -208,13 +215,13 @@ function Testimonials() {
                   </Button>
                   <Button
                     color="secondary"
-                    href="https://opencollective.com/fang-zhang"
+                    href="https://patreon.com/user?u=63014909"
                     size="small"
                     className={classes.button}
                     variant="contained"
                     target="_blank"
                   >
-                    {t("profile-landing.testi_button_opencollective")}
+                    {t("profile-landing.testi_button_patreon")}
                   </Button>
                 </div>
               </ScrollAnimation>
