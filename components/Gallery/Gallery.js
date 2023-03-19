@@ -5,48 +5,10 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Carousel from 'react-slick';
 import { useTranslation } from 'next-i18next';
-import imgAPI from '/public/images/imgAPI';
 import ImageThumbCard from '../Cards/ImageThumb';
 import Title from '../Title';
 import useStyle from './gallery-style';
-
-const portfolio = [
-  {
-    img: imgAPI.profile[4],
-    title: 'work01',
-    link: 'https://fang-zhang.com',
-    size: 'short',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.profile[3],
-    title: 'work02',
-    link: 'https://fang-zhang.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.profile[5],
-    title: 'work03',
-    link: 'https://fang-zhang.com',
-    size: 'long',
-    category: 'cat3'
-  },
-  {
-    img: imgAPI.profile[6],
-    title: 'work04',
-    link: 'https://fang-zhang.com',
-    size: 'short',
-    category: 'cat4'
-  },
-  {
-    img: imgAPI.profile[8],
-    title: 'work05',
-    link: 'https://fang-zhang.com',
-    size: 'short',
-    category: 'cat5'
-  }
-];
+import PortfolioData from './PortfolioData';
 
 function Gallery() {
   const { classes, cx } = useStyle();
@@ -57,7 +19,7 @@ function Gallery() {
   const isMobile = useMediaQuery(theme => theme.breakpoints.down('sm'));
 
   useEffect(() => {
-    setData(portfolio);
+    setData(PortfolioData);
   }, []);
 
   const settings = {
@@ -71,11 +33,11 @@ function Gallery() {
 
   const filterChildren = name => {
     if (name !== 'all') {
-      const filteredData = portfolio.filter(item => item.category === name);
+      const filteredData = PortfolioData.filter(item => item.category === name);
       setData(filteredData);
       setFilter(name);
     } else {
-      setData(portfolio);
+      setData(PortfolioData);
       setFilter('all');
     }
 
@@ -119,7 +81,7 @@ function Gallery() {
           >
             {t('profile-landing.gallery_cat_cat3')}
           </Button>
-          <Button
+          {/* <Button
             onClick={() => filterChildren('cat4')}
             className={filter === 'cat4' ? classes.selected : ''}
           >
@@ -136,7 +98,7 @@ function Gallery() {
             className={filter === 'cat6' ? classes.selected : ''}
           >
             {t('profile-landing.gallery_cat_cat6')}
-          </Button>
+          </Button> */}
         </div>
         {!isMobile ? (
           <Fragment>
