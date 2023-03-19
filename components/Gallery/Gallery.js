@@ -131,6 +131,12 @@ function Gallery() {
           >
             {t('profile-landing.gallery_cat_cat5')}
           </Button>
+          <Button
+            onClick={() => filterChildren('cat6')}
+            className={filter === 'cat6' ? classes.selected : ''}
+          >
+            {t('profile-landing.gallery_cat_cat6')}
+          </Button>
         </div>
         {!isMobile ? (
           <Fragment>
