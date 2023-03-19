@@ -4,7 +4,8 @@ const menu = [
   'services',
   'my-work',
   'testimonials',
-  'contact',
+  // 'contact',
+  // 'thanks',
 ];
 
 export default menu;

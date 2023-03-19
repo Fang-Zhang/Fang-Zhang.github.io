@@ -119,9 +119,9 @@ function Landing(props) {
             {/* <section id="blog" className={classes.spaceTopShort}>
               <Blog />
             </section> */}
-            <section id="contact" className={classes.spaceTop}>
+            {/* <section id="contact" className={classes.spaceTop}>
               <Footer />
-            </section>
+            </section> */}
           </div>
         </div>
         {!isTablet && (
