@@ -64,40 +64,40 @@ function Gallery() {
             {t('profile-landing.gallery_cat_all')}
           </Button>
           <Button
-            onClick={() => filterChildren('cat1')}
-            className={filter === 'cat1' ? classes.selected : ''}
+            onClick={() => filterChildren('os')}
+            className={filter === 'os' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat1')}
+            {t('profile-landing.gallery_cat_os')}
           </Button>
           <Button
-            onClick={() => filterChildren('cat2')}
-            className={filter === 'cat2' ? classes.selected : ''}
+            onClick={() => filterChildren('web')}
+            className={filter === 'web' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat2')}
+            {t('profile-landing.gallery_cat_web')}
           </Button>
           <Button
-            onClick={() => filterChildren('cat3')}
-            className={filter === 'cat3' ? classes.selected : ''}
+            onClick={() => filterChildren('mobile')}
+            className={filter === 'mobile' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat3')}
+            {t('profile-landing.gallery_cat_mobile')}
           </Button>
           {/* <Button
-            onClick={() => filterChildren('cat4')}
-            className={filter === 'cat4' ? classes.selected : ''}
+            onClick={() => filterChildren('api')}
+            className={filter === 'api' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat4')}
+            {t('profile-landing.gallery_cat_api')}
           </Button>
           <Button
-            onClick={() => filterChildren('cat5')}
-            className={filter === 'cat5' ? classes.selected : ''}
+            onClick={() => filterChildren('video')}
+            className={filter === 'video' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat5')}
+            {t('profile-landing.gallery_cat_video')}
           </Button>
           <Button
-            onClick={() => filterChildren('cat6')}
-            className={filter === 'cat6' ? classes.selected : ''}
+            onClick={() => filterChildren('text')}
+            className={filter === 'text' ? classes.selected : ''}
           >
-            {t('profile-landing.gallery_cat_cat6')}
+            {t('profile-landing.gallery_cat_text')}
           </Button> */}
         </div>
         {!isMobile ? (
