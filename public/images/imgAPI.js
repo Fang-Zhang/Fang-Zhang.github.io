@@ -39,6 +39,13 @@ const imgAPI = {
     'https://via.placeholder.com/400x400/b79136/FFFFFF',
     'https://via.placeholder.com/400x266/94fbf7/757575',
     '/images/profile/pc-dark.jpg',
+    '/images/my-works/open-source-software.jpeg',
+    '/images/my-works/open-source-projects-for-beginners.png',
+    '/images/my-works/web-app.jpeg',
+    '/images/my-works/mobile-app.jpeg',
+    '/images/my-works/APIs.png',
+    '/images/my-works/video.png',
+    '/images/my-works/text.jpeg',
   ]
 };
 

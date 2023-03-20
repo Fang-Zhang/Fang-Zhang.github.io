@@ -81,7 +81,7 @@ function Gallery() {
           >
             {t('profile-landing.gallery_cat_mobile')}
           </Button>
-          {/* <Button
+          <Button
             onClick={() => filterChildren('api')}
             className={filter === 'api' ? classes.selected : ''}
           >
@@ -98,12 +98,13 @@ function Gallery() {
             className={filter === 'text' ? classes.selected : ''}
           >
             {t('profile-landing.gallery_cat_text')}
-          </Button> */}
+          </Button>
         </div>
         {!isMobile ? (
           <Fragment>
             <div className={classes.massonry}>
-              {data.map((item, index) => (
+              {/* {data.map((item, index) => ( */}
+              {data.slice(0, 6).map((item, index) => (
                 <div
                   className={cx(classes.item, isLoaded && classes.loaded)}
                   key={index.toString()}
@@ -122,7 +123,8 @@ function Gallery() {
           </Fragment>
         ) : (
           <Carousel {...settings}>
-            {data.map((item, index) => (
+            {/* {data.map((item, index) => ( */}
+            {data.slice(0, 6).map((item, index) => (
               <div
                 className={classes.itemCarousel}
                 key={index.toString()}
