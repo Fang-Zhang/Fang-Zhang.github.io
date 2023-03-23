@@ -12,7 +12,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import { useTranslation } from "next-i18next";
 import { useText } from "/theme/common";
-import testiData from "./testimonialsData";
+// import testiData from "./testimonialsData";
 import Title from "../Title";
 import useStyle from "./testi-style";
 import Link from "next/link";
@@ -116,9 +116,9 @@ function Testimonials() {
       </Popover>
       <Container>
         <Title dark>
-          {t("profile-landing.testi_title")}
+          {t("profile-landing.testi_title_instead")}
           &nbsp;
-          <strong>{t("profile-landing.testi_titleBold")}</strong>
+          <strong>{t("profile-landing.testi_titleBold_instead")}</strong>
           &nbsp;
           and my
           &nbsp;
@@ -131,7 +131,7 @@ function Testimonials() {
             <div className={classes.worldMap}>
               {!isMobile ? (
                 <div className={classes.avatarWrap}>
-                  {testiData.map((item, index) => (
+                  {/* {testiData.map((item, index) => (
                     <AvatarBuble
                       key={index.toString()}
                       avatar={item.avatar}
@@ -141,11 +141,11 @@ function Testimonials() {
                       openPopover={(e) => handlePopoverOpen(e, item)}
                       closePopover={handlePopoverClose}
                     />
-                  ))}
+                  ))} */}
                 </div>
               ) : (
                 <Carousel {...settings}>
-                  {testiData.map((item, index) => (
+                  {/* {testiData.map((item, index) => (
                     <div
                       className={classes.itemCarousel}
                       key={index.toString()}
@@ -170,7 +170,7 @@ function Testimonials() {
                         </div>
                       </Paper>
                     </div>
-                  ))}
+                  ))} */}
                 </Carousel>
               )}
             </div>
