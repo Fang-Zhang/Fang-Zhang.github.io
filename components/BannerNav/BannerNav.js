@@ -53,8 +53,11 @@ function BannerNav(props) {
                 </Typography>
                 {!isMobile && (
                   <Fragment>
+                    {/* <Typography variant="h5" className={text.subtitle2}>
+                      {t("profile-landing.banner_desc1")}
+                    </Typography> */}
                     <Typography variant="h5" className={text.subtitle2}>
-                      {t("profile-landing.banner_desc")}
+                      {t("profile-landing.banner_desc2")}
                     </Typography>
                     <div className={classes.socmed}>
                       <IconButton
