@@ -99,7 +99,7 @@ function Landing(props) {
           <Timeline />
           <Counter />
         </section> */}
-        <div className={classes.greyBg}>
+        {/* <div className={classes.greyBg}>
           <div className={classes.parallaxWrap}>
             <Decoration />
             <section id="services">
@@ -116,14 +116,14 @@ function Landing(props) {
             <div className={classes.bottomDeco}>
               <Decoration />
             </div>
-            {/* <section id="blog" className={classes.spaceTopShort}>
+            <section id="blog" className={classes.spaceTopShort}>
               <Blog />
-            </section> */}
-            {/* <section id="contact" className={classes.spaceTop}>
+            </section>
+            <section id="contact" className={classes.spaceTop}>
               <Footer />
-            </section> */}
+            </section>
           </div>
-        </div>
+        </div> */}
         {!isTablet && (
           <Fragment>
             {/* <Notification /> */}

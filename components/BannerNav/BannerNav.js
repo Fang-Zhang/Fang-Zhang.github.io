@@ -90,7 +90,7 @@ function BannerNav(props) {
                       >
                         <i className="ion-logo-linkedin" />
                       </IconButton>
-                      {/* <IconButton
+                      <IconButton
                         aria-label="Delete"
                         className={classes.margin}
                         size="small"
@@ -99,7 +99,7 @@ function BannerNav(props) {
                         style={{ marginRight: 1 + "em" }}
                       >
                         <i className="ion-logo-wordpress" />
-                      </IconButton> */}
+                      </IconButton>
                       {/* <IconButton aria-label="Delete" className={classes.margin} size="small" href="https://www.youtube.com/@fang-zhang" target="_blank">
                         <i className="ion-logo-youtube" />
                       </IconButton> */}
