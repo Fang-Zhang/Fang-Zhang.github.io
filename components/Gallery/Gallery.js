@@ -51,7 +51,7 @@ function Gallery() {
     <div className={classes.root}>
       <Container>
         <Title>
-          {t('profile-landing.gallery_title')}
+          {/* {t('profile-landing.gallery_title')} */}
           <strong>
             {t('profile-landing.gallery_titleBold')}
           </strong>

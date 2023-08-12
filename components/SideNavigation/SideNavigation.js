@@ -28,15 +28,14 @@ const LinkBtn = React.forwardRef(function LinkBtn(props, ref) { // eslint-disabl
 function SideNavigation() {
   const { classes } = useStyles();
   const { t } = useTranslation('common');
-  // const [menuList] = useState([
-  //   // createData(navMenu[0], '#' + navMenu[0], 160),
-  //   // createData(navMenu[1], '#' + navMenu[1]),
-  //   createData(navMenu[2], '#' + navMenu[2]),
-  //   createData(navMenu[3], '#' + navMenu[3], -40),
-  //   // createData(navMenu[4], 'https://fang-zhang.com/' + navMenu[4]),
-  //   // createData(navMenu[5], '#' + navMenu[5]),
-  // ]);
-  const 
+  const [menuList] = useState([
+    createData(navMenu[0], '#' + navMenu[0], 160),
+    createData(navMenu[1], '#' + navMenu[1]),
+    createData(navMenu[2], '#' + navMenu[2]),
+    createData(navMenu[3], '#' + navMenu[3], -40),
+    // createData(navMenu[4], '#' + navMenu[4]),
+    // createData(navMenu[5], '#' + navMenu[5]),
+  ]);
 
   return (
     <div className={classes.navigation}>

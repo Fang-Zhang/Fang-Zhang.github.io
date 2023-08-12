@@ -94,12 +94,12 @@ function Landing(props) {
             onToggleDir={onToggleDir}
           />
         </section>
-        {/* <section id="about">
-          <About />
-          <Timeline />
-          <Counter />
-        </section> */}
-        {/* <div className={classes.greyBg}>
+        <section id="about">
+          {/* <About /> */}
+          {/* <Timeline /> */}
+          {/* <Counter /> */}
+        </section>
+        <div className={classes.greyBg}>
           <div className={classes.parallaxWrap}>
             <Decoration />
             <section id="services">
@@ -116,17 +116,17 @@ function Landing(props) {
             <div className={classes.bottomDeco}>
               <Decoration />
             </div>
-            <section id="blog" className={classes.spaceTopShort}>
+            {/* <section id="blog" className={classes.spaceTopShort}>
               <Blog />
-            </section>
+            </section> */}
             <section id="contact" className={classes.spaceTop}>
               <Footer />
             </section>
           </div>
-        </div> */}
+        </div>
         {!isTablet && (
           <Fragment>
-            {/* <Notification /> */}
+            <Notification />
             <PageNav />
           </Fragment>
         )}

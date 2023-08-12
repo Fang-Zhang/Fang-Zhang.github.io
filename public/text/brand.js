@@ -3,8 +3,8 @@ import imgAPI from '/public/images/imgAPI';
 const brand = {
   profile: {
     name: 'Fang Zhang',
-    title: 'Full-Stack Open-Source Developer',
-    desc: 'Open-Source improves me and this world',
+    title: 'A Software Product Builder',
+    desc: 'Using software to build products that people love.',
     prefix: 'Fang Zhang',
     footerText: 'Fang Zhang 2023',
     logoText: 'Fang Zhang',

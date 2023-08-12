@@ -3,8 +3,8 @@ const menu = [
   // 'about',
   'services',
   'my-work',
-  'testimonials',
-  // 'contact',
+  // 'testimonials',
+  'contact',
   // 'thanks',
 ];
 
