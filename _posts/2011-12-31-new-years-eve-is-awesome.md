@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Test
 data: 2024-08-25 20:51:00 -500
 categories: [homelab, hardware]
