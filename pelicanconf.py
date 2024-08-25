@@ -2,7 +2,7 @@ AUTHOR = 'Fang Zhang'
 SITENAME = 'Fang Zhang'
 SITEURL =''
 
-PATH = "content"
+PATH = "./content"
 
 TIMEZONE = 'Pacific/Auckland'
 
