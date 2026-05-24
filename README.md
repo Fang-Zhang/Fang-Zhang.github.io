@@ -45,6 +45,36 @@ $ bundle
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
+## Dev Container
+
+This repository includes a VS Code Dev Container configuration in `.devcontainer/devcontainer.json`.
+
+### Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [VS Code](https://code.visualstudio.com/)
+- [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+### Open In Dev Container
+
+1. Open this repository in VS Code.
+2. Run command: `Dev Containers: Reopen in Container`.
+3. Wait for container build and setup (`bundle install` runs automatically).
+
+The container starts Jekyll on port `4000` with live reload:
+
+```console
+$ bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload
+```
+
+VS Code should auto-forward port `4000` and open your browser preview.
+
+### Rebuild Container
+
+If you update dependencies or container config, run:
+
+1. `Dev Containers: Rebuild Container`
+
 ## Contributing
 
 The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  

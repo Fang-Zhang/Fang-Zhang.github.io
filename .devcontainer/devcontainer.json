@@ -1,0 +1,25 @@
+{
+  "name": "Fang-Zhang.github.io (Jekyll)",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.3",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Preview",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "bundle install",
+  "postStartCommand": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.Ruby",
+        "Shopify.ruby-lsp",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}
