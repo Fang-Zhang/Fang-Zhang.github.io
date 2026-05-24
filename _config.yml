@@ -16,10 +16,10 @@ timezone: Pacific/Auckland
 
 title: Fang Zhang # the main title
 
-tagline: A software builder for the boat # it will display as the sub-title
+tagline: A software builder and founder of <a href="https://landhillcap.com">Landhill</a> # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Fang Zhang's personal blog, sharing thoughts and some nautical experience.
+  Fang Zhang's personal blog, sharing thoughts and experiences.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

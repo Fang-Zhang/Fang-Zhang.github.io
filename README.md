@@ -27,6 +27,12 @@ tags: [tag1, tag2]
 ## Local Development
 - Clone the repository and open it in VS Code.
 - Use the Dev Containers extension to open the project in a containerized environment.
+- Build the code and install dependencies by running the following command in the terminal:
+```bash
+bundle install
+bundle exec jekyll build
+```
+
 - Run the following command in the terminal to start the Jekyll server:
 ```bash
 bundle exec jekyll serve
