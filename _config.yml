@@ -16,7 +16,7 @@ timezone: Pacific/Auckland
 
 title: Fang Zhang # the main title
 
-tagline: A software builder and founder of <a href="https://landhillcap.com">Landhill</a> # it will display as the sub-title
+tagline: A software builder # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Fang Zhang's personal blog, sharing thoughts and experiences.
