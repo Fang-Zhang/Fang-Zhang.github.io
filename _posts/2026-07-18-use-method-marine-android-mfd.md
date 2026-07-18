@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Applying Brendan Gregg's USE Method to a Marine Chartplotter's Android MFD"
-date: 2026-07-18 18:00:00 +1200
+date: 2026-07-18 15:00:00 +1200
 categories: [Tech]
 tags: [Android, performance, boating, USE method, systems performance]
 ---
