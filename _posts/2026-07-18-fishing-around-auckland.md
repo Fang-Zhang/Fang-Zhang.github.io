@@ -16,6 +16,9 @@ There is no single "best" Auckland fishing setup. The right choice depends on th
 
 ## 1. Popular saltwater fishing areas
 
+![Waitematā Harbour, Auckland](/assets/pic/waitemata-harbour.jpg){: width="700" }
+_Waitematā Harbour, Auckland. Photo by Phillip Capper, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons._
+
 ### Waitematā Harbour and North Shore wharves
 
 Accessible wharves and harbour edges around the North Shore and inner Waitematā are good places for a short session, especially for beginners and families. Murrays Bay Wharf and similar public wharves can produce fish without requiring specialist equipment.
@@ -84,6 +87,9 @@ From a boat, investigate current lines, channel edges, reef margins, and visible
 
 ### Cornwallis and the Manukau Harbour
 
+![Manukau Harbour near Cornwallis Wharf](/assets/pic/manukau-cornwallis.jpg){: width="700" }
+_Manukau Harbour near Cornwallis Wharf. Photo by Ingolfson, public domain, via Wikimedia Commons._
+
 Cornwallis Wharf is one of the best-known land-based locations on the Manukau. Other harbour beaches and channels can also fish well, but access, mud, current, and tides need careful planning.
 
 **Common fish**
@@ -107,6 +113,9 @@ The Manukau Bar is exceptionally dangerous. Crossing it is not an ordinary fishi
 ---
 
 ### Muriwai and the west-coast surf beaches
+
+![Surf at Muriwai Beach](/assets/pic/muriwai-surf.jpg){: width="700" }
+_Surf at Muriwai Beach, Auckland's west coast. Photo by Follash, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons._
 
 Auckland's west coast is powerful and unpredictable, but it can offer excellent surfcasting when the swell is manageable.
 
@@ -163,6 +172,9 @@ For kingfish, use live jack mackerel or koheru, mechanical jigs, or topwater lur
 ---
 
 ### Kaipara Harbour
+
+![Kaipara Harbour, Northland](/assets/pic/kaipara-harbour.jpg){: width="700" }
+_Kaipara Harbour. Photo by Phillip Capper, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons._
 
 The Kaipara is enormous, productive, and often difficult to read. Its channels, banks, and shallow flats can hold good numbers of fish, but the current can be powerful.
 
@@ -400,6 +412,9 @@ A speargun should remain unloaded until the diver is in the water and must be un
 Freshwater fishing is more limited than saltwater fishing, but Auckland still has worthwhile opportunities.
 
 ### Lake Pupuke
+
+![Lake Pupuke at sunset](/assets/pic/lake-pupuke-sunset.jpg){: width="700" }
+_Lake Pupuke at sunset. Photo by Orderinchaos, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons._
 
 Lake Pupuke is a mixed fishery in the middle of the North Shore. Fish & Game describes populations of perch, tench, and rudd, together with stocked rainbow and occasional brown trout.
 
