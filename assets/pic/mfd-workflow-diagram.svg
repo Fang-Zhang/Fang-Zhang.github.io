@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="300" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e1e1e">MFD Performance Workflow</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/>
+    </marker>
+  </defs>
+
+  <!-- Step boxes in a row -->
+  <rect x="20" y="110" width="150" height="90" rx="10" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="95" y="145" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1e1e">1. Reproduce</text>
+  <text x="95" y="165" text-anchor="middle" font-size="12" fill="#333">the laggy scenario</text>
+  <text x="95" y="181" text-anchor="middle" font-size="12" fill="#333">(zoom/pan + overlays)</text>
+
+  <line x1="170" y1="155" x2="205" y2="155" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="210" y="110" width="150" height="90" rx="10" fill="#c3fae8" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="285" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1e1e">2. Capture</text>
+  <text x="285" y="160" text-anchor="middle" font-size="12" fill="#333">top, dumpsys,</text>
+  <text x="285" y="176" text-anchor="middle" font-size="12" fill="#333">Perfetto trace</text>
+
+  <line x1="360" y1="155" x2="395" y2="155" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="400" y="110" width="150" height="90" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="475" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1e1e">3. Apply USE</text>
+  <text x="475" y="160" text-anchor="middle" font-size="12" fill="#333">checklist per</text>
+  <text x="475" y="176" text-anchor="middle" font-size="12" fill="#333">resource row</text>
+
+  <line x1="550" y1="155" x2="585" y2="155" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="590" y="110" width="150" height="90" rx="10" fill="#ffd8a8" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="665" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1e1e">4. Drill down</text>
+  <text x="665" y="160" text-anchor="middle" font-size="12" fill="#333">simpleperf /</text>
+  <text x="665" y="176" text-anchor="middle" font-size="12" fill="#333">CPU flame graph</text>
+
+  <line x1="740" y1="155" x2="775" y2="155" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="780" y="110" width="110" height="90" rx="10" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="835" y="145" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1e1e">5. Fix</text>
+  <text x="835" y="165" text-anchor="middle" font-size="12" fill="#333">evidence-based</text>
+  <text x="835" y="181" text-anchor="middle" font-size="12" fill="#333">tuning only</text>
+
+  <text x="450" y="250" text-anchor="middle" font-size="13" fill="#757575">Find the bottleneck first, then investigate root cause, then fix — never guess</text>
+</svg>
