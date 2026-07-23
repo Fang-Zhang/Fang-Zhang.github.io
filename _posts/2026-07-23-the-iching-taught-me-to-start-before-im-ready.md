@@ -2,7 +2,7 @@
 layout: post
 title: The iChing Taught Me to Start Before I'm Ready
 date: 2026-07-23 21:30:00 +1200
-categories: [Personal]
+categories: [Business]
 tags: [iChing, TaoTeChing, Zhuangzi, philosophy, ancient-signals]
 ---
 
