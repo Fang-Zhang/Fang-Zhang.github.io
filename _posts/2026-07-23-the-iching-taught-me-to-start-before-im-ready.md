@@ -10,6 +10,8 @@ tags: [iChing, TaoTeChing, Zhuangzi, philosophy, ancient-signals]
 
 ---
 
+![Hexagram lines, a yin-yang motif, and ink-wash bands symbolizing constant change](/assets/pic/iching-start-before-ready.jpg){: width="700" }
+
 I almost didn't write this post.
 
 For weeks, I've been studying three ancient Chinese texts — the *iChing* (易经), the *Tao Te Ching* (道德经), and *Zhuangzi* (庄子). The ideas have been quietly reshaping how I think about business, decisions, and life. I wanted to write about them.

@@ -10,6 +10,8 @@ tags: [iChing, TaoTeChing, Confucius, philosophy, ancient-signals]
 
 ---
 
+![A hexagram scroll with a calligraphic wing-like brushstroke, symbolizing the Ten Wings commentaries](/assets/pic/ten-wings-confucius-iching.jpg){: width="700" }
+
 The *iChing* (易经) began as a divination manual — 64 hexagrams built from broken and unbroken lines, used to answer yes-or-no questions about harvests, wars, and marriages. On its own, it's cryptic: terse line judgments, no explanation, no philosophy. What turned it into one of the most profound texts in Chinese thought is a set of commentaries known as the **Ten Wings (十翼)**.
 
 Traditionally attributed to Confucius, the Ten Wings are:
