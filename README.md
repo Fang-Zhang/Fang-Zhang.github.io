@@ -45,3 +45,21 @@ bundle exec jekyll serve
 ## Deployment
 - Build and deploy the site to GitHub Pages using GitHub Actions on every push to the `main` branch.
 - The workflow is defined in `.github/workflows/pages-deploy.yml`.
+
+## Email subscription (Kit / ConvertKit)
+- A `Subscribe` tab is included and can post email signups to Kit (ConvertKit).
+- Configure the following in `_config.yml`:
+```yaml
+subscriptions:
+  provider: kit
+  kit:
+    formkit_id: 6fdc5182c0
+    form_url: https://fang-zhang.kit.com/6fdc5182c0
+    link_text: Subscribe
+    script_url: https://f.convertkit.com/ckjs/ck.5.js
+    form_action: # optional inline form fallback
+    email_field_name: email_address # optional
+    redirect_url: https://fang-zhang.com/subscribe-success/
+```
+- After setting `formkit_id` and `form_url`, the popup subscribe link is live at `/subscribe/`.
+- A built-in success page is available at `/subscribe-success/`.
