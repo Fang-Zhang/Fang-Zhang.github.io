@@ -102,6 +102,23 @@ avatar: https://Fang-Zhang.github.io/assets/pic/fangzhang.png
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
 
+# Email subscription settings
+subscriptions:
+  provider: kit
+  kit:
+    # Popup form settings (data-formkit-toggle)
+    formkit_id: 6fdc5182c0
+    form_url: https://fang-zhang.kit.com/6fdc5182c0
+    link_text: Subscribe
+    script_url: https://f.convertkit.com/ckjs/ck.5.js
+    # Optional inline form fallback, e.g. "https://app.kit.com/forms/1234567/subscriptions"
+    form_action:
+    # Optional: keep default unless your Kit inline embed uses a different field name
+    email_field_name: email_address
+    # Redirect page after successful subscription
+    # For popup forms, set the same URL in your Kit form settings.
+    redirect_url: https://fang-zhang.com/subscribe-success/
+
 # boolean type, the global switch for TOC in posts.
 toc: true
 
