@@ -46,6 +46,20 @@ bundle exec jekyll serve
 - Build and deploy the site to GitHub Pages using GitHub Actions on every push to the `main` branch.
 - The workflow is defined in `.github/workflows/pages-deploy.yml`.
 
+## Google Analytics (GA4)
+- This site supports Google Analytics through Chirpy's built-in analytics integration.
+- Set your GA4 Measurement ID in `_config.yml`:
+```yaml
+analytics:
+  google:
+    id: G-XXXXXXXXXX
+```
+- For production, you can keep `_config.yml` unchanged and set repository secret `GOOGLE_ANALYTICS_ID` in GitHub:
+  - GitHub repo -> Settings -> Secrets and variables -> Actions -> New repository secret
+  - Name: `GOOGLE_ANALYTICS_ID`
+  - Value: your GA4 Measurement ID (for example `G-XXXXXXXXXX`)
+- During GitHub Pages build, the workflow passes `GOOGLE_ANALYTICS_ID` to Jekyll and auto-populates `analytics.google.id` when config is empty.
+
 ## Email subscription (Kit / ConvertKit)
 - A `Subscribe` tab is included and can post email signups to Kit (ConvertKit).
 - Configure the following in `_config.yml`:
