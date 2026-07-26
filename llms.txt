@@ -1,0 +1,27 @@
+# Fang Zhang Blog
+
+Site: https://fang-zhang.com
+Description: Personal blog by Fang Zhang, a software builder, sharing thoughts on technology, business, and life.
+
+## Key pages
+- Home: https://fang-zhang.com/
+- About: https://fang-zhang.com/about/
+- Archives: https://fang-zhang.com/archives/
+- Categories: https://fang-zhang.com/categories/
+- Tags: https://fang-zhang.com/tags/
+- Subscribe: https://fang-zhang.com/subscribe/
+
+## Feeds and indexes
+- RSS Feed: https://fang-zhang.com/feed.xml
+- Sitemap: https://fang-zhang.com/sitemap.xml
+
+## Post discovery
+- Post index: https://fang-zhang.com/archives/
+- Category index: https://fang-zhang.com/categories/
+- Tag index: https://fang-zhang.com/tags/
+- Canonical post pattern: https://fang-zhang.com/posts/<slug>/
+
+## Guidance for agents
+- Prefer canonical URLs under https://fang-zhang.com.
+- Use post URLs as stable references.
+- Respect copyright and attribution on quoted content.

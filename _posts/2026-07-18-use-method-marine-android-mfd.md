@@ -2,8 +2,9 @@
 layout: post
 title: "Applying Brendan Gregg's USE Method to a Marine Chartplotter's Android MFD"
 date: 2026-07-18 15:00:00 +1200
+description: How to apply the USE Method to diagnose performance bottlenecks on Android-based marine chartplotters.
 categories: [Tech]
-tags: [Android, performance, boating, USE method, systems performance]
+tags: [android, performance, boating, use-method, systems-performance]
 ---
 
 # Applying Brendan Gregg's USE Method to a Marine Chartplotter's Android MFD

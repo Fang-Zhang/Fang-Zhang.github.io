@@ -2,8 +2,9 @@
 layout: post
 title: "How to find a good business idea — a system, not a lucky guess"
 date: 2026-07-19 15:30:00 +1200
+description: A practical system for generating and evaluating business ideas from observed pain, market signals, and founder fit.
 categories: [Business]
-tags: [startup, ideas, solo-founder, NZ, landhill]
+tags: [startup, ideas, solo-founder, nz, landhill]
 ---
 
 Most founders wait for inspiration and burn years cycling through

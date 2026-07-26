@@ -2,8 +2,9 @@
 layout: post
 title: "The Ten Wings: How Confucius Gave the iChing Its Voice"
 date: 2026-07-23 22:27:00 +1200
+description: An overview of the Ten Wings and how they transformed the iChing into a lasting philosophical framework.
 categories: [Ancient Signals]
-tags: [iChing, TaoTeChing, Confucius, philosophy, ancient-signals]
+tags: [iching, tao-te-ching, confucius, philosophy, ancient-signals]
 ---
 
 *By Fang Zhang*
