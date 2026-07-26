@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Ching 64 Hexagrams: A Quick Reference Table"
-date: 2026-07-26 19:30:00 +1200
+date: 2026-07-26 17:29:07 +1200
 description: A practical quick-reference table of the 64 I Ching hexagrams with Chinese names, pinyin, and concise English keywords.
 categories: [Ancient Signals]
 tags: [iching, ancient-signals, reference, chinese-philosophy]
@@ -35,3 +35,5 @@ Upper trigram is on the left, lower trigram is on the top. Each header uses the 
 - Different translations may use slightly different English wording.
 - I use this as a navigation map, then read the Judgment and line texts in detail elsewhere.
 - Reference inspiration: https://www.zhouyi.cc/zhouyi/yijing64/
+
+
