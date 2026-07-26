@@ -2,7 +2,7 @@
 layout: post
 title: "I Ching 64 Hexagrams: A Quick Reference Table"
 date: 2026-07-26 17:29:07 +1200
-description: A practical quick-reference table of the 64 I Ching hexagrams with Chinese names, pinyin, and concise English keywords.
+description: A practical quick-reference table of the 64 I Ching hexagrams.
 categories: [Ancient Signals]
 tags: [iching, ancient-signals, reference, chinese-philosophy]
 ---
@@ -15,11 +15,12 @@ When I study the *I Ching* (易经), I often want one simple page where I can qu
 
 This table is my own compact reference format, inspired by traditional 64-hexagram indexes.
 
-## The 64 hexagrams (9x9 matrix form)
+## The 64 hexagrams
 
-Upper trigram is on the left, lower trigram is on the top. Each header uses the English name plus trigram symbol.
+Above trigram is on the left, Below trigram is on the top.<br> 
+Each header uses the English name plus trigram symbol.
 
-| below \\ above | Creative ☰ | Joyous ☱ | Clinging ☲ | Arousing ☳ | Gentle ☴ | Abysmal ☵ | Keeping ☶ | Receptive ☷ |
+| Above \\ Below | Creative ☰ | Joyous ☱ | Clinging ☲ | Arousing ☳ | Gentle ☴ | Abysmal ☵ | Keeping ☶ | Receptive ☷ |
 |---|---|---|---|---|---|---|---|---|
 | Creative ☰ | [1 Creative](/hexagrams/01/) | [10 Treading](/hexagrams/10/) | [13 Fellowship](/hexagrams/13/) | [25 Innocence](/hexagrams/25/) | [44 Coming to Meet](/hexagrams/44/) | [6 Conflict](/hexagrams/06/) | [33 Retreat](/hexagrams/33/) | [12 Standstill](/hexagrams/12/) |
 | Joyous ☱ | [43 Breakthrough](/hexagrams/43/) | [58 Joyous](/hexagrams/58/) | [49 Revolution](/hexagrams/49/) | [17 Following](/hexagrams/17/) | [28 Great Preponderance](/hexagrams/28/) | [47 Oppression](/hexagrams/47/) | [31 Influence](/hexagrams/31/) | [45 Gathering Together](/hexagrams/45/) |
@@ -34,6 +35,5 @@ Upper trigram is on the left, lower trigram is on the top. Each header uses the 
 
 - Different translations may use slightly different English wording.
 - I use this as a navigation map, then read the Judgment and line texts in detail elsewhere.
-- Reference inspiration: https://www.zhouyi.cc/zhouyi/yijing64/
 
 
