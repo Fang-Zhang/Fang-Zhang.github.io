@@ -2,8 +2,9 @@
 layout: post
 title: The iChing Taught Me to Start Before I'm Ready
 date: 2026-07-23 21:30:00 +1200
+description: Lessons from the iChing and Tao Te Ching on uncertainty, change, and starting before certainty arrives.
 categories: [Ancient Signals]
-tags: [iChing, TaoTeChing, Zhuangzi, philosophy, ancient-signals]
+tags: [iching, tao-te-ching, zhuangzi, philosophy, ancient-signals]
 ---
 
 *By Fang Zhang*

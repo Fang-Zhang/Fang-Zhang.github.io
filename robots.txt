@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fang-zhang.com/sitemap.xml
+Host: https://fang-zhang.com
