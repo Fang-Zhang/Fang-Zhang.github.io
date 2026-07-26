@@ -1,5 +1,20 @@
 <!-- Get 5 last posted/updated posts -->
 
+<style>
+  #panel-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #panel-wrapper #toc-wrapper {
+    order: 0;
+  }
+
+  #panel-wrapper .access {
+    order: 1;
+  }
+</style>
+
 {% assign MAX_SIZE = 5 %}
 
 {% assign all_list = '' | split: '' %}
