@@ -1,17 +1,8 @@
 <!-- Get 5 last posted/updated posts -->
 
 <style>
-  #panel-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #panel-wrapper #toc-wrapper {
-    order: 0;
-  }
-
-  #panel-wrapper .access {
-    order: 1;
+  #panel-wrapper:has(#toc-wrapper) .access {
+    display: none;
   }
 </style>
 
