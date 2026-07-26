@@ -1,4 +1,5 @@
 ---
+title: News Letter
 icon: fas fa-envelope
 order: 5
 ---
