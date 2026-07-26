@@ -77,3 +77,34 @@ subscriptions:
 ```
 - After setting `formkit_id` and `form_url`, the popup subscribe link is live at `/subscribe/`.
 - A built-in success page is available at `/subscribe-success/`.
+
+## Comments (Utterances)
+- This site uses Chirpy's built-in comments integration with Utterances (GitHub Issues based).
+- The comments provider is enabled in `_config.yml`:
+```yaml
+comments:
+  provider: utterances
+  utterances:
+    repo: Fang-Zhang/Fang-Zhang.github.io
+    issue_term: pathname
+```
+- One-time setup required:
+  - Install the Utterances GitHub App for the repository: https://github.com/apps/utterances
+  - Ensure GitHub Issues are enabled in the repository settings.
+- After setup, each post page will automatically show a comment box and create/link issues by pathname.
+
+## Comments troubleshooting
+- Comment box not showing:
+  - Confirm `comments.provider` is set to `utterances` in `_config.yml`.
+  - Confirm each post allows comments (global default is `comments: true` under post defaults).
+  - Rebuild/redeploy the site after config changes.
+- `utterances` shows `Error: Bad credentials` or permission errors:
+  - Reinstall or re-authorize the Utterances GitHub App for this repository.
+  - Ensure the repository is selected during app installation.
+- New comment cannot be submitted:
+  - Verify the repository has Issues enabled.
+  - Verify the visitor is signed in to GitHub.
+- Duplicate issue threads for one post:
+  - Keep `issue_term: pathname` stable and avoid changing post permalinks after comments exist.
+- Private repository limitation:
+  - Utterances works best with public repositories for broad reader participation.
