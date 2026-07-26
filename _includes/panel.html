@@ -1,10 +1,10 @@
 <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
   {% if page.layout == 'post' and page.toc %}
     {% include toc.html %}
+  {% else %}
+    <div class="access">
+      {% include update-list.html lang=include.lang %}
+      {% include trending-tags.html lang=include.lang %}
+    </div>
   {% endif %}
-
-  <div class="access">
-    {% include update-list.html lang=include.lang %}
-    {% include trending-tags.html lang=include.lang %}
-  </div>
 </aside>
