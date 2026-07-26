@@ -1,8 +1,8 @@
 ## Introduction
-This is my personal blog built with [**Chirpy**][chirpy], a Jekyll theme that I have been developing for years. 
+This is my personal blog built with [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy), a Jekyll theme that I have been developing for years.
 
 ## Tech Stack
-- [**Chirpy**][chirpy] - A Jekyll theme for bloggers
+- [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A Jekyll theme for bloggers
 - [GitHub Pages](https://pages.github.com/) - Hosting service for static sites
 - [GitHub Actions](https://github.com/features/actions) - CI/CD service for automating workflows
 - [VS Code Dev Containers](https://code.visualstudio.com/docs/remote/containers) - Development environment in a container
