@@ -22,6 +22,16 @@
   {% assign update_list = update_list | push: entry %}
 {% endfor %}
 
+<section id="access-recommended">
+  <h2 class="panel-heading">Recommended Articles</h2>
+  <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+    <li class="text-truncate lh-lg">
+      <a href="{{ '/posts/iching-64-hexagrams-reference-table/' | relative_url }}">I Ching 64 Hexagrams: A Quick Reference Table</a>
+    </li>
+  </ul>
+</section>
+<!-- #access-recommended -->
+
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
     <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
@@ -38,13 +48,3 @@
   </section>
   <!-- #access-lastmod -->
 {% endif %}
-
-<section id="access-recommended">
-  <h2 class="panel-heading">Recommended Articles</h2>
-  <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
-    <li class="text-truncate lh-lg">
-      <a href="{{ '/posts/iching-64-hexagrams-reference-table/' | relative_url }}">I Ching 64 Hexagrams: A Quick Reference Table</a>
-    </li>
-  </ul>
-</section>
-<!-- #access-recommended -->
