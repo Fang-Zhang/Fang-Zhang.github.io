@@ -3,6 +3,8 @@ title: "鲲化为鹏：我从《庄子·逍遥游》读到的三层觉醒"
 date: 2026-08-13 09:00:00 +1200
 categories: [Personal, Philosophy]
 tags: [zhuangzi, 庄子, 逍遥游, philosophy]
+lang: zh
+hidden: true
 ---
 
 昨天读完《庄子》的第一篇《逍遥游》，一种很久没有的感觉——不是"读懂了一个道理"，而是被推着往前走，每次以为自己抓住了答案，庄子下一句就把它拆掉了。
