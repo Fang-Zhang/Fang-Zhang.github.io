@@ -1,6 +1,6 @@
 ---
 title: "逃逸原意的词语：庄子看了大概会叹口气的五个成语"
-date: 2026-09-02 09:00:00 +1200
+date: 2026-09-02 04:20:00 +1200
 categories: [Personal, Philosophy]
 tags: [zhuangzi, 庄子, 成语, philosophy, language]
 lang: zh
