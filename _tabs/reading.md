@@ -18,6 +18,7 @@ Books I want to read.
 - **LLM Customization and Fine-Tuning** — Amit Bahree, Weehyong Tok, Manning (adaptation spectrum from prompting/RAG through LoRA/QLoRA, full SFT, distillation, and DPO alignment; production ops for drift & safety)
 - **[A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)** — Peng Ding, UC Berkeley lecture notes (causal inference from basic probability, statistical inference, linear/logistic regression)
 - **AI Agents and Applications: With LangChain, LangGraph, and MCP** — Roberto Infante, Manning (build LLM-powered agentic applications: agent workflows, tools, MCP integrations)
+- **Multi-Agent AI Engineering: Design, build, and operate AI systems that think and act as coordinated teams** — Dr. Xiao Ma, Dr. Chi Wang, Packt (production-grade multi-agent systems: communication protocols, memory/context, orchestration, evaluation, security, observability)
 
 ## Articles
 
