@@ -1,6 +1,6 @@
 ---
 title: "Fake Work Was Never About Laziness"
-date: 2026-09-17 08:00:00 +1200
+date: 2026-09-16 08:05:00 +1200
 categories: [Personal, Philosophy]
 tags: [AI, work, productivity, organizations]
 ---
