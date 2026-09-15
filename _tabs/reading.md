@@ -10,6 +10,7 @@ Books I want to read.
 - **AI Product Manager's Handbook** (2nd ed.) — Irene Bratsis, Packt (building/scaling AI products, AI-native vs. evolving products, commercialization)
 - **Machine Learning Platform Engineering** — Benjamin Tan Wei Hao, Shanoop Padmanabhan, Varun Mallya, Manning (build an MLOps/LLMOps platform from scratch: Kubeflow, MLflow, BentoML, Feast, model serving & monitoring)
 - **Machine Learning System Design** — Valerii Babushkin, Arseny Kravchenko, Manning (end-to-end ML system framework: problem framing, dataset gathering, training pipelines, serving & monitoring)
+- **Knowledge Graphs and LLMs in Action** — Giuseppe Futia, Vlastimil Kus, Manning (building knowledge graphs from structured/unstructured sources, integrating with LLM apps & RAG pipelines)
 
 ## Articles
 
