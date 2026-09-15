@@ -16,6 +16,7 @@ Books I want to read.
 - **The Little Book of Deep Learning** — François Fleuret (compact free ebook: gradient descent, backprop, model components, architectures, applications)
 - **[Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360)** — Kuckuck et al., arXiv (737pp: ANN architectures, optimization theory, approximation/generalization theory, deep learning for PDEs)
 - **LLM Customization and Fine-Tuning** — Amit Bahree, Weehyong Tok, Manning (adaptation spectrum from prompting/RAG through LoRA/QLoRA, full SFT, distillation, and DPO alignment; production ops for drift & safety)
+- **[A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)** — Peng Ding, UC Berkeley lecture notes (causal inference from basic probability, statistical inference, linear/logistic regression)
 
 ## Articles
 
