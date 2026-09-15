@@ -7,6 +7,7 @@ order: 5
 Books I want to read.
 
 - **Reinforcement Learning from Human Feedback** — Manning (via [AI Book Club](https://theaibookclub.github.io/))
+- **AI Product Manager's Handbook** (2nd ed.) — Irene Bratsis, Packt (building/scaling AI products, AI-native vs. evolving products, commercialization)
 
 ## Articles
 
