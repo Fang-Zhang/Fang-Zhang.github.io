@@ -9,6 +9,7 @@ Books I want to read.
 - **Reinforcement Learning from Human Feedback** — Manning (via [AI Book Club](https://theaibookclub.github.io/))
 - **AI Product Manager's Handbook** (2nd ed.) — Irene Bratsis, Packt (building/scaling AI products, AI-native vs. evolving products, commercialization)
 - **Machine Learning Platform Engineering** — Benjamin Tan Wei Hao, Shanoop Padmanabhan, Varun Mallya, Manning (build an MLOps/LLMOps platform from scratch: Kubeflow, MLflow, BentoML, Feast, model serving & monitoring)
+- **Machine Learning System Design** — Valerii Babushkin, Arseny Kravchenko, Manning (end-to-end ML system framework: problem framing, dataset gathering, training pipelines, serving & monitoring)
 
 ## Articles
 
