@@ -17,6 +17,7 @@ Books I want to read.
 - **[Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360)** — Kuckuck et al., arXiv (737pp: ANN architectures, optimization theory, approximation/generalization theory, deep learning for PDEs)
 - **LLM Customization and Fine-Tuning** — Amit Bahree, Weehyong Tok, Manning (adaptation spectrum from prompting/RAG through LoRA/QLoRA, full SFT, distillation, and DPO alignment; production ops for drift & safety)
 - **[A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)** — Peng Ding, UC Berkeley lecture notes (causal inference from basic probability, statistical inference, linear/logistic regression)
+- **AI Agents and Applications: With LangChain, LangGraph, and MCP** — Roberto Infante, Manning (build LLM-powered agentic applications: agent workflows, tools, MCP integrations)
 
 ## Articles
 
