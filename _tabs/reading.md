@@ -19,6 +19,7 @@ Books I want to read.
 - **[A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)** — Peng Ding, UC Berkeley lecture notes (causal inference from basic probability, statistical inference, linear/logistic regression)
 - **AI Agents and Applications: With LangChain, LangGraph, and MCP** — Roberto Infante, Manning (build LLM-powered agentic applications: agent workflows, tools, MCP integrations)
 - **Multi-Agent AI Engineering: Design, build, and operate AI systems that think and act as coordinated teams** — Dr. Xiao Ma, Dr. Chi Wang, Packt (production-grade multi-agent systems: communication protocols, memory/context, orchestration, evaluation, security, observability)
+- **AI Agents in Action** (2nd ed.) — Micheal Lanham, Manning (autonomous agent design/deployment, MCP tools/memory, reasoning & planning patterns — ReAct, Reflexion, Tree-of-Thought, multi-agent patterns)
 
 ## Articles
 
