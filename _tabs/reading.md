@@ -13,6 +13,7 @@ Books I want to read.
 - **Knowledge Graphs and LLMs in Action** — Giuseppe Futia, Vlastimil Kus, Manning (building knowledge graphs from structured/unstructured sources, integrating with LLM apps & RAG pipelines)
 - **Graph Neural Networks in Action** — Keita Broadwater, Manning (building GNNs in Python for node prediction, link prediction, graph classification)
 - **Introduction to Machine Learning** — Laurent Younes, arXiv textbook (mathematical foundations of ML: linear algebra/probability, kernel methods, supervised & generative learning, generalization theory)
+- **The Little Book of Deep Learning** — François Fleuret (compact free ebook: gradient descent, backprop, model components, architectures, applications)
 
 ## Articles
 
