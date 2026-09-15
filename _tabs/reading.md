@@ -11,6 +11,7 @@ Books I want to read.
 - **Machine Learning Platform Engineering** — Benjamin Tan Wei Hao, Shanoop Padmanabhan, Varun Mallya, Manning (build an MLOps/LLMOps platform from scratch: Kubeflow, MLflow, BentoML, Feast, model serving & monitoring)
 - **Machine Learning System Design** — Valerii Babushkin, Arseny Kravchenko, Manning (end-to-end ML system framework: problem framing, dataset gathering, training pipelines, serving & monitoring)
 - **Knowledge Graphs and LLMs in Action** — Giuseppe Futia, Vlastimil Kus, Manning (building knowledge graphs from structured/unstructured sources, integrating with LLM apps & RAG pipelines)
+- **Graph Neural Networks in Action** — Keita Broadwater, Manning (building GNNs in Python for node prediction, link prediction, graph classification)
 
 ## Articles
 
