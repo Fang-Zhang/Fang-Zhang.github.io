@@ -14,6 +14,7 @@ Books I want to read.
 - **Graph Neural Networks in Action** — Keita Broadwater, Manning (building GNNs in Python for node prediction, link prediction, graph classification)
 - **Introduction to Machine Learning** — Laurent Younes, arXiv textbook (mathematical foundations of ML: linear algebra/probability, kernel methods, supervised & generative learning, generalization theory)
 - **The Little Book of Deep Learning** — François Fleuret (compact free ebook: gradient descent, backprop, model components, architectures, applications)
+- **[Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360)** — Kuckuck et al., arXiv (737pp: ANN architectures, optimization theory, approximation/generalization theory, deep learning for PDEs)
 
 ## Articles
 
