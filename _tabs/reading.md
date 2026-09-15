@@ -12,6 +12,7 @@ Books I want to read.
 - **Machine Learning System Design** — Valerii Babushkin, Arseny Kravchenko, Manning (end-to-end ML system framework: problem framing, dataset gathering, training pipelines, serving & monitoring)
 - **Knowledge Graphs and LLMs in Action** — Giuseppe Futia, Vlastimil Kus, Manning (building knowledge graphs from structured/unstructured sources, integrating with LLM apps & RAG pipelines)
 - **Graph Neural Networks in Action** — Keita Broadwater, Manning (building GNNs in Python for node prediction, link prediction, graph classification)
+- **Introduction to Machine Learning** — Laurent Younes, arXiv textbook (mathematical foundations of ML: linear algebra/probability, kernel methods, supervised & generative learning, generalization theory)
 
 ## Articles
 
