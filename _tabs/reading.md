@@ -27,3 +27,4 @@ Books I want to read.
 - **[AI Infra: 大模型系统设计与工程实践](https://github.com/bojieli/ai-infra-book)** — 李博杰 (open-source book on AI infrastructure: model serving, distributed training/inference, hardware & compute estimation)
 - **[Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)** — Sebastian Raschka (how coding agents like Claude Code/Codex work: harness, tools, memory, context management)
 - **[James H. Simons, PhD: Using Mathematics to Make Money](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668072)** — James Simons interview, Journal of Investment Consulting (quant investing at Renaissance Technologies: model-building, hiring scientists over finance veterans, collaboration)
+- **[Computing Life](https://yage.ai/)** — engineering notebook on AI, systems, and everyday experiments (agentic AI, edge AI/microcontroller experiments, astrophotography simulations, AI-and-career reflections)
