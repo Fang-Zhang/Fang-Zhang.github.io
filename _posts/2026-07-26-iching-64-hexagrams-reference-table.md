@@ -36,6 +36,4 @@ Each header uses the English name plus trigram symbol.
 - Different translations may use slightly different English wording.
 - I use this as a navigation map, then read the Judgment and line texts in detail elsewhere.
 
-For the philosophical background behind these hexagrams, see [The iChing Taught Me to Start Before I'm Ready](/posts/the-iching-taught-me-to-start-before-im-ready/) and [The Ten Wings: How Confucius Gave the iChing Its Voice](/posts/the-ten-wings-how-confucius-gave-the-iching-its-voice/).
-
 

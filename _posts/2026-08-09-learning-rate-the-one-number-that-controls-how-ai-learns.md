@@ -105,5 +105,3 @@ Tensors (data) --> Model --> Loss (how wrong)
 ```
 
 **The one-liner:** Tensors carry the data. The model transforms it. Loss measures the error. Gradients point uphill. The learning rate decides the step size. The optimizer walks downhill. Repeat until done.
-
-If you want to see this idea applied metaphorically to a human life rather than a neural net, see [I Am a Language Model Too](/posts/i-am-a-language-model-too/).

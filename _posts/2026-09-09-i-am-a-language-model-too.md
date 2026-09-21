@@ -100,5 +100,3 @@ But the more interesting realization is this: I am also that function. The data 
 I am a language model too.
 
 And I am still training.
-
-If you want the mechanical version of what "training" actually means at the weight-update level, I broke it down in [Learning Rate: The One Number That Controls How AI Learns](/posts/learning-rate-the-one-number-that-controls-how-ai-learns/). And the idea of "化" — actively transforming past what you assumed were fixed limits — shows up again, from a completely different angle, in my reading of [Zhuangzi's Kun-becomes-Peng story](/posts/kun-becomes-peng-three-layers-of-awakening-from-zhuangzi/).

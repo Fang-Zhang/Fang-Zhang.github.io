@@ -24,5 +24,3 @@ I don't think the right response is to panic or quit your job tomorrow. It's to 
 What actually matters, stripped down to three things: **define the problem** — know what you're really solving before you start solving it. **Judge it** — decide whether it's actually worth doing, not just doable. **Own the consequences** — be accountable for what happens after, not just for having produced something. These three are not automatable, and they were never fake. They were just underpriced, buried beneath the loud, visible, proxy-generating work that was cheaper to reward and easier to see.
 
 I'd call this less a threat and more an overdue correction. The fog of expensive-looking fake work is burning off, and what's left is exactly these three things — define, judge, own. That's not something to fear. It's something to get ready for.
-
-I've explored a related angle in [The Only Hobby With Compound Returns](/posts/the-only-hobby-with-compound-returns/) — if fake work is proxy without substance, output habits are the opposite: the one thing that can't be faked, because you either produced something real or you didn't.

@@ -529,8 +529,6 @@ Before leaving home:
 
 The best Auckland fishing session is not necessarily the one with the largest catch. A safe day, a few fresh fish, good company, and enough local knowledge to improve the next trip are usually a better result.
 
-If you're running a boat rather than fishing from shore, two related posts might help: I've written about [applying the USE Method to a marine chartplotter's Android MFD](/posts/use-method-marine-android-mfd/) when the electronics feel laggy, and I'm building out a [Day Skipper notes series](/posts/day-skipper-notes/) covering the navigation and seamanship fundamentals behind safe boat handling.
-
 ## References and useful links
 
 1. Ministry for Primary Industries — [Auckland and Kermadec fishing rules](https://www.mpi.govt.nz/fishing-aquaculture/recreational-fishing/fishing-rules/auckland-kermadec-fishing-rules/)

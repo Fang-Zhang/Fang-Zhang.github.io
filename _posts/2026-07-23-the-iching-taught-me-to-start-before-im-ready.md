@@ -93,8 +93,4 @@ Let's go.
 
 ---
 
-The next post in this series digs into how the *iChing* got its philosophical depth in the first place: [The Ten Wings: How Confucius Gave the iChing Its Voice](/posts/the-ten-wings-how-confucius-gave-the-iching-its-voice/). And if you want a working map of all 64 hexagrams to navigate by, I keep one here: [I Ching 64 Hexagrams: A Quick Reference Table](/posts/iching-64-hexagrams-reference-table/).
-
----
-
 *→ If this resonated, subscribe to follow along as I go deeper into these texts — one insight at a time.*
