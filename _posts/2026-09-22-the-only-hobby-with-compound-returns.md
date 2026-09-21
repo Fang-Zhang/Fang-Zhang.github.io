@@ -1,6 +1,6 @@
 ---
 title: The Only Hobby With Compound Returns
-date: 2026-09-22 09:40:00 +1200
+date: 2026-09-22 09:00:00 +1200
 categories: [Personal, Philosophy]
 tags: [productivity, writing, habits, output]
 ---
