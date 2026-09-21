@@ -105,3 +105,7 @@ Perfetto — [Recording system traces](https://perfetto.dev/docs/getting-started
 Android Developers — [dumpsys reference](https://developer.android.com/tools/dumpsys)
 
 AOSP — [Simpleperf introduction](https://android.googlesource.com/platform/prebuilts/simpleperf/+/main/README.md)
+
+---
+
+This ties into two other posts on the same boat-electronics theme: my [practical Auckland fishing guide](/posts/fishing-around-auckland/) covers the on-water side, and my [Day Skipper notes](/posts/day-skipper-notes/) series is where I'm working through the navigation instruments (chart, compass, radar, sonar, tide) that this MFD is ultimately driving.

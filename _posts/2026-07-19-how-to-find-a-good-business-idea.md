@@ -203,3 +203,7 @@ single week of enthusiasm.
 Stop waiting for ideas. Build a boring weekly ritual that surfaces
 them, a rubric that kills the bad ones, and a monthly deep-dive that
 tests the survivors. Do it for a year. Something ships.
+
+---
+
+I've written a related setup note on the automation side of this: [How to setup OpenClaw in Windows WSL and connect it with Telegram](/posts/how-to-setup-openclaw-in-windows-wsl-and-connect-telegram/), which is part of how I run the weekly ritual above without it depending on my own memory.

@@ -202,3 +202,5 @@ If you want, I can write a follow-up post next on one of these:
 - how to structure `AGENTS.md`, `SOUL.md`, and `MEMORY.md`
 - how to use OpenClaw with GitHub Pages and a personal blog
 - how to make Telegram interactions feel more natural and useful
+
+I use this setup as part of the automated ritual described in [How to Find a Good Business Idea](/posts/how-to-find-a-good-business-idea/) — the weekly capture/scan/score cadence only survives busy weeks because an agent, not my memory, is what's actually running it.

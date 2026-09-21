@@ -12,3 +12,5 @@ Day Skipper covers a lot of ground in a short time: chartwork, compass theory, t
 I plan to break this down into focused posts on the individual instruments and systems — chart, compass, radar, sonar, tide — each one working through the underlying principle rather than just the procedure. The goal isn't a study guide; it's building an understanding solid enough that I could explain it to someone else from first principles, which is usually the only real test of whether you understand something at all.
 
 More to come as each topic gets written up.
+
+For context on the electronics side of navigation, I've also written about [applying the USE Method to a marine chartplotter's Android MFD](/posts/use-method-marine-android-mfd/), and for the fishing side of being on the water, see my [Auckland fishing guide](/posts/fishing-around-auckland/).

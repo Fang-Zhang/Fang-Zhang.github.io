@@ -28,3 +28,7 @@ Traditionally attributed to Confucius, the Ten Wings are:
 Together, these ten texts transformed the *iChing* from a divination tool into a philosophical system — one that speaks to change, balance, and the relationship between human action and the natural order. This is the layer that gave rise to concepts later absorbed into Taoism and Confucian ethics alike: the idea that a wise person doesn't fight change, but reads its pattern and moves with it.
 
 For anyone studying the *iChing* seriously, the Ten Wings aren't optional — they're the difference between throwing coins for fortune-telling and engaging with one of the oldest systems of thought about how the world actually works.
+
+---
+
+This continues the theme from [The iChing Taught Me to Start Before I'm Ready](/posts/the-iching-taught-me-to-start-before-im-ready/), and pairs well with my [64 Hexagrams Quick Reference Table](/posts/iching-64-hexagrams-reference-table/) if you want to see the raw material the Ten Wings were commenting on.
