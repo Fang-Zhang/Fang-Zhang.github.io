@@ -2,6 +2,7 @@
 title: News Letter
 icon: fas fa-envelope
 order: 5
+hidden: true
 ---
 
 Get new posts in your inbox.
