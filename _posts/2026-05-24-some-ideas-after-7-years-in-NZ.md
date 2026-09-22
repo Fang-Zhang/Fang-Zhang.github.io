@@ -3,7 +3,7 @@ layout: post
 title: Some ideas after 7 years in NZ
 date: 2026-05-23 16:17:00 -0500
 description: Reflections after seven years in New Zealand on community, outdoors, culture, and work-life balance.
-categories: [Life]
+categories: [Personal, Life]
 tags: [nz, ideas, life]
 ---
 

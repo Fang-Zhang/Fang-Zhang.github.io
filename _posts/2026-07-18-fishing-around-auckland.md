@@ -3,7 +3,7 @@ layout: post
 title: "Fishing Around Auckland: An Angler's Guide to Saltwater, Freshwater, Boat Fishing, and Spearfishing"
 date: 2026-07-18 11:21:00 +1200
 description: A practical guide to fishing around Auckland across saltwater, freshwater, boat fishing, and spearfishing.
-categories: [Life]
+categories: [Personal, Life]
 tags: [auckland, fishing, new-zealand, outdoors]
 ---
 
