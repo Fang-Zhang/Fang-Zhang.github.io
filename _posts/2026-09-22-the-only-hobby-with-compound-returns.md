@@ -3,6 +3,7 @@ title: The Only Hobby With Compound Returns
 date: 2026-09-22 09:00:00 +1200
 categories: [Personal, Philosophy]
 tags: [productivity, writing, habits, output]
+description: "Why output-based hobbies — the kind you build with, not just consume — are the only ones that compound over time."
 ---
 
 I keep coming back to a distinction that sounds almost too simple to matter: there are two kinds of hobbies. The kind that consume you, and the kind you build with.

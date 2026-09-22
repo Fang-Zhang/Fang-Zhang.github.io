@@ -3,6 +3,7 @@ title: "The Evolution of LLM Architecture: Every Stage Solved One Problem and Cr
 date: 2026-09-23 06:30:00 +1200
 categories: [AI/ML]
 tags: [llm, transformers, architecture, deep-learning]
+description: "How LLM architecture evolved from RNNs to Transformers to Mixture of Experts, told as a chain of problems and fixes, with one example sentence carried through every stage."
 ---
 
 Every major shift in language model architecture happened for the same reason: the previous design hit a wall, and the next one existed only to get past it. Nobody set out to build a Transformer. Someone got tired of a specific, painful limitation of what came before it. Understanding LLMs this way — as a chain of fixes, each one trading an old problem for a new one — makes the whole field much less mysterious.

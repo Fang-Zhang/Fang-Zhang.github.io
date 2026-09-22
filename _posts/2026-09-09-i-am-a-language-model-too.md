@@ -3,6 +3,7 @@ title: "I Am a Language Model Too"
 date: 2026-09-09 10:00:00 +1200
 categories: [Personal, Philosophy]
 tags: [AI, LLM, machine-learning, self-reflection, growth]
+description: "A personal essay drawing a direct parallel between how LLMs are trained — pretraining, fine-tuning, RLHF, emergence — and the stages of a human life."
 ---
 
 When I was a child, I often stared at my math textbook and wondered: is there one single formula that could solve all the problems in life? You plug in any question — love, money, purpose, sadness — and out comes the answer, clean and undeniable.

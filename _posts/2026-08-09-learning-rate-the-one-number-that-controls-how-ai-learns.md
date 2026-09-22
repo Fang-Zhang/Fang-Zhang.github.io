@@ -3,6 +3,7 @@ title: "Learning Rate: The One Number That Controls How AI Learns"
 date: 2026-08-09 09:00:00 +1200
 categories: [AI/ML]
 tags: [deep-learning, gradient-descent, pytorch, learning-rate]
+description: "How the learning rate — one number in gradient descent — decides whether a neural network converges smoothly or blows up, explained through the one line of code that sets it."
 ---
 
 Every time a neural network trains, it's really doing one repeated thing: guess, measure the error, and nudge itself to be less wrong. The learning rate — usually just written `lr` — is the dial that controls how big each nudge is. Get it right and the network converges smoothly. Get it wrong and it either creeps forward for days or blows up entirely.

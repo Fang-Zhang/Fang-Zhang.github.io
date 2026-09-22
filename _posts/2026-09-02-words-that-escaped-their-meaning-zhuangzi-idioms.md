@@ -5,6 +5,7 @@ categories: [Personal, Philosophy]
 tags: [zhuangzi, 庄子, 成语, philosophy, language]
 lang: zh
 hidden: true
+description: "Five Chinese idioms from Zhuangzi whose original philosophical meaning has drifted completely from how they're used today — and what that drift reveals."
 ---
 
 最近在读《庄子》，发现一件事：很多我们天天用的成语，原文的意思跟现在完全不是一回事。不是"稍微有点出入"的那种不一样，是"根本认不出来"的那种不一样。

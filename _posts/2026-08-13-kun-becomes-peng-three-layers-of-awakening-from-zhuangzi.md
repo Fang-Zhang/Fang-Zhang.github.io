@@ -5,6 +5,7 @@ categories: [Personal, Philosophy]
 tags: [zhuangzi, 庄子, 逍遥游, philosophy]
 lang: zh
 hidden: true
+description: "A first-person reading of Zhuangzi's Free and Easy Wandering (逍遥游) — three layers of awakening from the Kun-to-Peng transformation, on self-limiting habits and the courage to change."
 ---
 
 昨天读完《庄子》的第一篇《逍遥游》，一种很久没有的感觉——不是"读懂了一个道理"，而是被推着往前走，每次以为自己抓住了答案，庄子下一句就把它拆掉了。

@@ -3,6 +3,7 @@ title: "Fake Work Was Never About Laziness"
 date: 2026-09-16 08:05:00 +1200
 categories: [Personal, Philosophy]
 tags: [AI, work, productivity, organizations]
+description: "Why fake work isn't a personality flaw but a structural outcome of knowledge work being nearly impossible to measure directly."
 ---
 
 I used to think fake work was a personality problem — some people are hustlers, some are slackers, and the slackers fake it. I don't believe that anymore.
