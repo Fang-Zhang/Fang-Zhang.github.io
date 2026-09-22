@@ -1,7 +1,7 @@
 ---
 title: Day Skipper Notes
 date: 2026-09-22 10:00:00 +1200
-categories: [Day Skipper]
+categories: [Personal, Day Skipper]
 tags: [sailing, navigation]
 description: "Notes from completing the Day Skipper sailing course — working through chartwork, compass theory, tides, and collision regulations as a new blog category."
 ---

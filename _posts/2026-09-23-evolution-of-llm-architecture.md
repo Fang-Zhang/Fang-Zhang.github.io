@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of LLM Architecture: Every Stage Solved One Problem and Created the Next"
 date: 2026-09-23 06:30:00 +1200
-categories: [AI/ML]
+categories: [Tech, AI/ML]
 tags: [llm, transformers, architecture, deep-learning]
 description: "How LLM architecture evolved from RNNs to Transformers to Mixture of Experts, told as a chain of problems and fixes, with one example sentence carried through every stage."
 ---
