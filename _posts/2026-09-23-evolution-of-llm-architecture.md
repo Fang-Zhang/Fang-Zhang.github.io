@@ -44,7 +44,7 @@ The Transformer solved speed. But it created a new question nobody had a good an
 
 ## Stage 4: Scaling — making it smart, making it expensive
 
-The architecture barely changed from GPT-1 through GPT-4. What changed was parameters, data, and compute. A small Transformer might correctly resolve "it" → "cat" in our simple sentence but fail on a harder one: "The trophy didn't fit in the suitcase because it was too big." (Is "it" the trophy or the suitcase? Depends on world knowledge about size, not just grammar.) A sufficiently large model, trained on enough text, starts resolving these ambiguous cases correctly too — not because anyone taught it the specific rule, but because the pattern emerged from scale.
+The architecture barely changed from GPT-1 through GPT-4. What changed was parameters, data, and compute. A small Transformer might correctly resolve "it" → "cat" in our simple sentence but fail on a harder one: "The trophy didn't fit in the suitcase because it was too big." (Is "it" the trophy or the suitcase? Depends on world knowledge about size, not just grammar.) A sufficiently large model, trained on enough text, starts resolving these ambiguous cases correctly too — not because anyone taught it the specific rule, but because [the pattern emerged from scale](/posts/i-am-a-language-model-too/).
 
 Scaling solved "how do we make this smarter." It created a new problem: models this big are extremely expensive to run.
 

@@ -56,13 +56,13 @@ At one point I moved somewhere new entirely — a different culture, a different
 
 ## The Loss Landscape
 
-Life has a loss landscape too. Some paths lead to sharp minima: fragile success that collapses under slight distribution shift. Others lead to broad minima: robust wisdom that generalizes across domains. The terrain is impossible to visualize in advance. You can only descend and see where you end up.
+Life has a [loss landscape](/posts/learning-rate-the-one-number-that-controls-how-ai-learns/) too. Some paths lead to sharp minima: fragile success that collapses under slight distribution shift. Others lead to broad minima: robust wisdom that generalizes across domains. The terrain is impossible to visualize in advance. You can only descend and see where you end up.
 
 I think about the choices that led me here. Each choice was a step in the loss landscape. I do not know if I found the global minimum. Probably nobody does. But the descent continues.
 
 ## Emergence
 
-There is a phenomenon in large models called emergence: abilities that were never explicitly trained for that appear once the model reaches a certain scale. The model was not taught to reason step by step. It just started doing it.
+There is a phenomenon in large models called [emergence](/posts/evolution-of-llm-architecture/): abilities that were never explicitly trained for that appear once the model reaches a certain scale. The model was not taught to reason step by step. It just started doing it.
 
 In life, we call this wisdom.
 

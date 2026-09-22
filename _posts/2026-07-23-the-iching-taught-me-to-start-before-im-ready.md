@@ -15,7 +15,7 @@ tags: [iching, tao-te-ching, zhuangzi, philosophy, ancient-signals]
 
 I almost didn't write this post.
 
-For weeks, I've been studying three ancient Chinese texts — the *iChing* (易经), the *Tao Te Ching* (道德经), and *Zhuangzi* (庄子). The ideas have been quietly reshaping how I think about business, decisions, and life. I wanted to write about them.
+For weeks, I've been studying three ancient Chinese texts — the *iChing* (易经), the *Tao Te Ching* (道德经), and [*Zhuangzi*](/posts/kun-becomes-peng-three-layers-of-awakening-from-zhuangzi/) (庄子). The ideas have been quietly reshaping how I think about business, decisions, and life. I wanted to write about them.
 
 But I hesitated.
 
