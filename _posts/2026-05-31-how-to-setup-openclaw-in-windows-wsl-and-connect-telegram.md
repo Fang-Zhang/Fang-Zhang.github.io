@@ -3,7 +3,7 @@ layout: post
 title: How to setup OpenClaw in Windows WSL and connect it with Telegram
 date: 2026-05-31 23:45:00 +1200
 description: Step-by-step guide to run OpenClaw in Windows WSL and connect it to Telegram for remote agent control.
-categories: [Tech]
+categories: [Tech, Experiment]
 tags: [openclaw, wsl, windows, telegram, ai, automation]
 ---
 
