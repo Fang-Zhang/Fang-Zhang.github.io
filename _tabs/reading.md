@@ -34,3 +34,4 @@ Books I want to read.
 - **[Computing Life](https://yage.ai/)** — engineering notebook on AI, systems, and everyday experiments (agentic AI, edge AI/microcontroller experiments, astrophotography simulations, AI-and-career reflections)
 - **[Brendan Gregg's Homepage](https://www.brendangregg.com/)** — systems performance engineer (creator of Flame Graphs, eBPF/BPF tools, DTrace; author of *Systems Performance* and *BPF Performance Tools*); site collects his docs, talks, and tools on Linux/cloud performance analysis
 - **[科学空间 (Scientific Spaces)](https://spaces.ac.cn/)** — 苏剑林, blog on math/ML theory (optimizer theory — Adam/Muon, scaling laws, manifold optimization, information theory)
+- **[Sebastian Raschka, PhD](https://sebastianraschka.com/)** — LLM research engineer, author of *Build a Large Language Model (From Scratch)*; blog covers LLM research, architecture notes (Kimi K3, Muse Glimmer), and practical/code-driven AI deep dives
