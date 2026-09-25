@@ -36,3 +36,4 @@ Books I want to read.
 - **[科学空间 (Scientific Spaces)](https://spaces.ac.cn/)** — 苏剑林, blog on math/ML theory (optimizer theory — Adam/Muon, scaling laws, manifold optimization, information theory)
 - **[Sebastian Raschka, PhD](https://sebastianraschka.com/)** — LLM research engineer, author of *Build a Large Language Model (From Scratch)*; blog covers LLM research, architecture notes (Kimi K3, Muse Glimmer), and practical/code-driven AI deep dives
 - **[Language Models & Co.](https://newsletter.languagemodels.co/)** — Jay Alammar (creator of "The Illustrated Transformer"), newsletter on LLM internals and applications
+- **[Paul Graham's Essays](https://www.paulgraham.com/)** — startups, tech, and how to think, from the Y Combinator co-founder
