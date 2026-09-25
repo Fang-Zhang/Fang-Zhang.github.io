@@ -247,9 +247,11 @@ a:hover {
 }
 
 #hero-intro {
-  font-size: 1.35rem;
+  font-size: 1.9rem;
+  display: inline-block;
   margin: 0 0 0.6rem;
-  color: var(--heading-color);
+  color: #ffffff;
+  font-weight: 700;
 }
 
 #hero-bio {
