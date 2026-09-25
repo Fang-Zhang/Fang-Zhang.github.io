@@ -247,6 +247,11 @@ a:hover {
   overflow: hidden;
 }
 
+#hero .preview-img.shimmer {
+  animation: none !important;
+  background: none !important;
+}
+
 #hero-intro {
   font-size: 1.9rem;
   display: inline-block;
