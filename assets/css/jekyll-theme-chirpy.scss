@@ -213,38 +213,13 @@ a:hover {
 
 /* --- Hero: personal info at top of homepage --- */
 #hero {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 1rem;
   padding: 1.5rem 0 2rem;
   border-bottom: 1px solid var(--main-border-color);
   margin-bottom: 1.5rem;
 }
 
 #hero-text {
-  flex: 1 1 auto;
   min-width: 0;
-}
-
-#hero-avatar {
-  width: 140px !important;
-  height: 140px !important;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-  margin-left: auto;
-  border: 2px solid var(--main-border-color);
-}
-
-#hero .preview-img {
-  width: 140px !important;
-  height: 140px !important;
-  aspect-ratio: 1 / 1 !important;
-  flex-shrink: 0;
-  margin-left: auto;
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 #hero-intro {
@@ -268,17 +243,6 @@ a:hover {
 
 #hero-bio a {
   color: var(--link-color);
-}
-
-@media (max-width: 576px) {
-  #hero {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  #hero-avatar {
-    margin: 0 auto;
-  }
 }
 
 /* --- Two-column homepage: articles left, quick notes right --- */
