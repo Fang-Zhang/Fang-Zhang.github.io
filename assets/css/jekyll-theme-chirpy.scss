@@ -214,8 +214,9 @@ a:hover {
 /* --- Hero: personal info at top of homepage --- */
 #hero {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
   padding: 1.5rem 0 2rem;
   border-bottom: 1px solid var(--main-border-color);
   margin-bottom: 1.5rem;
@@ -227,8 +228,8 @@ a:hover {
 }
 
 #hero-avatar {
-  width: 44px !important;
-  height: 44px !important;
+  width: 140px !important;
+  height: 140px !important;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -237,8 +238,8 @@ a:hover {
 }
 
 #hero .preview-img {
-  width: 44px !important;
-  height: 44px !important;
+  width: 140px !important;
+  height: 140px !important;
   aspect-ratio: 1 / 1 !important;
   flex-shrink: 0;
   margin-left: auto;
