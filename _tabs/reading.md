@@ -27,6 +27,7 @@ Books I want to read.
 - **[AI Infra: 大模型系统设计与工程实践](https://github.com/bojieli/ai-infra-book)** — 李博杰 (open-source book on AI infrastructure: model serving, distributed training/inference, hardware & compute estimation)
 - **[Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)** — Sebastian Raschka (how coding agents like Claude Code/Codex work: harness, tools, memory, context management)
 - **[James H. Simons, PhD: Using Mathematics to Make Money](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668072)** — James Simons interview, Journal of Investment Consulting (quant investing at Renaissance Technologies: model-building, hiring scientists over finance veterans, collaboration)
+- **[Making Startups Powerful](https://www.paulgraham.com/powerful.html)** — Paul Graham (heuristics for making a startup more powerful, not just more profitable: network effects, owning the customer relationship, going full stack, generosity, selling to early-stage companies)
 
 ## Blogs
 
