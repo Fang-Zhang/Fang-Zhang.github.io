@@ -1,0 +1,17 @@
+<!-- Personal info hero block at top of homepage -->
+
+<section id="hero">
+  <div id="hero-text">
+    <h1 id="hero-name">{{ site.social.name }}</h1>
+    {% if site.tagline %}
+      <p id="hero-tagline">{{ site.tagline }}</p>
+    {% endif %}
+    {% if site.description %}
+      <p id="hero-bio">{{ site.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if site.avatar %}
+    <img id="hero-avatar" src="{{ site.avatar }}" alt="{{ site.social.name }}">
+  {% endif %}
+</section>

@@ -1,0 +1,45 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var trigger = document.getElementById('menu-trigger');
+    var panel = document.getElementById('menu-panel');
+    var mask = document.getElementById('menu-mask');
+
+    var notesSearchTrigger = document.getElementById('notes-search-trigger');
+    var searchTrigger = document.getElementById('search-trigger');
+    if (notesSearchTrigger && searchTrigger) {
+      notesSearchTrigger.addEventListener('click', function () {
+        searchTrigger.click();
+      });
+    }
+
+    if (!trigger || !panel || !mask) return;
+
+    function openMenu() {
+      panel.classList.add('menu-open');
+      mask.classList.remove('d-none');
+      mask.classList.add('menu-mask-active');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeMenu() {
+      panel.classList.remove('menu-open');
+      mask.classList.add('d-none');
+      mask.classList.remove('menu-mask-active');
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+
+    trigger.addEventListener('click', function () {
+      if (panel.classList.contains('menu-open')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    mask.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeMenu();
+    });
+  });
+</script>

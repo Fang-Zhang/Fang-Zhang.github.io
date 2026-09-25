@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+{% include hero.html %}
+
+{% assign all_pinned = site.posts | where: 'pin', 'true' %}
+{% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+
+{% assign posts = '' | split: '' %}
+
+{% assign visible_start = paginator.page | minus: 1 | times: paginator.per_page %}
+{% assign visible_end = visible_start | plus: paginator.per_page %}
+
+{% if all_pinned.size > visible_start %}
+  {% if all_pinned.size > visible_end %}
+    {% assign pinned_size = paginator.per_page %}
+  {% else %}
+    {% assign pinned_size = all_pinned.size | minus: visible_start %}
+  {% endif %}
+
+  {% for i in (visible_start..all_pinned.size) limit: pinned_size %}
+    {% assign posts = posts | push: all_pinned[i] %}
+  {% endfor %}
+{% else %}
+  {% assign pinned_size = 0 %}
+{% endif %}
+
+{% assign normal_size = paginator.posts | size | minus: pinned_size %}
+
+{% if normal_size > 0 %}
+  {% if pinned_size > 0 %}
+    {% assign normal_start = 0 %}
+  {% else %}
+    {% assign normal_start = visible_start | minus: all_pinned.size %}
+  {% endif %}
+
+  {% assign normal_end = normal_start | plus: normal_size | minus: 1 %}
+
+  {% for i in (normal_start..normal_end) %}
+    {% assign posts = posts | push: all_normal[i] %}
+  {% endfor %}
+{% endif %}
+
+<div id="home-columns" class="d-flex">
+  <div id="col-articles">
+    <h2 class="col-heading">Recent Articles</h2>
+
+    <div id="post-list-flat">
+      {% for post in posts %}
+        <article class="flat-post-entry">
+          <a href="{{ post.url | relative_url }}" class="flat-post-link">
+            <h3 class="flat-post-title">{{ post.title }}</h3>
+          </a>
+
+          <div class="flat-post-meta">
+            {% include datetime.html date=post.date lang=lang %}
+            {% if post.categories.size > 0 %}
+              &middot;
+              {% for category in post.categories %}
+                {{ category }}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            {% endif %}
+            {% if post.pin %}
+              &middot; <i class="fas fa-thumbtack fa-fw"></i> {{ site.data.locales[lang].post.pin_prompt }}
+            {% endif %}
+          </div>
+
+          <p class="flat-post-excerpt">{% include post-summary.html %}</p>
+        </article>
+      {% endfor %}
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+      {% include post-paginator.html %}
+    {% endif %}
+  </div>
+
+  <div id="col-notes">
+    <button type="button" id="notes-search-trigger" class="d-flex align-items-center w-100">
+      <i class="fas fa-search fa-fw"></i>
+      <span>{{ site.data.locales[lang].search.hint | capitalize }}...</span>
+    </button>
+
+    <h2 class="col-heading">Quick Notes</h2>
+
+    <div id="quick-notes">
+      {% for note in site.data.notes %}
+        <div class="quick-note">
+          <div class="quick-note-date">{{ note.date | date: "%b %-d, %Y" }}</div>
+          <div class="quick-note-title">{{ note.title }}</div>
+          <p class="quick-note-text">{{ note.note }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

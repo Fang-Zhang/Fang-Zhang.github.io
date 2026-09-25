@@ -1,0 +1,93 @@
+<!-- Minimal top bar: hamburger menu + title, slide-out nav panel -->
+
+<header id="topnav-wrapper">
+  <div id="topnav" class="d-flex align-items-center justify-content-between flex-wrap">
+    <div class="d-flex align-items-center">
+      <button type="button" id="menu-trigger" class="btn btn-link" aria-label="Menu" aria-expanded="false" aria-controls="menu-panel">
+        <i class="fas fa-bars fa-fw"></i>
+      </button>
+
+      <a href="{{ '/' | relative_url }}" id="topnav-title">
+        {{ site.title }}
+      </a>
+    </div>
+
+    <div id="topnav-actions" class="d-flex align-items-center">
+      <button type="button" id="search-trigger" class="btn btn-link visually-hidden" aria-hidden="true" tabindex="-1">
+        <i class="fas fa-search fa-fw"></i>
+      </button>
+
+      {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
+        <button type="button" class="btn btn-link" id="mode-toggle" aria-label="Switch Mode">
+          <i class="fa-regular fa-sun" data-theme-mode="light"></i>
+          <i class="fa-regular fa-moon" data-theme-mode="dark"></i>
+          <i class="fa-solid fa-display" data-theme-mode="system"></i>
+        </button>
+      {% endunless %}
+    </div>
+  </div>
+
+  <search id="search" class="align-items-center">
+    <i class="fas fa-search fa-fw"></i>
+    <input
+      class="form-control"
+      id="search-input"
+      type="search"
+      aria-label="search"
+      autocomplete="off"
+      placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
+    >
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
+      {{- site.data.locales[include.lang].search.cancel -}}
+    </button>
+  </search>
+</header>
+
+<!-- Slide-out menu panel, toggled by the hamburger button -->
+<div id="menu-mask" class="d-none position-fixed w-100 h-100"></div>
+
+<nav id="menu-panel" aria-label="Site navigation">
+  <ul class="list-unstyled mb-0">
+    <li>
+      <a href="{{ '/' | relative_url }}" class="menu-link{% if page.layout == 'home' %} active{% endif %}">
+        {{ site.data.locales[include.lang].tabs.home | capitalize }}
+      </a>
+    </li>
+    {% assign hidden_tabs = "tags,archives,subscribe" | split: "," %}
+    {% for tab in site.tabs %}
+      {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+      {% unless hidden_tabs contains tab_name %}
+        <li>
+          <a href="{{ tab.url | relative_url }}" class="menu-link{% if tab.url == page.url %} active{% endif %}">
+            {{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | capitalize }}
+          </a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+
+  <div id="menu-socials" class="d-flex align-items-center">
+    {% for entry in site.data.contact %}
+      {%- assign url = null -%}
+      {% case entry.type %}
+        {% when 'github', 'twitter' %}
+          {%- unless site[entry.type].username -%}{%- continue -%}{%- endunless -%}
+          {%- capture url -%}https://{{ entry.type }}.com/{{ site[entry.type].username }}{%- endcapture -%}
+        {% when 'email' %}
+          {%- unless site.social.email -%}{%- continue -%}{%- endunless -%}
+          {%- assign email = site.social.email | split: '@' -%}
+          {%- capture url -%}javascript:void(location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
+          {%- endcapture -%}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' | relative_url %}
+        {% else %}
+          {% assign url = entry.url %}
+      {% endcase %}
+      {% if url %}
+        <a href="{{ url }}" aria-label="{{ entry.type }}" class="menu-social" target="_blank" rel="noopener noreferrer">
+          <i class="{{ entry.icon }}"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>

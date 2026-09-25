@@ -1,0 +1,433 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* -----------------------------------------------------------
+   Dark, hamburger-menu, hero + two-column homepage theme.
+------------------------------------------------------------ */
+
+:root[data-bs-theme='dark'],
+:root {
+  --main-bg: #0d1117;
+  --main-border-color: #2a2f38;
+
+  --text-color: #c9d1d9;
+  --text-muted-color: #8b949e;
+  --heading-color: #f0f2f5;
+  --label-color: #8b949e;
+  --blockquote-border-color: #2a2f38;
+  --blockquote-text-color: #8b949e;
+  --link-color: #4fb3d9;
+  --link-underline-color: #3a4048;
+
+  --topbar-bg: rgba(13, 17, 23, 0.9);
+  --topbar-text-color: #c9d1d9;
+  --search-border-color: #2a2f38;
+
+  --post-list-text-color: #8b949e;
+
+  --toc-highlight: #ff6b6b;
+  --card-bg: #161b22;
+  --card-hover-bg: #1c2128;
+  --tb-odd-bg: #161b22;
+  --tb-border-color: #2a2f38;
+}
+
+body,
+.post-content {
+  font-family: Helvetica, Arial, sans-serif;
+  background: var(--main-bg);
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title, .post-content h1, .post-content h2,
+.card-title, #post-list h1, .flat-post-title {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-weight: 600;
+}
+
+a {
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: var(--link-color);
+}
+
+/* --- Hide the old sidebar entirely --- */
+#sidebar {
+  display: none !important;
+}
+
+/* --- Single centered column, no sidebar offset --- */
+#main-wrapper {
+  margin-left: 0 !important;
+}
+
+.container-single {
+  max-width: 56rem;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+/* --- Top bar: hamburger + title --- */
+#topnav-wrapper {
+  border-bottom: 1px solid var(--main-border-color);
+  background: var(--topbar-bg);
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  backdrop-filter: blur(6px);
+}
+
+#topnav {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0.7rem 1.25rem;
+  gap: 0.75rem;
+}
+
+#menu-trigger {
+  color: var(--heading-color);
+  font-size: 1.15rem;
+  padding: 0.25rem 0.6rem 0.25rem 0.1rem;
+  border: none;
+  background: none;
+}
+
+#menu-trigger:hover {
+  color: var(--link-color);
+}
+
+#topnav-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--heading-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#topnav-actions {
+  gap: 0.35rem;
+}
+
+#topnav-wrapper #search {
+  display: none;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 0.75rem;
+}
+
+#topnav-wrapper #search.search-active {
+  display: flex;
+}
+
+/* Ensure the theme-mode icon set behaves like Chirpy's original toggle
+   (only one icon visible depending on current mode) */
+#topnav-actions #mode-toggle > i {
+  display: none;
+}
+
+#topnav-actions #mode-toggle {
+  position: relative;
+}
+
+:root[data-bs-theme='light'][data-theme-persisted] #topnav-actions #mode-toggle > i[data-theme-mode='light'],
+:root[data-bs-theme='dark'][data-theme-persisted] #topnav-actions #mode-toggle > i[data-theme-mode='dark'],
+:root:not([data-theme-persisted]) #topnav-actions #mode-toggle > i[data-theme-mode='system'] {
+  display: inline-block;
+}
+
+/* --- Slide-out hamburger menu panel --- */
+#menu-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  background: var(--card-bg);
+  border-right: 1px solid var(--main-border-color);
+  padding: 4.5rem 1.5rem 1.5rem;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease;
+  z-index: 80;
+  overflow-y: auto;
+}
+
+#menu-panel.menu-open {
+  transform: translateX(0);
+}
+
+#menu-panel .menu-link {
+  display: block;
+  padding: 0.6rem 0;
+  color: var(--text-color);
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+#menu-panel .menu-link:hover,
+#menu-panel .menu-link.active {
+  color: var(--link-color);
+}
+
+#menu-socials {
+  margin-top: 1.5rem;
+  gap: 0.9rem;
+}
+
+.menu-social {
+  color: var(--text-muted-color);
+  font-size: 1.05rem;
+}
+
+.menu-social:hover {
+  color: var(--link-color);
+}
+
+#menu-mask {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 70;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+#menu-mask.menu-mask-active {
+  display: block !important;
+}
+
+/* --- Hero: personal info at top of homepage --- */
+#hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0 2rem;
+  border-bottom: 1px solid var(--main-border-color);
+  margin-bottom: 1.5rem;
+}
+
+#hero-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+#hero-avatar {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: auto;
+  border: 2px solid var(--main-border-color);
+}
+
+#hero .preview-img {
+  width: 44px !important;
+  height: 44px !important;
+  aspect-ratio: 1 / 1 !important;
+  flex-shrink: 0;
+  margin-left: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#hero-name {
+  font-size: 1.6rem;
+  margin: 0 0 0.2rem;
+  color: var(--heading-color);
+}
+
+#hero-tagline {
+  font-size: 1rem;
+  color: var(--link-color);
+  margin: 0 0 0.4rem;
+}
+
+#hero-bio {
+  font-size: 0.92rem;
+  color: var(--text-muted-color);
+  margin: 0;
+  max-width: 38rem;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #hero-avatar {
+    margin: 0 auto;
+  }
+}
+
+/* --- Two-column homepage: articles left, quick notes right --- */
+#home-columns {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#col-articles {
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+#col-notes {
+  flex: 1 1 35%;
+  min-width: 260px;
+  background: var(--card-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  padding: 1.25rem 1.4rem;
+}
+
+#notes-search-trigger {
+  background: var(--main-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 6px;
+  color: var(--text-muted-color);
+  font-size: 0.88rem;
+  padding: 0.55rem 0.8rem;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+  text-align: left;
+}
+
+#notes-search-trigger:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
+}
+
+.col-heading {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted-color);
+  margin: 0 0 1rem;
+}
+
+@media (max-width: 768px) {
+  #home-columns {
+    flex-direction: column;
+  }
+}
+
+/* --- Flat post list (title / meta / excerpt, no cards) --- */
+#post-list-flat {
+  margin-top: 0.25rem;
+}
+
+.flat-post-entry {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+.flat-post-entry:first-child {
+  padding-top: 0;
+}
+
+.flat-post-link {
+  text-decoration: none;
+}
+
+.flat-post-title {
+  font-size: 1.15rem;
+  margin: 0 0 0.3rem;
+  color: var(--heading-color);
+}
+
+.flat-post-link:hover .flat-post-title {
+  color: var(--link-color);
+}
+
+.flat-post-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted-color);
+  margin-bottom: 0.4rem;
+}
+
+.flat-post-excerpt {
+  font-size: 0.9rem;
+  color: var(--post-list-text-color);
+  margin: 0;
+}
+
+/* --- Quick notes panel --- */
+.quick-note {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+.quick-note:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.quick-note:first-child {
+  padding-top: 0;
+}
+
+.quick-note-date {
+  font-size: 0.75rem;
+  color: var(--text-muted-color);
+  margin-bottom: 0.15rem;
+}
+
+.quick-note-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 0.25rem;
+}
+
+.quick-note-text {
+  font-size: 0.85rem;
+  color: var(--post-list-text-color);
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* --- Footer: icons + date + signature --- */
+#site-footer {
+  padding: 2rem 0 2.5rem;
+  border-top: 1px solid var(--main-border-color);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#footer-icons {
+  gap: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-social {
+  color: var(--text-muted-color);
+  font-size: 1.1rem;
+}
+
+.footer-social:hover {
+  color: var(--link-color);
+}
+
+#footer-signature {
+  font-size: 0.82rem;
+  color: var(--text-muted-color);
+  margin: 0;
+}
