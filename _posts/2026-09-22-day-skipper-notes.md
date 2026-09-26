@@ -13,3 +13,14 @@ Day Skipper covers a lot of ground in a short time: chartwork, compass theory, t
 I plan to break this down into focused posts on the individual instruments and systems — chart, compass, radar, sonar, tide — each one working through the underlying principle rather than just the procedure. The goal isn't a study guide; it's building an understanding solid enough that I could explain it to someone else from first principles, which is usually the only real test of whether you understand something at all.
 
 More to come as each topic gets written up.
+
+## Posts in this series
+
+- [What's in a Boat]({{ '/posts/whats-in-a-boat/' | relative_url }})
+- [How to Read the Chart for Navigation]({{ '/posts/how-to-read-the-chart-for-navigation/' | relative_url }})
+- [Fishing with Sonar]({{ '/posts/fishing-with-sonar/' | relative_url }})
+- [Using Radar in Invisible Fields]({{ '/posts/using-radar-in-invisible-fields/' | relative_url }})
+- [Weather: Winds, Tides and Currents]({{ '/posts/weather-winds-tides-and-currents/' | relative_url }})
+- [Docking and Anchoring (with Knots)]({{ '/posts/docking-and-anchoring-with-knots/' | relative_url }})
+- [Emergency and Safety]({{ '/posts/emergency-and-safety/' | relative_url }})
+- [Communication]({{ '/posts/communication/' | relative_url }})
