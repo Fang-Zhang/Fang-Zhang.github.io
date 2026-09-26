@@ -1,13 +1,14 @@
 <!-- Minimal top bar: hamburger menu + title, slide-out nav panel -->
 
 <header id="topnav-wrapper">
+  <button type="button" id="sidebar-trigger" class="visually-hidden" aria-hidden="true" tabindex="-1"></button>
   <div id="topnav" class="d-flex align-items-center justify-content-between flex-wrap">
     <div class="d-flex align-items-center">
       <button type="button" id="menu-trigger" class="btn btn-link" aria-label="Menu" aria-expanded="false" aria-controls="menu-panel">
         <i class="fas fa-bars fa-fw"></i>
       </button>
 
-      <a href="{{ '/' | relative_url }}" id="topnav-title">
+      <a href="{{ '/' | relative_url }}" id="topbar-title">
         {{ site.title }}
       </a>
     </div>
