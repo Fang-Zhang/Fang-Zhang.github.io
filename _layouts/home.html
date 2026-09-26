@@ -95,7 +95,6 @@ layout: default
     <div id="quick-notes">
       {% for note in site.data.notes %}
         <div class="quick-note">
-          <div class="quick-note-date">{{ note.date | date: "%b %-d, %Y" }}</div>
           <a href="{{ note.url }}" class="quick-note-title">{{ note.title }}</a>
           <p class="quick-note-text">{{ note.note }}</p>
         </div>
