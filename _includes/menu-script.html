@@ -105,8 +105,14 @@
 
         if (btn) btn.addEventListener('click', runSearch);
 
+        var debounceTimer;
         input.addEventListener('input', function () {
-          if (input.value.trim() === '') showDefaultMode();
+          if (input.value.trim() === '') {
+            showDefaultMode();
+            return;
+          }
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(runSearch, 200);
         });
       });
   });
