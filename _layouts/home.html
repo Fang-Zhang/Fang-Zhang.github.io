@@ -48,6 +48,13 @@ layout: default
   <div id="col-articles">
     <h2 class="col-heading">Recent Articles</h2>
 
+    <div id="inline-search-box" class="d-flex align-items-center">
+      <input type="search" id="inline-search-input" placeholder="{{ site.data.locales[lang].search.hint | capitalize }}..." autocomplete="off">
+      <button type="button" id="inline-search-btn" aria-label="Search">
+        <i class="fas fa-search fa-fw"></i>
+      </button>
+    </div>
+
     <div id="post-list-flat">
       {% for post in posts %}
         <article class="flat-post-entry">
@@ -73,17 +80,16 @@ layout: default
       {% endfor %}
     </div>
 
+    <div id="inline-search-results" class="d-none"></div>
+
     {% if paginator.total_pages > 1 %}
-      {% include post-paginator.html %}
+      <div id="post-paginator-wrapper">
+        {% include post-paginator.html %}
+      </div>
     {% endif %}
   </div>
 
   <div id="col-notes">
-    <button type="button" id="notes-search-trigger" class="d-flex align-items-center w-100">
-      <i class="fas fa-search fa-fw"></i>
-      <span>{{ site.data.locales[lang].search.hint | capitalize }}...</span>
-    </button>
-
     <h2 class="col-heading">Quick Notes</h2>
 
     <div id="quick-notes">

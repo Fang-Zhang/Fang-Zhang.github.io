@@ -4,14 +4,6 @@
     var panel = document.getElementById('menu-panel');
     var mask = document.getElementById('menu-mask');
 
-    var notesSearchTrigger = document.getElementById('notes-search-trigger');
-    var searchTrigger = document.getElementById('search-trigger');
-    if (notesSearchTrigger && searchTrigger) {
-      notesSearchTrigger.addEventListener('click', function () {
-        searchTrigger.click();
-      });
-    }
-
     if (!trigger || !panel || !mask) return;
 
     function openMenu() {
@@ -41,5 +33,81 @@
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') closeMenu();
     });
+
+    // --- Inline homepage search: replaces Recent Articles list in place ---
+    var input = document.getElementById('inline-search-input');
+    var btn = document.getElementById('inline-search-btn');
+    var postList = document.getElementById('post-list-flat');
+    var paginator = document.getElementById('post-paginator-wrapper');
+    var resultsBox = document.getElementById('inline-search-results');
+
+    if (!input || !resultsBox) return;
+
+    function escapeHtml(str) {
+      var div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderResults(results) {
+      if (!results || results.length === 0) {
+        resultsBox.innerHTML = '<p class="text-muted mt-3">No matching posts found.</p>';
+        return;
+      }
+      var html = '';
+      results.forEach(function (r) {
+        html += '<article class="flat-post-entry">' +
+          '<a href="' + r.url + '" class="flat-post-link">' +
+          '<h3 class="flat-post-title">' + escapeHtml(r.title) + '</h3>' +
+          '</a>' +
+          '<p class="flat-post-excerpt">' + escapeHtml(r.content).slice(0, 160) + '&hellip;</p>' +
+          '</article>';
+      });
+      resultsBox.innerHTML = html;
+    }
+
+    function showSearchMode() {
+      postList.classList.add('d-none');
+      if (paginator) paginator.classList.add('d-none');
+      resultsBox.classList.remove('d-none');
+    }
+
+    function showDefaultMode() {
+      postList.classList.remove('d-none');
+      if (paginator) paginator.classList.remove('d-none');
+      resultsBox.classList.add('d-none');
+      resultsBox.innerHTML = '';
+    }
+
+    fetch('{{ "/assets/js/data/search.json" | relative_url }}')
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        function runSearch() {
+          var query = input.value.trim().toLowerCase();
+          if (query === '') {
+            showDefaultMode();
+            return;
+          }
+          var matches = data.filter(function (item) {
+            return (item.title && item.title.toLowerCase().indexOf(query) !== -1) ||
+                   (item.content && item.content.toLowerCase().indexOf(query) !== -1);
+          });
+          showSearchMode();
+          renderResults(matches);
+        }
+
+        input.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            runSearch();
+          }
+        });
+
+        if (btn) btn.addEventListener('click', runSearch);
+
+        input.addEventListener('input', function () {
+          if (input.value.trim() === '') showDefaultMode();
+        });
+      });
   });
 </script>
