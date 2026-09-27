@@ -7,6 +7,8 @@ categories: [Personal]
 tags: [LLM, machine learning, learning resources]
 ---
 
+![LLM learning path staircase](/assets/pic/llm-learning-staircase.jpg){: width="700" }
+
 Learning large language models isn't one long staircase — it's a series of distinct stages, each with its own state of mind and its own best resources. Here's a map of that path.
 
 | Stage | Learner's State | Representative Solutions |
