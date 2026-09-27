@@ -12,6 +12,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Rebuild daily so future-dated posts go live automatically once their
+  # date arrives, without needing a new push. 18:00 UTC = 07:00 NZST
+  # (Pacific/Auckland, UTC+13 during NZ daylight saving; adjust if needed
+  # when NZ switches to standard time UTC+12).
+  schedule:
+    - cron: "0 18 * * *"
+
 permissions:
   contents: read
   pages: write
