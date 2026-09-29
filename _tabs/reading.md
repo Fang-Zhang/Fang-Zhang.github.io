@@ -37,3 +37,4 @@ Books I want to read.
 - **[Sebastian Raschka, PhD](https://sebastianraschka.com/)** — LLM research engineer, author of *Build a Large Language Model (From Scratch)*; blog covers LLM research, architecture notes (Kimi K3, Muse Glimmer), and practical/code-driven AI deep dives
 - **[Language Models & Co.](https://newsletter.languagemodels.co/)** — Jay Alammar (creator of "The Illustrated Transformer"), newsletter on LLM internals and applications
 - **[Paul Graham's Essays](https://www.paulgraham.com/)** — startups, tech, and how to think, from the Y Combinator co-founder
+- **[RLHF Book](https://rlhfbook.com/)** — Nathan Lambert, living online textbook on Reinforcement Learning from Human Feedback (RLHF fundamentals, reward modeling, PPO/DPO, RLHF's role in modern LLM post-training)
