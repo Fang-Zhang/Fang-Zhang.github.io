@@ -21,6 +21,31 @@ Books I want to read.
 - **Multi-Agent AI Engineering: Design, build, and operate AI systems that think and act as coordinated teams** — Dr. Xiao Ma, Dr. Chi Wang, Packt (production-grade multi-agent systems: communication protocols, memory/context, orchestration, evaluation, security, observability)
 - **AI Agents in Action** (2nd ed.) — Micheal Lanham, Manning (autonomous agent design/deployment, MCP tools/memory, reasoning & planning patterns — ReAct, Reflexion, Tree-of-Thought, multi-agent patterns)
 
+## AI Plays Games: From Atari to Agents
+
+A study track on how machines learn to play video games, from reinforcement learning on raw pixels to LLM agents that write their own skills.
+
+**Foundations**
+
+- **[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)** (2nd ed.) — Richard Sutton, Andrew Barto, MIT Press, 2018 (the standard RL textbook, free PDF from the authors)
+
+**Reinforcement learning from pixels**
+
+- **[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)** — Mnih et al., DeepMind, 2013 (the starting point: one network learns Atari games from raw pixels)
+- **[Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)** — Mnih et al., Nature, 2015 (the DQN paper)
+- **[Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961)** — Silver et al., Nature, 2016 (AlphaGo)
+- **[Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265)** — Schrittwieser et al., 2019 (MuZero: plans with a model it learns itself, no rules given)
+
+**Large-scale competitive play**
+
+- **[Grandmaster level in StarCraft II using multi-agent reinforcement learning](https://www.nature.com/articles/s41586-019-1724-z)** — Vinyals et al., Nature, 2019 (AlphaStar)
+- **[Dota 2 with Large Scale Deep Reinforcement Learning](https://arxiv.org/abs/1912.06680)** — OpenAI, 2019 (OpenAI Five)
+
+**LLM agents and social games**
+
+- **[Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)** — Wang et al., 2023 (Minecraft agent that builds a reusable skill library as code)
+- **[Human-level play in the game of Diplomacy by combining language models with strategic reasoning](https://pubmed.ncbi.nlm.nih.gov/36413172)** — Meta FAIR Diplomacy Team, Science, 2022 (Cicero: negotiates in natural language)
+
 ## Articles
 
 - **[Extending Raschka's GPT-2: an MoE trained from scratch on an RTX 3090](https://www.gilesthomas.com/2026/09/gpt-2-to-moe)** — Giles Thomas
