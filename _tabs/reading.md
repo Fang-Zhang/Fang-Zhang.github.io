@@ -27,7 +27,7 @@ A study track on how machines learn to play video games, from reinforcement lear
 
 **Foundations**
 
-- **[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)** (2nd ed.) — Richard Sutton, Andrew Barto, MIT Press, 2018 (the standard RL textbook, free PDF from the authors)
+- **[Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)** (2nd ed.) — Richard Sutton, Andrew Barto, MIT Press, 2018 (the standard RL textbook; the authors offer a free PDF, linked here via a Stanford course copy)
 
 **Reinforcement learning from pixels**
 
