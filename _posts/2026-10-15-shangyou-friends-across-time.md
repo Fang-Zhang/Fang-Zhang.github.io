@@ -1,5 +1,5 @@
 ---
-title: "尚友：同频的人，要隔着书去找"
+title: "尚友：同频的人，要跨过桥去找"
 date: 2026-10-15 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [论语, 孟子, 尚友, 友谊, 读书, 易经, iChing]
