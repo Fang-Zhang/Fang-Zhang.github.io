@@ -101,7 +101,7 @@ This is a suggestion, not a template.
 
 *After the from-scratch material:*
 
-1. The LoRA series (part 2), then [New LLM Pre-training and Post-training Paradigms](https://magazine.sebastianraschka.com/p/new-llm-pre-training-and-post-training)
+1. The LoRA series ([Parameter-Efficient Finetuning](https://sebastianraschka.com/blog/2023/llm-finetuning-llama-adapter.html), [LoRA](https://sebastianraschka.com/blog/2023/llm-finetuning-lora.html), [Finetuning Falcon](https://sebastianraschka.com/blog/2023/falcon-finetuning.html), [DoRA from Scratch](https://magazine.sebastianraschka.com/p/lora-and-dora-from-scratch)), then [New LLM Pre-training and Post-training Paradigms](https://magazine.sebastianraschka.com/p/new-llm-pre-training-and-post-training)
 2. [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms), then [the GRPO article](https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training)
 3. [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
 
