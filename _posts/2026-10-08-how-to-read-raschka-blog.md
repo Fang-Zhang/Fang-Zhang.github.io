@@ -105,6 +105,6 @@ This is a suggestion, not a template.
 2. [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms), then [the GRPO article](https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training)
 3. [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
 
-*Long-term reference:* the yearly paper lists and the Architecture Gallery.
+*Long-term reference:* the yearly paper lists ([2024](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list), [2025 January to June](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-list-one), [2025 July to December](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2), [2026 January to May](https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1)) and the [LLM Architecture Gallery](https://sebastianraschka.com/blog/2026/llm-architecture-gallery.html).
 
 That order moves from method to map to practice to the current frontier. It works for any large body of technical writing. Pick the article that teaches you how to read the rest, build a frame, then go deeper in the order your work needs.
