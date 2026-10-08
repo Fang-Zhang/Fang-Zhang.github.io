@@ -50,16 +50,12 @@ A study track on how machines learn to play video games, from reinforcement lear
 
 - **[Extending Raschka's GPT-2: an MoE trained from scratch on an RTX 3090](https://www.gilesthomas.com/2026/09/gpt-2-to-moe)** — Giles Thomas
 - **[AI Infra: 大模型系统设计与工程实践](https://github.com/bojieli/ai-infra-book)** — 李博杰 (open-source book on AI infrastructure: model serving, distributed training/inference, hardware & compute estimation)
-- **[Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)** — Sebastian Raschka (how coding agents like Claude Code/Codex work: harness, tools, memory, context management)
 - **[James H. Simons, PhD: Using Mathematics to Make Money](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668072)** — James Simons interview, Journal of Investment Consulting (quant investing at Renaissance Technologies: model-building, hiring scientists over finance veterans, collaboration)
-- **[Making Startups Powerful](https://www.paulgraham.com/powerful.html)** — Paul Graham (heuristics for making a startup more powerful, not just more profitable: network effects, owning the customer relationship, going full stack, generosity, selling to early-stage companies)
 
 ## Blogs
 
-- **[Computing Life](https://yage.ai/)** — engineering notebook on AI, systems, and everyday experiments (agentic AI, edge AI/microcontroller experiments, astrophotography simulations, AI-and-career reflections)
 - **[Brendan Gregg's Homepage](https://www.brendangregg.com/)** — systems performance engineer (creator of Flame Graphs, eBPF/BPF tools, DTrace; author of *Systems Performance* and *BPF Performance Tools*); site collects his docs, talks, and tools on Linux/cloud performance analysis
 - **[科学空间 (Scientific Spaces)](https://spaces.ac.cn/)** — 苏剑林, blog on math/ML theory (optimizer theory — Adam/Muon, scaling laws, manifold optimization, information theory)
 - **[Sebastian Raschka, PhD](https://sebastianraschka.com/)** — LLM research engineer, author of *Build a Large Language Model (From Scratch)*; blog covers LLM research, architecture notes (Kimi K3, Muse Glimmer), and practical/code-driven AI deep dives
-- **[Language Models & Co.](https://newsletter.languagemodels.co/)** — Jay Alammar (creator of "The Illustrated Transformer"), newsletter on LLM internals and applications
 - **[Paul Graham's Essays](https://www.paulgraham.com/)** — startups, tech, and how to think, from the Y Combinator co-founder
 - **[RLHF Book](https://rlhfbook.com/)** — Nathan Lambert, living online textbook on Reinforcement Learning from Human Feedback (RLHF fundamentals, reward modeling, PPO/DPO, RLHF's role in modern LLM post-training)
