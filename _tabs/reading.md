@@ -59,3 +59,15 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[Sebastian Raschka, PhD](https://sebastianraschka.com/)** — LLM research engineer, author of *Build a Large Language Model (From Scratch)*; blog covers LLM research, architecture notes (Kimi K3, Muse Glimmer), and practical/code-driven AI deep dives
 - **[Paul Graham's Essays](https://www.paulgraham.com/)** — startups, tech, and how to think, from the Y Combinator co-founder
 - **[RLHF Book](https://rlhfbook.com/)** — Nathan Lambert, living online textbook on Reinforcement Learning from Human Feedback (RLHF fundamentals, reward modeling, PPO/DPO, RLHF's role in modern LLM post-training)
+- **[Lil'Log (Lilian Weng)](https://lilianweng.github.io/)** — long survey-style posts (20 to 40 minute reads); latest: *Harness Engineering for Self-Improvement* (2026.7), *Scaling Laws, Carefully* (2026.6)
+- **[Andrej Karpathy blog](https://karpathy.github.io/)** — infrequent posts; latest: *microgpt* (2026.2), GPT training and inference in 200 lines of pure Python
+- **[Tri Dao's blog](https://tridao.me/blog/)** — FlashAttention author; 2026 posts include *Gram Newton-Schulz* (fast Newton-Schulz for Muon), SonicMoE, ReplaySSM
+- **[Interconnects](https://www.interconnects.ai/)** — Nathan Lambert, newsletter on open models, post-training and the AI industry
+- **[Tim Dettmers](https://timdettmers.com/)** — quantization, GPU hardware and open coding agents (*Building SERA*, 2026.1)
+- **[Simon Willison's Weblog](https://simonwillison.net/)** — daily notes on LLM tools, coding agents and security
+- **[Hamel Husain's Blog](https://hamel.dev/)** — applied AI engineering, focused on evals
+- **[Eugene Yan](https://eugeneyan.com/)** — applied LLM systems and recommendation systems
+- **[Sasha Rush](https://rush-nlp.com/)** — post-training researcher at Cursor; hands-on exercises: [Thinking like Transformer](https://srush.github.io/raspy), [LLM Training Puzzles](https://github.com/srush/LLM-Training-Puzzles)
+- **[Thonk From First Principles (Horace He)](https://www.thonking.ai/)** — ML systems from first principles
+- **[Transformer Circuits](https://transformer-circuits.pub/)** — interpretability research thread; Chris Olah's current writing, moved from his older blog [colah.github.io](https://colah.github.io/) (last updated 2021)
+- **[The Scaling Hypothesis (Gwern)](https://gwern.net/scaling-hypothesis)** — long essay, not a running blog
