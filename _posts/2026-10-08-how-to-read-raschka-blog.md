@@ -8,8 +8,6 @@ description: "Sebastian Raschka's blog has about 190 posts over thirteen years. 
 
 Some blogs are too big to read. [Sebastian Raschka's blog](https://sebastianraschka.com/blog/) has about 190 posts across thirteen years, from early notes on PCA and naive Bayes to the 2026 notes on attention variants and reasoning models. You can't read it front to back, and sorting by date won't help. The useful question is which order to read it in.
 
-I haven't read all of it. I read the index and one article in full, and the rest of this map comes from titles and summaries, so treat it as a plan for reading, not a review.
-
 **One article to read first**
 
 His [Recommendations for Getting the Most Out of a Technical Book](https://sebastianraschka.com/blog/2025/reading-books.html) (November 2025) is short and sets the method. It gives five steps for each chapter:
