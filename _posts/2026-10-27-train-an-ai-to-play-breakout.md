@@ -75,7 +75,7 @@ model.save("ppo_breakout_1m")
 
 `CnnPolicy` is the convolutional network that turns four stacked frames into action probabilities and a value estimate. The hyperparameters follow the commonly used Atari PPO settings; I did not tune them. The checkpoint callback saves a snapshot every 100,000 steps, which is how the comparison below was made.
 
-On this machine the run took 1,824 seconds, about 30 minutes, at roughly 500 steps per second. Without a GPU the practical cost is time, not feasibility: an earlier test with a single process managed about 130 steps per second, and eight parallel processes roughly doubled that, so it pays to use `SubprocVecEnv`.
+On this machine the run took 1,824 seconds, about 30 minutes, at roughly 550 steps per second, as reported by the training log. Without a GPU the practical cost is time, not feasibility. In short speed tests of 16,384 steps, the default single-process setup managed about 130 steps per second, while `SubprocVecEnv` with 8 environments reached 158 to 257 depending on the number of PyTorch threads, so it pays to use it.
 
 ![Rolling average training score on Breakout over one million steps](/assets/pic/breakout-training-curve.png)
 
@@ -127,7 +127,7 @@ It needs the Box2D physics library, which on my Python 3.14 environment did not 
 
 - **Training score is not game score.** The rolling mean in the logs uses clipped rewards, and counts a life as an episode. Evaluate with full games, as in Step 3.
 - **Single runs are noisy.** Every number here comes from one seed. Reinforcement learning results vary a lot between seeds, so a comparison between two settings needs several runs each before it means anything.
-- **SubprocVecEnv needs a `__main__` guard.** Without `if __name__ == "__main__":`, the worker processes crash with a `ConnectionResetError`.
+- **SubprocVecEnv needs a `__main__` guard.** The worker processes are started as new Python processes that re-import the script, so the training code must sit under `if __name__ == "__main__":`, which is what the code above does.
 - **Check the hardware before the plan.** On a CPU, measure steps per second first with a short run, then choose the step budget.
 
 ## Where to go next
