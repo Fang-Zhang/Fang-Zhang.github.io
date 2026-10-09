@@ -62,6 +62,7 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[Lil'Log (Lilian Weng)](https://lilianweng.github.io/)** — long survey-style posts (20 to 40 minute reads); latest: *Harness Engineering for Self-Improvement* (2026.7), *Scaling Laws, Carefully* (2026.6)
 - **[Andrej Karpathy blog](https://karpathy.github.io/)** — infrequent posts; latest: *microgpt* (2026.2), GPT training and inference in 200 lines of pure Python
 - **[Tri Dao's blog](https://tridao.me/blog/)** — FlashAttention author; 2026 posts include *Gram Newton-Schulz* (fast Newton-Schulz for Muon), SonicMoE, ReplaySSM
+- **[Giles' Blog (Giles Thomas)](https://www.gilesthomas.com/)** — tutorial-style posts on learning LLMs by building them, "the post I wished I'd found when I started learning"; includes a series working through Raschka's from-scratch book; actively updated (2026.10)
 - **[Interconnects](https://www.interconnects.ai/)** — Nathan Lambert, newsletter on open models, post-training and the AI industry
 - **[Tim Dettmers](https://timdettmers.com/)** — quantization, GPU hardware and open coding agents (*Building SERA*, 2026.1)
 - **[Simon Willison's Weblog](https://simonwillison.net/)** — daily notes on LLM tools, coding agents and security
