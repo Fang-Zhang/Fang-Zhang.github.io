@@ -1,7 +1,7 @@
 ---
 title: "How to Read a 190-Post Blog: A Map of Sebastian Raschka's Writing"
 date: 2026-10-08 06:00:00 +1300
-categories: [Personal, Learning]
+categories: [Tech, AI/ML]
 tags: [LLM, reading-list, machine-learning, learning]
 description: "Sebastian Raschka's blog has about 190 posts over thirteen years. A reading order that moves from method to map to practice to the current frontier."
 ---
