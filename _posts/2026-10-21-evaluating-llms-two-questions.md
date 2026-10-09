@@ -1,7 +1,7 @@
 ---
 title: "Evaluating LLMs: Two Questions, Not One"
 date: 2026-10-21 06:00:00 +1300
-categories: [Personal, Learning]
+categories: [Tech, AI/ML]
 tags: [LLM, evaluation, evals, machine-learning, reading-list]
 description: "Choosing a model and judging your own application are two different evaluation problems. Benchmarks answer the first. Error analysis, graders and a small eval set answer the second."
 ---
