@@ -1,7 +1,7 @@
 ---
 title: "A Reading Map for Scientific Spaces: 1,340 Posts of Math Behind Machine Learning"
 date: 2026-10-19 06:00:00 +1300
-categories: [Personal, Learning]
+categories: [Tech, AI/ML]
 tags: [LLM, machine-learning, mathematics, reading-list]
 description: "Scientific Spaces (科学空间) has 1,340 posts from 2009 to 2026. A map of its series and a reading order for the math behind machine learning."
 ---
