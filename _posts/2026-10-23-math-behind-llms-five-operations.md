@@ -3,6 +3,7 @@ title: "The Math Behind LLMs Is Small: Five Operations"
 date: 2026-10-23 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, machine-learning, mathematics, transformers, reading-list]
+math: true
 description: "A large language model is a short list of mathematical operations composed many times: dot product, matrix projection, softmax, weighted averaging, and cross-entropy with gradient descent."
 ---
 
@@ -16,9 +17,7 @@ So the useful question is which pieces, and in what order. Here are five.
 
 Multiply two vectors element by element and add the results. That is the whole operation.
 
-```
-a · b = a1·b1 + a2·b2 + ... + ad·bd
-```
+$$\mathbf{a}\cdot\mathbf{b} = a_1 b_1 + a_2 b_2 + \dots + a_d b_d$$
 
 Its meaning: the dot product is large when two vectors point in similar directions and small or negative when they do not. Giles Thomas notes that when the vectors are scaled to length one, it equals the cosine of the angle between them, which is why it is called cosine similarity. Breeden gives the reason it was chosen: it is the simplest measure of association that is cheap to compute and differentiable, so parameters can be learned by gradient-based optimization.
 
@@ -36,9 +35,7 @@ Rohit Patel's [Understanding LLMs from Scratch Using Middle School Math](https:/
 
 A network's raw outputs are arbitrary real numbers. Softmax converts a vector of them into non-negative numbers that sum to one:
 
-```
-softmax(z)_i = exp(z_i) / sum_j exp(z_j)
-```
+$$\mathrm{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
 
 Giles Thomas points out a consequence: many different "messy" logit vectors map to the same probability distribution, so softmax gives a tidy normalised space. Breeden argues the name hides the purpose. For a statistician it is the inverse multinomial logit, the same function used in multinomial logistic regression, and "softmax" names "a computational property (it is a smooth approximation to the argmax function) rather than the statistical purpose."
 
@@ -46,11 +43,9 @@ Giles Thomas points out a consequence: many different "messy" logit vectors map 
 
 Here the first three pieces combine. Breeden's formulation is the plainest one available: to build a context-aware representation of position *i*, take a weighted average of the vectors at positions *j*,
 
-```
-h_i = sum_j  alpha_ij · v_j        (alpha_ij >= 0, sum_j alpha_ij = 1)
-```
+$$h_i = \sum_j \alpha_{ij}\, v_j, \qquad \alpha_{ij}\ge 0,\quad \sum_j \alpha_{ij}=1$$
 
-where the weights come from dot products between learned projections of the vectors (pieces 1 and 2), scaled by the square root of the projection dimension and passed through softmax (piece 3). The standard compact form, as [Anjali T. writes it](https://medium.com/@anjalitanikella/understanding-the-math-behind-llm-models-and-fine-tuning-them-ee4ca222823f), is `softmax(QKᵀ/√d_k)V`.
+where the weights come from dot products between learned projections of the vectors (pieces 1 and 2), scaled by the square root of the projection dimension and passed through softmax (piece 3). The standard compact form, as [Anjali T. writes it](https://medium.com/@anjalitanikella/understanding-the-math-behind-llm-models-and-fine-tuning-them-ee4ca222823f), is $$\mathrm{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V$$.
 
 Breeden also objects to the usual vocabulary. Query, key and value are borrowed from databases, but "Nothing is being 'looked up' in the sense of database retrieval." His neutral names are influence scores and influence weights. He also stresses that influence is asymmetric: how much "cat" matters when updating "sat" differs from how much "sat" matters when updating "cat", which is why a plain dot product of the raw vectors is not enough and separate projections are needed.
 
@@ -60,7 +55,7 @@ Stacking many such layers, with nonlinear transformations, normalisation and pos
 
 After the final layer, each vocabulary token gets a score, softmax turns the scores into a probability for every possible next token, and training asks one question: how much probability did the model give the token that actually came next?
 
-The loss is cross-entropy. Breeden shows why it is simpler than it sounds. The "true distribution" is a one-hot vector, because only one word actually occurred, and its entropy is zero. Cross-entropy therefore reduces to `−log q(actual word)`, the negative log-likelihood of the observed word. Minimising it is the same objective as maximum likelihood. The information-theoretic framing adds intuition, as he puts it, "you are measuring how surprised your model is by reality", but the mathematics is identical.
+The loss is cross-entropy. Breeden shows why it is simpler than it sounds. The "true distribution" is a one-hot vector, because only one word actually occurred, and its entropy is zero. Cross-entropy therefore reduces to $$-\log q(\text{actual word})$$, the negative log-likelihood of the observed word. Minimising it is the same objective as maximum likelihood. The information-theoretic framing adds intuition, as he puts it, "you are measuring how surprised your model is by reality", but the mathematics is identical.
 
 The optimiser is gradient descent. Compute the derivative of the loss with respect to every parameter and move each one slightly in the direction that lowers it. The chain rule makes this feasible through dozens of layers, and software libraries do it automatically. Breeden's verdict: "If anything in LLMs seems like magic, it is that billions of parameters can be estimated simultaneously."
 
