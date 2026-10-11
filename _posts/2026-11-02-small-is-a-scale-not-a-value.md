@@ -6,7 +6,10 @@ tags: [cosmology, meaning, perspective, overview-effect]
 description: "From Earth as a pixel to a civilization as a few centimetres of rock: why smallness describes a scale, and why the same distance that shrinks everything also makes one place matter."
 ---
 
-On February 14, 1990, Voyager 1 turned its camera around from [6 billion kilometres out](https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot) and photographed Earth. In the frame the planet is less than a pixel, a pale dot caught in a band of scattered sunlight. Carl Sagan, who had pushed for the picture, later wrote of it in *Pale Blue Dot*: "That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives… on a mote of dust suspended in a sunbeam."
+On February 14, 1990, Voyager 1 turned its camera around from [6 billion kilometres out](https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot) and photographed Earth. In the frame the planet is a fraction of a pixel, a pale dot caught in a band of scattered sunlight. Carl Sagan, who had pushed for the picture, later wrote of it in *Pale Blue Dot*: "That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives… on a mote of dust suspended in a sunbeam."
+
+![Voyager 1's Pale Blue Dot: Earth is the tiny point of light inside the right-hand band of scattered sunlight](/assets/pic/pale-blue-dot-voyager1.jpg)
+_Pale Blue Dot, Voyager 1, 14 February 1990. Earth is the speck in the right-hand light band. [NASA](https://images.nasa.gov/details/PIA00452) describes it as a crescent only 0.12 pixel in size. Credit: NASA/JPL._
 
 The usual reading is deflation. If everything that ever happened fits inside one pixel, nothing in it can matter much. That reading sneaks in an assumption: that importance is proportional to size. The rest of this post tests the assumption.
 
@@ -29,6 +32,9 @@ Both sides agree on the structure of the problem. A thin layer of rock is a loss
 ## What people report when they see the dot from close
 
 The astronauts who see Earth whole, not as a dot but as a lit sphere with a visible edge of atmosphere, often report the opposite of deflation. The writer Frank White interviewed many of them and coined the term [overview effect](https://en.wikipedia.org/wiki/Overview_effect) in his 1987 book *The Overview Effect: Space Exploration and Human Evolution*. Reports vary, from the spiritual to the plainly naturalistic, but share a theme: the planet looks fragile and borders do not appear.
+
+![Earthrise over the lunar horizon, photographed from Apollo 8](/assets/pic/apollo8-earthrise.jpg)
+_Earthrise, Apollo 8, 24 December 1968. Credit: NASA. Taken by Bill Anders ([Wikipedia](https://en.wikipedia.org/wiki/Earthrise))._
 
 The clearest single sentence comes from Bill Anders, who took the [Earthrise photograph](https://en.wikipedia.org/wiki/Earthrise) on Apollo 8 in 1968. Fifty years later, he said: "We set out to explore the moon and instead discovered the Earth." The trip was about the Moon. The thing that changed people was the view back.
 

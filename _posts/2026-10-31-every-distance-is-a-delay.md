@@ -23,6 +23,14 @@ The Milky Way is [about 100,000 light-years across](https://science.nasa.gov/uni
 
 Every distance is a delay. To look far is to look back, and no telescope can show a present that is not also the past.
 
+![One-way light travel time to the Moon, Sun, Voyager 1, Proxima Centauri, the Milky Way and Andromeda, on a log scale](/assets/pic/light-delay-chart.png)
+_One-way light travel time on a log scale. Distances from the NASA sources above; Voyager 1 at about 6 billion km on 14 February 1990 ([NASA](https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot))._
+
+The nearest big neighbour looks like this. NASA describes this Hubble composite as resolving individual stars across a 61,000-light-year section of Andromeda's disk, and every one of them is shown as it was about 2.5 million years ago.
+
+![Hubble panoramic view of part of the Andromeda galaxy](/assets/pic/andromeda-hubble-panorama.jpg)
+_Andromeda galaxy (M31), Hubble Space Telescope panorama. Credit: NASA Goddard ([NASA Image and Video Library](https://images.nasa.gov/))._
+
 ## Nothing is standing still
 
 The usual picture of the cosmos is a stage with fixed seats. The numbers say otherwise.
