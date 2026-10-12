@@ -1,12 +1,12 @@
 ---
-title: "A Thought Has a Machine Behind It"
+title: "How to Think Clearly (1/6): A Thought Has a Machine Behind It"
 date: 2026-11-12 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [attention, working-memory, cognition, thinking-series]
 description: "Attention, working memory and executive control: the three parts of a thought, the real size of the desk, and what a half-finished task costs."
 ---
 
-Earlier posts in this blog asked why [knowing a mechanism does not end wonder](/posts/knowing-how-it-works-does-not-end-the-wonder/). This one starts a six-part series on the practical side of the same idea: if thinking has a mechanism, its limits are knowable, and a knowable limit can be designed around. The series runs from the machinery of a single thought, through the environment that shapes it and the maps it relies on, to the tools for deciding under uncertainty, and ends with the question of who makes the final call once software can think too.
+This is part 1 of a six-part series, *How to Think Clearly*. Earlier posts in this blog asked why [knowing a mechanism does not end wonder](/posts/knowing-how-it-works-does-not-end-the-wonder/). This one starts a six-part series on the practical side of the same idea: if thinking has a mechanism, its limits are knowable, and a knowable limit can be designed around. The series runs from the machinery of a single thought, through the environment that shapes it and the maps it relies on, to the tools for deciding under uncertainty, and ends with the question of who makes the final call once software can think too.
 
 ## Three parts, one thought
 
@@ -44,3 +44,5 @@ The practical reading of the three parts is that each fails differently:
 - Unfinished work leaves residue that executive control cannot clear on demand.
 
 None of these is a character flaw. They are limits of a small machine, and the useful response to a limit is a design that does not rely on exceeding it. The next post in the series is about the cheapest such design: making the right action easier and the wrong one harder, rather than trying harder.
+
+*Series: How to Think Clearly. 1. A Thought Has a Machine Behind It. 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/).*
