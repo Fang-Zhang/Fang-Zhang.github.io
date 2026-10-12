@@ -45,4 +45,4 @@ The practical reading of the three parts is that each fails differently:
 
 None of these is a character flaw. They are limits of a small machine, and the useful response to a limit is a design that does not rely on exceeding it. The next post in the series is about the cheapest such design: making the right action easier and the wrong one harder, rather than trying harder.
 
-*Series: How to Think Clearly. 1. A Thought Has a Machine Behind It. 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/).*
+*Series: How to Think Clearly. 1. A Thought Has a Machine Behind It. 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/).*
