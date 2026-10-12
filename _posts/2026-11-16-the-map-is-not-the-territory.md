@@ -40,4 +40,4 @@ All four are the same error at different points: treating a compressed picture a
 
 For a map, the answer is the omitted terrain. For a metric, the thing behind the number. For a fence, the builder's reason. For a choice, the road not taken. The next post gives three tools for the case where the missing piece cannot be looked up and has to be estimated.
 
-*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. The Map Is Not the Territory.*
+*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. The Map Is Not the Territory 4. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/).*
