@@ -46,6 +46,14 @@ A power law concerns sums, where a few items dominate. A different structure con
 
 The arithmetic is simple, and the following numbers are the post's own. A process with three steps that succeed 95%, 70% and 95% of the time succeeds 63% of the time overall. Raising the weak step from 70% to 95% lifts the process to 86%. Raising one of the strong steps from 95% to 99% lifts it only to 66%. In a chain, the weakest link takes the work. In a power law, the head takes it.
 
+## In machine learning: two shapes
+
+Both shapes show up in how models are built and how they fail.
+
+The first is a power law between resources and results. In [Kaplan et al.'s 2020 study](https://arxiv.org/abs/2001.08361), language-model loss scales as a power law with model size, dataset size and training compute, with some trends spanning more than seven orders of magnitude. This is a different object from a few cases dominating a total: it describes how a result changes as resources grow, not how a total divides among cases. The lesson carries over anyway, because the shape decides which expectation is honest. On a power law, multiplying resources by ten multiplies the loss by the same factor at every scale, within the range where the fit holds. Absolute gains therefore shrink as the baseline improves, and a forecast extrapolated linearly from the last few steps misleads.
+
+The second is the chain. In [a 2011 paper](https://arxiv.org/abs/1011.0686), Stéphane Ross, Geoffrey Gordon and Drew Bagnell study sequential prediction, such as imitation learning, where future observations depend on earlier predictions. That breaks the i.i.d. assumption most statistical learning rests on, with poor performance in theory and often in practice. In a bound they discuss, a policy with error ε per step on the expert's states can make as many as T²ε mistakes over T steps, because one mistake can lead to situations the training data never showed. That is worse than the product of independent steps above: in a sequence, an early error changes what the later steps face. The comparison and its application to multi-step AI agents, whose steps also depend on earlier ones, are this post's own inference. The paper's remedy lets the learner's own actions determine the states on which expert demonstrations are collected.
+
 ## Choosing the question
 
 When looking at outcomes across many items, such as customers, products or decisions, sort them and look at the top: that is a power-law question, and the move is to feed the head and stop feeding the tail. When looking at one process made of steps, ask which step is weakest: that is a chain question, and the move is to fix the bottleneck. The average answers neither question.

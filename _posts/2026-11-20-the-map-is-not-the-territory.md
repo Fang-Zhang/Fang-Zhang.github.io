@@ -37,6 +37,12 @@ The last case is a missing entry on every map: what you gave up. In 1850 Frédé
 
 Economists call this opportunity cost. Bastiat's framing is better for thinking: the chosen option is vivid and the foregone one is invisible, so the map is biased toward whatever happened.
 
+## In machine learning: a measure with a gradient
+
+Training a language model with human feedback builds the map-and-measure problem into the pipeline. A reward model is trained to predict human preferences, and the language model is then optimized against it. In [Gao, Schulman and Hilton's 2022 study](https://arxiv.org/abs/2210.10760), the authors point out that the reward model is an imperfect proxy, so optimizing its value too much can hurt ground-truth performance, in accordance with Goodhart's law. To measure it, they used a synthetic setup in which a fixed "gold-standard" reward model plays the role of humans and provides the labels for a proxy. They then tracked the gold score as optimization against the proxy increased, using either reinforcement learning or best-of-n sampling. The relationship took a different functional form for each method, and its coefficients scaled smoothly with the number of reward model parameters.
+
+In this post's terms, the proxy score is the map and the gold standard is the territory, and the optimizer is a very efficient search for the cheapest way to raise the number. One caution on the evidence: the gold standard in that study is itself a model, so it measures the gap between a proxy and a stronger judge, not the gap to real human judgement. The practical reading of the check below is this post's own: keep a measurement that the optimizer cannot touch.
+
 ## One check for all four
 
 All four are the same error at different points: treating a compressed picture as the thing itself. One question covers them:

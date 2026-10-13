@@ -44,6 +44,12 @@ First, put a number on the descent in advance: how much worse a result, for how 
 
 Second, enter the valley partially. The annealing result points to a design: keep climbing the current hill, while a fixed slice of time, say 10 to 20 percent, goes to a different direction. This slice is the post's own analogy to the temperature in the annealing method, and the percentage is a judgment call, not a research result. The restart result in the simulation is the same idea in another form, with a cost: five starts took five times the climbing. The slice should be priced like any other hour, as in the [post on pricing time](/posts/price-your-own-hour/).
 
+## In machine learning: the hill has more dimensions
+
+Training a neural network is hill climbing in a space with millions or billions of dimensions, and the sketch above needs a correction there. [Dauphin and colleagues (2014)](https://arxiv.org/abs/1406.2572) note that it is often thought that a main difficulty for gradient methods is the proliferation of local minima with much higher error than the global minimum. Drawing on statistical physics, random matrix theory, neural network theory and empirical evidence, they argue that a deeper difficulty comes from saddle points, especially in high dimensions. Saddle points are surrounded by high-error plateaus that can dramatically slow learning and give "the illusory impression of the existence of a local minimum." Their remedy is a second-order method that can escape saddle points, which has no human counterpart.
+
+The reading for this post is its own. At large scale, what feels like a summit may be a plateau with an exit in a direction not yet tried, which fits the earlier point that none of the three signals separates the two. It argues for a cheap probe before concluding the hill is the highest: try a direction not yet tried. The annealing material above comes from combinatorial problems such as chip layout, where local optima are a real obstacle; the deep-learning evidence says that, in the largest landscapes, "stuck" is often less final than it feels.
+
 ## The safeguard
 
 The safeguard in this post is a decision made at the peak's foot instead of at its top: set the descent budget, name the signals that trigger a search, and fix the exploration slice, all before the good run ends. At the summit, every step downhill feels like a mistake. A rule written earlier is the only thing that can overrule that feeling.
