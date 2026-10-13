@@ -34,7 +34,7 @@ Each post opens by saying where it sits on the map. Claims come from named sourc
 | 7 | [Averages Lie](/posts/averages-lie/) | Estimate | The average hides a few huge cases | Look at the distribution |
 | 8 | [Price Your Own Hour](/posts/price-your-own-hour/) | Direction | Time is spent unpriced | Put a number on it |
 | 9 | [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/) | Direction | Locked in too early | Explore, then run a premortem |
-| 10 | The Hill You Are Standing On | Direction | A small peak feels like the top | Test for a higher peak |
+| 10 | [The Hill You Are Standing On](/posts/the-hill-you-are-standing-on/) | Direction | A small peak feels like the top | Test for a higher peak |
 | 11 | [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/) | Delegation | The assistant agrees | Keep the decision |
 
 ## Reading order
