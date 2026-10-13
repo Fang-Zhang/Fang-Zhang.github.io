@@ -6,8 +6,6 @@ order: 4
 
 Hi, I'm Fang Zhang.
 
-I have been working as a software builder for many years, and I enjoy turning ideas into practical products.
-
 I use this blog to think about one question: where meaning comes from, once I know how much of the world mechanism can explain. I come at it from three directions.
 
 **First, AI.** I write about how a machine learns from data, how today's language models are built, and what "understanding" means for a system like that. This is the part I know best from my work, and I try to explain it plainly, with the papers and numbers behind each claim.
@@ -18,4 +16,4 @@ I use this blog to think about one question: where meaning comes from, once I kn
 
 The three keep arriving at the same place: how far mechanism explains, and what to do with the part it does not. For that part I read the iChing and Zhuangzi alongside the papers and the code.
 
-I see the three as a sequence. The cosmos is a vast order that was there first, and it is lawful enough for a small mind to read. My own mind is intelligence being lived now. AI is the newest layer: it is trained on human writing, so it is a compressed copy of human thought, not a start from zero. I claim the cosmos can be understood, not that it is itself intelligent, because that would be a belief and I cannot show it.
+I see the three as a sequence. The cosmos is a vast order that was there first, and it is lawful enough for a small mind to read. My own mind is intelligence being lived now. AI is the newest layer: it is trained on human writing, so it is a compressed copy of human thought, not a start from zero.
