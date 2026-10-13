@@ -27,7 +27,7 @@ Each post opens by saying where it sits on the map. Claims come from named sourc
 | --- | --- | --- | --- | --- |
 | 1 | Where Thinking Breaks and What to Put There | - | Thinking breaks at known points | A decision made before the failure |
 | 2 | [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/) | Mind | Capacity and attention run out | Lighten the load |
-| 3 | Catch the Error While It Happens | Mind | Failures go unnoticed | Notice confusion, avoidance and "should" |
+| 3 | [Catch the Error While It Happens](/posts/catch-the-error-while-it-happens/) | Mind | Failures go unnoticed | Notice confusion, avoidance and "should" |
 | 4 | [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/) | Setting | Effort alone is unreliable | Move the friction |
 | 5 | [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/) | Belief | A model is taken for reality | Check the territory |
 | 6 | [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/) | Estimate | Intuition misjudges size and odds | Compute it |
