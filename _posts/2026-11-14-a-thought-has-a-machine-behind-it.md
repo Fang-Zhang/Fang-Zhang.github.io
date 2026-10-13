@@ -1,12 +1,17 @@
 ---
-title: "How to Think Clearly (1/6): A Thought Has a Machine Behind It"
-date: 2026-11-12 06:00:00 +1300
+title: "How to Think Clearly (2/11): A Thought Has a Machine Behind It"
+date: 2026-11-14 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [attention, working-memory, cognition, thinking-series]
 description: "Attention, working memory and executive control: the three parts of a thought, the real size of the desk, and what a half-finished task costs."
 ---
 
-This is part 1 of a six-part series, *How to Think Clearly*. Earlier posts in this blog asked why [knowing a mechanism does not end wonder](/posts/knowing-how-it-works-does-not-end-the-wonder/). This one starts a six-part series on the practical side of the same idea: if thinking has a mechanism, its limits are knowable, and a knowable limit can be designed around. The series runs from the machinery of a single thought, through the environment that shapes it and the maps it relies on, to the tools for deciding under uncertainty, and ends with the question of who makes the final call once software can think too.
+**Where this sits:** stage 1 of 6, the Mind. The [first post](/posts/where-thinking-breaks-and-what-to-put-there/) draws the map of the whole series. This stage covers the machinery of a single thought and the limits it carries.
+
+![The six stages of the series with stage 1, Mind, highlighted](/assets/pic/thinking-series-post-2.png)
+_Where this post sits in the series: stage 1 of 6, Mind._
+
+Earlier posts in this blog asked why [knowing a mechanism does not end wonder](/posts/knowing-how-it-works-does-not-end-the-wonder/). This series is the practical side of the same idea: if thinking has a mechanism, its limits are knowable, and a knowable limit can be designed around. This post starts at the centre, with the machinery of a single thought.
 
 ## Three parts, one thought
 
@@ -43,6 +48,6 @@ The practical reading of the three parts is that each fails differently:
 - Too many open items overflow working memory.
 - Unfinished work leaves residue that executive control cannot clear on demand.
 
-None of these is a character flaw. They are limits of a small machine, and the useful response to a limit is a design that does not rely on exceeding it. The next post in the series is about the cheapest such design: making the right action easier and the wrong one harder, rather than trying harder.
+None of these is a character flaw. They are limits of a small machine, and the useful response to a limit is a design that does not rely on exceeding it. The next post is about noticing these failures while they happen, since a limit that goes unnoticed cannot be designed around.
 
-*Series: How to Think Clearly. 1. A Thought Has a Machine Behind It. 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/) 4. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/) 5. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/) 6. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*
+*Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. A Thought Has a Machine Behind It. 3. Catch the Error While It Happens. 4. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 5. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 6. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 7. Averages Lie. 8. Price Your Own Hour. 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. The Hill You Are Standing On. 11. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*

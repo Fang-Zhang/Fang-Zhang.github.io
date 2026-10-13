@@ -1,10 +1,15 @@
 ---
-title: "How to Think Clearly (3/6): The Map Is Not the Territory"
-date: 2026-11-16 06:00:00 +1300
+title: "How to Think Clearly (5/11): The Map Is Not the Territory"
+date: 2026-11-20 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [maps, metrics, goodhart, chesterton, opportunity-cost, thinking-series]
 description: "Four ways a compressed picture misleads: the map, the metric, the fence and the unseen cost, with one question that covers them all."
 ---
+
+**Where this sits:** stage 3 of 6, Belief. The first two stages dealt with the machine and its setting. This one deals with what the machine holds as true: every belief is a compressed picture of the world, and the safeguard is to check the picture against the territory.
+
+![The six stages of the series with stage 3, Belief, highlighted](/assets/pic/thinking-series-post-5.png)
+_Where this post sits in the series: stage 3 of 6, Belief._
 
 The [previous post](/posts/make-the-right-thing-the-easy-thing/) argued for setting defaults and triggers in advance. That raises the question of which ones. The answer depends on a picture of the world, and every picture is a compression. This post is about four ways a compressed picture misleads the person holding it.
 
@@ -40,4 +45,4 @@ All four are the same error at different points: treating a compressed picture a
 
 For a map, the answer is the omitted terrain. For a metric, the thing behind the number. For a fence, the builder's reason. For a choice, the road not taken. The next post gives three tools for the case where the missing piece cannot be looked up and has to be estimated.
 
-*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. The Map Is Not the Territory. 4. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/) 5. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/) 6. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*
+*Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 3. Catch the Error While It Happens. 4. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 5. The Map Is Not the Territory. 6. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 7. Averages Lie. 8. Price Your Own Hour. 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. The Hill You Are Standing On. 11. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*

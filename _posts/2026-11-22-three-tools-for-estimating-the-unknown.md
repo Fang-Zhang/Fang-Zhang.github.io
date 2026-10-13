@@ -1,11 +1,16 @@
 ---
-title: "How to Think Clearly (4/6): Three Tools for Estimating the Unknown"
-date: 2026-11-18 06:00:00 +1300
+title: "How to Think Clearly (6/11): Three Tools for Estimating the Unknown"
+date: 2026-11-22 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [estimation, fermi, bayes, expected-value, planning-fallacy, thinking-series]
 math: true
 description: "Expected value, Fermi estimation and natural frequencies, plus the one estimate people reliably get wrong: their own schedule."
 ---
+
+**Where this sits:** stage 4 of 6, Estimate. When the missing piece of a picture cannot be looked up, it has to be estimated, and intuition misjudges both size and odds. The safeguard is to compute. This post gives three tools for the number you do not have.
+
+![The six stages of the series with stage 4, Estimate, highlighted](/assets/pic/thinking-series-post-6.png)
+_Where this post sits in the series: stage 4 of 6, Estimate._
 
 The [previous post](/posts/the-map-is-not-the-territory/) ended with a missing piece that cannot be looked up. Most decisions are like that. This post covers three tools for working with a number you do not have: weighing outcomes, building a rough figure from parts, and updating on evidence. A fourth section covers the one estimate people reliably get wrong.
 
@@ -55,6 +60,6 @@ The same paper found a remedy. When participants were instructed to connect thei
 - A test or signal has arrived: write the base rate as a count and track who is flagged.
 - The estimate is about your own work: replace the plan with the record of similar work.
 
-The next post is about where estimates go once they exist: how to choose between exploring and exploiting, and how to imagine a plan's failure before committing to it.
+The next post asks what shape the numbers take when they are not bell-shaped, because an average can hide the few cases that decide the outcome.
 
-*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 4. Three Tools for Estimating the Unknown 5. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/) 6. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*
+*Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 3. Catch the Error While It Happens. 4. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 5. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 6. Three Tools for Estimating the Unknown. 7. Averages Lie. 8. Price Your Own Hour. 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. The Hill You Are Standing On. 11. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*

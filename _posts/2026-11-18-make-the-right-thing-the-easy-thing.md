@@ -1,12 +1,17 @@
 ---
-title: "How to Think Clearly (2/6): Make the Right Thing the Easy Thing"
-date: 2026-11-14 06:00:00 +1300
+title: "How to Think Clearly (4/11): Make the Right Thing the Easy Thing"
+date: 2026-11-18 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [defaults, willpower, habits, behavior, thinking-series]
 description: "Defaults, the failed ego-depletion replication, precommitment and if-then plans: why changing friction beats trying harder."
 ---
 
-The [previous post](/posts/a-thought-has-a-machine-behind-it/) ended on a small machine with small limits: about four chunks of working memory, and attention that leaks from unfinished work. If the machine cannot be enlarged, the remaining lever is the setting it works in. The cheapest setting to change is friction, how much effort each option costs.
+**Where this sits:** stage 2 of 6, the Setting. The Mind stage found a machine with small limits (posts 2 and 3). If the machine cannot be enlarged, the next lever is the setting it works in, and the cheapest setting to change is friction.
+
+![The six stages of the series with stage 2, Setting, highlighted](/assets/pic/thinking-series-post-4.png)
+_Where this post sits in the series: stage 2 of 6, Setting._
+
+The [second post](/posts/a-thought-has-a-machine-behind-it/) ended on a small machine with small limits: about four chunks of working memory, and attention that leaks from unfinished work. If the machine cannot be enlarged, the remaining lever is the setting it works in. The cheapest setting to change is friction, how much effort each option costs.
 
 ## A default is a decision made for you
 
@@ -29,10 +34,10 @@ This does not show that self-control is unimportant, and the authors do not clai
 
 **Decide before the moment arrives.** In Book 12 of the Odyssey, Circe warns Odysseus about the Sirens. He tells his crew to [bind him to the mast](https://www.theoi.com/Text/HomerOdyssey12.html) and, if he begs to be loosed, to tie him with more bonds. He keeps the experience he wants (hearing the song) and removes the option he will regret (steering toward it). Philosophers call this precommitment.
 
-**Replace the decision with a trigger.** Peter Gollwitzer's implementation intentions are if-then plans: if situation Y arises, then I will do Z. In a [review by Gollwitzer and Paschal Sheeran](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) of their 2006 meta-analysis, forming such plans had a medium-to-large effect on getting started with a goal (d = .61) compared with holding the goal intention alone. The mechanism fits the first post: a trigger moves the choice out of working memory, which is small, and into the situation, which is not. That link is my reading, not a claim of the paper.
+**Replace the decision with a trigger.** Peter Gollwitzer's implementation intentions are if-then plans: if situation Y arises, then I will do Z. In a [review by Gollwitzer and Paschal Sheeran](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) of their 2006 meta-analysis, forming such plans had a medium-to-large effect on getting started with a goal (d = .61) compared with holding the goal intention alone. The mechanism fits the Mind stage: a trigger moves the choice out of working memory, which is small, and into the situation, which is not. That link is my reading, not a claim of the paper.
 
 ## The limit of the idea
 
 Friction design is not neutral. A default is chosen by someone, and a person who never notices the default is steered by it. The honest use is on oneself: set the defaults, bind the mast, write the trigger, and know why. The next post goes one level up, to the maps in the head that tell us which defaults are worth setting.
 
-*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. Make the Right Thing the Easy Thing. 3. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/) 4. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/) 5. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/) 6. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*
+*Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 3. Catch the Error While It Happens. 4. Make the Right Thing the Easy Thing. 5. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 6. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 7. Averages Lie. 8. Price Your Own Hour. 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. The Hill You Are Standing On. 11. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*

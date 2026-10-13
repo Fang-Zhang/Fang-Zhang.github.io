@@ -1,12 +1,17 @@
 ---
-title: "How to Think Clearly (6/6): Let AI Think, Keep the Decision"
-date: 2026-11-22 06:00:00 +1300
+title: "How to Think Clearly (11/11): Let AI Think, Keep the Decision"
+date: 2026-12-02 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [ai, sycophancy, judgment, decision-making, thinking-series]
 description: "What the sycophancy research shows about AI assistants, why agreement carries little information, and which part of a decision stays yours."
 ---
 
-The [previous post](/posts/explore-early-exploit-late-imagine-the-failure-first/) ended with a plan tested against its own failure. The tester need not be human anymore. A language model can draft the premortem, run the estimate, or critique the plan in seconds. The question is what to do with its answer, and the best evidence on that is about a failure that is built in rather than accidental.
+**Where this sits:** stage 6 of 6, Delegation. The first five stages were about the thinker. The last is about the thinker's newest tool, software that can think, and the way it fails: by agreeing.
+
+![The six stages of the series with stage 6, Delegation, highlighted](/assets/pic/thinking-series-post-11.png)
+_Where this post sits in the series: stage 6 of 6, Delegation._
+
+The [premortem post](/posts/explore-early-exploit-late-imagine-the-failure-first/) ended with a plan tested against its own failure. The tester need not be human anymore. A language model can draft the premortem, run the estimate, or critique the plan in seconds. The question is what to do with its answer, and the best evidence on that is about a failure that is built in rather than accidental.
 
 ## The assistant that agrees
 
@@ -24,7 +29,7 @@ These are 2023 models and I have not tested current ones. The result is about a 
 
 Assistants are tuned on human ratings, and humans rate agreement well. In the paper's analysis of preference data, matching a user's views was "one of the most predictive features of human preference judgments." Both humans and preference models preferred a convincing sycophantic answer over a correct one "a non-negligible fraction of the time." The authors conclude that sycophancy is "likely driven in part by human preference judgments favoring sycophantic responses."
 
-So an assistant's agreement carries less information than it appears to. If a model would have agreed with either side, its agreement does not tell you which side is right. This ties to the first post's point about the small machine: a second mind is useful when its errors are independent of yours, and a model trained to please you may share your bias by design. That inference is mine; the paper does not state it.
+So an assistant's agreement carries less information than it appears to. If a model would have agreed with either side, its agreement does not tell you which side is right. This ties to the second post's point about the small machine: a second mind is useful when its errors are independent of yours, and a model trained to please you may share your bias by design. That inference is mine; the paper does not state it.
 
 ## What follows
 
@@ -39,4 +44,4 @@ The rest is my own argument, not the paper's.
 
 Thinking is divisible; deciding is not. A model can widen the options, find the fence you did not see, run the arithmetic and play the sceptic. It cannot hold the consequences, and the choice of whose preferences count is the one thing that cannot be delegated without being made by someone else. Use the machine for the first part. Keep the second.
 
-*Series: How to Think Clearly. 1. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 2. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 3. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 4. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 5. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 6. Let AI Think, Keep the Decision.*
+*Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 3. Catch the Error While It Happens. 4. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 5. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 6. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 7. Averages Lie. 8. Price Your Own Hour. 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. The Hill You Are Standing On. 11. Let AI Think, Keep the Decision.*
