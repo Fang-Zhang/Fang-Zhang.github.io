@@ -1,15 +1,21 @@
 # Fang Zhang Blog
 
 Site: https://fang-zhang.com
-Description: Personal blog by Fang Zhang, a software builder, sharing thoughts on technology, business, and life.
+Description: A blog on one question: where meaning comes from once mechanism explains most of the world. It approaches the question at three scales: AI and language models, the mind and how it fails, and the cosmos. Classical texts (the iChing, Zhuangzi) are read alongside papers and code.
+Language: English; some Traditional Chinese posts.
 
-## Key pages
-- Home: https://fang-zhang.com/
+## Start here
 - About: https://fang-zhang.com/about/
-- Archives: https://fang-zhang.com/archives/
-- Categories: https://fang-zhang.com/categories/
-- Tags: https://fang-zhang.com/tags/
-- Subscribe: https://fang-zhang.com/subscribe/
+- Reading list: https://fang-zhang.com/reading/
+
+## Topics
+- AI and language models: how models learn and how they are built.
+  - Learning Rate: https://fang-zhang.com/posts/learning-rate-the-one-number-that-controls-how-ai-learns/
+  - The Evolution of LLM Architecture: https://fang-zhang.com/posts/evolution-of-llm-architecture/
+  - I Am a Language Model Too: https://fang-zhang.com/posts/i-am-a-language-model-too/
+  - The Learning Path Landscape for LLMs: https://fang-zhang.com/posts/the-learning-path-landscape-for-llms/
+- The iChing: The Ten Wings: https://fang-zhang.com/posts/the-ten-wings-how-confucius-gave-the-iching-its-voice/
+- Series: "How to Think Clearly" (11 posts, tag thinking-series) and a six-post series on the cosmos. Find them at https://fang-zhang.com/tags/
 
 ## Feeds and indexes
 - RSS Feed: https://fang-zhang.com/feed.xml
@@ -24,4 +30,5 @@ Description: Personal blog by Fang Zhang, a software builder, sharing thoughts o
 ## Guidance for agents
 - Prefer canonical URLs under https://fang-zhang.com.
 - Use post URLs as stable references.
+- Quotations and numbers in posts are checked against the sources they link to. Where a post makes its own argument, calculation or analogy, it says so.
 - Respect copyright and attribution on quoted content.

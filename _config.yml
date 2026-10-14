@@ -16,10 +16,10 @@ timezone: Pacific/Auckland
 
 title: Fang Zhang # the main title
 
-tagline: A software builder # it will display as the sub-title
+tagline: On AI, the mind and the cosmos # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Fang Zhang's personal blog, sharing thoughts and experiences.
+  Fang Zhang's blog on one question: where meaning comes from once mechanism explains most of the world. Posts on AI and language models, how the mind works and fails, and the cosmos, with the iChing and Zhuangzi alongside papers and code.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
