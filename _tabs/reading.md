@@ -73,3 +73,8 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[Transformer Circuits](https://transformer-circuits.pub/)** — interpretability research thread; Chris Olah's current writing, moved from his older blog [colah.github.io](https://colah.github.io/) (last updated 2021)
 - **[The Scaling Hypothesis (Gwern)](https://gwern.net/scaling-hypothesis)** — long essay, not a running blog
 - **[LessWrong](https://www.lesswrong.com/)** — community blog on rationality and AI alignment; user-submitted essays, with the Sequences (Eliezer Yudkowsky's rationality essays) as its core reading
+
+## Code Repositories
+
+- **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** — open-source LLM fine-tuning framework (LoRA/QLoRA, distributed training with FSDP2 and DeepSpeed; Apache-2.0)
+- **[LitGPT](https://github.com/Lightning-AI/litgpt)** — Lightning AI, 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale (Apache-2.0)
