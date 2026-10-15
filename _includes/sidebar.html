@@ -26,7 +26,7 @@
         </a>
       </li>
       <!-- the real tabs, minus ones hidden from the sidebar per Fang's request -->
-      {% assign hidden_tabs = "tags,archives,subscribe" | split: "," %}
+      {% assign hidden_tabs = "tags,archives,subscribe,llm-build" | split: "," %}
       {% for tab in site.tabs %}
         {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
         {% unless hidden_tabs contains tab_name %}
