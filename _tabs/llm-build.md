@@ -28,7 +28,7 @@ Tools, notes and ideas I collect while learning to build a large language model.
 
 ## Watching and debugging
 
-- **nvidia-smi**: memory use, for tracking down out-of-memory errors.
+- **[nvidia-smi](https://developer.nvidia.com/system-management-interface)**: memory use, for tracking down out-of-memory errors.
 - **[TensorBoard](https://www.tensorflow.org/tensorboard) or [Weights & Biases](https://wandb.ai/)**: loss curves.
 - **[PyTorch Profiler](https://docs.pytorch.org/docs/stable/profiler.html)**: finds where training time goes.
 
