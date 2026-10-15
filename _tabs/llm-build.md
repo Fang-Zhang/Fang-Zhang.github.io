@@ -24,7 +24,7 @@ Tools, notes and ideas I collect while learning to build a large language model.
 
 - **Mixed precision.** bf16 needs a GPU with compute capability 8.0 or higher (Ampere and later). Turing cards such as the T1000 (7.5) use fp16 with gradient scaling, see the [PyTorch AMP docs](https://docs.pytorch.org/docs/stable/amp.html).
 - **[torch.compile](https://docs.pytorch.org/docs/stable/generated/torch.compile.html).** It can speed up training. It relies on Triton, which has no official Windows build, so on Windows it needs community-built wheels.
-- **Gradient accumulation.** Simulates a large batch when GPU memory is too small to hold one.
+- **[Gradient accumulation](https://lightning.ai/pages/blog/gradient-accumulation).** Simulates a large batch when GPU memory is too small to hold one. The linked post walks through finetuning an LLM on a single GPU with it.
 
 ## Watching and debugging
 
