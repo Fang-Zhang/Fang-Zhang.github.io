@@ -2,6 +2,7 @@
 title: Tools, Notes and Ideas for Building a LLM
 icon: fas fa-tools
 order: 7
+hidden: true
 permalink: /llm-build/
 ---
 
