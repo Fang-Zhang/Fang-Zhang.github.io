@@ -24,4 +24,4 @@ tags: [iching, ancient-signals, reference, chinese-philosophy]
 | Keeping ☶ | [26 Great Taming](/hexagrams/26/) | [41 Decrease](/hexagrams/41/) | [22 Grace](/hexagrams/22/) | [27 Nourishment](/hexagrams/27/) | [18 Work on the Decayed](/hexagrams/18/) | [4 Youthful Folly](/hexagrams/04/) | [52 Keeping Still](/hexagrams/52/) | [23 Splitting Apart](/hexagrams/23/) |
 | Receptive ☷ | [11 Peace](/hexagrams/11/) | [19 Approach](/hexagrams/19/) | [36 Darkening of the Light](/hexagrams/36/) | [24 Return](/hexagrams/24/) | [46 Pushing Upward](/hexagrams/46/) | [7 Army](/hexagrams/07/) | [15 Modesty](/hexagrams/15/) | [2 Receptive](/hexagrams/02/) |
 
-Above trigram is on the left, Below trigram is on the top.
+<p style="text-align: center;">Above trigram is on the left, Below trigram is on the top.</p>
