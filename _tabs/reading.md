@@ -81,8 +81,6 @@ A study track on how machines learn to play video games, from reinforcement lear
 
 ## Movies
 
-Films I want to watch.
-
 **Big ideas**
 
 - **[Arrival](https://en.wikipedia.org/wiki/Arrival_(film))** — Denis Villeneuve, 2016 (a linguist communicates with aliens; language, time and family)
