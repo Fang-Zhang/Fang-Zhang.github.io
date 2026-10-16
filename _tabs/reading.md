@@ -78,3 +78,7 @@ A study track on how machines learn to play video games, from reinforcement lear
 
 - **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** — open-source LLM fine-tuning framework (LoRA/QLoRA, distributed training with FSDP2 and DeepSpeed; Apache-2.0)
 - **[LitGPT](https://github.com/Lightning-AI/litgpt)** — Lightning AI, 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale (Apache-2.0)
+
+## Movies
+
+Films I want to watch.
