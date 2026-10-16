@@ -1,5 +1,5 @@
 ---
-title: "蹇：Scarcity Trap 看起來像性格"
+title: "《Scarcity》讀後感（6）蹇：Scarcity Trap 看起來像性格"
 date: 2026-10-13 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, scarcity-trap]

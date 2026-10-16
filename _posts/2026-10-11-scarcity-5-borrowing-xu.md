@@ -1,5 +1,5 @@
 ---
-title: "需：借來的明天，Borrowing 與 Myopia"
+title: "《Scarcity》讀後感（5）需：借來的明天，Borrowing 與 Myopia"
 date: 2026-10-11 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, borrowing]

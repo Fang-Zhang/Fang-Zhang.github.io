@@ -1,5 +1,5 @@
 ---
-title: "損與既濟：Slack 不是浪費"
+title: "《Scarcity》讀後感（3）損與既濟：Slack 不是浪費"
 date: 2026-10-07 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, slack]

@@ -1,5 +1,5 @@
 ---
-title: "謙：Expertise 就是稱物平施"
+title: "《Scarcity》讀後感（4）謙：Expertise 就是稱物平施"
 date: 2026-10-09 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, expertise]

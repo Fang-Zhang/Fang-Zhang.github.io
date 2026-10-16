@@ -1,5 +1,5 @@
 ---
-title: "習坎：Tunneling 不是缺陷，是代價"
+title: "《Scarcity》讀後感（1）習坎：Tunneling 不是缺陷，是代價"
 date: 2026-10-03 09:32:54 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, tunneling]

@@ -1,5 +1,5 @@
 ---
-title: "澤無水：Bandwidth Tax 收走的不是智商"
+title: "《Scarcity》讀後感（2）澤無水：Bandwidth Tax 收走的不是智商"
 date: 2026-10-05 06:00:00 +1300
 categories: [Personal, Philosophy]
 tags: [scarcity, iChing, 易經, 讀後感, bandwidth-tax]
