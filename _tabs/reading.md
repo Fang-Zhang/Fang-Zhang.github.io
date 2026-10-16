@@ -82,3 +82,39 @@ A study track on how machines learn to play video games, from reinforcement lear
 ## Movies
 
 Films I want to watch.
+
+**Big ideas**
+
+- **[Arrival](https://en.wikipedia.org/wiki/Arrival_(film))** — Denis Villeneuve, 2016 (a linguist communicates with aliens; language, time and family)
+- **[Contact](https://en.wikipedia.org/wiki/Contact_(1997_American_film))** — Robert Zemeckis, 1997 (science and faith)
+- **[Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film))** — Christopher Nolan, 2014 (space travel and time)
+- **[2001: A Space Odyssey](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film))** — Stanley Kubrick, 1968 (the founding work of the genre; very slow)
+- **[The Martian](https://en.wikipedia.org/wiki/The_Martian_(film))** — Ridley Scott, 2015 (survival by hard science, light and optimistic)
+
+**Solitude, vision, reflection**
+
+- **[Oblivion](https://en.wikipedia.org/wiki/Oblivion_(2013_film))** — Joseph Kosinski, 2013 (a lone drone repairman on a post-apocalyptic Earth)
+- **[Blade Runner 2049](https://en.wikipedia.org/wiki/Blade_Runner_2049)** — Denis Villeneuve, 2017 (identity and memory)
+- **[Moon](https://en.wikipedia.org/wiki/Moon_(2009_film))** — Duncan Jones, 2009 (low budget, one man on a lunar base; identity and clones)
+- **[Ex Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film))** — Alex Garland, 2014 (artificial intelligence and what makes us human)
+- **[Annihilation](https://en.wikipedia.org/wiki/Annihilation_(film))** — Alex Garland, 2018 (a mutating zone with strange rules; needs patience)
+- **[Gravity](https://en.wikipedia.org/wiki/Gravity_(2013_film))** — Alfonso Cuarón, 2013 (survival in space)
+- **[Ad Astra](https://en.wikipedia.org/wiki/Ad_Astra_(film))** — James Gray, 2019 (father and son, inward-looking)
+
+**Time and causality**
+
+- **[Tenet](https://en.wikipedia.org/wiki/Tenet_(film))** — Christopher Nolan, 2020 (time inversion; worth planning to watch twice)
+- **[Primer](https://en.wikipedia.org/wiki/Primer_(film))** — Shane Carruth, 2004 (ultra-low budget, a rigorously worked-out time machine)
+- **[12 Monkeys](https://en.wikipedia.org/wiki/12_Monkeys)** — Terry Gilliam, 1995 (a time loop and fatalism)
+- **[Coherence](https://en.wikipedia.org/wiki/Coherence_(film))** — James Ward Byrkit, 2013 (low budget, parallel worlds)
+
+**Reality and perception**
+
+- **[Inception](https://en.wikipedia.org/wiki/Inception)** — Christopher Nolan, 2010 (layered dreams with clear rules)
+- **[The Matrix](https://en.wikipedia.org/wiki/The_Matrix)** — the Wachowskis, 1999 (the classic of virtual reality)
+- **[The Prestige](https://en.wikipedia.org/wiki/The_Prestige_(film))** — Christopher Nolan, 2006 (not pure science fiction; intricate structure)
+- **[Shutter Island](https://en.wikipedia.org/wiki/Shutter_Island_(film))** — Martin Scorsese, 2010 (psychological mystery with a strong twist)
+
+**Closed spaces**
+
+- **[Cube](https://en.wikipedia.org/wiki/Cube_(1997_film))** — Vincenzo Natali, 1997 (strangers trapped in a cube of traps)
