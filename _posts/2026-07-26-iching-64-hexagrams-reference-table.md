@@ -11,14 +11,7 @@ tags: [iching, ancient-signals, reference, chinese-philosophy]
 
 ---
 
-When I study the *I Ching* (易经), I often want one simple page where I can quickly scan all 64 hexagrams.
-
-This table is my own compact reference format, inspired by traditional 64-hexagram indexes.
-
 ## The 64 hexagrams
-
-Above trigram is on the left, Below trigram is on the top.<br> 
-Each header uses the English name plus trigram symbol.
 
 | Above \\ Below | Creative ☰ | Joyous ☱ | Clinging ☲ | Arousing ☳ | Gentle ☴ | Abysmal ☵ | Keeping ☶ | Receptive ☷ |
 |---|---|---|---|---|---|---|---|---|
@@ -31,9 +24,4 @@ Each header uses the English name plus trigram symbol.
 | Keeping ☶ | [26 Great Taming](/hexagrams/26/) | [41 Decrease](/hexagrams/41/) | [22 Grace](/hexagrams/22/) | [27 Nourishment](/hexagrams/27/) | [18 Work on the Decayed](/hexagrams/18/) | [4 Youthful Folly](/hexagrams/04/) | [52 Keeping Still](/hexagrams/52/) | [23 Splitting Apart](/hexagrams/23/) |
 | Receptive ☷ | [11 Peace](/hexagrams/11/) | [19 Approach](/hexagrams/19/) | [36 Darkening of the Light](/hexagrams/36/) | [24 Return](/hexagrams/24/) | [46 Pushing Upward](/hexagrams/46/) | [7 Army](/hexagrams/07/) | [15 Modesty](/hexagrams/15/) | [2 Receptive](/hexagrams/02/) |
 
-## Notes
-
-- Different translations may use slightly different English wording.
-- I use this as a navigation map, then read the Judgment and line texts in detail elsewhere.
-
-
+Above trigram is on the left, Below trigram is on the top.
