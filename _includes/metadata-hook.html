@@ -5,3 +5,6 @@
 {% endif %}
 <link rel="alternate" hreflang="{{ this_lang }}" href="{{ page.url | absolute_url }}" />
 <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}" />
+{% if page.layout == 'home' and paginator.page == 1 or page.url == '/' %}
+<script>document.title = "{{ site.title }} | Where meaning comes from";</script>
+{% endif %}
