@@ -6,11 +6,11 @@ tags: [learning, curiosity, first-principles, education]
 description: "Most of us learned to ask questions in a room where the teacher already held the answer. Why that habit follows us out of the exam hall, and what breaks it."
 ---
 
-A teacher points at a ring of light around the sun and says, "That's a rainbow." The class opens their textbooks and recites the passage on rainbows.
+Picture a classroom. A teacher points at a ring of light around the sun and says, "That's a rainbow." The class opens their textbooks and recites the passage on rainbows.
 
-A math creator I watched recently, who runs the channel Meditation Math, tells this story from his own childhood. It is a halo, not a rainbow, and a child looking up could see that the shape was wrong. But the teacher had spoken, the whole room was reciting, and looking up and checking quietly stopped being an option. The answer was in the room before anyone had asked the question.
+It is a halo, not a rainbow. A child looking up could see that the shape was wrong, a ring around the sun rather than an arc across the sky. But the teacher had spoken, the whole room was reciting, and looking up to check quietly stopped being an option. The answer was in the room before anyone had asked the question.
 
-I think this is the most ordinary way to stop thinking. Nobody lies. Someone with authority names a thing, the name fits roughly well enough, and everyone moves on.
+This is the most ordinary way to stop thinking. Nobody lies. Someone with authority names a thing, the name fits roughly well enough, and everyone moves on.
 
 **Where the habit comes from**
 
