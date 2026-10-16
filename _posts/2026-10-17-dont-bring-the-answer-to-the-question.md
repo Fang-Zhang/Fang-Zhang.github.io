@@ -32,6 +32,12 @@ The one that settled it was run by [Chien-Shiung Wu](https://en.wikipedia.org/wi
 
 **Back to the sky**
 
-So the habit is simple, even if it is hard to keep. When a problem arrives, look at it before you listen to what it is called. Hold the textbook answer, the teacher's answer and your own first guess at arm's length, and ask what would have to be true for each of them to be wrong. Keep the small things that do not fit; the old picture usually cracks there.
+So the habit is simple, even if it is hard to keep. When a problem arrives, look at it before you listen to what it is called. Hold the textbook answer, the teacher's answer and your own first guess at arm's length, and ask what would have to be true for each of them to be wrong. Two cases show what that looks like in practice.
+
+The first is a small discrepancy. In 1859 the French astronomer Urbain Le Verrier [showed](https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)) that Mercury's orbit turned slowly more than Newton's gravity allowed, by about 43 arcseconds per century, a sliver far smaller than a thousandth of a degree per year. He kept the Newtonian answer and proposed an unseen planet inside Mercury's orbit to account for it. The planet, called Vulcan, was never found. The discrepancy sat there for decades, until [Einstein's general relativity](https://en.wikipedia.org/wiki/Tests_of_general_relativity) in 1915 produced exactly that amount without any adjustment. The small thing that did not fit was the first crack in Newton's picture. Le Verrier had seen it correctly, and then patched it with the old picture.
+
+The second is a prevailing answer. In 1982, stress and lifestyle were [considered the major causes](https://www.nobelprize.org/prizes/medicine/2005/press-release/) of stomach ulcers. Robin Warren, a pathologist in Perth, noticed small curved bacteria in biopsies from about half of his patients, always alongside inflammation. Barry Marshall joined him, and together they cultured the bacterium, later named *Helicobacter pylori*. The Nobel committee's own summary of their method: they "challenged prevailing dogmas" using technology that was "generally available". Both men then received the 2005 Nobel Prize, and ulcers that once recurred for years are now typically cured with a short course of antibiotics.
+
+In both cases the evidence was available to everyone. What differed was who treated the name of the problem as provisional.
 
 The child looking up at the halo was already doing the hard part. The answer in the room just had to give way.
