@@ -73,6 +73,7 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[Transformer Circuits](https://transformer-circuits.pub/)** — interpretability research thread; Chris Olah's current writing, moved from his older blog [colah.github.io](https://colah.github.io/) (last updated 2021)
 - **[The Scaling Hypothesis (Gwern)](https://gwern.net/scaling-hypothesis)** — long essay, not a running blog
 - **[LessWrong](https://www.lesswrong.com/)** — community blog on rationality and AI alignment; user-submitted essays, with the Sequences (Eliezer Yudkowsky's rationality essays) as its core reading
+- **[Facing the Intelligence Explosion (Luke Muehlhauser)](https://intelligenceexplosion.com/)** — a short online book on what happens when machines become better than humans at doing science and engineering
 
 ## Code Repositories
 
