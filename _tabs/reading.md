@@ -74,6 +74,7 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[The Scaling Hypothesis (Gwern)](https://gwern.net/scaling-hypothesis)** — long essay, not a running blog
 - **[LessWrong](https://www.lesswrong.com/)** — community blog on rationality and AI alignment; user-submitted essays, with the Sequences (Eliezer Yudkowsky's rationality essays) as its core reading
 - **[Facing the Intelligence Explosion (Luke Muehlhauser)](https://intelligenceexplosion.com/)** — a short online book on what happens when machines become better than humans at doing science and engineering
+- **[Recommended Readings (Luke Muehlhauser)](https://lukemuehlhauser.com/recommended-readings/)** — a deliberately short reading list, at most three sources per topic, covering effective altruism, existential risk, extreme-stakes AI risk, forecasting and more
 
 ## Code Repositories
 
