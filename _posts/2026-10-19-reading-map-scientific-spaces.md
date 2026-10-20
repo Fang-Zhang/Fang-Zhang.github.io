@@ -1,9 +1,9 @@
 ---
-title: "A Reading Map for Scientific Spaces: 1,340 Posts of Math Behind Machine Learning"
+title: "A Reading Map for Scientific Spaces"
 date: 2026-10-19 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, machine-learning, mathematics, reading-list]
-description: "Scientific Spaces (科学空间) has 1,340 posts from 2009 to 2026. A map of its series and a reading order for the math behind machine learning."
+description: "A map of the series on Scientific Spaces (科学空间) and a reading order for the math behind machine learning."
 ---
 
 [Scientific Spaces (科学空间)](https://spaces.ac.cn/) is a Chinese-language blog by Su Jianlin (苏剑林).
