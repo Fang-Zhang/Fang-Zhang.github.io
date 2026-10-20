@@ -6,9 +6,7 @@ tags: [LLM, machine-learning, mathematics, reading-list]
 description: "Scientific Spaces (科学空间) has 1,340 posts from 2009 to 2026. A map of its series and a reading order for the math behind machine learning."
 ---
 
-[Scientific Spaces (科学空间)](https://spaces.ac.cn/) is a Chinese-language blog by Su Jianlin (苏剑林). It has 1,340 posts, running from March 2009 to October 2026. He wrote 197 posts in 2009 and has written about 50 to 60 a year since 2016. The average post grew from about 1,600 characters in 2009 to nearly 10,000 in 2024. He writes less often now, and each post goes further.
-
-Almost every topic is a series. A series is the right unit to read, so this map is organized by series.
+[Scientific Spaces (科学空间)](https://spaces.ac.cn/) is a Chinese-language blog by Su Jianlin (苏剑林).
 
 **Three eras**
 
