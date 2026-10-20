@@ -6,15 +6,15 @@ tags: [LLM, machine-learning, mathematics, reading-list]
 description: "A map of the series on Scientific Spaces (科学空间) and a reading order for the math behind machine learning."
 ---
 
-[Scientific Spaces (科学空间)](https://spaces.ac.cn/) is a Chinese-language blog by Su Jianlin (苏剑林).
+[Scientific Spaces (科学空间)](https://spaces.ac.cn/) is a Chinese-language blog by Su Jianlin (苏剑林). This is my map of it: how I divide its years, which series I would read, and the order I would read them in.
 
-**Three eras**
+**How I divide it**
 
 - **2009 to 2013: science notes.** Astronomy events, physics, translations and linear algebra.
 - **2014 to 2016: mathematics and code.** Number theory, with a twelve-part series that begins at [the background of Fermat's Last Theorem](https://spaces.ac.cn/archives/2805), then Python, OCR and Riemannian geometry.
 - **2017 to now: machine learning.** Word vectors, then generative models, then language models and attention, then diffusion, and since 2025 optimizers, matrices and MoE.
 
-**The series worth reading**
+**The series I would read**
 
 *Transformer and attention*
 
@@ -42,17 +42,11 @@ description: "A map of the series on Scientific Spaces (科学空间) and a read
 
 - **[低秩近似之路 (The Road to Low-Rank Approximation)](https://spaces.ac.cn/archives/10366)**: 5 posts, 2024 to 2025, from the pseudo-inverse to CUR. He says low-rank approximation feels familiar and strange at once: everyone knows the idea from LoRA, but the papers keep using techniques most people never learned. The series fills in that gap.
 
-**What to skip**
+**The order I would read in**
 
-The 2009 to 2013 posts on astronomy events, reposts and site announcements, unless you want the history. The 2015 to 2017 posts on sentiment classification and Word2Vec use methods that have since changed, but they show how his approach developed.
-
-**A reading order**
-
-1. [Transformer升级之路 1](https://spaces.ac.cn/archives/8231) to [4](https://spaces.ac.cn/archives/8397), the best way to learn his style.
+1. [Transformer升级之路 1](https://spaces.ac.cn/archives/8231) to [4](https://spaces.ac.cn/archives/8397), where I would start to get used to his style.
 2. [生成扩散模型漫谈 1](https://spaces.ac.cn/archives/9119).
 3. [低秩近似之路 1](https://spaces.ac.cn/archives/10366), the math the optimizer posts depend on.
 4. [Muon优化器指南](https://spaces.ac.cn/archives/11416), then [让炼丹更科学一些 1](https://spaces.ac.cn/archives/9902).
 5. [MoE环游记 1](https://spaces.ac.cn/archives/10699).
 6. His two newest posts, [慢即是快：Shampoo的尽头是Muon？](https://spaces.ac.cn/archives/11917) and [通过微扰分析求解等式约束优化问题](https://spaces.ac.cn/archives/11928), to see what he is working on now.
-
-His writing goes from a concrete question to a derivation, and the derivation ends in a general principle. The posts that hold up are the ones where he stops to ask why a design takes the form it does. Start with the series that asks that question about something you already use.
