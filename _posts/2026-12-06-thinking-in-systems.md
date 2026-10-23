@@ -6,7 +6,7 @@ tags: [systems-thinking, donella-meadows, feedback-loops, leverage-points, book-
 description: "A chapter-by-chapter walkthrough of Donella Meadows' Thinking in Systems: system structure, stocks and flows, feedback loops, resilience, surprises, traps, the twelve leverage points and dancing with systems, with the last two chapters checked against her own text."
 ---
 
-[*Thinking in Systems: A Primer*](https://www.chelseagreen.com/product/thinking-in-systems/) by Donella Meadows (Chelsea Green, 2008) is a short book with a large claim: a system's behavior comes from its structure, not from the events that happen to it. According to [Wikipedia's entry](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer), she circulated it as a draft in 1993, died in 2001, and it was restructured and published by colleagues at the Sustainability Institute, edited by Diana Wright. Meadows was the lead author of [*The Limits to Growth*](https://en.wikipedia.org/wiki/The_Limits_to_Growth) and trained under [Jay Forrester](https://en.wikipedia.org/wiki/Jay_Wright_Forrester) at MIT.
+[*Thinking in Systems: A Primer*](https://www.chelseagreen.com/product/thinking-in-systems/) by Donella Meadows (Chelsea Green, 2008) is a short book with a large claim: a system's behavior comes from its structure, not from the events that happen to it. According to [Wikipedia's entry](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer), she circulated it as a draft in 1993, died in 2001, and it was restructured and published by colleagues at the Sustainability Institute, edited by Diana Wright. Meadows was the lead author of [*The Limits to Growth*](https://www.clubofrome.org/publication/the-limits-to-growth/) and trained under [Jay Forrester](https://en.wikipedia.org/wiki/Jay_Wright_Forrester) at MIT.
 
 The full book is under copyright, and I did not use unauthorized copies. What I could read at the source was the publisher's preview and the two chapters Meadows' estate publishes free: the essay [*Leverage Points: Places to Intervene in a System*](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/) and [*Dancing with Systems*](https://donellameadows.org/archives/dancing-with-systems/). The book's chapters 6 and 7 expand these. For chapters 1 to 5 I relied on the book's published table of contents and [a reader's detailed chapter notes by Dan Lebrero](https://danlebrero.com/2021/07/21/thinking-in-systems-summary), which I could not check against the book's pages. So:
 
@@ -17,28 +17,41 @@ The book's structure is: introduction, (1) The Basics, (2) A Brief Visit to the 
 
 ## 1. What a system is
 
-The book defines a system as a set of things interconnected in such a way that they produce their own pattern of behavior over time. It has three parts: elements, interconnections, and a function or purpose. The purpose is the least obvious and the most crucial determinant of behavior. Changing elements has the least effect; changing interconnections can alter the system greatly; changing the purpose is the most drastic. One frustrating feature is that the purposes of subunits may add up to an overall behavior that no one wants.
+The book defines a system as a set of things interconnected in such a way that they produce their own pattern of behavior over time. It has three parts: elements, interconnections, and a function or purpose. ![Elements, interconnections, purpose](/assets/pic/systems-parts.png){: width="600" }
+_Figure 1. The three parts of a system, ordered by how much changing each one matters. After the book's chapter 1. My own drawing._
+
+The purpose is the least obvious and the most crucial determinant of behavior. Changing elements has the least effect; changing interconnections can alter the system greatly; changing the purpose is the most drastic. One frustrating feature is that the purposes of subunits may add up to an overall behavior that no one wants.
 
 The central claim, as [Wikipedia summarizes it](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer), is that a system's behavior is intrinsic to its structure, not caused by outside events. The range of behaviors it can show is set by its connections and feedback loops.
 
 ## 2. Stocks, flows and feedback
 
-A [stock](https://en.wikipedia.org/wiki/Stock_and_flow) is an element you can see, feel, count or measure at a given moment. It changes over time through flows, and because flows take time, stocks act as delays, buffers and shock absorbers. They let inflows and outflows be temporarily out of balance. A bathtub is the book's model: the level changes only through the tap and the drain. The notes record that the human mind focuses more easily on stocks than on flows, and more on inflows than on outflows.
+A [stock](https://en.wikipedia.org/wiki/Stock_and_flow) is an element you can see, feel, count or measure at a given moment. It changes over time through flows, and because flows take time, stocks act as delays, buffers and shock absorbers. They let inflows and outflows be temporarily out of balance. A bathtub is the book's model: the level changes only through the tap and the drain.
+
+![Stock and flows](/assets/pic/systems-bathtub.png){: width="600" }
+_Figure 2. One stock, one inflow, one outflow. My own drawing._
+ The notes record that the human mind focuses more easily on stocks than on flows, and more on inflows than on outflows.
 
 A [feedback loop](https://en.wikipedia.org/wiki/Feedback) exists when a change in a stock affects the flows into or out of that same stock. There are two kinds:
 
 - **Balancing loops** are goal-seeking. They try to keep a stock at a given value or within a range, as a thermostat does. They may not be strong enough or fast enough.
 - **Reinforcing loops** generate more input to a stock the more of it there is, which gives vicious or virtuous cycles, as compound interest does.
 
+![Balancing and reinforcing loops](/assets/pic/systems-loops.png){: width="700" }
+_Figure 3. A balancing loop (B) closes the gap to a goal; a reinforcing loop (R) feeds on itself. My own drawing._
+
 Information delivered by a feedback loop can only affect future behavior, so there is always a delay, and a delay in a balancing loop makes a system likely to oscillate. Systems with similar feedback structures behave similarly even when they look nothing alike.
 
 Chapter 2 is a tour of simple systems: a stock with two competing balancing loops (a thermostat), a stock with one reinforcing and one balancing loop (population and the industrial economy), a system with delays (business inventory), and renewable stocks constrained by non-renewable or other renewable stocks (an oil economy, a fishery). The notes record the fishery's three outcomes: if the balancing loop that slows growth is fast, the system settles to equilibrium; if slow, it oscillates; if too slow, it collapses.
+
+![Growth meets a limit; speed of correction](/assets/pic/systems-growth.png){: width="700" }
+_Figure 4. Left: a reinforcing loop alone grows without bound; a balancing limit turns it into an S curve. Right: the same goal-seeking loop settles, oscillates or collapses depending on how fast it responds. Schematic curves, not data. My own drawing._
 
 ## 3. Why systems work so well
 
 Chapter 3 names three properties:
 
-- **Resilience** is the ability to survive and persist in a variable environment. It can be managed and enhanced, and it is not the same as being static.
+- **Resilience** is the ability to survive and persist in a variable environment (the term in this sense is [C. S. Holling's, 1973](https://www.annualreviews.org/doi/10.1146/annurev.es.04.110173.000245)). It can be managed and enhanced, and it is not the same as being static.
 - **Self-organization** is a system's capacity to make its own structure more complex. It is fundamental to living systems, produces variety and unpredictability, and requires freedom and experimentation. The notes add that it is a threat to power structures.
 - **Hierarchy** gives stability and resilience and reduces the cognitive load in the subsystems: links inside a subsystem are stronger than links across subsystems. Its original purpose is to help the subsystems do their job. The risks are sub-optimization and too much centralization.
 
@@ -48,7 +61,11 @@ The book's warning is that resilience and self-organization are often sacrificed
 
 Chapter 4 starts from the idea that everything we know about the world is a model, and models always fall short. It then lists six sources of surprise:
 
-1. **Beguiling events.** We watch events and pay too little attention to the history behind them. Structure is the source of behavior.
+1. **Beguiling events.** We watch events and pay too little attention to the history behind them. Structure is the source of behavior. Figure 5 shows the common way to picture this.
+
+![Events, patterns, structure](/assets/pic/systems-iceberg.png){: width="600" }
+_Figure 5. Events sit on the surface; the patterns and the structure that produce them are underneath. The three-level framing is a common teaching device that fits the book's point; it is my own drawing, not a figure from the book._
+
 2. **Nonlinear relationships.** They produce unexpected shifts between feedback loops (the spruce budworm example).
 3. **Nonexistent boundaries.** There is no single legitimate boundary around a system, and boundaries are of our own making, to be reconsidered for each problem. Too narrow a boundary produces surprises.
 4. **Layers of limits.** The most important input is the one that is most limiting, and growth changes what is limiting.
@@ -60,7 +77,7 @@ Chapter 4 starts from the idea that everything we know about the world is a mode
 Chapter 5 catalogs archetypes, recurring structures that produce stubborn problems in different settings. As Lebrero's notes list them, with the way out:
 
 - **Policy resistance.** Actors pull a stock toward different goals, and each pull forces the others to pull harder. Everyone works to maintain a result that nobody likes. The war on drugs is the example in the notes. The way out is to align the actors to a larger goal or negotiate solutions that satisfy all of them.
-- **The [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons).** A shared, erodible resource whose users get the benefit directly while the costs of abuse are shared, with weak feedback from the resource's condition. The ways out are education and exhortation, privatization (to strengthen the feedback) and regulation.
+- **The tragedy of the commons** ([Hardin, 1968](https://www.science.org/doi/10.1126/science.162.3859.1243)). A shared, erodible resource whose users get the benefit directly while the costs of abuse are shared, with weak feedback from the resource's condition. The ways out are education and exhortation, privatization (to strengthen the feedback) and regulation.
 - **Drift to low performance.** Performance standards are influenced by past performance, creating a reinforcing loop of eroding goals. The way out is to keep standards absolute, or to make them sensitive to the best historical performance.
 - **Escalation.** Each side's state is determined by trying to surpass the other's (arms races). Refuse to compete, or negotiate a new system with balancing loops.
 - **Success to the successful.** Winners are rewarded with the means to win again, until winners take all. The ways out include diversification, antitrust limits and policies that level the playing field.
@@ -72,7 +89,11 @@ Chapter 5 catalogs archetypes, recurring structures that produce stubborn proble
 
 The book's sixth chapter is its centerpiece. The claim is that in a complex system the places to intervene are not equal: some take enormous effort for a small effect and others move the whole system with a light touch. This part follows Meadows' own essay, which became the book's chapter 6.
 
-Her opening point is that leverage points are **counter-intuitive**. Jay Forrester's story: he would analyze a company, find a leverage point, and then find that everyone was already pushing on it, in the wrong direction. The model for the Club of Rome ([World3](https://en.wikipedia.org/wiki/The_Limits_to_Growth)) found growth itself to be the leverage point, while the world's leaders were pushing growth as the answer to everything. She is also clear that the list is tentative, "slithery" in order, and "not a recipe". Her own wording of the list, in increasing order of effectiveness:
+Her opening point is that leverage points are **counter-intuitive**. Jay Forrester's story: he would analyze a company, find a leverage point, and then find that everyone was already pushing on it, in the wrong direction. The model for the Club of Rome (World3, the model behind *The Limits to Growth*) found growth itself to be the leverage point, while the world's leaders were pushing growth as the answer to everything. She is also clear that the list is tentative, "slithery" in order, and "not a recipe". Her own wording of the list, in increasing order of effectiveness (Figure 6):
+
+![The twelve leverage points](/assets/pic/systems-leverage.png){: width="700" }
+_Figure 6. Meadows' twelve leverage points, from the weakest (12) to the strongest (1). The shorter bars are the ones most attention goes to. After her essay. My own drawing._
+
 
 12. Constants, parameters, numbers (subsidies, taxes, standards).
 11. The sizes of buffers and other stabilizing stocks, relative to their flows.
@@ -109,7 +130,7 @@ The descriptions below follow her essay.
 
 **3, goals.** The goal beats the ability to self-organize, because a goal of bringing everything under central control will twist everything below it. Her example is that a corporation's stated goal is profit, but profit is a rule, a condition of staying in the game. The actual goal is to grow and shield itself from uncertainty, which "is the goal of a cancer too". A single leader at the top can change a goal and swing thousands of intelligent people: she cites Ronald Reagan's shift from asking what you can do for government to getting government off our backs. Her point is that a system's real goal is what its behavior shows, not what it declares.
 
-**2, paradigms.** The shared unstated assumptions of a society from which its goals, rules and structure arise. Forrester's remark: whatever a country's tax law says, actual tax payments will push up against the society's idea of fairness. She quotes Emerson on how every nation surrounds itself with a material apparatus that corresponds to its state of thought. Her examples of paradigm shifts: Copernicus and Kepler, Einstein, Adam Smith. She says paradigm change can be instant in one mind but societies resist it harder than anything. Following Thomas Kuhn's [*The Structure of Scientific Revolutions*](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions), you keep pointing at the anomalies and failures of the old paradigm, speak with assurance from the new one, and place its holders in positions of visibility, spending your effort on the open-minded middle and not on reactionaries. Systems people, she adds, change paradigms by modeling a system, which takes you outside it and forces you to see it whole.
+**2, paradigms.** The shared unstated assumptions of a society from which its goals, rules and structure arise. Forrester's remark: whatever a country's tax law says, actual tax payments will push up against the society's idea of fairness. She quotes Emerson on how every nation surrounds itself with a material apparatus that corresponds to its state of thought. Her examples of paradigm shifts: Copernicus and Kepler, Einstein, Adam Smith. She says paradigm change can be instant in one mind but societies resist it harder than anything. Following Thomas Kuhn's [*The Structure of Scientific Revolutions*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html), you keep pointing at the anomalies and failures of the old paradigm, speak with assurance from the new one, and place its holders in positions of visibility, spending your effort on the open-minded middle and not on reactionaries. Systems people, she adds, change paradigms by modeling a system, which takes you outside it and forces you to see it whole.
 
 **1, the power to transcend paradigms.** This is the highest item on her list. It is "to keep oneself unattached in the arena of paradigms, to stay flexible, to realize that NO paradigm is 'true'", including the one that shapes your own view. She calls it letting go into Not Knowing, and says that if no paradigm is right, you can choose whichever helps your purpose.
 

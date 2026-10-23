@@ -33,14 +33,19 @@ Because the special-token positions are known, the ordinary-text segments betwee
 
 Generation has two phases. **Prefill** reads the whole input (system prompt, history, files, question) in parallel and is bound by compute. **Decode** produces one token at a time, rereading the accumulated state at each step, and is bound largely by memory traffic. DeepSeek deploys them separately. The Q&A gives the layout: ordinary 8-GPU machines for prefill (expert parallelism of 2 to 8, using the smallest that GPU memory allows), 64 to 128-GPU supernodes for decode (the largest the available GPUs allow), and a separate vision-encoder stage for images. Prefill and decode GPUs run at roughly 1:1, so the smallest efficient deployment is 64 GPUs for prefill plus 64 for decode.
 
+![Prefill and decode on separate machines](/assets/pic/deepinfer-pd.png){: width="700" }
+_Figure 2. The two phases have different bottlenecks, so each gets its own machines and its own load balancer. After the Q&A's layout. My own drawing._
+
+The idea of splitting the phases is older than this release; it is studied in [Splitwise](https://arxiv.org/abs/2311.18677) and [DistServe](https://arxiv.org/abs/2401.09670), which show that putting both on the same GPUs makes them interfere and forces one set of parallelism choices on two different workloads.
+
 The point of the split, in the Q&A's words, is that resources can be allocated per stage, so time to first token (TTFT) and time between tokens (TBT) can be controlled and optimized independently.
 
 ## Stop 3: the KV cache
 
-Every new message in a conversation repeats the entire history. A coding agent repeats history, system prompt, tool descriptions and previously read code on every tool call. The **KV cache** stores the attention keys and values computed when text was first read ([cache](https://en.wikipedia.org/wiki/Cache_%28computing%29) is the general idea), so a request that begins with an already-seen prefix skips recomputing it. Only a shared opening can be reused: text that repeats in the middle of a different prompt cannot.
+Every new message in a conversation repeats the entire history. A coding agent repeats history, system prompt, tool descriptions and previously read code on every tool call. The **KV cache** stores the attention keys and values computed when text was first read ([cache](https://en.wikipedia.org/wiki/Cache_%28computing%29) is the general idea), so a request that begins with an already-seen prefix skips recomputing it. Managing that cache in fixed-size blocks comes from [PagedAttention](https://arxiv.org/abs/2309.06180), and matching new requests to cached prefixes is the subject of [SGLang's RadixAttention](https://arxiv.org/abs/2312.07104). Only a shared opening can be reused: text that repeats in the middle of a different prompt cannot.
 
 ![Prefix reuse in the KV cache](/assets/pic/deepinfer-kvcache.png){: width="700" }
-_Figure 2. Turn 51 reuses what turn 50 already read. An edit near the start breaks the shared opening. My own drawing._
+_Figure 3. Turn 51 reuses what turn 50 already read. An edit near the start breaks the shared opening. My own drawing._
 
 DeepSeek has published a hit rate for its older V3/R1 service: of 608 billion input tokens in one 24-hour window in February 2025, 342 billion (56.3%) hit the on-disk KV cache. I could not find a published hit rate for V4.1 Flash. The size of the effect follows from arithmetic: if a fraction h of input tokens is served from cache, prefill work falls by a factor of 1 / (1 - h), so 56.3% means about 2.3 times less and 90% would mean 10 times less.
 
@@ -57,19 +62,28 @@ Other details from the Q&A:
 - Reclamation is a least-recently-used garbage collector on each storage node, kept below a disk-usage watermark.
 - Matching a prefix is a metadata-only check at the entrance, and it has to finish before routing, so it cannot be hidden. The data itself is fetched asynchronously into host memory and then swapped into GPU memory layer by layer, overlapped with the forward pass.
 
+![Where each KV cache lives](/assets/pic/deepinfer-storage.png){: width="700" }
+_Figure 4. The three homes of the cache and its retention settings, after the Q&A. My own drawing._
+
 This storage system is the part DeepSeek did not release. The Q&A refers readers to DeepSeek's own Zhihu blog post for its design.
 
 ## Stop 5: sliding-window layers and bounded replay
 
-Some of V4.1's layers use sliding-window attention (SWA) and look only at the most recent 128 tokens. The Q&A says their cache is **not** written to 3FS. It sits in the local host memory of the machine that produced it, with an in-memory directory recording where, and a machine that lacks it pulls it from the remote one over a 400G network on a hit.
+Some of V4.1's layers use sliding-window attention (SWA, as in [Longformer](https://arxiv.org/abs/2004.05150)) and look only at the most recent 128 tokens. The Q&A says their cache is **not** written to 3FS. It sits in the local host memory of the machine that produced it, with an in-memory directory recording where, and a machine that lacks it pulls it from the remote one over a 400G network on a hit.
 
 What if it is missing? The Q&A's answer is **SWA bounded replay**: recompute only the last 128 tokens of the cached prefix and truncate attention to the replayed segment, which gives an approximate SWA cache. The cost is constant, independent of context length. In the decoder layers, rebuilding the cache exactly would mean pushing the last 2,560 tokens through 20 layers on every prefill. Replaying 128 tokens instead is described as nearly halving total prefill computation.
+
+![SWA bounded replay](/assets/pic/deepinfer-swa.png){: width="700" }
+_Figure 5. Only the last 128 tokens of a cached prefix are recomputed to rebuild the window cache. After the Q&A. My own drawing._
 
 The README's default V4.1 setting keeps a 140-token suffix, which the README says must cover the SWA window plus the maximum backtracking length.
 
 ## Stop 6: keeping GPUs neither blocked nor idle
 
-V4.1 is a [mixture-of-experts](https://en.wikipedia.org/wiki/Mixture_of_experts) model, so each token is routed to a few of many expert sub-networks. Spreading experts across 64 to 128 decode GPUs means each GPU holds few experts, reads less weight data per step and batches more requests. The risk is imbalance: all GPUs advance in lockstep, so the slowest sets the pace. DeepSeek's Q&A lists four load balancers (prefill, decode, vision encoder, and across experts):
+V4.1 is a mixture-of-experts model ([Shazeer et al., 2017](https://arxiv.org/abs/1701.06538); DeepSeek's own variant is described in [DeepSeekMoE](https://arxiv.org/abs/2401.06066)), so each token is routed to a few of many expert sub-networks. DeepSeek's earlier [V3 technical report](https://arxiv.org/abs/2412.19437) already describes redundant experts for balancing load at serving time. Spreading experts across 64 to 128 decode GPUs means each GPU holds few experts, reads less weight data per step and batches more requests. The risk is imbalance: all GPUs advance in lockstep, so the slowest sets the pace. DeepSeek's Q&A lists four load balancers (prefill, decode, vision encoder, and across experts):
+
+![Expert load balancing](/assets/pic/deepinfer-moe.png){: width="700" }
+_Figure 6. Hot experts get replicas so no single GPU sets the pace. The numbers are illustrative, not DeepSeek's measurements. My own drawing._
 
 - **Expert-parallel load balancer.** Each GPU holds a few redundant experts that replicate hot ones. Load per expert is collected over a window of recent steps and assignments are reshuffled periodically. The Q&A reports measured slowest-rank to mean ratios of 1.074 and 1.045 (prefill) and 1.090 (decode).
 - **Prefill balancer.** Requests are bucketed by context length into four tiers (under 16K, 16-64K, 64-256K, 256K and above) with compute quotas per tier, and chunk sizes are solved from a time budget with a fitted cost model.
@@ -82,10 +96,10 @@ The expert-parallel load balancing is in the released code; the cross-machine ba
 
 ## Stop 7: several tokens per step
 
-Decoding normally emits one token per forward pass. In **speculative decoding** ([Leviathan et al., 2022](https://arxiv.org/abs/2211.17192)) a cheap draft model proposes several tokens, the main model checks them in a single pass, the correct prefix is kept and the first wrong token is replaced, so output quality is unchanged.
+Decoding normally emits one token per forward pass. In **speculative decoding** ([Leviathan et al., 2022](https://arxiv.org/abs/2211.17192)) a cheap draft model proposes several tokens, the main model checks them in a single pass, the correct prefix is kept and the first wrong token is replaced, so output quality is unchanged. [DeepMind published the same idea](https://arxiv.org/abs/2302.01318) independently.
 
 ![Speculative decoding with DSpark](/assets/pic/deepinfer-speculative.png){: width="700" }
-_Figure 3. The draft proposes five tokens; the main model verifies only a prefix and corrects the first mistake. The acceptance probabilities in the figure are illustrative, not DeepSeek's numbers. My own drawing._
+_Figure 7. The draft proposes five tokens; the main model verifies only a prefix and corrects the first mistake. The acceptance probabilities in the figure are illustrative, not DeepSeek's numbers. My own drawing._
 
 On a busy GPU, every extra draft token checked costs compute, and later tokens are more likely wrong. The Q&A describes DeepSeek's **DSpark**: a confidence head predicts the acceptance probability of each draft token (the draft model writes 5 at a time in production), and the scheduler sorts them by expected acceptance and, from a profiled throughput curve of the hardware, picks the prefix that maximizes effective throughput. Reported results:
 
@@ -96,7 +110,7 @@ On a busy GPU, every extra draft token checked costs compute, and later tokens a
 **Asynchronous scheduling.** In the plain loop, step N runs schedule, forward, sample and post-process, and the GPU idles during the CPU-only steps. DeepInfer overlaps them: while the GPU runs forward and sample for step N, the CPU runs scheduling for step N+1 and post-processing for step N-1. The Q&A cites SGLang and NanoFlow as earlier implementations.
 
 ![Asynchronous scheduling](/assets/pic/deepinfer-async.png){: width="700" }
-_Figure 4. Overlapping CPU planning with GPU work removes the idle gaps. Step lengths are illustrative. My own drawing._
+_Figure 8. Overlapping CPU planning with GPU work removes the idle gaps. Step lengths are illustrative. My own drawing._
 
 For measured speed, [MarkTechPost's reading](https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework) of the README's charts (self-reported by DeepSeek, 131,072 context) gives decode above 25,000 output tokens per second per GPU at 256 requests per rank (about 100 tokens per second per user), and over 300 per user at 8 requests, on 64 GPUs with 3 draft tokens and 75% acceptance. For prefill it gives about 60,000 non-cached tokens per second per GPU at 4,096 tokens per rank, on 4 GPUs.
 
