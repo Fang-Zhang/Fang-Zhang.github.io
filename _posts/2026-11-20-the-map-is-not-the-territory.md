@@ -13,6 +13,9 @@ _Where this post sits in the series: stage 3 of 6, Belief._
 
 The [previous post](/posts/make-the-right-thing-the-easy-thing/) argued for setting defaults and triggers in advance. That raises the question of which ones. The answer depends on a picture of the world, and every picture is a compression. This post is about four ways a compressed picture misleads the person holding it.
 
+![Four boxes, the map, the measure, the fence and the unseen, each pointing to one shared question]({{ "/assets/pic/map-four-failures.png" | relative_url }})
+_Figure 1. Four ways a compressed picture misleads, and the one question that checks all of them._
+
 ## The map
 
 Alfred Korzybski presented the phrase in 1931 at a meeting of the American Association for the Advancement of Science, and it was reprinted in *Science and Sanity* (1933). The [sentence is longer than its slogan](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation): "A map *is not* the territory it represents, but, if correct, it has a *similar structure* to the territory, which accounts for its usefulness."

@@ -13,6 +13,9 @@ Giles Thomas, in [The maths you need to start understanding LLMs](https://www.gi
 
 So the useful question is which pieces, and in what order. Here are five.
 
+![Five operations as boxes: dot product, matrix multiplication, softmax, attention, cross-entropy and gradient descent, with gradient descent feeding back into the weights]({{ "/assets/pic/math-five-operations.png" | relative_url }})
+_Figure 1. The five operations and how they connect. Attention combines the first three; training closes the loop._
+
 ## 1. The dot product: similarity as arithmetic
 
 Multiply two vectors element by element and add the results. That is the whole operation.
@@ -48,6 +51,9 @@ $$h_i = \sum_j \alpha_{ij}\, v_j, \qquad \alpha_{ij}\ge 0,\quad \sum_j \alpha_{i
 where the weights come from dot products between learned projections of the vectors (pieces 1 and 2), scaled by the square root of the projection dimension and passed through softmax (piece 3). The standard compact form, as [Anjali T. writes it](https://medium.com/@anjalitanikella/understanding-the-math-behind-llm-models-and-fine-tuning-them-ee4ca222823f), is $$\mathrm{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V$$.
 
 Breeden also objects to the usual vocabulary. Query, key and value are borrowed from databases, but "Nothing is being 'looked up' in the sense of database retrieval." His neutral names are influence scores and influence weights. He also stresses that influence is asymmetric: how much "cat" matters when updating "sat" differs from how much "sat" matters when updating "cat", which is why a plain dot product of the raw vectors is not enough and separate projections are needed.
+
+![Bar charts of attention scores and softmax weights for three words, with the weighted-average output]({{ "/assets/pic/math-attention-toy.png" | relative_url }})
+_Figure 2. A toy attention step: scores, then softmax weights, then a weighted average of the value vectors. The numbers are invented for illustration and computed in code._
 
 Stacking many such layers, with nonlinear transformations, normalisation and position information between them, gives the transformer. Patel's article walks through each of those additions in its own section.
 

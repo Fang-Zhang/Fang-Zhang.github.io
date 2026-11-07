@@ -14,6 +14,9 @@ description: "Game-playing AI tooling splits into environments, algorithms and a
 
 Star counts and update dates below were read from each GitHub repository on 2026-10-10. Only the projects marked "run here" (plus Stable-Baselines3 and the Arcade Learning Environment, used in the previous posts) were installed and executed; the rest are described from their own READMEs and repository descriptions.
 
+![Three stacked layers: agents, algorithms and environments, each with its guiding question and example projects]({{ "/assets/pic/games-three-layers.png" | relative_url }})
+_Figure 1. The three layers, each with the question it answers and a few examples from the lists below._
+
 ## Layer 1: environments
 
 An environment answers one question: given an action, what does the world do next? Gymnasium defines the single-agent contract, and the rest of the layer is mostly games that implement it.
@@ -71,6 +74,9 @@ To check that the API does what it says, I trained a tabular Q-learning player (
 | After 20,000 training games | 99.1% | 0.9% | 0.0% |
 
 Training took 7.6 seconds and the table holds 8,398 states. The caveat matters: the opponent was random, so this shows the agent learned to beat a random player, not to play tic-tac-toe perfectly. It also learned only the first-player seat. For genuinely adversarial training, PettingZoo pairs with self-play, as in the AlphaStar and OpenAI Five routes from the [first post](/posts/how-ai-learns-to-play-video-games/).
+
+![Stacked bars of win, draw and loss shares for a random player and a Q-learning player after 5,000 and 20,000 training games]({{ "/assets/pic/games-tictactoe-results.png" | relative_url }})
+_Figure 2. The tic-tac-toe check from the table above. The opponent was random, so this shows the API works, not that the agent plays perfectly._
 
 ## Layer 2: algorithms
 

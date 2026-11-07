@@ -16,6 +16,9 @@ All of the systems below share one structure. The agent receives an *observation
 
 What changes between routes is how the agent turns observations into actions.
 
+![Agent and game exchanging action, observation and reward in a loop]({{ "/assets/pic/games-agent-loop.png" | relative_url }})
+_Figure 1. The loop shared by every route below._
+
 ## Route 1: learn from pixels and score alone
 
 In 2013, DeepMind's [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) presented "the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning." The model was a convolutional neural network, trained with a variant of Q-learning, whose input was raw pixels and whose output was a value function estimating future rewards. It outperformed all previous approaches on six of seven Atari games and surpassed a human expert on three.
@@ -82,3 +85,6 @@ To move to Atari, install ALE and replace the environment name with `"ALE/Breako
 ## What the four routes have in common
 
 Each route made the same trade. It gave the agent less pre-built knowledge about the game in exchange for more experience of it: no hand-made features (route 1), no rules (MuZero), no opponent except itself (route 2), no action labels (route 3), no fixed skill set (route 4). Progress came from removing what had been supplied by hand and letting the loop of observe, act and score supply it instead.
+
+![Timeline of five systems, each paired with what it no longer needed to be given by hand]({{ "/assets/pic/games-four-routes.png" | relative_url }})
+_Figure 2. What each route stopped supplying by hand. Years are first-paper years._

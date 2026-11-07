@@ -37,6 +37,9 @@ What this gives the thinker is a question. A "should" has a source, and the sour
 
 The practice is the same for all three: say which one it is, in words. "Confused." "Flinching." "Should." Nothing else is required at first, and nothing needs to be decided. The [if-then plans](/posts/make-the-right-thing-the-easy-thing/) of the next stage need a trigger that cannot be missed, and these three are the triggers the mind provides for free.
 
+![Three cards, confusion, the flinch and the should, each with the phrase to say and the question to ask]({{ "/assets/pic/catch-three-signals.png" | relative_url }})
+_Figure 1. The three signals, what to say and what to ask._
+
 A safeguard decided in advance needs a moment to fire. Catching the error costs seconds and decides nothing, but it keeps the failure from passing unseen. The next post turns from catching failures to rebuilding the setting, so there are fewer to catch.
 
 *Series: How to Think Clearly. 1. [Where Thinking Breaks and What to Put There](/posts/where-thinking-breaks-and-what-to-put-there/). 2. [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/). 3. [Catch the Error While It Happens](/posts/catch-the-error-while-it-happens/). 4. [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/). 5. [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/). 6. [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/). 7. [Averages Lie](/posts/averages-lie/). 8. [Price Your Own Hour](/posts/price-your-own-hour/). 9. [Explore Early, Exploit Late, Imagine the Failure First](/posts/explore-early-exploit-late-imagine-the-failure-first/). 10. [The Hill You Are Standing On](/posts/the-hill-you-are-standing-on/). 11. [Let AI Think, Keep the Decision](/posts/let-ai-think-keep-the-decision/).*
