@@ -72,7 +72,7 @@ Chinese titles are kept as they are; for translated books the English original i
 - **[How to Make Anyone Fall in Love with You](https://www.goodreads.com/book/show/1094312)** — Leil Lowndes (《如何让你爱的人爱上你》)
 - **[The Craving Mind](https://www.goodreads.com/book/show/32714199-the-craving-mind)** — Judson Brewer (《欲望的博弈》)
 - **[The Miracle of Mindfulness](https://www.goodreads.com/book/show/6626541)** — Thich Nhat Hanh (《正念的奇迹》)
-- **[From Strength to Strength](https://www.goodreads.com/book/show/58100575-from-strength-to-strength)** — Arthur Brooks (《中年觉醒》)
+- **[From Strength to Strength](https://www.goodreads.com/book/show/60687469)** — Arthur Brooks (《中年觉醒》)
 - **[Critical Thinking: Tools for Taking Charge of Your Professional and Personal Life](https://www.goodreads.com/book/show/50551236-critical-thinking)** — Richard Paul, Linda Elder (《思辨与立场》)
 - **《12种智慧》**: Chinese title kept; the original was not identified
 
