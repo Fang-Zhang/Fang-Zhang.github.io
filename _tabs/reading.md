@@ -32,13 +32,13 @@ Chinese titles are kept as they are; for translated books the English original i
 - **《静坐修身与长生不老》** — 南怀瑾
 - **《张爱玲传》**
 - **《爱因斯坦传》** (author and edition not specified)
-- **Edison** — Edmund Morris (《点亮黑夜》)
+- **[Edison](https://www.goodreads.com/book/show/44446594-edison)** — Edmund Morris (《点亮黑夜》)
 
 **Parenting, learning and growth**
 
 - **《主角模式》** — 樊登
-- **Mindset: The New Psychology of Success** — Carol Dweck (《终身成长》)
-- **The Gardener and the Carpenter** — Alison Gopnik (《园丁与木匠》)
+- **[Mindset: The New Psychology of Success](https://www.goodreads.com/book/show/40745.Mindset_The_New_Psychology_of_Success)** — Carol Dweck (《终身成长》)
+- **[The Gardener and the Carpenter](https://www.goodreads.com/book/show/28595855-the-gardener-and-the-carpenter)** — Alison Gopnik (《园丁与木匠》)
 - **《天才的学习方法》** — Giulio Deangeli (Italian original, Mondadori 2022; the title was not found)
 - **受験脳の作り方** — Yuji Ikegaya, Japanese original (《考试脑科学》)
 - Childhood reading: **《儿童文艺》**, **《儿童文学》**, **《少年文艺》**, **《故事会》**, 郑渊洁's **《童话大王》** (Pipilu and Luxixi series), **《月球旅行记》**
@@ -46,46 +46,46 @@ Chinese titles are kept as they are; for translated books the English original i
 **Business, startups and work**
 
 - **《低风险创业》** — 樊登
-- **Antifragile** — Nassim Nicholas Taleb (《反脆弱》)
-- **Team of Teams** — Stanley McChrystal (《赋能》)
+- **[Antifragile](https://www.goodreads.com/book/show/21111223-antifragile)** — Nassim Nicholas Taleb (《反脆弱》)
+- **[Team of Teams](https://www.goodreads.com/book/show/24758143-team-of-teams)** — Stanley McChrystal (《赋能》)
 - **《授权》**, **《跨越成长》**, **《网飞》**
 - **Messy** — Tim Harford (《混乱》)
 - **《茑屋经营哲学》** — 增田宗昭 (Japanese original, title not checked)
 - **《7-Eleven零售的哲学》** — 铃木敏文
 - **As We Speak** — Peter Meyers, Shann Nix (《高效演讲》)
-- **Crucial Conversations** (《关键对话》)
-- **The 3rd Alternative** — Stephen Covey (《第三选择》)
-- **The Visual Hammer** — Laura Ries (《视觉锤》)
-- **The Unsold Mindset** — Colin Coggins, Garrett Brown (《反直觉销售》)
+- **[Crucial Conversations: Tools for Talking When Stakes Are High](https://www.goodreads.com/book/show/883911.Crucial_Conversations)** — Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler (《关键对话》)
+- **[The 3rd Alternative](https://www.goodreads.com/book/show/13275489-the-3rd-alternative)** — Stephen Covey (《第三选择》)
+- **[The Visual Hammer](https://www.goodreads.com/book/show/26635756-visual-hammer)** — Laura Ries (《视觉锤》)
+- **[The Unsold Mindset](https://www.goodreads.com/book/show/61190246-the-unsold-mindset)** — Colin Coggins, Garrett Brown (《反直觉销售》)
 - **《失传的倾听艺术》**
 - **What I Learned About Investing from Darwin** — Pulak Prasad (《我从达尔文那学到了投资》)
-- **Thinking, Fast and Slow** — Daniel Kahneman (《思考，快与慢》)
+- **[Thinking, Fast and Slow](https://www.goodreads.com/book/show/12396794)** — Daniel Kahneman (《思考，快与慢》)
 - **Third Millennium Thinking** — Saul Perlmutter, John Campbell, Robert MacCoun (《第三个千年思维》)
-- **Who Gets What—and Why** — Alvin Roth (《匹配》)
+- **[Who Gets What—and Why](https://www.goodreads.com/book/show/22749723-who-gets-what-and-why)** — Alvin Roth (《匹配》)
 
 **Psychology, relationships and life**
 
 - **Intimate Relationships** — Rowland Miller (《亲密关系》)
-- **The Seven Principles for Making Marriage Work** — John Gottman (《幸福的婚姻》)
-- **The Road Less Traveled** — M. Scott Peck (《少有人走的路》)
+- **[The Seven Principles for Making Marriage Work](https://www.goodreads.com/book/show/1037110.The_Seven_Principles_for_Making_Marriage_Work)** — John Gottman (《幸福的婚姻》)
+- **[The Road Less Traveled](https://www.goodreads.com/book/show/347852.The_Road_Less_Traveled)** — M. Scott Peck (《少有人走的路》)
 - **The Single Trap** — Andrew G. Marshall (《好好恋爱》)
-- **How to Make Anyone Fall in Love with You** — Leil Lowndes (《如何让你爱的人爱上你》)
-- **The Craving Mind** — Judson Brewer (《欲望的博弈》)
-- **The Miracle of Mindfulness** — Thich Nhat Hanh (《正念的奇迹》)
-- **From Strength to Strength** — Arthur Brooks (《中年觉醒》)
-- **Critical Thinking: Tools for Taking Charge of Your Professional and Personal Life** — Richard Paul, Linda Elder (《思辨与立场》)
+- **[How to Make Anyone Fall in Love with You](https://www.goodreads.com/book/show/1094312)** — Leil Lowndes (《如何让你爱的人爱上你》)
+- **[The Craving Mind](https://www.goodreads.com/book/show/32714199-the-craving-mind)** — Judson Brewer (《欲望的博弈》)
+- **[The Miracle of Mindfulness](https://www.goodreads.com/book/show/6626541)** — Thich Nhat Hanh (《正念的奇迹》)
+- **[From Strength to Strength](https://www.goodreads.com/book/show/58100575-from-strength-to-strength)** — Arthur Brooks (《中年觉醒》)
+- **[Critical Thinking: Tools for Taking Charge of Your Professional and Personal Life](https://www.goodreads.com/book/show/50551236-critical-thinking)** — Richard Paul, Linda Elder (《思辨与立场》)
 - **《12种智慧》**: Chinese title kept; the original was not identified
 
 **Science, history and society**
 
-- **A Brief History of Intelligence** — Max Bennett (《智能简史》)
-- **Nexus** — Yuval Noah Harari (《智人之上》)
-- **Out of Control** — Kevin Kelly (《失控》)
-- **Why Greatness Cannot Be Planned** — Kenneth Stanley, Joel Lehman (《为什么伟大不能被计划》)
-- **Deep Simplicity** — John Gribbin (《深奥的简洁》)
+- **[A Brief History of Intelligence](https://www.goodreads.com/book/show/220286538-a-brief-history-of-intelligence)** — Max Bennett (《智能简史》)
+- **[Nexus](https://www.goodreads.com/book/show/204927599-nexus)** — Yuval Noah Harari (《智人之上》)
+- **[Out of Control](https://www.goodreads.com/book/show/243725.Out_of_Control)** — Kevin Kelly (《失控》)
+- **[Why Greatness Cannot Be Planned](https://www.goodreads.com/book/show/25670869-why-greatness-cannot-be-planned)** — Kenneth Stanley, Joel Lehman (《为什么伟大不能被计划》)
+- **[Deep Simplicity](https://www.goodreads.com/book/show/2473795.Deep_Simplicity)** — John Gribbin (《深奥的简洁》)
 - **《有限与无限的游戏》**
 - **It All Adds Up** — Mickaël Launay, French original *Le grand roman des maths* (《万物皆数》)
-- **The Social Lives of Animals** — Ashley Ward (《动物社会的生存哲学》)
+- **[The Social Lives of Animals](https://www.goodreads.com/book/show/74532450-the-social-lives-of-animals)** — Ashley Ward (《动物社会的生存哲学》)
 - **《知识大迁移》** — William Poundstone (English original title not confirmed)
 - **《万古江河》** — 许倬云
 
