@@ -31,7 +31,7 @@ On 16 July 1945, at the Trinity test, Enrico Fermi [dropped small pieces of pape
 The method generalises. Split an unknown into factors you can guess, guess each, multiply. Errors in the guesses partly cancel, because some are high and some are low. The chart below, a simulation I ran for this post, makes the point. Each of five factors is wrong by up to a factor of 3 in either direction, uniformly on a log scale. The product is usually wrong by far less than the worst case of 243:
 
 ![Two overlaid histograms on a log axis: one factor with errors within 3x, and the product of five such factors, wider but concentrated near the true value, well inside the worst case of 243x](/assets/pic/fermi-error-simulation.png)
-_Simulation of 200,000 trials; the error model is an assumption of mine. In it, the five-factor product is within 2x of the truth 36% of the time, within 3x 55% and within 10x 89%._
+_Figure 1. Simulation of 200,000 trials; the error model is an assumption of mine. In it, the five-factor product is within 2x of the truth 36% of the time, within 3x 55% and within 10x 89%._
 
 The cancellation is a property of independent errors. If the guesses share a bias, for example all optimistic, nothing cancels, which leads to the last tool.
 
