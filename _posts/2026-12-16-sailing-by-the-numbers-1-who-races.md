@@ -64,4 +64,4 @@ Three observations, and the second and third are my own reading, not something t
 
 The next post covers the rules that decide who is right when two boats meet: right of way, the start sequence and how handicaps work.
 
-_Series: Sailing by the Numbers. 1. Who races, and for what (this post). 2. The rules that decide who is right. 3. Why a boat goes where it goes. 4. Sensors and the data chain. 5. Kit by boat type. 6. What top teams use. 7. Racing with data. 8. Autopilot and weather routing._
+_Series: Sailing by the Numbers. 1. Who races, and for what (this post). 2. [The rules that decide who is right](/posts/sailing-by-the-numbers-2-the-rules/). 3. [Why a boat goes where it goes](/posts/sailing-by-the-numbers-3-why-boats-go-where-they-do/). 4. [Sensors and the data chain](/posts/sailing-by-the-numbers-4-sensors-and-the-data-chain/). 5. [Kit by boat type](/posts/sailing-by-the-numbers-5-kit-by-boat-type/). 6. [What top teams use](/posts/sailing-by-the-numbers-6-what-top-teams-use/). 7. [Racing with data](/posts/sailing-by-the-numbers-7-racing-with-data/). 8. [Autopilot and weather routing](/posts/sailing-by-the-numbers-8-autopilot-and-weather-routing/)._
