@@ -1,7 +1,7 @@
 ---
 title: "Using Radar in Invisible Fields"
 date: 2026-09-24 07:45:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, radar]
 description: "How marine radar builds a picture out of nothing you can see, and the discipline needed to trust it in fog, at night, or in busy traffic."
 ---

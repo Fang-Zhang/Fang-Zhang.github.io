@@ -1,7 +1,7 @@
 ---
 title: "Docking and Anchoring (with Knots)"
 date: 2026-09-24 08:15:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, docking, anchoring, knots]
 description: "The handful of knots and the underlying principles that make docking and anchoring predictable instead of improvised."
 ---

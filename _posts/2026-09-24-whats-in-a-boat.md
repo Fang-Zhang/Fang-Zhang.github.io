@@ -1,7 +1,7 @@
 ---
 title: "What's in a Boat"
 date: 2026-09-24 07:00:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, boat-systems]
 description: "A walk through a small cruising boat's core systems — hull, rig, engine, and the systems that keep them all talking to each other."
 ---

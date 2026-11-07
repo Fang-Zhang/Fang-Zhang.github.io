@@ -1,7 +1,7 @@
 ---
 title: "Emergency and Safety"
 date: 2026-09-24 08:30:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, safety, emergency]
 description: "The emergency procedures Day Skipper drills hardest, and why the course treats rehearsed response over improvised heroics."
 ---

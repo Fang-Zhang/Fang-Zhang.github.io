@@ -1,7 +1,7 @@
 ---
 title: "Fishing with Sonar"
 date: 2026-09-24 07:30:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, sonar, fishing]
 description: "How echo sounders actually work, and how the same instrument the course teaches for depth safety doubles as a fish-finder on the water."
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Weather: Winds, Tides and Currents"
 date: 2026-09-24 08:00:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, weather, tides]
 description: "How the course ties together three separate moving systems — wind, tide, and current — into the single practical question of what the water will actually do to your boat."
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Read the Chart for Navigation"
 date: 2026-09-24 07:15:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, chartwork]
 description: "What a nautical chart is actually encoding, and how to turn chart symbols into a position and a course you can trust."
 ---

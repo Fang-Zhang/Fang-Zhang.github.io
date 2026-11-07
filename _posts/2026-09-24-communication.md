@@ -1,7 +1,7 @@
 ---
 title: "Communication"
 date: 2026-09-24 08:45:00 +1200
-categories: [Personal, Day Skipper]
+categories: [Personal, Marine]
 tags: [sailing, navigation, vhf, communication]
 description: "VHF radio procedure, sound and light signals, and why marine communication is built around strict, unambiguous formats rather than natural conversation."
 ---
