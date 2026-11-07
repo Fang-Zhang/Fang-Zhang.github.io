@@ -13,6 +13,9 @@ description: "Choosing a model and judging your own application are two differen
 
 A high score on a public benchmark answers A, and only partly. It does not answer B. Most of the confusion in this field comes from using the tools of one question to answer the other. This post covers A briefly and spends most of its length on B, because B is where the work is.
 
+![Two evaluation questions side by side: which model to use, and whether an application is good]({{ "/assets/pic/evals-two-questions.png" | relative_url }})
+*Figure 1. Two questions, two sets of tools. Using the tools of A to answer B is the common mistake.*
+
 ## Question A: choosing a model
 
 Benchmarks fall into a few families, and the family tells you what the number can mean.
@@ -30,6 +33,9 @@ So a benchmark can screen out models that clearly will not work. It cannot tell 
 ## Question B: is my application good?
 
 The shift here is from general ability to specific behavior. [Hamel Husain](https://hamel.dev/blog/posts/evals/index.html) opens his essay *Your AI Product Needs Evals* with an observation from his own work: the products that fail share a common root cause, which is the lack of a robust evaluation system. Vibe checks are useful, he says, but not enough.
+
+![Evaluation loop: read outputs, error analysis, small balanced set, graders, change and ship, back to reading]({{ "/assets/pic/evals-loop.png" | relative_url }})
+*Figure 2. The workflow for Question B as a cycle. The sections below follow these steps.*
 
 ### Start by reading outputs
 
@@ -53,6 +59,9 @@ Their recommendation is deterministic graders where possible, LLM graders where 
 
 Husain's assertion examples are small and concrete. A listing-search feature should return exactly one result when one listing matches. A generic check should confirm that no internal ID leaks into the reply. These are a few lines each. They can run on every change.
 
+![Comparison of code-based, model-based and human graders by cost, speed, open-ended output and weakness]({{ "/assets/pic/evals-graders.png" | relative_url }})
+*Figure 3. Three kinds of grader, from the ordering in Anthropic's post.*
+
 ### Binary beats a scale
 
 Husain starts by labeling examples as good or bad. He found that scores and granular ratings are more onerous to manage than a binary rating. Eugene Yan makes a similar point in [Task-Specific LLM Evals that Do & Don't Work](https://eugeneyan.com/writing/evals): simplifying an eval to a binary metric makes human labeling and later active learning easier. The pass or fail question forces you to write down what "good" means.
@@ -71,6 +80,9 @@ LLM judges are attractive because they scale. The paper that started the practic
 
 So a judge is not an oracle. Husain calls model-based evaluation a meta-problem inside the larger problem. His method is low-tech. Have a human grade 25 to 50 examples, write a critique for each, compare them with the judge's verdicts, and revise the judge's prompt until the two agree. Then repeat the check periodically, because agreement drifts. He also warns that raw agreement is misleading when classes are imbalanced, and that precision and recall should be measured separately.
 
+![Judge calibration loop: human grades, compare, revise the judge prompt, re-check on a schedule]({{ "/assets/pic/evals-judge.png" | relative_url }})
+*Figure 4. Checking an LLM judge against human labels, after Husain's method.*
+
 The practical rule: **an automated grader gets a small evaluation of its own, against human labels, before its scores are trusted.** Without that, a dashboard of judge scores is a measurement of the judge.
 
 ## Agents: what changes
@@ -80,6 +92,9 @@ Anthropic's post is built around the fact that agents make evaluation harder. An
 **Grade the outcome, not the path.** They distinguish the transcript, which is everything the agent said and did, from the outcome, which is the final state of the environment. A flight-booking agent may say "your flight has been booked", but the outcome is whether a reservation exists in the database. They also report that checking for a specific sequence of tool calls is too rigid, because agents often find valid approaches the designer did not anticipate.
 
 **Runs vary, so count trials.** Anthropic describes two numbers. pass@k is the chance of at least one success in k attempts. pass^k is the chance that all k attempts succeed. With a 75 percent success rate per trial, three trials all passing happens about 42 percent of the time. For an assistant that people rely on every time, the second number is the honest one.
+
+![Curves of pass@k rising and pass^k falling as the number of trials grows, at a 75 percent per-trial success rate]({{ "/assets/pic/evals-passk.png" | relative_url }})
+*Figure 5. With a 75 percent per-trial success rate, pass@k approaches 1 while pass^k falls to 42 percent at three trials.*
 
 **A zero can mean a broken eval.** With frontier models, they write, a 0 percent pass rate across many trials is most often a sign of a broken task, not an incapable agent. Their examples are instructive. Opus 4.5 first scored 42 percent on CORE-Bench until a researcher found rigid grading that penalized "96.12" when it expected "96.124991…", ambiguous specifications and unreproducible tasks. After the fixes the score rose to 95 percent. The model had not changed. The measurement had.
 
