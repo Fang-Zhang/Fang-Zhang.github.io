@@ -110,6 +110,9 @@ To be remembered he offers what he calls the Winston Star, five items that each 
 - **Salient idea.** Not "important" but "sticking out," something that protrudes. Some theses have too many good ideas, and you cannot tell what they are about. The salient idea here was the near miss: a structure that is not an arch but misses by very little.
 - **Story.** Tell how you did it, how it works and why it matters.
 
+![Five cards for the Winston Star: symbol, slogan, surprise, salient idea and story, with the example from his arch-learning work]({{ "/assets/pic/winston-star.png" | relative_url }})
+_Figure 1. The five S’s, with the example he gives from his 1970 PhD work._
+
 ## How to stop
 
 His last topic is the ending: the final slide and the final words.
@@ -150,6 +153,9 @@ What follows are my own additions, not his; they are a way to apply his rule:
 ## What research adds: the one-channel claim
 
 Winston's "one language processor" is his phrase, not a research term, but it has a counterpart in the literature. Richard Mayer and Roxana Moreno's [Nine Ways to Reduce Cognitive Load in Multimedia Learning](https://www.uky.edu/~gmswan3/544/9_ways_to_reduce_CL.pdf) assumes that people have separate channels for verbal and visual material, and that each has limited capacity. From that they derive a redundancy effect: students learned better from an animation with narration than from an animation with narration and on-screen text, with a median effect size of 0.69 across three studies. That is a close match to his slide rule: words on the slide compete with words in your mouth.
+
+![Two panels comparing narration with animation against narration with animation plus on-screen text, the second overloading the verbal channel]({{ "/assets/pic/winston-one-channel.png" | relative_url }})
+_Figure 2. The channel model behind the redundancy effect, with the exception reported in the same paper._
 
 It is not the whole picture. The same paper reports that when there is no animation, narration plus on-screen text did better than narration alone (Moreno and Mayer, 2002, experiments 1 and 3). The reading of this that fits Winston: the rule bites when the slide already has something to look at, or when the text is long and competes with the speaker. A single key phrase on a quiet slide may help.
 

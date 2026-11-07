@@ -45,6 +45,9 @@ Most people find it unintuitive. Gerd Gigerenzer and Ulrich Hoffrage [showed in 
 
 A standard screening example, as [retold in a university course note](https://pi.math.cornell.edu/~mec/2008-2009/TianyiZheng/Bayes.html): 1% of women aged 40 to 50 have breast cancer, a woman with cancer has a 90% chance of a positive mammogram, and a woman without has a 10% chance of a false positive. In frequencies: out of 1,000 women, 10 have cancer and 9 of them test positive; of the 990 without cancer, 99 test positive. Of 108 positives, 9 are real. The answer is 9/108, about 8%. The same note says 95 physicians asked this question averaged 75%; I could not check that survey in its original form.
 
+![A grid of 1,000 squares: 9 true positives, 1 missed case, 99 false positives and 891 true negatives, giving 9 real cases among 108 positives]({{ "/assets/pic/bayes-natural-frequencies.png" | relative_url }})
+_Figure 2. The screening example as counts. Of 108 positives, 9 are real, about 8%._
+
 The counting version works for any test, not only medical ones: base rate first, then count who is flagged.
 
 ## The estimate that fails: your own schedule
