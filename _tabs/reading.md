@@ -46,6 +46,25 @@ A study track on how machines learn to play video games, from reinforcement lear
 - **[Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)** — Wang et al., 2023 (Minecraft agent that builds a reusable skill library as code)
 - **[Human-level play in the game of Diplomacy by combining language models with strategic reasoning](https://pubmed.ncbi.nlm.nih.gov/36413172)** — Meta FAIR Diplomacy Team, Science, 2022 (Cicero: negotiates in natural language)
 
+## Paper Reading Resources
+
+Where to find walkthroughs and live discussion of papers.
+
+**Walkthroughs**
+
+- **[mli/paper-reading](https://github.com/mli/paper-reading)** — Mu Li, GitHub (paragraph-by-paragraph close readings of classic and new deep learning papers; the README is a table of recorded papers with video links, mostly on Bilibili; Chinese-language; Apache-2.0)
+- **[跟李沐学AI](https://space.bilibili.com/1567748478)** — Mu Li, Bilibili (where the paper-reading videos are hosted, alongside his *Hands-On Deep Learning* course videos)
+- **[Yannic Kilcher](https://www.youtube.com/@YannicKilcher)** — YouTube (videos on machine learning research papers, programming and the AI community)
+
+**Reading groups and research communities**
+
+- **[ML Collective: Deep Learning: Classics and Trends](https://mlcollective.org/dlct/)** — weekly paper reading group run by Rosanne Liu since 2018: one paper, one speaker, about an hour, usually the author's own work; sessions are generally not recorded; join by email for the Zoom link
+- **[ML Collective (YouTube)](https://www.youtube.com/@MLCollective)** — independent nonprofit channel; not checked which videos are paper talks
+- **[EleutherAI](https://eleuther.ai/)** — open research collective (GPT-NeoX, Pythia, lm-evaluation-harness, The Pile); its [community page](https://www.eleuther.ai/community) lists reading groups such as ML Scalability & Performance and Planning, Reasoning, and Agents
+- **[EleutherAI (YouTube)](https://www.youtube.com/@Eleuther_AI/videos)** — not checked what the videos cover
+- **[Cohere Labs](https://cohere.com/research)** — Cohere's research lab (recent papers, the Aya multilingual models); research talks are announced through a mailing list
+- **[Cohere (YouTube)](https://www.youtube.com/channel/UCAKTUy0tz47ZY02DFpxMqoQ)** — not checked which videos are paper talks
+
 ## Articles
 
 - **[Extending Raschka's GPT-2: an MoE trained from scratch on an RTX 3090](https://www.gilesthomas.com/2026/09/gpt-2-to-moe)** — Giles Thomas
