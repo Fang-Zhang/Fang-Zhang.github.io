@@ -47,7 +47,7 @@ Chinese titles are kept as they are; for translated books the English original i
 
 - **《低风险创业》** — 樊登
 - **Antifragile** — Nassim Nicholas Taleb (《反脆弱》)
-- **《赋能》**
+- **Team of Teams** — Stanley McChrystal (《赋能》)
 - **《授权》**, **《跨越成长》**, **《网飞》**
 - **Messy** — Tim Harford (《混乱》)
 - **《茑屋经营哲学》** — 增田宗昭 (Japanese original, title not checked)
@@ -55,7 +55,7 @@ Chinese titles are kept as they are; for translated books the English original i
 - **As We Speak** — Peter Meyers, Shann Nix (《高效演讲》)
 - **Crucial Conversations** (《关键对话》)
 - **The 3rd Alternative** — Stephen Covey (《第三选择》)
-- **《视觉锤》**
+- **The Visual Hammer** — Laura Ries (《视觉锤》)
 - **The Unsold Mindset** — Colin Coggins, Garrett Brown (《反直觉销售》)
 - **《失传的倾听艺术》**
 - **What I Learned About Investing from Darwin** — Pulak Prasad (《我从达尔文那学到了投资》)
@@ -69,7 +69,7 @@ Chinese titles are kept as they are; for translated books the English original i
 - **The Seven Principles for Making Marriage Work** — John Gottman (《幸福的婚姻》)
 - **The Road Less Traveled** — M. Scott Peck (《少有人走的路》)
 - **The Single Trap** — Andrew G. Marshall (《好好恋爱》)
-- **《如何让你爱的人爱上你》**
+- **How to Make Anyone Fall in Love with You** — Leil Lowndes (《如何让你爱的人爱上你》)
 - **The Craving Mind** — Judson Brewer (《欲望的博弈》)
 - **The Miracle of Mindfulness** — Thich Nhat Hanh (《正念的奇迹》)
 - **From Strength to Strength** — Arthur Brooks (《中年觉醒》)
@@ -81,7 +81,7 @@ Chinese titles are kept as they are; for translated books the English original i
 - **A Brief History of Intelligence** — Max Bennett (《智能简史》)
 - **Nexus** — Yuval Noah Harari (《智人之上》)
 - **Out of Control** — Kevin Kelly (《失控》)
-- **《为什么伟大不能被计划》**
+- **Why Greatness Cannot Be Planned** — Kenneth Stanley, Joel Lehman (《为什么伟大不能被计划》)
 - **Deep Simplicity** — John Gribbin (《深奥的简洁》)
 - **《有限与无限的游戏》**
 - **It All Adds Up** — Mickaël Launay, French original *Le grand roman des maths* (《万物皆数》)
