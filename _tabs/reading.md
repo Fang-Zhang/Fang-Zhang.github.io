@@ -38,7 +38,7 @@ Chinese titles are kept as they are; for translated books the English original i
 
 - **《主角模式》** — 樊登
 - **Mindset: The New Psychology of Success** — Carol Dweck (《终身成长》)
-- **The Gardener and the Carpenter** — Alison Gopnik (《原丁与木匠》)
+- **The Gardener and the Carpenter** — Alison Gopnik (《园丁与木匠》)
 - **《天才的学习方法》** — Giulio Deangeli (Italian original, Mondadori 2022; the title was not found)
 - **受験脳の作り方** — Yuji Ikegaya, Japanese original (《考试脑科学》)
 - Childhood reading: **《儿童文艺》**, **《儿童文学》**, **《少年文艺》**, **《故事会》**, 郑渊洁's **《童话大王》** (Pipilu and Luxixi series), **《月球旅行记》**
@@ -86,7 +86,7 @@ Chinese titles are kept as they are; for translated books the English original i
 - **Finite and Infinite Games** — James Carse (《有限与无限的游戏》)
 - **It All Adds Up** — Mickaël Launay, French original *Le grand roman des maths* (《万物皆数》)
 - **The Social Lives of Animals** — Ashley Ward (《动物社会的生存哲学》)
-- **Head in the Cloud** — William Poundstone (《知识大迁移》)
+- **《知识大迁移》** — William Poundstone (English original title not confirmed)
 - **《万古江河》** — 许倬云
 
 ## AI Plays Games: From Atari to Agents
