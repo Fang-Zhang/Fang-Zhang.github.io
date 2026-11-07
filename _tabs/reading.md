@@ -21,6 +21,74 @@ order: 5
 - **Multi-Agent AI Engineering: Design, build, and operate AI systems that think and act as coordinated teams** — Dr. Xiao Ma, Dr. Chi Wang, Packt (production-grade multi-agent systems: communication protocols, memory/context, orchestration, evaluation, security, observability)
 - **AI Agents in Action** (2nd ed.) — Micheal Lanham, Manning (autonomous agent design/deployment, MCP tools/memory, reasoning & planning patterns — ReAct, Reflexion, Tree-of-Thought, multi-agent patterns)
 
+## More Books
+
+Chinese titles are kept as they are; for translated books the English original is given, with the Chinese title in brackets.
+
+**Literature and tradition**
+
+- **《三国演义》**, **《水浒传》**, **《红楼梦》**, **《杨家将》** — the four classic novels and traditional chronicle romances
+- **《论语》**, **《道德经》**, **《金刚经》**, **《资治通鉴》** — traditional classics
+- **《静坐修身与长生不老》** — 南怀瑾
+- **《张爱玲传》**
+- **《爱因斯坦传》** (author and edition not specified)
+- **Edison** — Edmund Morris (《点亮黑夜》)
+
+**Parenting, learning and growth**
+
+- **《主角模式》** — 樊登
+- **Mindset: The New Psychology of Success** — Carol Dweck (《终身成长》)
+- **The Gardener and the Carpenter** — Alison Gopnik (《原丁与木匠》)
+- **《天才的学习方法》** — Giulio Deangeli (Italian original, Mondadori 2022; the title was not found)
+- **受験脳の作り方** — Yuji Ikegaya, Japanese original (《考试脑科学》)
+- Childhood reading: **《儿童文艺》**, **《儿童文学》**, **《少年文艺》**, **《故事会》**, 郑渊洁's **《童话大王》** (Pipilu and Luxixi series), **《月球旅行记》**
+
+**Business, startups and work**
+
+- **《低风险创业》** — 樊登
+- **Antifragile** — Nassim Nicholas Taleb (《反脆弱》)
+- **Team of Teams** — Stanley McChrystal (《赋能》)
+- **《授权》**, **《跨越成长》**, **《网飞》**: Chinese titles kept; the originals were not identified
+- **Messy** — Tim Harford (《混乱》)
+- **《茑屋经营哲学》** — 增田宗昭 (Japanese original, title not checked)
+- **《7-Eleven零售的哲学》** — 铃木敏文
+- **As We Speak** — Peter Meyers, Shann Nix (《高效演讲》)
+- **Crucial Conversations** (《关键对话》)
+- **The 3rd Alternative** — Stephen Covey (《第三选择》)
+- **The Visual Hammer** — Laura Ries (《视觉锤》)
+- **The Unsold Mindset** — Colin Coggins, Garrett Brown (《反直觉销售》)
+- **The Lost Art of Listening** — Michael Nichols (《失传的倾听艺术》)
+- **What I Learned About Investing from Darwin** — Pulak Prasad (《我从达尔文那学到了投资》)
+- **Thinking, Fast and Slow** — Daniel Kahneman (《思考，快与慢》)
+- **Third Millennium Thinking** — Saul Perlmutter, John Campbell, Robert MacCoun (《第三个千年思维》)
+- **Who Gets What—and Why** — Alvin Roth (《匹配》)
+
+**Psychology, relationships and life**
+
+- **Intimate Relationships** — Rowland Miller (《亲密关系》)
+- **The Seven Principles for Making Marriage Work** — John Gottman (《幸福的婚姻》)
+- **The Road Less Traveled** — M. Scott Peck (《少有人走的路》)
+- **The Single Trap** — Andrew G. Marshall (《好好恋爱》)
+- **How to Make Anyone Fall in Love with You** — Leil Lowndes (《如何让你爱的人爱上你》)
+- **The Craving Mind** — Judson Brewer (《欲望的博弈》)
+- **The Miracle of Mindfulness** — Thich Nhat Hanh (《正念的奇迹》)
+- **From Strength to Strength** — Arthur Brooks (《中年觉醒》)
+- **Critical Thinking: Tools for Taking Charge of Your Professional and Personal Life** — Richard Paul, Linda Elder (《思辨与立场》)
+- **《12种智慧》**: Chinese title kept; the original was not identified
+
+**Science, history and society**
+
+- **A Brief History of Intelligence** — Max Bennett (《智能简史》)
+- **Nexus** — Yuval Noah Harari (《智人之上》)
+- **Out of Control** — Kevin Kelly (《失控》)
+- **Why Greatness Cannot Be Planned** — Kenneth Stanley, Joel Lehman (《为什么伟大不能被计划》)
+- **Deep Simplicity** — John Gribbin (《深奥的简洁》)
+- **Finite and Infinite Games** — James Carse (《有限与无限的游戏》)
+- **It All Adds Up** — Mickaël Launay, French original *Le grand roman des maths* (《万物皆数》)
+- **The Social Lives of Animals** — Ashley Ward (《动物社会的生存哲学》)
+- **Head in the Cloud** — William Poundstone (《知识大迁移》)
+- **《万古江河》** — 许倬云
+
 ## AI Plays Games: From Atari to Agents
 
 A study track on how machines learn to play video games, from reinforcement learning on raw pixels to LLM agents that write their own skills.
