@@ -33,12 +33,20 @@ Chinese titles are kept as they are; for translated books the English original i
 - **《张爱玲传》**
 - **《爱因斯坦传》** (author and edition not specified)
 - **[Edison](https://www.goodreads.com/book/show/44446594-edison)** — Edmund Morris (《点亮黑夜》)
+- **[The Little Prince](https://www.goodreads.com/book/show/5505138-the-little-prince)** — Antoine de Saint-Exupéry (《小王子》)
+- **[Strait Is the Gate](https://www.goodreads.com/book/show/2036112)** — André Gide (《窄门》)
+- **[A Room of One's Own](https://www.goodreads.com/book/show/22934770)** — Virginia Woolf (《一间自己的房间》)
+- **《她要开自己的花：十六位传奇女性的人生》** — 李蕾
+- **《最是诗经慰人心》** — 李蕾
+- **The Wolf of Wall Street** — Jordan Belfort (《华尔街之狼》)
 
 **Parenting, learning and growth**
 
 - **《主角模式》** — 樊登
 - **[Mindset: The New Psychology of Success](https://www.goodreads.com/book/show/40745.Mindset_The_New_Psychology_of_Success)** — Carol Dweck (《终身成长》)
 - **[The Gardener and the Carpenter](https://www.goodreads.com/book/show/28595855-the-gardener-and-the-carpenter)** — Alison Gopnik (《园丁与木匠》)
+- **[The Self-Driven Child](https://www.goodreads.com/book/show/36603606-the-self-driven-child)** — William Stixrud, Ned Johnson (《自驱型成长》)
+- **[Educated](https://www.goodreads.com/book/show/44426686-educated)** — Tara Westover (《你当像鸟飞往你的山》)
 - **《天才的学习方法》** — Giulio Deangeli (Italian original, Mondadori 2022; the title was not found)
 - **受験脳の作り方** — Yuji Ikegaya, Japanese original (《考试脑科学》)
 - Childhood reading: **《儿童文艺》**, **《儿童文学》**, **《少年文艺》**, **《故事会》**, 郑渊洁's **《童话大王》** (Pipilu and Luxixi series), **《月球旅行记》**
@@ -75,6 +83,10 @@ Chinese titles are kept as they are; for translated books the English original i
 - **[From Strength to Strength](https://www.goodreads.com/book/show/60687469)** — Arthur Brooks (《中年觉醒》)
 - **[Critical Thinking: Tools for Taking Charge of Your Professional and Personal Life](https://www.goodreads.com/book/show/50551236-critical-thinking)** — Richard Paul, Linda Elder (《思辨与立场》)
 - **《12种智慧》**: Chinese title kept; the original was not identified
+- **Get Out of Your Mind and Into Your Life** — Steven C. Hayes, Spencer Smith (《跳出头脑，融入生活》)
+- **Nonviolent Communication** — Marshall Rosenberg (《非暴力沟通》)
+- **《躲在蚊子后面的大象》** — Ernstfried Hanisch, Eva Wunderer
+- **《人生只有一件事》** — 金惟纯
 
 **Science, history and society**
 
@@ -88,6 +100,8 @@ Chinese titles are kept as they are; for translated books the English original i
 - **[The Social Lives of Animals](https://www.goodreads.com/book/show/74532450-the-social-lives-of-animals)** — Ashley Ward (《动物社会的生存哲学》)
 - **《知识大迁移》** — William Poundstone (English original title not confirmed)
 - **《万古江河》** — 许倬云
+- **《经纬华夏》** — 许倬云
+- **Outlive: The Science and Art of Longevity** — Peter Attia (《超越百岁》)
 
 ## AI Plays Games: From Atari to Agents
 
