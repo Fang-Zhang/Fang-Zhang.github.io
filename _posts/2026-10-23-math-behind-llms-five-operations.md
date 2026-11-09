@@ -45,6 +45,28 @@ Cat and dog score high because their arrows point almost the same way; cat and m
 ![Left: six words drawn as arrows in a plane, cat and dog nearly parallel. Right: the dot products of cat with dog, mat and the, worked out]({{ "/assets/pic/math-dot-product.png" | relative_url }})
 _Figure 2. Words as arrows, and the dot product as a measure of how closely two arrows align. Invented 2-D numbers, computed in code._
 
+**Why direction decides the size.** The element-by-element formula has an equivalent geometric form:
+
+$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta$$
+
+where θ is the angle between the two vectors. The lengths |a| and |b| are never negative, so the sign and relative size of the result come from cos θ:
+
+- θ near 0° (similar direction): cos θ is near 1, and the product is close to its maximum, |a||b|.
+- θ = 90° (perpendicular): cos θ = 0, and the product is 0.
+- θ above 90° (pointing away): cos θ is negative, and so is the product. At 180° it reaches its minimum, −|a||b|.
+
+The two forms agree. In two dimensions, let a point at angle α and b at angle β. Then
+
+a·b = |a||b|(cos α cos β + sin α sin β) = |a||b| cos(α − β),
+
+which is the cosine difference identity, and α − β is the angle between them.
+
+Another way to read it: |b| cos θ is the length of b's shadow along a, so a·b is that shadow times |a|. If b leans toward a, the shadow is positive; if b is perpendicular, there is none; if b leans away, the shadow points backwards and the product is negative.
+
+A second small example, separate from the toy model: take a = (1, 0), b = (1, 1) and c = (−1, 0.2). The angle between a and b is 45°, and a·b = **1**. The angle between a and c is about 169°, and a·c = **−1**, because c points almost the opposite way.
+
+One caution: the dot product mixes direction with length. Two long vectors at a modest angle can score higher than two short vectors that point exactly the same way. To compare direction alone, divide by both lengths, which gives cos θ, the cosine similarity used in the worked example above (0.99 for cat and dog).
+
 ## 2. Matrix multiplication: moving between spaces
 
 A matrix multiplication projects points from one space into another. In Giles Thomas's example, a matrix of shape 50,257 × 768 projects from GPT-2's 50,257-token vocabulary space down to a 768-dimensional space, and the transpose shape projects back. He adds a caveat worth keeping: projections to fewer dimensions are lossy, so no matrix can recover what was discarded.
