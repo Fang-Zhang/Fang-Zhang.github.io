@@ -69,7 +69,7 @@ The difficulty is that reward arrives late. A jump pressed now pays off a second
 3. The environment: emulator, memory and the data the game exposes
 4. Reward design: the same level with different rewards
 5. Algorithms: DQN and PPO compared
-6. Learning from human play: recording and imitating
+6. Learning from a demonstrator: cloning and DAgger
 7. Training the level 1 agent
 8. Language-model players: how they work and how they are evaluated
 9. Games in industry: where AI play is actually used
