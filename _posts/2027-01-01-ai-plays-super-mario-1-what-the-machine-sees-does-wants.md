@@ -72,8 +72,8 @@ The difficulty is that reward arrives late. A jump pressed now pays off a second
 6. Learning from a demonstrator: cloning and DAgger
 7. Training the level 1 agent
 8. Language-model players: how they work and how they are evaluated
-9. Games in industry: where AI play is actually used
-10. Review, and what carries over to other games and other software
+9. What game companies use AI players for
+10. Review, and what carries over to other games and software
 
 Every post carries runnable code that builds on the previous one, and ends with a checkpoint: the output to expect, and what to check if the numbers differ. Hardware and time figures in the series come from real runs on a 32-core CPU with no GPU. Training the level 1 agent took about 1.5 hours there.
 
