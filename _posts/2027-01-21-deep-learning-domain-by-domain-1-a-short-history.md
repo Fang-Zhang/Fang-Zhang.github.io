@@ -11,14 +11,14 @@ This post does one thing: it sets out, in date order, how deep learning got from
 The nine parts of the series:
 
 1. A short history (this post)
-2. Foundations: from convolutional and recurrent networks to the Transformer
-3. Images and video
-4. Language and speech
-5. Reinforcement learning, robotics and self-driving
-6. Recommendation and e-commerce, with fraud, security and forecasting
-7. Games, art and music
-8. Medicine, biomedicine and drug discovery
-9. Business impact: cost, evaluation, risk and when not to use deep learning
+2. [Foundations: from convolutional and recurrent networks to the Transformer](/posts/deep-learning-domain-by-domain-2-foundations-from-convolution-and-recurrence-to-the-transformer/)
+3. [Images and video](/posts/deep-learning-domain-by-domain-3-images-and-video/)
+4. [Language and speech](/posts/deep-learning-domain-by-domain-4-language-and-speech/)
+5. [Reinforcement learning, robotics and self-driving](/posts/deep-learning-domain-by-domain-5-reinforcement-learning-robots-and-driving/)
+6. [Recommendation and e-commerce, with fraud, security and forecasting](/posts/deep-learning-domain-by-domain-6-recommendation-fraud-security-and-forecasting/)
+7. [Games, art and music](/posts/deep-learning-domain-by-domain-7-games-art-and-music/)
+8. [Medicine, biomedicine and drug discovery](/posts/deep-learning-domain-by-domain-8-medicine-biology-and-drug-discovery/)
+9. [Business impact: cost, evaluation, risk and when not to use deep learning](/posts/deep-learning-domain-by-domain-9-business-impact-cost-evaluation-and-risk/)
 
 ## What deep learning is
 
