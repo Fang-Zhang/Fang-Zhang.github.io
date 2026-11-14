@@ -331,4 +331,4 @@ The second half of the answer is consistency. Rule 29 of the Rules of Machine Le
 - Not covered: multi-objective ranking and re-ranking for diversity, reinforcement-learning recommenders, graph-based models, session-based models such as the recurrent approach of Hidasi et al. (not read in depth), privacy, and fairness in ranking.
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 10, the second part on system design: fraud detection, forecasting, real-time versus batch, and data modelling.
+Next: [Part 10](/posts/ml-engineer-interviews-10-ml-system-design-2-fraud-forecasting-and-data-modelling/), the second part on system design: fraud detection, forecasting, real-time versus batch, and data modelling.
