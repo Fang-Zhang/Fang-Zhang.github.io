@@ -411,4 +411,4 @@ On 300 x 1200 distances the loops took 0.53 s, broadcasting 0.14 s and the matri
 - Not covered: graph and dynamic-programming problems, string problems, concurrency, SQL (usually asked separately), and writing backpropagation by hand.
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 13, mathematics and statistics.
+Next: [Part 13, mathematics and statistics](/posts/ml-engineer-interviews-13-maths-and-statistics/).
