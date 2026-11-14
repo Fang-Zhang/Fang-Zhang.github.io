@@ -155,4 +155,4 @@ The numbers are consequences of the assumed dynamics, not evidence about people.
 - The fraud signs come from a single job-site article about scams, and the in-company signs, the question lists for ML roles, the log method and the negotiation points marked as the author's have no source behind them.
 - Not covered: visas and relocation, counter-offers from a current employer, contract terms, and equity in each country's tax regime.
 
-Next: Part 18, recommended reading.
+Next: [Part 18, further reading for every round](/posts/ml-engineer-interviews-18-further-reading/).
