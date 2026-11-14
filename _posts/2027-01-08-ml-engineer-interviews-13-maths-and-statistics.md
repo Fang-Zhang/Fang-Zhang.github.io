@@ -367,4 +367,4 @@ For data with a mean of 1e8 and a standard deviation of 1, the one-pass formula 
 - Not covered: hypothesis tests beyond the t-test, information theory, optimisation theory, and proofs; interviews for research roles ask for derivations that this post does not attempt.
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 14, take-home assignments and presenting a model.
+Next: [Part 14, the take-home assignment and presenting a model](/posts/ml-engineer-interviews-14-take-home-and-presenting-a-model/).
