@@ -342,4 +342,4 @@ Concretely, using the numbers above: a gap of 0.002 in AUC between two models is
 - Not covered: assignments with text, images or time series in detail, and presentations to a panel with a live coding component.
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 15, the project deep-dive.
+Next: [Part 15, the project deep-dive](/posts/ml-engineer-interviews-15-project-deep-dive/).
