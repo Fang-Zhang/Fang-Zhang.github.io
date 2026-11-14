@@ -95,7 +95,8 @@ layout: default
     <div id="quick-notes">
       {% for note in site.data.notes %}
         <div class="quick-note">
-          <a href="{{ note.url }}" class="quick-note-title">{{ note.title }}</a>
+          {% assign nd = note.date | date: "%s" %}{% assign st = site.time | date: "%s" %}
+          {% if nd > st %}<span class="quick-note-title">{{ note.title }}</span>{% else %}<a href="{{ note.url }}" class="quick-note-title">{{ note.title }}</a>{% endif %}
           <p class="quick-note-text">{{ note.note }}</p>
         </div>
       {% endfor %}
