@@ -337,4 +337,4 @@ A simple cost comparison goes first: if the table has 5 million users and 200,00
 - Not covered: GPU serving and LLM-specific serving (continuous batching, KV-cache management), feature store internals, CI/CD for ML pipelines, model registries, cost optimisation in depth, privacy and security in deployment, and monitoring of fairness.
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 12, coding questions.
+Next: [Part 12, coding questions](/posts/ml-engineer-interviews-12-coding/).
