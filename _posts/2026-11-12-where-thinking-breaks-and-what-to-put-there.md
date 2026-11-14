@@ -26,7 +26,7 @@ Each post opens by saying where it sits on the map. Claims come from named sourc
 | # | Post | Stage | Fails when | Safeguard |
 | --- | --- | --- | --- | --- |
 | 1 | Where Thinking Breaks and What to Put There | - | Thinking breaks at known points | A decision made before the failure |
-| 2 | A Thought Has a Machine Behind It | Mind | Capacity and attention run out | Lighten the load |
+| 2 | [A Thought Has a Machine Behind It](/posts/a-thought-has-a-machine-behind-it/) | Mind | Capacity and attention run out | Lighten the load |
 | 3 | Catch the Error While It Happens | Mind | Failures go unnoticed | Notice confusion, avoidance and "should" |
 | 4 | Make the Right Thing the Easy Thing | Setting | Effort alone is unreliable | Move the friction |
 | 5 | The Map Is Not the Territory | Belief | A model is taken for reality | Check the territory |
