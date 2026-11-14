@@ -189,4 +189,4 @@ The calibration gaps are small (0.005 and 0.016), so a score of 0.4 means about 
 - The framework for ambiguity, the feedback structure, the advice on choosing a failure and the claims about what interviewers infer are the author's.
 - Not covered: culture-fit questions that differ by company, diversity of interviewer styles, and legal limits on what interviewers may ask.
 
-Next: Part 17, closing the loop: questions to ask, red flags and negotiation.
+Next: [Part 17, questions to ask, warning signs, offers and a preparation method](/posts/ml-engineer-interviews-17-questions-to-ask-and-offers/).
