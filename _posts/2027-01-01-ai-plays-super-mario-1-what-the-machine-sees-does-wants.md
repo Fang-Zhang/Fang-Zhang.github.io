@@ -82,7 +82,7 @@ One thing the series keeps in the open is what went wrong. The first trained age
 ## What you need
 
 - A computer with Python and a multi-core CPU. No GPU is required.
-- Your own legal copy of the Super Mario Bros ROM. The series does not provide ROMs and does not link to any, and the code repository will not contain one.
+- Your own legal copy of the Super Mario Bros ROM. The series does not provide ROMs and does not link to any, and the [code repository](https://github.com/Fang-Zhang/ai-plays-super-mario) will not contain one.
 - Patience for a training run of one to two hours in Part 7.
 
 Part 2 sets up the tools and ends with Mario walking right on your screen.

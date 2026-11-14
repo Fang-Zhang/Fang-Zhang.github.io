@@ -59,4 +59,4 @@ Each item is a question, not a result, and each can be answered with the code of
 3. Does imitation work when the demonstrator is a person and not a search?
 4. How does a language-model player, driven by the harness of Part 8, compare with five PPO seeds on level 1 when both use the same scoring?
 
-The sources linked in Parts 3 to 9 are the places to continue. The series ends here.
+The scripts of Parts 2 to 8 are in the [code repository](https://github.com/Fang-Zhang/ai-plays-super-mario), without a ROM. The sources linked in Parts 3 to 9 are the places to continue. The series ends here.
