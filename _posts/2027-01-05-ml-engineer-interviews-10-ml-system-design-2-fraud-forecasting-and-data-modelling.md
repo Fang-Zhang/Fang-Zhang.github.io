@@ -401,4 +401,4 @@ Operational points to add in an interview: make backfills idempotent (re-running
 - Not covered: graph-based fraud detection, anomaly detection without labels beyond a mention, hierarchical and probabilistic forecasting methods, deep forecasting models, forecast reconciliation, and the full design of a feature store (backfills, online store consistency).
 - The candidates in the examples are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 11, deployment and MLOps.
+Next: [Part 11](/posts/ml-engineer-interviews-11-deployment-and-mlops/), deployment and MLOps.
