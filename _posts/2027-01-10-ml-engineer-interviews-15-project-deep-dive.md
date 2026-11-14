@@ -281,4 +281,4 @@ In this synthetic problem two inputs carry the signal in training: the second is
 - Not covered: confidentiality limits on describing a real project, which depend on the employer, and the preparation of a project from academic or open-source work.
 - The candidates are hypothetical, and the reference answers are one reasonable answer among several.
 
-Next: Part 16, behavioural and values questions.
+Next: [Part 16, behavioural and values questions](/posts/ml-engineer-interviews-16-behavioural-and-values/).
