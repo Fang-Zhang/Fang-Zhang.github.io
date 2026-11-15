@@ -164,4 +164,4 @@ Three consequences follow, each from the experiment and the sources, and the las
 - The cited papers report results on large commercial models; their numbers are not reproduced here.
 - No working attack against a real system is shown, by design.
 
-Next: Part 2, why safety training is thin.
+Next: [Part 2, why safety training is thin](/posts/llm-sec-2-why-safety-training-is-thin/).
