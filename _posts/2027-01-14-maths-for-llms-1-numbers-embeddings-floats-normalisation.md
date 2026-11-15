@@ -202,7 +202,7 @@ The two hand-written versions match PyTorch to float32 rounding. LayerNorm outpu
 - Exponent range and mantissa bits decide whether $e^z$ is computable; the max-subtraction identity makes softmax independent of that range.
 - Mean, variance and root mean square, taken over the feature dimension, define LayerNorm and RMSNorm.
 
-Next: Part 2, algebra and structure: the linear layer, the Q, K, V projections and the feed-forward network as matrices.
+Next: [Part 2, linear algebra in attention, the feed-forward block and LoRA](/posts/maths-for-llms-2-linear-algebra-attention-ffn-lora/).
 
 ## Limits
 
