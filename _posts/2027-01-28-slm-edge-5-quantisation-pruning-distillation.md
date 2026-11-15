@@ -152,4 +152,4 @@ For a device with a fixed memory budget, the measurements and the papers agree o
 - Quantisation and pruning were applied after training with no calibration data and no fine-tuning; GPTQ, AWQ and SparseGPT use calibration data, so they are not tested here.
 - No speed was measured: a real runtime such as llama.cpp needs a kernel for each format, and the saving depends on it.
 
-Next: Part 6, post-training with LoRA and QLoRA.
+Next: [Part 6, post-training with LoRA and QLoRA](/posts/slm-edge-6-lora-qlora-post-training/).
