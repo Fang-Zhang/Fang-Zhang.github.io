@@ -117,7 +117,7 @@ Why warmup helps is not tested here. One common explanation is that $\hat v_t$ i
 - Regularisation as a penalty versus as a decay on the weights: $L^2$ versus AdamW.
 - A piecewise function of the step number: warmup and decay schedules.
 
-Next: Part 8, discrete maths and graphs: the causal mask as a directed acyclic graph, and counting in the KV cache.
+Next: [Part 8, discrete maths, the causal mask, KV cache and BPE](/posts/maths-for-llms-8-discrete-causal-mask-kv-cache-bpe/).
 
 ## Limits
 
