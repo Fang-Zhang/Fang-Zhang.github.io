@@ -35,7 +35,7 @@ What this gives the thinker is a question. A "should" has a source, and the sour
 
 ## One label, three signals
 
-The practice is the same for all three: say which one it is, in words. "Confused." "Flinching." "Should." Nothing else is required at first, and nothing needs to be decided. The if-then plans of the next stage need a trigger that cannot be missed, and these three are the triggers the mind provides for free.
+The practice is the same for all three: say which one it is, in words. "Confused." "Flinching." "Should." Nothing else is required at first, and nothing needs to be decided. The [if-then plans](/posts/make-the-right-thing-the-easy-thing/) of the next stage need a trigger that cannot be missed, and these three are the triggers the mind provides for free.
 
 ![Three cards, confusion, the flinch and the should, each with the phrase to say and the question to ask]({{ "/assets/pic/catch-three-signals.png" | relative_url }})
 _Figure 1. The three signals, what to say and what to ask._
