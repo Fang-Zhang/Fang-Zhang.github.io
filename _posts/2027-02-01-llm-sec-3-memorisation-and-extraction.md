@@ -118,4 +118,4 @@ training text 680,260 characters + 340 canary lines; exposure is capped at log2(
 - One seed per size and four canaries per cell. A second, otherwise identical run gave the same pattern with different values in the transition cells (for example 5.4 bits instead of 3.2 for the 112K model at 4 repeats, and 7.2 instead of 6.4 for the 421K model at one repeat).
 - No mitigation was tested, and the context-length factor from the literature was not varied.
 
-Next: Part 4, poisoning and backdoors.
+Next: [Part 4, poisoning and backdoors](/posts/llm-sec-4-poisoning-and-backdoors/).
