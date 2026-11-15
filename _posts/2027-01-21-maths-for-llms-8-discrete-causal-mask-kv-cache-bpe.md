@@ -126,7 +126,7 @@ The number of token sequences of length $n$ over a vocabulary of $V$ tokens is $
 - Frequency counting of adjacent pairs: BPE tokenisation.
 - Exponentials in sequence length: why next-token factorisation is needed.
 
-Next: Part 9, information and entropy: cross-entropy as bits per character, compared with gzip, and KL divergence.
+Next: [Part 9, information, cross-entropy, perplexity and KL](/posts/maths-for-llms-9-information-entropy-cross-entropy-kl/).
 
 ## Limits
 
