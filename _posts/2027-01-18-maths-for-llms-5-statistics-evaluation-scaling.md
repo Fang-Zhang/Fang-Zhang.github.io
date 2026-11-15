@@ -163,7 +163,7 @@ The lesson for real scaling-law work is about statistics, not about the law: an 
 - Non-linear regression with a bootstrap: scaling laws; the check is out-of-range prediction.
 - Bias and variance: a fit can be low-variance (narrow interval) and biased (wrong form) at once.
 
-Next: Part 6, geometry of thought: inner products and angles, the $1/\sqrt{d}$ scaling, projections and similarity search.
+Next: [Part 6, geometry, dot products and the attention scale](/posts/maths-for-llms-6-geometry-dot-products-attention-scale/).
 
 ## Limits
 
