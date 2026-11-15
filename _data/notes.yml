@@ -18,6 +18,11 @@
   date: 2026-12-27 06:00:00 +1300
   note: "First of 18 posts: ten versions of the opening question, each with a reference answer, a weak answer and a follow-up."
 
+- title: "Small Language Models on Small Devices (1/6): The Memory and Bandwidth Arithmetic"
+  url: "/posts/slm-edge-1-memory-bandwidth-arithmetic/"
+  date: 2027-01-29 06:00:00 +1300
+  note: "First of 6 posts: how model size, bits per weight and memory bandwidth decide what runs on phones, edge boards and microcontrollers, with measurements."
+
 - title: "Maths for LLMs, Tested in Code (1/10): Numbers, Embeddings, Floats and Normalisation"
   url: "/posts/maths-for-llms-1-numbers-embeddings-floats-normalisation/"
   date: 2027-01-23 06:00:00 +1300
