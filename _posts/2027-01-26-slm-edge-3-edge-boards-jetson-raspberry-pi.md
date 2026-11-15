@@ -91,4 +91,4 @@ Both vendors point to robotics, multimodal agents and offline use as the reasons
 - The 2124.641 MiB peak is Arm's measurement for one model on one board; the extra 0.68 GB is not explained by the document.
 - Prices, memory sizes and software modes change; the specifications were read from the pages as retrieved.
 
-Next: Part 4, microcontrollers.
+Next: [Part 4, microcontrollers](/posts/slm-edge-4-microcontrollers/).
