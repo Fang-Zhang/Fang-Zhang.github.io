@@ -114,4 +114,4 @@ poisoned examples N (each seen once) in a stream of M examples; clean = accuracy
 - The model sizes and streams are several orders of magnitude below the papers'. The agreement with Souly et al. is about the shape of the dependence on stream size, not about the number 250.
 - No defence (data filtering, trigger detection) was tested.
 
-Next: Part 5, agents and tools.
+Next: [Part 5, agents and the limits of asking the model](/posts/llm-sec-5-agents-and-the-limits-of-asking-the-model/).
