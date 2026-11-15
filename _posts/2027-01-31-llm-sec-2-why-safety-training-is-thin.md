@@ -150,4 +150,4 @@ Adding the layer 1 direction at 4 times its unit length to every position change
 - The direction method differs from the paper's: here the means are taken at one position at layers 0 to 2 of a 3-layer model, and the edit is applied after every block.
 - No evidence here on how robust production models are; the claims about them rest on the two cited papers.
 
-Next: Part 3, memorisation and extraction.
+Next: [Part 3, memorisation and extraction](/posts/llm-sec-3-memorisation-and-extraction/).
