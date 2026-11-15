@@ -86,4 +86,4 @@ Apple's report adds a learnable scale per weight tensor, with the scale set to $
 - The quantisation test uses a synthetic tensor with outliers and plain scaled rounding; it is not the training-based method in the Apple report.
 - The summaries cover what each document states; products and software versions change, and the documents were read as of the dates shown on them.
 
-Next: Part 3, edge boards and robots.
+Next: [Part 3, edge boards: Raspberry Pi and Jetson](/posts/slm-edge-3-edge-boards-jetson-raspberry-pi/).
