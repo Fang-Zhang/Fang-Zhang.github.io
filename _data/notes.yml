@@ -18,6 +18,11 @@
   date: 2026-12-27 06:00:00 +1300
   note: "First of 18 posts: ten versions of the opening question, each with a reference answer, a weak answer and a follow-up."
 
+- title: "Maths for LLMs, Tested in Code (1/10): Numbers, Embeddings, Floats and Normalisation"
+  url: "/posts/maths-for-llms-1-numbers-embeddings-floats-normalisation/"
+  date: 2027-01-23 06:00:00 +1300
+  note: "First of 10 posts: the maths behind each LLM component, checked with code and real output."
+
 - title: "Tools, Notes and Ideas for Building a LLM"
   url: "/llm-build/"
   date: 2026-10-15
