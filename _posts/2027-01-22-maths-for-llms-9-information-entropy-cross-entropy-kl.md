@@ -122,7 +122,7 @@ Mutual information is the KL between a joint distribution and the product of its
 - KL divergence: distillation targets and the RLHF penalty; its non-symmetry matters (which distribution sits in which slot).
 - Closed-form optimum of a KL-regularised objective: how $\beta$ controls the drift of a tuned policy.
 
-Next: Part 10, advanced topics: SVD for compression and low-rank structure, and the Fourier view of sinusoidal position encodings.
+Next: [Part 10, SVD, low rank and the Fourier view of positions](/posts/maths-for-llms-10-svd-low-rank-fourier-positions/).
 
 ## Limits
 
