@@ -200,7 +200,7 @@ This is a toy with the property built in. Whether real adaptation updates are lo
 - Composition of linear maps is a single matrix; the non-linearity in the FFN is what prevents that collapse.
 - Rank and singular values quantify how much of a matrix a few directions carry; LoRA bets that weight updates are of low rank.
 
-Next: Part 3, calculus of change: the chain rule through a block, hand-written backpropagation against autograd, and gradients through residual connections.
+Next: [Part 3, calculus, backpropagation and the residual path](/posts/maths-for-llms-3-calculus-backprop-residual/).
 
 ## Limits
 
