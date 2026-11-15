@@ -102,4 +102,4 @@ A model that can only continue stories suits a toy, an educational kit or a demo
 - 4-bit here is round-to-nearest with one scale per row, applied after training, and measures only the weight matrices; embeddings and layer norms are in float32.
 - Power draw, flash wear and output quality of the 29M model are not documented in the sources read.
 
-Next: Part 5, compression methods.
+Next: [Part 5, quantisation, pruning and distillation](/posts/slm-edge-5-quantisation-pruning-distillation/).
