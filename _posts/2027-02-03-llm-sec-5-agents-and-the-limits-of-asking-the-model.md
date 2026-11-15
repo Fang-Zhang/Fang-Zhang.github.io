@@ -151,4 +151,4 @@ hardened agent (trained on '#' only), injected X behind different delimiters; 30
 - The injection is a single delimiter and a tool name, the same simplification as in Part 1. The hardened agent's safety on the trained delimiter says nothing about adaptive attackers, which AgentDojo is built to study.
 - One seed per agent; no multi-step or multi-agent setting was tested.
 
-Next: Part 6, evaluation, and what red-teaming can and cannot show.
+Next: [Part 6, what testing can and cannot show](/posts/llm-sec-6-what-testing-can-and-cannot-show/).
