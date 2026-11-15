@@ -151,7 +151,7 @@ With eigenvalues 100 and 1 the limit is $\eta<0.02$. Rates of 0.001, 0.01 and 0.
 - The identity term in $h = x + f$: a second path for gradients, which the residual connections around every sub-layer provide.
 - Hessian eigenvalues: the largest bounds the stable learning rate, the ratio to the smallest bounds the speed.
 
-Next: Part 4, probability and uncertainty: softmax as a distribution, sampling, temperature and top-p.
+Next: [Part 4, probability, softmax, temperature and top-p](/posts/maths-for-llms-4-probability-softmax-sampling/).
 
 ## Limits
 
