@@ -123,7 +123,7 @@ Retrieval-augmented systems rank stored vectors by cosine to a query. Block 4 pl
 - Concentration of the cosine at $1/\sqrt{d}$: why high-dimensional retrieval works, and why a threshold on cosine depends on $d$.
 - Block decomposition of a projection: multi-head attention.
 
-Next: Part 7, optimisation: gradient descent, momentum, Adam and warmup.
+Next: [Part 7, optimisation, Adam and warmup](/posts/maths-for-llms-7-optimisation-adam-warmup/).
 
 ## Limits
 
