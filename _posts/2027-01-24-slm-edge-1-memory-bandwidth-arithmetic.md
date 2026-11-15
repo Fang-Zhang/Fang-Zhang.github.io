@@ -109,4 +109,4 @@ Each generated token keeps a key and a value vector per layer ([Part 8 of the ma
 - The KV cache figure assumes no key-value sharing and 16-bit storage; the real value depends on the architecture.
 - Compute-bound phases, such as processing a long prompt, follow a different bound than the one shown here.
 
-Next: Part 2, phones and PCs.
+Next: [Part 2, phones and PCs: what four vendors document](/posts/slm-edge-2-phones-pcs-vendors/).
