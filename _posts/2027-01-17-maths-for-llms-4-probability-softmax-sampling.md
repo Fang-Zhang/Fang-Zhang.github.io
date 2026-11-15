@@ -162,7 +162,7 @@ The generated lines show the effect directly. At $T=0.3$ the text is common word
 - Cumulative sums on a sorted distribution: top-$p$; sorting plus a cut: top-$k$.
 - Expectation, variance and entropy: what a decoding rule does to the spread of the next token.
 
-Next: Part 5, statistics and estimation: noise in evaluation scores, confidence intervals and how many samples separate two models.
+Next: [Part 5, statistics, evaluation noise and scaling laws](/posts/maths-for-llms-5-statistics-evaluation-scaling/).
 
 ## Limits
 
