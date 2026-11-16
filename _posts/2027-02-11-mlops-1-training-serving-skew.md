@@ -54,4 +54,4 @@ Every case is flagged and points at the column. The same-code case is exactly ze
 - The comparison assumes the training pipeline can recompute features for past requests, which needs point-in-time correct data; stale joins in the recomputation would hide the error.
 - Two model families and one seed; no confidence intervals on the AUC values.
 
-Next: Part 2 covers data validation, schemas and tests for ML code.
+Next: [Part 2](/posts/mlops-2-data-validation/) covers data validation: a schema, a distribution check and a measured false-alarm rate.
