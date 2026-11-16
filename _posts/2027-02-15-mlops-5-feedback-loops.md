@@ -51,4 +51,4 @@ Without exploration, 170 of the 200 items are never shown past the prior and the
 - Random exploration is the simplest scheme; bandit methods that explore adaptively were not tested.
 - Loop 1 averages ten runs and loop 2 one hundred; no intervals are given.
 
-Next: Part 6 covers release: shadow mode, canaries, A/B tests and the peeking problem.
+Next: [Part 6](/posts/mlops-6-release-and-the-peeking-problem/) covers release: the peeking problem in A/B tests, and what a small canary can see.
