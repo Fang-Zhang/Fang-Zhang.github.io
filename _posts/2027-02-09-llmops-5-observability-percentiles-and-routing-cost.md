@@ -138,7 +138,7 @@ big   params 618496 val bpc 2.047
 - Route only after measuring the price ratio between models, and the relation between confidence and accuracy on your own traffic.
 - Monitor accuracy on a labelled sample, not confidence alone.
 
-Next: Part 6, drift: silent upstream updates, shifted inputs, and how to detect them.
+Next: [Part 6, drift: silent upstream updates, shifted inputs, and how to detect them](/posts/llmops-6-drift-needs-more-than-one-detector/).
 
 ## Limits
 
