@@ -137,7 +137,7 @@ pool of 6000 items, next-character accuracy:
 - Use paired tests on the same items, and keep the set fixed and versioned (Part 4) so scores compare across releases.
 - With a model judge, run both orders and report the agreement rate.
 
-Next: Part 4, versioning and release: what to pin, and a replayable call record.
+Next: [Part 4, versioning and release: what to pin, and a replayable call record](/posts/llmops-4-versioning-release-and-replay/).
 
 ## Limits
 
