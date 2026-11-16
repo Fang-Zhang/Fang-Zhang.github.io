@@ -130,7 +130,7 @@ What a record costs:
 - Hash the assembled prompt. It is the one field that shows whether template, retrieval and truncation together did what was intended.
 - Treat a number-format or quantisation change as a release (Part 1), and a template whitespace change as a release too.
 
-Next: Part 5, observability and cost: per-call tokens, latency percentiles, and routing between models.
+Next: [Part 5, observability and cost: per-call tokens, latency percentiles, and routing between models](/posts/llmops-5-observability-percentiles-and-routing-cost/).
 
 ## Limits
 
