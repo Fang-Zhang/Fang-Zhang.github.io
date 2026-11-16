@@ -142,7 +142,7 @@ Reading the numbers:
 - On this CPU and this model, reruns and batching are not the main risk. On GPUs, with different kernels and non-deterministic reductions, that conclusion may not hold; this experiment does not test it.
 - Replay requires recording the whole call: weights hash, number format, template, sampling parameters, seed and batch shape. Part 4 builds that record.
 
-Next: Part 2, serving: latency, throughput and the memory a KV cache takes.
+Next: [Part 2, serving: latency, throughput and the memory a KV cache takes](/posts/llmops-2-serving-batching-and-the-kv-cache/).
 
 ## Limits
 
