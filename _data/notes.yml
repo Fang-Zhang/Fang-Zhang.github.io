@@ -23,7 +23,7 @@
   date: 2027-01-29 06:00:00 +1300
   note: "First of 6 posts: how model size, bits per weight and memory bandwidth decide what runs on phones, edge boards and microcontrollers, with measurements."
 
-- title: "Maths for LLMs, Tested in Code (1/10): Numbers, Embeddings, Floats and Normalisation"
+- title: "Maths for LLMs (1/10): Numbers, Embeddings, Floats and Normalisation"
   url: "/posts/maths-for-llms-1-numbers-embeddings-floats-normalisation/"
   date: 2027-01-23 06:00:00 +1300
   note: "First of 10 posts: the maths behind each LLM component, checked with code and real output."

@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (8/10): Discrete Maths, the Causal Mask, KV Cache and BPE"
+title: "Maths for LLMs (8/10): Discrete Maths, the Causal Mask, KV Cache and BPE"
 date: 2027-01-21 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, graphs, kv-cache, bpe, tokenisation, series]

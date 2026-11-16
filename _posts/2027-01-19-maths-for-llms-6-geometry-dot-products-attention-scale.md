@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (6/10): Geometry, Dot Products and Why Attention Divides by sqrt(d)"
+title: "Maths for LLMs (6/10): Geometry, Dot Products and Why Attention Divides by sqrt(d)"
 date: 2027-01-19 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, geometry, attention, embeddings, retrieval, series]

@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (9/10): Information, Cross-Entropy, Perplexity and KL"
+title: "Maths for LLMs (9/10): Information, Cross-Entropy, Perplexity and KL"
 date: 2027-01-22 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, information-theory, cross-entropy, perplexity, kl-divergence, rlhf, series]

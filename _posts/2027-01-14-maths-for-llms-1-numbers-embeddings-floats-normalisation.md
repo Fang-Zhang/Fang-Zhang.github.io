@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (1/10): Numbers, Embeddings, Floats and Normalisation"
+title: "Maths for LLMs (1/10): Numbers, Embeddings, Floats and Normalisation"
 date: 2027-01-14 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, embeddings, floating-point, normalization, series]

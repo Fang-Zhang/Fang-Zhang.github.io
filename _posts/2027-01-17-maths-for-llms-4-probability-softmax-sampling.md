@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (4/10): Probability, Softmax, Temperature and Top-p"
+title: "Maths for LLMs (4/10): Probability, Softmax, Temperature and Top-p"
 date: 2027-01-17 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, probability, sampling, softmax, series]

@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (7/10): Optimisation, Adam, AdamW and Warmup"
+title: "Maths for LLMs (7/10): Optimisation, Adam, AdamW and Warmup"
 date: 2027-01-20 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, optimisation, adam, adamw, learning-rate, series]

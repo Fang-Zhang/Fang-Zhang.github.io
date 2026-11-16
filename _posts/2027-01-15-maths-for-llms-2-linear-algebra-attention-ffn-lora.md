@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (2/10): Linear Algebra in Attention, the Feed-Forward Block and LoRA"
+title: "Maths for LLMs (2/10): Linear Algebra in Attention, the Feed-Forward Block and LoRA"
 date: 2027-01-15 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, linear-algebra, attention, lora, series]

@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (10/10): SVD, Low Rank and the Fourier View of Positions"
+title: "Maths for LLMs (10/10): SVD, Low Rank and the Fourier View of Positions"
 date: 2027-01-23 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, svd, low-rank, positional-encoding, fourier, series]

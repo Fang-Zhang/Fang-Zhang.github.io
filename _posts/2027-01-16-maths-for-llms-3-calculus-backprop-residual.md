@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (3/10): Calculus, Backpropagation and the Residual Path"
+title: "Maths for LLMs (3/10): Calculus, Backpropagation and the Residual Path"
 date: 2027-01-16 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, calculus, backpropagation, residual-connections, series]

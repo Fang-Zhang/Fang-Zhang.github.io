@@ -1,5 +1,5 @@
 ---
-title: "Maths for LLMs, Tested in Code (5/10): Statistics, Evaluation Noise and Scaling Laws"
+title: "Maths for LLMs (5/10): Statistics, Evaluation Noise and Scaling Laws"
 date: 2027-01-18 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, mathematics, statistics, evaluation, scaling-laws, series]
