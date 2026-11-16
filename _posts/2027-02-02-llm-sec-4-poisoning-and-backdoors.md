@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (4/6): Poisoning and Backdoors"
+title: "LLM Security (4/6): Poisoning and Backdoors"
 date: 2027-02-02 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, data-poisoning, backdoor, series]

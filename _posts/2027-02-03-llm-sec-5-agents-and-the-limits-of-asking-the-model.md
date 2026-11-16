@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (5/6): Agents and the Limits of Asking the Model"
+title: "LLM Security (5/6): Agents and the Limits of Asking the Model"
 date: 2027-02-03 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, agents, prompt-injection, least-privilege, series]

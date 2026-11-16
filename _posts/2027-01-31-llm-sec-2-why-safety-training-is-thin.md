@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (2/6): Why Safety Training Is Thin"
+title: "LLM Security (2/6): Why Safety Training Is Thin"
 date: 2027-01-31 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, alignment, fine-tuning, refusal, series]

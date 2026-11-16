@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (1/6): One Channel for Instructions and Data"
+title: "LLM Security (1/6): One Channel for Instructions and Data"
 date: 2027-01-30 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, prompt-injection, instruction-hierarchy, series]

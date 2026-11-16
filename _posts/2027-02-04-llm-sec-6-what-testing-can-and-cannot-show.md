@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (6/6): What Testing Can and Cannot Show"
+title: "LLM Security (6/6): What Testing Can and Cannot Show"
 date: 2027-02-04 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, red-teaming, evaluation, backdoor, series]

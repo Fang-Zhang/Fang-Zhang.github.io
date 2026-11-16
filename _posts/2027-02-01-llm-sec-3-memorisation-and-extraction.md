@@ -1,5 +1,5 @@
 ---
-title: "LLM Security, Tested in Code (3/6): Memorisation and Extraction"
+title: "LLM Security (3/6): Memorisation and Extraction"
 date: 2027-02-01 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, security, privacy, memorisation, training-data-extraction, series]
