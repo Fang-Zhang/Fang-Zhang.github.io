@@ -3,7 +3,7 @@ title: "MLOps (2/6): Data Validation Is a Schema, a Distribution Check and a Cho
 date: 2027-02-12 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [MLOps, data validation, schema, data quality, series]
-description: "Part 2 of 6. A 40-line validator (schema, null rates, domains, ranges, distribution distance) run on nine corrupted batches: it flags seven of eight real corruptions at a 1-in-200 false-alarm rate, misses a 3% shift, and flags changes that cost the model nothing."
+description: "Part 2 of 6. A 40-line validator (schema, null rates, domains, ranges, distribution distance) run on nine corrupted batches: it flags eight of nine corruptions at a 1-in-200 false-alarm rate, misses a 3% shift, and flags changes that cost the model nothing."
 ---
 
 [Part 1](/posts/mlops-1-training-serving-skew/) covered the gap between training and serving code. This part covers the data itself: what a pipeline should check on each new batch before it trains on it, and what those checks cost in false alarms.
@@ -51,4 +51,4 @@ The validator compares a batch with a reference. It cannot tell a bug from a rea
 - False-alarm rates are from 200 clean batches of 2,000 rows; the corruption cases use 10,000 rows, so their sensitivity is higher than a 2,000-row daily batch would give.
 - The 1-in-200 figure is for these thresholds on this data and would be re-measured on any other.
 
-Next: Part 3 covers reproducible training, experiment tracking and the selection bias hidden in hyperparameter search.
+Next: [Part 3](/posts/mlops-3-reproducible-training-and-search/) covers reproducible training, experiment records and what a hyperparameter search reports.
