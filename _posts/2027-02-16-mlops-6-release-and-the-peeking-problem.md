@@ -64,4 +64,4 @@ A canary is a guard against gross failure (crashes, doubled error rates, schema 
 - Early-stopping benefits of the sequential test, and multiple metrics per experiment, were not simulated.
 - Canary numbers assume independent requests and a z-test; they say nothing about rare, severe failures that need different detectors.
 
-This closes the series. It is independent of the [LLMOps series](/posts/llmops-1-from-mlops-to-llmops/), which covers the cases where the model is not trained by the team.
+This closes the series; an [epilogue](/posts/mlops-vs-llmops-side-by-side/) sets it against LLMOps. It is independent of the [LLMOps series](/posts/llmops-1-from-mlops-to-llmops/), which covers the cases where the model is not trained by the team.
