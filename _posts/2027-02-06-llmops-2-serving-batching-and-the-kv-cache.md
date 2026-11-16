@@ -164,7 +164,7 @@ D. static vs continuous batching, simulated with the measured step times
 - Report latency as percentiles under a stated arrival rate. A mean at batch 1 says nothing about behaviour under load.
 - The scheduler matters as much as the kernel. The same step times gave more than a 20x difference in mean latency (20.4 s against 0.9 s) at the highest load tested.
 
-Next: Part 3, evaluation: a regression set, its noise, and the judge model.
+Next: [Part 3, evaluation: a regression set, its noise, and the judge model](/posts/llmops-3-evaluation-is-a-measurement/).
 
 ## Limits
 
