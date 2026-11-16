@@ -45,4 +45,4 @@ Ranking quality (AUC) is the same to three decimals in every row. The level of t
 - One change type, one run per delay, so the lag figures have no interval.
 - The delay-aware fit is given the true delay law. Estimating it adds error that this experiment does not measure.
 
-Next: Part 5 covers feedback loops, where the model's own predictions shape the data it learns from.
+Next: [Part 5](/posts/mlops-5-feedback-loops/) covers feedback loops: what a model never sees, and what a little exploration buys.
