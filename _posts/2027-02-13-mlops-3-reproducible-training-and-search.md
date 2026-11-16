@@ -60,4 +60,4 @@ The measurements support a minimum record per run: data hash, full configuration
 - Optimism and regret are means over resamples of a single validation set of 3,000 rows, not over fresh datasets.
 - The search is random, not Bayesian or successive halving; those would change the optimism curve.
 
-Next: Part 4 covers labels that arrive late, and what monitoring can say before they do.
+Next: [Part 4](/posts/mlops-4-delayed-labels-and-monitoring/) covers delayed labels: how late the alarm is, and what immature labels do to a retrain.
