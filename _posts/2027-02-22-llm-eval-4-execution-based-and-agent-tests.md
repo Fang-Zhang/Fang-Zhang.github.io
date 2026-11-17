@@ -206,7 +206,7 @@ These points are the author's reading of the sources above:
 - Report n, the sampling temperature and the test count. A pass rate from three asserts and a pass rate from a full test suite are different quantities.
 - For agents, define the end state to be checked and keep the check separate from how the agent got there, as τ-bench does.
 
-Part 5 is about measuring what a model should not do.
+[Part 5](/posts/llm-eval-5-safety-tests-and-red-teaming/) is about measuring what a model should not do.
 
 ## Limits
 
@@ -216,4 +216,4 @@ Part 5 is about measuring what a model should not do.
 - The Codex, SWE-bench and τ-bench numbers are those in the abstracts, introductions and figure captions of the papers, for the models tested at the time, and were not re-run here.
 - The subprocess limits are resource limits, not a sandbox.
 
-Next: LLM Evaluation (5/7): safety evaluation and red teaming.
+Next: [LLM Evaluation (5/7): Safety Tests and Red Teaming, Measured on a Secret Word](/posts/llm-eval-5-safety-tests-and-red-teaming/).
