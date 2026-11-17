@@ -167,7 +167,7 @@ These points are the author's reading of the evidence above, not published rules
 - Report the per-item or per-slice results next to the average, and use several metrics, as HELM does.
 - Keep a private test set for any decision that matters, and do not publish it.
 
-Part 2 moves from fixed questions to people choosing between two answers.
+[Part 2](/posts/llm-eval-2-human-preference-and-bradley-terry/) moves from fixed questions to people choosing between two answers.
 
 ## Limits
 
@@ -176,4 +176,4 @@ Part 2 moves from fixed questions to people choosing between two answers.
 - The corpus is 131 posts, with 26 of them used for benchmark sentences. The script reads whatever posts exist when it runs, so the figures change with the random split (seed 0) and with every new post added to the blog.
 - Figures from MMLU, HELM, TS-Guessing and GSM1k are quoted from the papers' abstracts; they describe the models available when each paper was written.
 
-Next: LLM Evaluation (2/7): human preference and the Bradley-Terry ranking.
+Next: [LLM Evaluation (2/7): Human Preference and the Bradley-Terry Ranking](/posts/llm-eval-2-human-preference-and-bradley-terry/).
