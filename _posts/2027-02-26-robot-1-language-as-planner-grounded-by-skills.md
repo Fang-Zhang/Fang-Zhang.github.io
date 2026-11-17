@@ -173,7 +173,7 @@ model x affordance, closed-loop trajectories (steps before the model said done o
 - **The product is soft.** In the 1.5B run, "wash the cup" was chosen with nothing in the hand: an infeasible step scaled by 0.02 still won when every feasible option had a lower language-model score. A hard mask would prevent it, and so would a sharper value function; SayCan's value functions are learned, not constants.
 - **This matches the paper's division of labour.** Knowledge of the procedure comes from the model, applicability comes from the skills, and the quality of each limits the whole. SayCan's own result of 84% correct sequences against 74% successful executions shows the same two failure sources on a real robot.
 
-Part 2 turns to models that output the action itself, as tokens.
+[Part 2](/posts/robot-2-actions-as-tokens/) turns to models that output the action itself, as tokens.
 
 ## Limits
 
