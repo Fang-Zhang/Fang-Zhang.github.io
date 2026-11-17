@@ -45,7 +45,7 @@ These points are the author's reading of the cited work:
 - **The averages hide the spread.** The support study's 14% average is 34% for novices and close to nothing for experts. A single mean over all users is a weak basis for rollout decisions.
 - **Pair a quality metric with a use metric.** A citation audit and an acceptance rate each miss what the other catches.
 
-Part 7 covers health, law, finance and regulation, where the cost of an error is higher and the checks differ.
+Next: [LLM Evaluation (7/7): Industry Practice II, Health, Law, Finance and Regulation](/posts/llm-eval-7-industry-practice-health-law-finance-regulation/), where the cost of an error is higher and the checks differ.
 
 ## Limits
 
