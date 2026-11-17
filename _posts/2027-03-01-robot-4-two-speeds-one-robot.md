@@ -96,7 +96,7 @@ two speeds: slow module picks the goal at f_slow (latency = one period), fast lo
 - **The split does not speed up instruction changes.** The adoption time is the same in both designs (0.739 s at 2 Hz, 0.187 s at 8 Hz, 0.101 s at 15 Hz), because the new goal reaches the system through the slow module. A command such as "stop" or "hand it to me" is limited by the slow module's period and latency; any faster reaction must come from the fast module itself or from a separate safety layer.
 - **The tracking error has a floor.** It settles near 0.135 m even at 120 Hz, set by the 0.15 s lag of the hand and the velocity changes of the objects, not by the control rate.
 
-Part 5 moves to the legs, where the control loop is faster and the learning method is different.
+[Part 5](/posts/robot-5-legs-balance-and-training-in-simulation/) moves to the legs, where the control loop is faster and the learning method is different.
 
 ## Limits
 
