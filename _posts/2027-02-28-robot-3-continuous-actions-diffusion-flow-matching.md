@@ -85,7 +85,7 @@ flow matching, 32 Euler steps                    0.993              0.52
 - **Flow matching represents both modes, at a compute price.** With 1 Euler step the sampler outputs the mean again (0.000 valid), the same failure as regression; 2 steps give 0.402, 4 steps 0.926, 16 steps 0.989 and 32 steps 0.993, with the modes close to balanced (0.51 to 0.52 for mode 0). Each step is one forward pass of the network.
 - **The step count is the latency knob.** A chunk costs a handful of passes of the action network rather than one pass per token, and one chunk covers many control ticks. This is why the 50 Hz figure in the π0 paper is a chunk rate and not a per-step decoding rate.
 
-Part 4 looks at how the two layers, a slow reasoning model and a fast action model, are combined in one system.
+[Part 4](/posts/robot-4-two-speeds-one-robot/) looks at how the two layers, a slow reasoning model and a fast action model, are combined in one system.
 
 ## Limits
 
