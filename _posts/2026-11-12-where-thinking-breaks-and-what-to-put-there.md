@@ -30,7 +30,7 @@ Each post opens by saying where it sits on the map. Claims come from named sourc
 | 3 | [Catch the Error While It Happens](/posts/catch-the-error-while-it-happens/) | Mind | Failures go unnoticed | Notice confusion, avoidance and "should" |
 | 4 | [Make the Right Thing the Easy Thing](/posts/make-the-right-thing-the-easy-thing/) | Setting | Effort alone is unreliable | Move the friction |
 | 5 | [The Map Is Not the Territory](/posts/the-map-is-not-the-territory/) | Belief | A model is taken for reality | Check the territory |
-| 6 | Three Tools for Estimating the Unknown | Estimate | Intuition misjudges size and odds | Compute it |
+| 6 | [Three Tools for Estimating the Unknown](/posts/three-tools-for-estimating-the-unknown/) | Estimate | Intuition misjudges size and odds | Compute it |
 | 7 | Averages Lie | Estimate | The average hides a few huge cases | Look at the distribution |
 | 8 | Price Your Own Hour | Direction | Time is spent unpriced | Put a number on it |
 | 9 | Explore Early, Exploit Late, Imagine the Failure First | Direction | Locked in too early | Explore, then run a premortem |
