@@ -121,7 +121,7 @@ The ranking says which answer a crowd prefers on the questions the crowd asked, 
 - The question set is whatever users type, which shifts with who visits the site. The paper's claim is that the questions are diverse; it is not a claim that they represent any one company's use.
 - The ranking compares models on one scale. If voters prefer model A on coding questions and model B on writing questions, a single coefficient hides that. The paper's appendix includes a nonparametric extension of the model, and slicing the votes by question type is the direct remedy.
 
-Part 3 replaces the human voter with a model.
+[Part 3](/posts/llm-eval-3-model-judges-measured-on-a-local-model/) replaces the human voter with a model.
 
 ## Limits
 
@@ -131,4 +131,4 @@ Part 3 replaces the human voter with a model.
 - The Elo variant is the textbook online update at one K. Other Elo implementations (batch, shuffled, averaged) behave differently.
 - Statements about Chatbot Arena come from the paper; the platform and its method have changed since.
 
-Next: LLM Evaluation (3/7): model judges, and measuring a local judge's position bias.
+Next: [LLM Evaluation (3/7): Model Judges, Measured on a Local Model](/posts/llm-eval-3-model-judges-measured-on-a-local-model/).
