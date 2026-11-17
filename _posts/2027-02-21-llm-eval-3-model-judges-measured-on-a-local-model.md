@@ -141,7 +141,7 @@ The following points are the author's reading of the evidence above:
 - Keep length and confident tone out of what the judge can reward, or measure the effect as above.
 - Record the judge model and prompt with each score. A change in either is a change in the measurement.
 
-Part 4 moves to tests that need no judge: code that runs, and agents whose end state can be checked.
+[Part 4](/posts/llm-eval-4-execution-based-and-agent-tests/) moves to tests that need no judge: code that runs, and agents whose end state can be checked.
 
 ## Limits
 
@@ -152,4 +152,4 @@ Part 4 moves to tests that need no judge: code that runs, and agents whose end s
 - The swap-averaged score adds the two log-probability differences; the paper's conservative rule (tie if the two orders disagree) is different and was not run here.
 - Results for Ragas and G-Eval are the papers' own, measured on their datasets with their judge models; none were re-run.
 
-Next: LLM Evaluation (4/7): execution-based and agent evaluation, pass@k and pass^k.
+Next: [LLM Evaluation (4/7): Execution-Based and Agent Tests, pass@k and pass^k](/posts/llm-eval-4-execution-based-and-agent-tests/).
