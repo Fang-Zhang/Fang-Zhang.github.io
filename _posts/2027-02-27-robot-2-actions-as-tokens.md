@@ -98,4 +98,4 @@ The rate of a 0.5B model on CPU is of the same order as the reported rates of fa
 - RT-2 and OpenVLA numbers (1 to 3 Hz, about 5 Hz, about 6 Hz, 15 GB, 64 A100 GPUs for 14 days) are quoted from the papers and were not reproduced.
 - The 8 tokens per action follow RT-2; OpenVLA's tokens per action differ with its action dimensions.
 
-Part 3 covers continuous actions, where the bins disappear.
+[Part 3](/posts/robot-3-continuous-actions-diffusion-flow-matching/) covers continuous actions, where the bins disappear.
