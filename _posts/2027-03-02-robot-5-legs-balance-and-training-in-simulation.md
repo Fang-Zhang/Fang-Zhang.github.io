@@ -93,7 +93,7 @@ share of the 1023 gain pairs that balance (mean fraction >= 0.9): nominal world 
 - **Why:** the region of working gains shrinks and moves as the plant changes (heavier, weaker motor, slower loop), from 0.82 of the grid to 0.41. A policy tuned on the nominal world sits at the cheapest point of a large region, which in the real world lies outside the smaller region. Randomisation shows the optimiser the intersection, and it picks a point inside it.
 - **The price:** the randomised policy uses larger commands, which costs effort in the nominal world and would cost energy and wear on a real robot. Randomisation trades nominal efficiency for robustness; a randomisation range that is too wide would give an overly cautious policy (the author's reading of the trade, not a result of these papers or of this toy).
 
-Part 6 returns to the question of how to know any of this works: how robot policies are evaluated.
+[Part 6](/posts/robot-6-evaluating-robot-policies/) returns to the question of how to know any of this works: how robot policies are evaluated.
 
 ## Limits
 
