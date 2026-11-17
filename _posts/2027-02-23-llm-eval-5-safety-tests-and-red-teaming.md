@@ -152,7 +152,7 @@ The author's list, built from the sources above and the run:
 - What was the over-refusal rate on harmless requests under the same defense?
 - What is the interval, given the number of behaviours?
 
-Next, Parts 6 and 7 leave the lab: how organizations in different industries combine these methods, from published sources.
+Next: [LLM Evaluation (6/7): Industry Practice I, Software, Support and Search](/posts/llm-eval-6-industry-practice-software-support-search/). Parts 6 and 7 leave the lab and read how these methods appear in published industry studies.
 
 ## Limits
 
