@@ -65,7 +65,7 @@ implied sustained throughput DeepSeek-V3: 343 TFLOP/s per GPU during pre-trainin
 - **Data quality appears in every report.** Llama 3 anneals on upsampled high-quality sources, phi-4 builds its recipe around synthetic data, Tülu 3 releases its post-training data. This is the lever of Part 2 and Part 3 at production scale.
 - **The levers of the earlier parts all appear.** Scaling and data (Parts 1 and 2), SFT, DPO and RL with verifiable rewards (Parts 3 and 4), distillation and long context, mixture of experts and latent attention (Part 6). Inference-time compute (Part 5) is not part of these reports' training recipes.
 
-Part 8 closes the series with the research frontier.
+[Part 8](/posts/improve-8-research-frontier/) closes the series with the research frontier.
 
 ## Limits
 
