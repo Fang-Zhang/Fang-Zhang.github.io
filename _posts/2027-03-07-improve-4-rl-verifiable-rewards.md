@@ -93,7 +93,7 @@ GRPO seed 2 in-support {1: 0.95, 4: 0.998, 16: 1.0, 64: 1.0}  out-of-support {1:
 - **RL turns coverage into reliability.** Before training, the base model's pass@1 was 41% for first operands below 50 and 5.9% for first operands of 50 or more; its pass@64 was already 100% and 99%. After GRPO, pass@1 is 95% to 97% in both ranges and pass@64 stays at 100%. The gain sits at small $k$ and the large-$k$ end does not move, which matches the direction of Yue et al.'s finding that RL sharpens what the base model can already do.
 - **This toy cannot test whether RL goes beyond the base.** The out-of-range prompts turned out not to be out of reach: the base model, trained only on wrong sums there, still got 5.9% right and 99% at pass@64, because it had learnt the addition procedure from the other range. Without a real capability gap there is nothing for RL to fail to cross, so the toy says nothing for or against the claim in Yue et al.
 
-Part 5 moves the compute from training to the moment of use: sampling several answers, voting among them, and searching, which is where the pass@k numbers above become a lever of their own.
+[Part 5](/posts/improve-5-inference-time-compute/) moves the compute from training to the moment of use: sampling several answers, voting among them, and searching, which is where the pass@k numbers above become a lever of their own.
 
 ## Limits
 
