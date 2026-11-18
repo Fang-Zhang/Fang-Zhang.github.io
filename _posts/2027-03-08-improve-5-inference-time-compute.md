@@ -106,7 +106,7 @@ What the numbers say:
 - **A perfect checker turns coverage into accuracy.** Both models reach 99.8% to 100% at N=64 with exact checking, matching the shape of the coverage curves in Brown et al., though with a tiny answer space that guarantees it.
 - **A noisy checker caps the gain whatever N is.** The picked answer is correct with probability $\frac{p\cdot 0.8}{p\cdot 0.8+(1-p)\cdot 0.3}$ once N is large enough to contain an accepted sample, where $p$ is the single-sample accuracy. With $p=0.214$ and $0.292$ this is 42% and 52%; the runs show 42.3% and 50.9% at N=64. More samples never fix a checker's false-accept rate, which is the same plateau Brown et al. report for reward models without automatic verification.
 
-Part 6 turns from what the model does at inference to what the model is: mixture-of-experts, attention variants, long context and decoding speed.
+[Part 6](/posts/improve-6-architecture-efficiency/) turns from what the model does at inference to what the model is: mixture-of-experts, attention variants, long context and decoding speed.
 
 ## Limits
 
