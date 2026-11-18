@@ -130,7 +130,7 @@ for each compute level, the best observed run:
 - **The compute frontier moves to larger models as compute grows.** The best observed run in each compute band is the 3,312-parameter model in the three lowest compute bands, then 25,472, 84,912 and 200,064 parameters in the next three. This is the observation behind compute-optimal training: at a fixed budget the best model is neither the smallest nor the largest. The data side confirms it: the 1.19-million-parameter model trained on 250 thousand bytes (loss 2.585) is beaten by the 3,312-parameter model trained on 4 million bytes (loss 2.507), which used about 20 times less compute.
 - **The fitted exponents do not transfer.** The fit gives $N_{opt}\propto C^{0.60}$ and $D_{opt}\propto C^{0.40}$, against 0.46 and 0.54 in the Chinchilla paper. With $E$ at its bound and the hold-out error above, these values should not be read as a measurement of the compute-optimal split for this setup, and they say nothing about large models.
 
-Part 2 turns to the data lever: what is removed from the training text, and why that raises quality at the same size.
+[Part 2](/posts/improve-2-pretraining-data/) turns to the data lever: what is removed from the training text, and why that raises quality at the same size.
 
 ## Limits
 
