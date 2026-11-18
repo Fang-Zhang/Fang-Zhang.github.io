@@ -206,7 +206,7 @@ For DPO with 512 pairs, $\beta$ moves the result along a curve: 66.4% correct at
 - **$\beta$ is a dial between movement and gain.** Small $\beta$ lets the policy travel (KL 2.85) and gives lower accuracy at this data size; the best accuracy sits at $\beta=0.3$. This is the same trade-off as the KL penalty in the RLHF objective above.
 - **The comparison is not like for like.** SFT used ground-truth answers. DPO used only a binary judgement between two model samples, which is the cheaper signal to collect from people (the author's reading of why InstructGPT collected rankings), but it carries less information per example. The toy says what each signal buys, not which method is better.
 
-Part 4 takes the idea one step further: when the preference signal is a checkable answer instead of a human ranking, reinforcement learning with a verifiable reward becomes the main lever for reasoning models.
+[Part 4](/posts/improve-4-rl-verifiable-rewards/) takes the idea one step further: when the preference signal is a checkable answer instead of a human ranking, reinforcement learning with a verifiable reward becomes the main lever for reasoning models.
 
 ## Limits
 
