@@ -102,7 +102,7 @@ The last column of run B (distinct 64-byte blocks) is meaningless: it compares b
 - **The memorisation signature points the expected way, weakly.** In run B the gap between held-out loss and the loss on the model's own training text is 0.087 nats for the crawl with repeats and 0.065 for the deduplicated one. This is the direction Lee et al. predict (more repetition, more memorisation), and it is also a single measurement of three runs.
 - **Run A explains itself.** Training consumed 4 million of 153 million bytes, so the run measured 0% (rounded) of the training bytes as exact repeats of an earlier document in the same run. Deduplication matters when training sees the same content repeatedly, which at web scale means pools much smaller than the training run's token count or clusters of hundreds of thousands of copies, as in the FineWeb report. It does not matter much when the sample is a small slice of a large pool.
 
-The practical reading is the same as the FineWeb report's: the value of deduplication sits in the very large duplicate clusters, and removing more is not automatically better. Part 3 moves from what the model reads to how it is taught to behave: supervised fine-tuning and preference optimisation.
+The practical reading is the same as the FineWeb report's: the value of deduplication sits in the very large duplicate clusters, and removing more is not automatically better. [Part 3](/posts/improve-3-post-training/) moves from what the model reads to how it is taught to behave: supervised fine-tuning and preference optimisation.
 
 ## Limits
 
