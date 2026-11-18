@@ -98,7 +98,7 @@ total variation distance to the target distribution over 4000 first bytes: specu
 - **More proposals stop helping.** At an acceptance rate near 0.5, going from 4 to 8 proposals adds almost nothing per call, while the draft cost grows linearly. With the measured cost ratio $c=0.14$ (draft call time over target call time), the predicted speed-up $\frac{1-\alpha^{\gamma+1}}{(1-\alpha)(\gamma c+1)}$ is 1.30, 1.37, 1.25 and 0.92 for $\gamma=1,2,4,8$. This is the formula's prediction and not a measured wall-clock time.
 - **The output distribution is preserved.** Over 4,000 trials at a fixed prefix, the total variation distance between the first speculative byte and the target's distribution is 0.029, against 0.023 for sampling the target directly, which is the noise floor for that sample size.
 
-Part 7 turns from mechanisms to practice: what public technical reports say about how these levers are combined in deployed models.
+[Part 7](/posts/improve-7-technical-reports/) turns from mechanisms to practice: what public technical reports say about how these levers are combined in deployed models.
 
 ## Limits
 
