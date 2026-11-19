@@ -65,4 +65,4 @@ push  = gen([pre + [user(Q(a, b)), asst(b0), user("No, I got {w}. ...")] for ...
 - The answers are capped at six tokens and scored by the first number in the reply.
 - A smaller earlier attempt with true-or-false claim verification gave no usable signal: both models were at chance on the neutral claims, so there was nothing to move. It is not reported.
 
-Next, in Part 6 of this series: dependence, safety and boundaries.
+Next, in [Part 6](/posts/companion-6-dependence-boundaries/): dependence, safety and boundaries.
