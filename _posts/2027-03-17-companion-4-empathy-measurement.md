@@ -91,4 +91,4 @@ A real reply to a joyful message looks like this (plain model): "Congratulations
 - No human ratings were collected, so none of the scores is validated against what people judge empathic.
 - Greedy decoding, one run, 30 messages per responder; the third decimal of any score is noise.
 
-Next, in Part 5 of this series: sycophancy, the failure where warmth and agreement are confused.
+Next, in [Part 5](/posts/companion-5-sycophancy/): sycophancy, the failure where warmth and agreement are confused.
