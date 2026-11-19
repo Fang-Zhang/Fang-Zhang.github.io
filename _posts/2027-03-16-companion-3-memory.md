@@ -90,4 +90,4 @@ The two strategies fail the city question for different reasons.
 - One 1.5B model, greedy decoding. Larger models handle long context better, and the 8.5K-token prompt is far below real histories. Timings are for this CPU and an unoptimised bfloat16 path; absolute values will differ on other hardware, and a prefix cache would change the `full` row.
 - Summaries and structured fact stores (MemGPT-style tiers, extracted facts with timestamps) were not tested, and the test has no abstention and no multi-session reasoning questions.
 
-Next, in Part 4 of this series: emotion and empathy, and what can and cannot be measured.
+Next, in [Part 4](/posts/companion-4-empathy-measurement/): emotion and empathy, and what can and cannot be measured.
