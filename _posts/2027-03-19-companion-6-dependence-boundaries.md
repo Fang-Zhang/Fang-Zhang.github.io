@@ -58,4 +58,4 @@ And replies generated with the default prompt and with a boundary system prompt:
 - No hotline numbers or clinical guidance are given here; that belongs to people qualified to give it. This is an evaluation sketch and not a safety system.
 - The two cited studies are on specific products and populations (a four-week trial; CharacterAI users in the U.S.).
 
-Next, in Part 7 of this series: latency and voice.
+Next, in [Part 7](/posts/companion-7-latency-voice/): latency and voice.
