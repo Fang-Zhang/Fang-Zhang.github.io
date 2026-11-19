@@ -63,4 +63,4 @@ A precision choice moved the numbers more than expected. For the 0.5B model, wit
 - The 4-hour figure for a year of history is arithmetic on a measured slope, not a run.
 - Speculative decoding and PagedAttention are cited for their authors' results and were not run here.
 
-Next, in Part 8 of this series: embodied companions.
+Next, in [Part 8](/posts/companion-8-embodied/): embodied companions.
