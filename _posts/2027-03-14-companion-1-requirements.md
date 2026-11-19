@@ -53,7 +53,7 @@ context window 1,000,000: filled after 667 days at 50 turns/day
 - **A fixed window is exhausted quickly.** At 50 turns per day, 8K tokens fill in 5 days, 128K in 85, and 1M in about 22 months.
 - **Keeping everything as context is expensive per user.** A year of history is about 548K tokens at 50 turns per day and, for the assumed shape, a 33 GiB cache for one user, which multiplies by the number of simultaneous users.
 - **Re-reading is quadratic.** Reading the full history on every turn amounts to 5 billion token reads over a year for one user at 50 turns per day.
-- **Hence selection.** The memory problem in Part 3 is deciding what to keep and retrieve, and it exists because storing and re-reading everything fails on cost before it fails on quality.
+- **Hence selection.** The memory problem in [Part 3](/posts/companion-3-memory/) is deciding what to keep and retrieve, and it exists because storing and re-reading everything fails on cost before it fails on quality.
 
 ## What the series covers
 

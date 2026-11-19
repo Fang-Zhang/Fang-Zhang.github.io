@@ -84,4 +84,4 @@ A uniform spread over all keys would give the 39 non-sink system tokens a share 
 - The attention analysis uses the `base` transcripts only, a mean over all layers and heads hides head-level behaviour, and the sink share is inferred from removing the first token, not from a per-head analysis.
 - The reminder helped here; whether it helps on large models, long personas or user-driven conversations is not shown. A reminder can also be repeated back by the model or make replies repetitive, which was not measured.
 
-Next, in Part 3 of this series: memory, and what to retrieve rather than re-read.
+Next, in [Part 3](/posts/companion-3-memory/): memory, and what to retrieve rather than re-read.
