@@ -6,7 +6,7 @@ tags: [LLM, pruning, sparsity, compression, Wanda, SparseGPT]
 description: "Which weights, units or layers a language model can lose, how methods pick them, and what each choice costs, measured on a 1.2M-parameter byte model without retraining. The first of two posts; the second covers recovery training and post-training."
 ---
 
-Pruning removes parts of a trained network. This post covers the removal step only: what can be removed, how published methods choose, and what each choice costs. A 1.2M-parameter model is pruned in several ways on a CPU and the loss is measured with no retraining. How a pruned model is repaired, and how that relates to post-training, is the subject of the second post.
+Pruning removes parts of a trained network. This post covers the removal step only: what can be removed, how published methods choose, and what each choice costs. A 1.2M-parameter model is pruned in several ways on a CPU and the loss is measured with no retraining. How a pruned model is repaired, and how that relates to post-training, is the subject of [the second post](/posts/pruning-2-recovery-and-post-training/).
 
 ## What can be removed
 
@@ -78,5 +78,5 @@ layers removed 4 of 6 (lowest influence first): 2.5065
 - One 1.2M-parameter model, one seed, one dataset. Validation loss is the only metric: nothing here measures instruction following, reasoning or safety, which a loss average can hide.
 - The unstructured fractions are of the three prunable matrices (attention input projection, two MLP matrices, 92% of the block weights); the structured fractions are of all block weights. The curves are therefore offset by up to 8%.
 - The Wanda-style score is an implementation of the idea in the abstract, not the authors' code. SparseGPT and LLM-Pruner were not run, and the reported figures for them are the abstracts' claims.
-- No retraining was done, by design. The loss values here are the damage before repair, which the second post takes up.
+- No retraining was done, by design. The loss values here are the damage before repair, which [the second post](/posts/pruning-2-recovery-and-post-training/) takes up.
 - Speed and memory were not measured.
