@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 9: Three Tiers and Why Training Fails"
-date: 2027-04-05 06:00:00 +1300
+date: 2027-04-02 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, workforce, training design, leadership, frontline]
 description: "Part 9 and last of a series on training traditional-industry workforces to use AI. It groups the cases from Parts 1 to 8 into three tiers (leaders, business backbone, frontline) and lists the failure causes that the sources themselves document."

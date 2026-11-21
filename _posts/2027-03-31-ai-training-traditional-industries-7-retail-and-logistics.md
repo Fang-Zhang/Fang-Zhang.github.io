@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 7: Retail and Logistics at Scale"
-date: 2027-04-03 06:00:00 +1300
+date: 2027-03-31 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, retail, logistics, Walmart, FedEx, workforce]
 description: "Part 7 of a series on training traditional-industry workforces to use AI. It reads the announcements of two of the largest frontline employers, Walmart and FedEx, and separates what they state (audience, format, scale) from what they do not publish (outcomes)."

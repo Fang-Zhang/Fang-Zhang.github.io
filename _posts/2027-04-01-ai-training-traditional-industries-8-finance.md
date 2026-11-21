@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 8: Finance, Three Ways In"
-date: 2027-04-04 06:00:00 +1300
+date: 2027-04-01 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, finance, banking, JPMorganChase, Morgan Stanley, DBS]
 description: "Part 8 of a series on training traditional-industry workforces to use AI. Three large financial institutions are read side by side: JPMorganChase (tool first), Morgan Stanley (evaluation first) and DBS (training first), with what each source states and what it leaves out."

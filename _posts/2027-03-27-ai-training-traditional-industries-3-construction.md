@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 3: Construction, Where the Training Gap Is Structural"
-date: 2027-03-30 06:00:00 +1300
+date: 2027-03-27 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, construction, trades, workforce, Building Safety Act]
 description: "Part 3 of a series on training traditional-industry workforces to use AI. Construction is fragmented, project-based and short of formal training pathways. This part combines a UK case study of a 90-person construction consultancy with a US survey of construction professionals to show what use-case-led training looks like and where the gap sits."

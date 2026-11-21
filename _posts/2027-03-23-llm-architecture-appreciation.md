@@ -1,6 +1,6 @@
 ---
 title: "An Appreciation of LLM Architectures: Ten Open-Weight Models Compared"
-date: 2027-03-25 06:00:00 +1300
+date: 2027-03-23 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, architecture, mixture-of-experts, attention, kv-cache, deepseek, qwen, gemma]
 description: "Ten open-weight language models read from their own config.json files and technical reports: where their attention, feed-forward and normalisation choices agree, where they differ, and what each choice costs in KV-cache memory and parameters."

@@ -1,6 +1,6 @@
 ---
 title: "Ten LLMs, Ten Training Recipes: Tokens, Optimizers, Context Extension and Post-Training"
-date: 2027-03-27 06:00:00 +1300
+date: 2027-03-24 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, training, optimizer, muon, grpo, distillation, post-training]
 description: "The ten open-weight models from the architecture comparison, now compared on how they were trained: token budgets, AdamW versus Muon, staged schedules, context extension and the post-training pipeline, each read from its own report."

@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 4: Professional Services and Small Firms"
-date: 2027-03-31 06:00:00 +1300
+date: 2027-03-28 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, professional services, SMEs, KPMG, workforce]
 description: "Part 4 of a series on training traditional-industry workforces to use AI. It reads three UK case studies, KPMG UK, a six-person marketing agency and a training consultancy's client method, to show how the training mechanism changes between a 17,000-person firm and a small team."

@@ -1,6 +1,6 @@
 ---
 title: "Running a Small LLM on a Phone: What the Documentation Says"
-date: 2027-03-23 06:00:00 +1300
+date: 2027-03-22 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [LLM, on-device, mobile, quantization, llama-cpp, litert-lm, mlc-llm]
 description: "Three ways to run a small language model on a phone, and the numbers the official documentation publishes: file sizes, prefill and decode speed on named phones, and what quantization does to size and speed."
