@@ -28,7 +28,7 @@ PRIMES is the UK programme's framework for "the design, delivery, and assurance 
 - **Expandable.** Transferable skills across tools and roles, core content consistent with local adaptation.
 - **Sustainable.** Content updated as tools change, planned refreshes, monitoring of "whether training improves confidence, quality of use, and decision-making", and responsible use (confidentiality, data protection, transparency, human oversight) kept as a permanent core.
 
-The briefing adds that sectors differ in what they need on top: regulated sectors tie training to oversight and accountability, fragmented sectors such as SMEs and construction need simple and flexible formats, and operational sectors need training that supports real-world use, quality and safety.
+The programme's [executive summary](https://www.gov.uk/government/publications/skills-for-ai-what-works-for-ai-upskilling-in-the-uk/executive-summary-what-works-for-ai-upskilling-in-the-uk) adds that sectors differ in what they need on top: regulated sectors tie training to oversight and accountability, fragmented sectors such as SMEs and construction need simple and flexible formats, and operational sectors need training that supports real-world use, quality and safety.
 
 ## The Interface framework: who gets what depth
 
