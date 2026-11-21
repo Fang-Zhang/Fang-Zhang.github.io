@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 1: Four Frameworks and What Each One Answers"
-date: 2027-03-29 06:00:00 +1300
+date: 2027-03-28 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, AI literacy, PRIMES, EU AI Act, workforce]
 description: "Part 1 of a series on training the workforce of traditional-industry companies to use AI. It reads the UK PRIMES framework, the Interface three-tier workplace framework, EU AI Act Article 4 and the OECD-EU AILit framework from their own documents, and shows which question each one answers."

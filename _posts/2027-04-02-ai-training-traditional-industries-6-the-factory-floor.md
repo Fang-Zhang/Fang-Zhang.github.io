@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 6: The Factory Floor and the Frontline Gap"
-date: 2027-04-08 06:00:00 +1300
+date: 2027-04-02 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, manufacturing, frontline workers, Bosch, workforce]
 description: "Part 6 of a series on training traditional-industry workforces to use AI. It combines the UK programme's manufacturing analysis, a 2023 BCG survey of frontline versus leader AI training, Bosch's account of its AI Academy, and a German establishment-panel study showing that AI adoption can reduce incumbent-worker training."

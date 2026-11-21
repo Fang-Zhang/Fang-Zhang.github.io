@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 5: Healthcare and Public Services"
-date: 2027-04-06 06:00:00 +1300
+date: 2027-04-01 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, healthcare, NHS, digital inclusion, workforce]
 description: "Part 5 of a series on training traditional-industry workforces to use AI. It reads the UK programme's health and social care analysis and two case studies: an NHS GP practice that trained all staff on an AI scribe, and a digital-inclusion charity's free AI literacy platform for people with low digital skills."

@@ -1,6 +1,6 @@
 ---
 title: "AI Training for Traditional Industries, Part 2: Airbus and Roche, Two Ways to Train a Regulated Workforce"
-date: 2027-03-31 06:00:00 +1300
+date: 2027-03-29 06:00:00 +1300
 categories: [Tech, AI/ML]
 tags: [AI training, upskilling, Airbus, Roche, aerospace, pharmaceuticals, workforce]
 description: "Part 2 of a series on training traditional-industry workforces to use AI. It compares two large regulated employers from the UK government's case-study set: Airbus, which built capability over a decade, and Roche, which trained 100,000 people in months. Every figure is self-reported by the companies."
