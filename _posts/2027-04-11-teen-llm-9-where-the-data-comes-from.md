@@ -16,7 +16,7 @@ Part 8 ended with a model that memorised a book because it had too little text. 
 
 ## The maths tool: orders of magnitude
 
-When numbers differ by factors of millions, a normal chart is useless. A **log scale** puts 10, 1,000 and 100,000 at equal distances: each step up is a multiplication by 100, not an addition. Logs appeared in Part 5 (surprise is `-ln(p)`); here they turn multiplication into counting steps.
+When numbers differ by factors of millions, a normal chart is useless. A **log scale** puts 10, 1,000 and 100,000 at equal distances: each step up is a multiplication by 100, not an addition. Logs appeared in Part 5 (the loss is `-log(p)`); here they turn multiplication into counting steps.
 
 ![Left: log-scale bar chart comparing the 149 kilobytes of text used in Parts 2 to 8 with the 825 gibibytes of the Pile, about 6 million times larger. Right: bar chart of how many generated six-word runs are copied from the training book: 0 percent after 200 steps, 10 percent and 27 percent after 1,500 steps]({{ site.baseurl }}/assets/pic/teen-llm-data-memory.png){: width="900" }
 *Left: the book used in this series (149,000 bytes, counted from the cleaned file) against the Pile (825 GiB, from its paper's abstract). Right: copying, measured below.*
