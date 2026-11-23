@@ -37,7 +37,7 @@ You need Python 3 ([download](https://www.python.org/downloads/)) and two librar
 - **The plateau is the finding.** More data of the same kind stopped helping long before the data ran out. A hypothesis, not a conclusion: the model is too simple. One average picture per digit cannot represent that a 7 can be written with or without a bar, or a 1 with or without a foot. The next parts build models that can, and test that hypothesis instead of assuming it.
 
 **Pitfalls and limits.**
-- One run proves little. The spread across draws (6.1 points at the smallest size) is as large as many differences people report as improvements.
+- One run proves little. The spread across draws (6.1 points at the smallest size) is larger than the size of many small improvements one might be tempted to claim.
 - The 89.3% is specific to this dataset (small 8 by 8 images). It does not carry over to other kinds of images.
 - The test images were reused across all experiments. For a toy this is acceptable; Part 4 explains why a long series of decisions made on the same test set slowly inflates the score.
 
