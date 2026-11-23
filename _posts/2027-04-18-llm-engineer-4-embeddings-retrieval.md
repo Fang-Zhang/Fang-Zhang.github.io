@@ -115,7 +115,7 @@ A natural conclusion from the scatter plot is "combine them and win". On this da
 
 ## Limits
 
-- 23 queries on one corpus is a small test. Differences of one or two queries are noise.
+- 23 queries on one corpus is a small test. Differences of one or two queries are noise, and so is the 3-query gap between BM25 and the hybrid: an exact sign test gives p = 0.25 (worked through in Part 8), so read the ranking as "BM25 was at least as good here", not as a finding.
 - The queries were written by hand after looking at some docstrings, which can favour lexical overlap; a fair test set is written before looking at the corpus.
 - LSA is not a neural embedding model. The result says nothing about how a trained embedding model would score on this data.
 - Brute-force search is shown; approximate nearest-neighbour indexes trade a little accuracy for speed and are outside this post.
