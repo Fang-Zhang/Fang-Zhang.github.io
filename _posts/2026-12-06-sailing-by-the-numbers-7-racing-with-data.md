@@ -8,7 +8,7 @@ image:
   alt: Eight stage boxes for the series, with stage 7, Racing with data, highlighted
 ---
 
-The earlier posts built the numbers: true wind, polars, VMG, laylines. This post puts them to work in one race, in the order a race happens: before the start, upwind, downwind, and afterwards. The tactical rules come from published racing guides. The start-line geometry and the post-race method are my own, and are marked as such.
+The earlier posts built the numbers: true wind, polars, VMG, laylines. This post puts them to work in one race, in the order a race happens: before the start, upwind, downwind, and afterwards. The tactical rules come from published racing guides. The start-line geometry and the post-race method are the post's own, and are marked as such.
 
 **Where this sits:** stage 7 of 8. The first six posts described the system. This one is about using it.
 
@@ -20,9 +20,9 @@ _Figure 1. The eight posts._
 **The median heading.** David Dellenbaugh's Sailing World piece, [Windshift rules of thumb](https://www.sailingworld.com/how-to/windshift-rules-of-thumb), describes a pre-race routine that needs only a compass. Sail as long as possible on each tack and note the high and low headings. If the headings on starboard run from 240 to 270 degrees, the median heading is the average, 255. During the beat, compare the current heading with the median: at 245 the boat is 10 degrees below it, which means it is being headed, so tack to port; at 260 it is slightly lifted, so stay on starboard.
 
 ![Compass heading on starboard tack against time, oscillating between 240 and 270 with the median 255; above the median is lifted, below is headed]({{ "/assets/pic/sailing-median-heading.png" | relative_url }})
-_Figure 2. The median-heading method, using the example numbers from the article. The curve is an illustration I drew, not a measurement._
+_Figure 2. The median-heading method, using the example numbers from the article. The curve is an illustration drawn for this post, not a measurement._
 
-**The start line.** A start line is almost never exactly square to the wind. If the line makes a bias angle with the square position, one end is further upwind. The difference in distance is the line length times the sine of the bias angle. As an illustration, a 200 m line with a 10-degree bias has one end about 35 m further upwind than the other. The calculation is mine. A US Sailing racing tips page adds a rule of thumb for shifty conditions: the middle of the line is usually a good home base, until one end is more than 15 degrees favoured.
+**The start line.** A start line is almost never exactly square to the wind. If the line makes a bias angle with the square position, one end is further upwind. The difference in distance is the line length times the sine of the bias angle. As an illustration, a 200 m line with a 10-degree bias has one end about 35 m further upwind than the other. The calculation is the post's own. A US Sailing racing tips page adds a rule of thumb for shifty conditions: the middle of the line is usually a good home base, until one end is more than 15 degrees favoured.
 
 ![A start line tilted at the bias angle to a line square to the wind, with the upwind distance d marked]({{ "/assets/pic/sailing-line-bias.png" | relative_url }})
 _Figure 3. Start line bias. The formula is geometry, not a rule from a source._
@@ -44,7 +44,7 @@ The article's downwind rules mirror the upwind ones. Upwind you tack on the head
 
 ## After the race: compare against the target
 
-This section is my own method, not a source's. The polars from the third post give a target boat speed for each true wind speed and angle. A logged race gives the actual boat speed and the true wind at every moment, so the target can be looked up for each moment. Dividing the actual speed by the target speed gives a percentage of target for each leg. Three questions follow, in order of how cleanly the data can answer them:
+This section is the post's own method, not a source's. The polars from the third post give a target boat speed for each true wind speed and angle. A logged race gives the actual boat speed and the true wind at every moment, so the target can be looked up for each moment. Dividing the actual speed by the target speed gives a percentage of target for each leg. Three questions follow, in order of how cleanly the data can answer them:
 
 1. **Speed.** On which legs, and at which wind angles, was the boat below target? That points to trim or steering.
 2. **Manoeuvres.** How much speed was lost in each tack, and how long did it take to recover to target? Tacking on every header costs more than it gains if each tack is slow.

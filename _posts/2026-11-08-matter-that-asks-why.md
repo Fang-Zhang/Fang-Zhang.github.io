@@ -37,4 +37,4 @@ Here the honest position matches the one in the last post. The mechanisms of cog
 
 There are two ways to take "just ordinary matter." One treats it as a deflation: if the parts are cheap, so is the whole. The other notices that the parts being cheap is exactly what makes the whole remarkable. A universe that produces thinking from its most common ingredients has not spent anything rare to do it.
 
-That is my argument, not a finding. The data only says that the matter is common and that thought exists. What follows from it is a choice of emphasis, and the more accurate one is the second: ordinary matter becoming able to ask why it exists is not an ordinary event. The ingredients explain the first half of that sentence only.
+That is the post's argument, not a finding. The data only says that the matter is common and that thought exists. What follows from it is a choice of emphasis, and the more accurate one is the second: ordinary matter becoming able to ask why it exists is not an ordinary event. The ingredients explain the first half of that sentence only.

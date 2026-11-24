@@ -47,7 +47,7 @@ Every new message in a conversation repeats the entire history. A coding agent r
 ![Prefix reuse in the KV cache](/assets/pic/deepinfer-kvcache.png){: width="700" }
 _Figure 3. Turn 51 reuses what turn 50 already read. An edit near the start breaks the shared opening. My own drawing._
 
-DeepSeek has published a hit rate for its older V3/R1 service: of 608 billion input tokens in one 24-hour window in February 2025, 342 billion (56.3%) hit the on-disk KV cache. I could not find a published hit rate for V4.1 Flash. The size of the effect follows from arithmetic: if a fraction h of input tokens is served from cache, prefill work falls by a factor of 1 / (1 - h), so 56.3% means about 2.3 times less and 90% would mean 10 times less.
+DeepSeek has published a hit rate for its older V3/R1 service: of 608 billion input tokens in one 24-hour window in February 2025, 342 billion (56.3%) hit the on-disk KV cache. No published hit rate was found for V4.1 Flash. The size of the effect follows from arithmetic: if a fraction h of input tokens is served from cache, prefill work falls by a factor of 1 / (1 - h), so 56.3% means about 2.3 times less and 90% would mean 10 times less.
 
 The Q&A states a design target of keeping the KV cache for more than 72 hours.
 
@@ -123,7 +123,7 @@ For measured speed, [MarkTechPost's reading](https://www.marktechpost.com/2026/1
 
 ## What follows from it
 
-Two observations of my own, not DeepSeek's.
+Two observations of the post's own, not DeepSeek's.
 
 1. The released parts are the ones that do not depend on a particular data center: kernels, the engine, the scheduling logic. The withheld parts (storage, routing, replica balancing) are the ones tied to DeepSeek's infrastructure, which is the reason DeepSeek gave in 2025. So the release shows how the serving cost is cut without handing over a deployable service.
 2. Most of the techniques above are load-dependent. DSpark loses at low concurrency and wins at high; wide expert parallelism needs at least 64 GPUs per stage to pay off; a cache pays off in proportion to how long conversations and agent loops stay in a repeating prefix. Quoting one throughput or hit-rate number says little without the operating point it was measured at.

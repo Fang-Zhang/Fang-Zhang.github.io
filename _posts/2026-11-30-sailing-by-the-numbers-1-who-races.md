@@ -28,7 +28,7 @@ _Figure 1. The eight posts._
 
 ## Two kinds of race
 
-The split used here is my own, and it is by where the race happens: near a shore, or offshore. It matters because the two kinds ask different questions. Near the shore, the race is short, spectators can see it, and the decisions come every few seconds. Offshore, the race lasts days or months, nobody sees most of it, and the decisions are about weather and endurance.
+The split used here is the post's own, and it is by where the race happens: near a shore, or offshore. It matters because the two kinds ask different questions. Near the shore, the race is short, spectators can see it, and the decisions come every few seconds. Offshore, the race lasts days or months, nobody sees most of it, and the decisions are about weather and endurance.
 
 ![Cards for seven races split into near-the-shore and offshore, each with boat, format and how it is decided]({{ "/assets/pic/sailing-race-map.png" | relative_url }})
 _Figure 2. Seven well-known races, with the boat, the format and how the winner is decided._
@@ -56,7 +56,7 @@ _Figure 3. The three offshore courses with a published length, on one linear sca
 
 ## What the races have in common
 
-Three observations, and the second and third are my own reading, not something the organisers state.
+Three observations, and the second and third are the post's own reading, not something the organisers state.
 
 1. **Winning is defined differently each time.** Head-to-head wins, points per place, elapsed time, corrected time. A sailor needs the scoring rule before the tactics make sense, which is what the next post covers.
 2. **Equal boats move the contest to the crew.** The F50, the Olympic classes and the AC75's one-design core all limit what money can buy. Where boats differ, as at Sydney Hobart, a handicap does the equalising instead.

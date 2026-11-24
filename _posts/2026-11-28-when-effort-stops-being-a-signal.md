@@ -21,7 +21,7 @@ Applied to writing, the logic is the same. A long, polished, tailored document u
 ![Cost of producing a long report for two types of worker, before and after AI]({{ "/assets/pic/signal-cost-gap.png" | relative_url }})
 _Schematic. Before: the careless worker pays much more per page, so length separates the types. After: both costs are near zero, so length no longer separates them._
 
-The step from job applications to internal reports is an analogy, and I flag it as one. The mechanism is the same; the evidence below comes from hiring, not from reporting lines.
+The step from job applications to internal reports is an analogy, and it is flagged as one. The mechanism is the same; the evidence below comes from hiring, not from reporting lines.
 
 ## Why organizations lean on effort signals
 
@@ -55,15 +55,15 @@ Two limits apply. Both studies cover one platform, with short-term remote jobs, 
 
 ## My reading (an inference, not a finding)
 
-The papers show that a signal built on cheap-to-produce text loses value when production gets cheap, and that employers reach for other signals. Taking that to organizations, I would expect the following.
+The papers show that a signal built on cheap-to-produce text loses value when production gets cheap, and that employers reach for other signals. Taking that to organizations, the following would be expected.
 
 1. **AI multiplies material at the handoffs, not decisions.** A decision is still made once. The summaries, status documents and decks around it can each be generated at almost no cost. So the volume of fake-looking work rises first, and the volume of useful judgment does not.
 2. **Readers will shift to signals that are harder to produce.** The platform data suggests work history. In a firm, the candidates are commitments that can be checked later, track records, and stated confidence that the author is willing to be held to.
-3. **The new signals can be forged too.** This has not been studied, and I have no evidence for how fast it happens.
+3. **The new signals can be forged too.** This has not been studied, and there is no evidence on how fast it happens.
 
 ## What the sources do not settle
 
-- Whether internal reports lose signal value the way cover letters did. No study I found measures that.
+- Whether internal reports lose signal value the way cover letters did. No study found measures that.
 - Whether the 51% and 19%/14% figures hold outside Freelancer.com.
 - Whether employers' move to alternative signals improves hiring or only changes who is hired.
 - How long the transition takes, and whether readers adapt faster than writers do.

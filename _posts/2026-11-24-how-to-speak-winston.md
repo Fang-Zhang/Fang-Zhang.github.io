@@ -143,7 +143,7 @@ Winston's own model of the final slide is short: a heading, **Contributions**, a
 4. You give people time to read it. He says that when he shows it, he waits.
 5. The last line says what we get out of it: the payoff for the listener.
 
-What follows are my own additions, not his; they are a way to apply his rule:
+What follows are the post's own additions, not his; they are a way to apply his rule:
 
 - Phrase each line as something that exists after the work: a result, a method, a system, a dataset, a finding. A line that begins "I looked at" or "we discussed" describes activity; one that begins "a method that" or "evidence that" is a contribution.
 - Three to five lines is enough. Each line is something a listener could repeat to someone else tomorrow.
@@ -163,7 +163,7 @@ A neighbouring result comes from [Pashler's 1994 review of dual-task interferenc
 
 ## The same constraint in a language model
 
-A speaker who overloads the audience, and a prompt that overloads a model, fail in similar ways. This section is my own analogy, offered with the limits stated.
+A speaker who overloads the audience, and a prompt that overloads a model, fail in similar ways. This section is the post's own analogy, offered with the limits stated.
 
 **Position matters.** Winston's advice to start with a promise and end with contributions puts the most important things at the two ends of the talk. [Lost in the Middle](https://arxiv.org/abs/2307.03172) found that language models do best when the relevant information is at the beginning or end of the input, and degrade significantly when it sits in the middle, even for models built for long contexts. Different mechanism, same shape: the ends of a sequence are privileged.
 
@@ -171,7 +171,7 @@ A speaker who overloads the audience, and a prompt that overloads a model, fail 
 
 **One example can be enough.** His slogan "one-shot learning" described a symbolic program that learned something definite from each example, with near misses doing most of the teaching. [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) shows that a large model can perform a new task from a few examples placed in its prompt. The mechanisms are unrelated, since his program changed its internal description and the language model does not update its weights, so the shared name is a coincidence. What carries over is the lesson that a well-chosen example, especially a near miss, teaches more than many arbitrary ones.
 
-**A limit on the analogy.** A speaker's listeners drift in and out; a model processes its whole input with attention at once. Winston's cycle, fence and verbal punctuation are repairs for lapses of attention that models do not have in the same form, and I know of no study showing that repetition or numbered landmarks help a model the way they help people. These habits are about people, and the analogy stops there.
+**A limit on the analogy.** A speaker's listeners drift in and out; a model processes its whole input with attention at once. Winston's cycle, fence and verbal punctuation are repairs for lapses of attention that models do not have in the same form, and no study is known to show that repetition or numbered landmarks help a model the way they help people. These habits are about people, and the analogy stops there.
 
 ## The principle
 

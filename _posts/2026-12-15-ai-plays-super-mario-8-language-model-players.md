@@ -77,7 +77,7 @@ The reply times are illustrative values, not measurements of any model, and the 
 
 ## How to read a benchmark of language-model players
 
-These are my own questions, drawn from what the four papers disagree on:
+These are the post's own questions, drawn from what the four papers disagree on:
 
 1. **What did the harness provide?** VideoGameBench forbids text extracted from game state; lmgame-Bench's perception module supplies it. The same model can score near zero in one and above random in the other, so the numbers are not comparable across the two.
 2. **Does the game wait?** Real-time and paused results measure different things.

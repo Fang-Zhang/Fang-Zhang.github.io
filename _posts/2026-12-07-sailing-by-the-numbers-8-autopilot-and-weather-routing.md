@@ -37,11 +37,11 @@ _Figure 3. The isochrone method. The geometry is illustrative._
 
 The article lists the options in the better programs: the isochrone interval, which defaults to three hours, limits on wind speed and wave height, adjustments to the polars, and, in most of them, tides and currents. Its author configured several programs with the same route, polar and forecast file and compared the results. The routes came out similar, especially during the first days of the forecast, and the differences came from default settings, waves and currents, and internal calculations. His conclusion: route optimisation is a tool to supplement the routing decision, and even the best computer model cannot replace common sense and judgment.
 
-Two limits follow directly from the method, and they are my reading of it, not a claim from the article. The route is only as good as the forecast, and the forecast gets less reliable with each day. And it is only as good as the polar; a polar that is too optimistic, as the last post noted, will favour routes the boat cannot sail as fast as predicted.
+Two limits follow directly from the method, and they are the post's reading of it, not a claim from the article. The route is only as good as the forecast, and the forecast gets less reliable with each day. And it is only as good as the polar; a polar that is too optimistic, as the last post noted, will favour routes the boat cannot sail as fast as predicted.
 
 ## Who is allowed to use it
 
-Whether a skipper may use shore-based routing depends on the race. In the Vendée Globe, as the sixth post showed, the notice of race prohibits receiving weather, tactical or strategic information useful for decision making that could improve performance or influence route choice. A skipper's own software on the boat, running on public forecast data, is a different matter from a shore team advising the skipper, and the rule is aimed at the second. I did not find the class's published position on routing software itself, so I do not claim one.
+Whether a skipper may use shore-based routing depends on the race. In the Vendée Globe, as the sixth post showed, the notice of race prohibits receiving weather, tactical or strategic information useful for decision making that could improve performance or influence route choice. A skipper's own software on the boat, running on public forecast data, is a different matter from a shore team advising the skipper, and the rule is aimed at the second. The class's published position on routing software itself was not found, so none is claimed.
 
 ## The whole series in one chain
 

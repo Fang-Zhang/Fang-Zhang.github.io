@@ -37,4 +37,4 @@ The numbers also expose a common confusion. The observable universe is about [92
 
 The first post in this series argued that [every distance is a delay](/posts/every-distance-is-a-delay/): to look far is to look back. Olbers' paradox carries that to its limit. A lit patch of sky is light that has already arrived, which is the past of something. A dark patch is not necessarily empty. It may only be light that has not had time to get here.
 
-For the sky, dark means *not yet*, and nothing more. That reading is my own extension, not an astronomical claim. But it is a useful habit. Whenever a region of what we know is blank, there are two possible readings: nothing is there, or the signal has not arrived. They look identical from inside, and only one of them is a statement about the world.
+For the sky, dark means *not yet*, and nothing more. That reading is this post's own extension, not an astronomical claim. But it is a useful habit. Whenever a region of what we know is blank, there are two possible readings: nothing is there, or the signal has not arrived. They look identical from inside, and only one of them is a statement about the world.

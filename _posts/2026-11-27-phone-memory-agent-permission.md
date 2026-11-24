@@ -39,7 +39,7 @@ A common summary of on-device AI is that the model runs on the phone and nothing
 - Android runs [Gemini Nano inside AICore](https://developer.android.com/ai/gemini-nano), a system service that follows the [Private Compute Core](https://arxiv.org/abs/2209.10317) principles, isolates each request and does not store inputs or outputs. Google lists offline use, privacy and lower inference cost as the use cases.
 - Apple's family has two on-device models and three server models. The heaviest tasks, "agentic tool use and complex reasoning" in Apple's wording, go to the largest server model on Private Cloud Compute.
 
-The pattern is a tiered system: a small local model for frequent, private, latency-sensitive work and a larger remote one for the rest. The sources I found do not describe a phone that runs everything itself. I did not find a vendor claim that on-device models replace the cloud for hard tasks, and I would treat any such claim as unsupported until a paper or official document makes it.
+The pattern is a tiered system: a small local model for frequent, private, latency-sensitive work and a larger remote one for the rest. The sources found do not describe a phone that runs everything itself. No vendor claim was found that on-device models replace the cloud for hard tasks, and any such claim should be treated as unsupported until a paper or official document makes it.
 
 ## 3. How an agent gets into an app
 
@@ -56,7 +56,7 @@ _Figure 3. Three routes from an agent to an app's function and the party that de
 
 ## 4. Where the control ends up
 
-The sources are specific enough to support a few observations. These are my own reading, not claims from the papers.
+The sources are specific enough to support a few observations. These are the post's own reading, not claims from the papers.
 
 First, AppFunctions removes the need to imitate a user in front of a screen. The app opts in, defines what it exposes and keeps its own logic. That is cleaner for apps than screen scraping.
 
@@ -66,7 +66,7 @@ Third, the memory limit and the permission limit are the same kind of limit. In 
 
 ## What the sources do not settle
 
-- Real-world speeds on specific phones. Figures I found for particular chips came from blogs and forum posts, which I did not use. The speed numbers above are from the papers, are self-reported, and depend on the device and the model.
+- Real-world speeds on specific phones. Figures found for particular chips came from blogs and forum posts, which were not used. The speed numbers above are from the papers, are self-reported, and depend on the device and the model.
 - Whether stronger on-device models reduce use of the cloud. The vendor documents describe tiers, not substitution.
 - How AppFunctions behaves outside the private preview, and whether other platforms adopt a comparable registry.
 

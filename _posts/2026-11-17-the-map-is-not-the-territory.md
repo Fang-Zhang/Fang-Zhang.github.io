@@ -24,9 +24,9 @@ The second half matters as much as the first. A map that copied everything would
 
 ## The measure
 
-A metric is a map of something you care about. Charles Goodhart's 1975 [statement](https://markozivkovic.ch/terms/goodharts-law), about British monetary policy, was: "Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." The familiar version, "when a measure becomes a target, it ceases to be a good measure," is Marilyn Strathern's 1997 paraphrase, drawing on an earlier account by Keith Hoskin. I could not read Goodhart's original paper, so both wordings come from a secondary source.
+A metric is a map of something you care about. Charles Goodhart's 1975 [statement](https://markozivkovic.ch/terms/goodharts-law), about British monetary policy, was: "Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." The familiar version, "when a measure becomes a target, it ceases to be a good measure," is Marilyn Strathern's 1997 paraphrase, drawing on an earlier account by Keith Hoskin. Goodhart's original paper could not be read for this post, so both wordings come from a secondary source.
 
-The mechanism, in my words: a measure works because it correlates with the thing behind it. Once people are rewarded for the number, they find the cheapest way to raise the number, and the cheap ways often leave the thing behind it untouched. The map gets improved while the land stays the same.
+The mechanism, in plain words: a measure works because it correlates with the thing behind it. Once people are rewarded for the number, they find the cheapest way to raise the number, and the cheap ways often leave the thing behind it untouched. The map gets improved while the land stays the same.
 
 ## The fence
 

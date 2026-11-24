@@ -20,7 +20,7 @@ When options have uncertain payoffs, multiply each outcome by its probability an
 
 $$E[X] = \sum_i p_i x_i$$
 
-A bet that pays 100 with probability 0.3 and nothing otherwise has an expected value of 30. A sure 35 beats it on this measure. The tool is useful because it forces both numbers onto the page: the size of the prize and the chance of getting it. A large prize with a tiny probability, or a small one that is nearly certain, looks different once multiplied. (Numbers here are my own illustration.)
+A bet that pays 100 with probability 0.3 and nothing otherwise has an expected value of 30. A sure 35 beats it on this measure. The tool is useful because it forces both numbers onto the page: the size of the prize and the chance of getting it. A large prize with a tiny probability, or a small one that is nearly certain, looks different once multiplied. (Numbers here are an illustration.)
 
 Its limit is that an average hides the spread. A bet repeated many times converges to its expected value; a bet you can only take once, with a loss you cannot absorb, does not. The tool answers "what is this worth on average", not "can I survive the bad draw".
 
@@ -28,10 +28,10 @@ Its limit is that an average hides the spread. A bet repeated many times converg
 
 On 16 July 1945, at the Trinity test, Enrico Fermi [dropped small pieces of paper](https://www.osti.gov/opennet/manhattan-project-history/Events/1945/trinity.htm) into the blast wave and estimated the yield at 10,000 tons of TNT. The final figure was 21,000 tons, "more than twice what Fermi had estimated," and, by the same account, four times what most people at Los Alamos had predicted. A physicist's [2021 note](https://arxiv.org/html/2103.05784v2) points out that no account survives of how Fermi turned the paper's motion into a yield, so the details are reconstruction. What survives is the lesson: an estimate at about half the true value, made on the spot from crude observation, was closer than most prior expert guesses.
 
-The method generalises. Split an unknown into factors you can guess, guess each, multiply. Errors in the guesses partly cancel, because some are high and some are low. The chart below, a simulation I ran for this post, makes the point. Each of five factors is wrong by up to a factor of 3 in either direction, uniformly on a log scale. The product is usually wrong by far less than the worst case of 243:
+The method generalises. Split an unknown into factors you can guess, guess each, multiply. Errors in the guesses partly cancel, because some are high and some are low. The chart below, a simulation run for this post, makes the point. Each of five factors is wrong by up to a factor of 3 in either direction, uniformly on a log scale. The product is usually wrong by far less than the worst case of 243:
 
 ![Two overlaid histograms on a log axis: one factor with errors within 3x, and the product of five such factors, wider but concentrated near the true value, well inside the worst case of 243x](/assets/pic/fermi-error-simulation.png)
-_Figure 1. Simulation of 200,000 trials; the error model is an assumption of mine. In it, the five-factor product is within 2x of the truth 36% of the time, within 3x 55% and within 10x 89%._
+_Figure 1. Simulation of 200,000 trials; the error model is an assumption of this post. In it, the five-factor product is within 2x of the truth 36% of the time, within 3x 55% and within 10x 89%._
 
 The cancellation is a property of independent errors. If the guesses share a bias, for example all optimistic, nothing cancels, which leads to the last tool.
 
@@ -43,7 +43,7 @@ $$P(H\mid E) = \frac{P(E\mid H)\,P(H)}{P(E\mid H)\,P(H) + P(E\mid \lnot H)\,P(\l
 
 Most people find it unintuitive. Gerd Gigerenzer and Ulrich Hoffrage [showed in 1995](https://eric.ed.gov?id=EJ517158) that the difficulty is partly the format: when the same information is given as frequencies, statistically naive participants reached Bayesian answers in up to 50% of inferences.
 
-A standard screening example, as [retold in a university course note](https://pi.math.cornell.edu/~mec/2008-2009/TianyiZheng/Bayes.html): 1% of women aged 40 to 50 have breast cancer, a woman with cancer has a 90% chance of a positive mammogram, and a woman without has a 10% chance of a false positive. In frequencies: out of 1,000 women, 10 have cancer and 9 of them test positive; of the 990 without cancer, 99 test positive. Of 108 positives, 9 are real. The answer is 9/108, about 8%. The same note says 95 physicians asked this question averaged 75%; I could not check that survey in its original form.
+A standard screening example, as [retold in a university course note](https://pi.math.cornell.edu/~mec/2008-2009/TianyiZheng/Bayes.html): 1% of women aged 40 to 50 have breast cancer, a woman with cancer has a 90% chance of a positive mammogram, and a woman without has a 10% chance of a false positive. In frequencies: out of 1,000 women, 10 have cancer and 9 of them test positive; of the 990 without cancer, 99 test positive. Of 108 positives, 9 are real. The answer is 9/108, about 8%. The same note says 95 physicians asked this question averaged 75%; that survey could not be checked in its original form.
 
 ![A grid of 1,000 squares: 9 true positives, 1 missed case, 99 false positives and 891 true negatives, giving 9 real cases among 108 positives]({{ "/assets/pic/bayes-natural-frequencies.png" | relative_url }})
 _Figure 2. The screening example as counts. Of 108 positives, 9 are real, about 8%._

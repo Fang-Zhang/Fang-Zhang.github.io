@@ -30,7 +30,7 @@ Raw Atari frames are 210×160 colour images. An agent trained on them directly w
 - **Episodic life:** losing a life ends the episode as far as the learner is concerned.
 - **Random no-ops at reset,** up to 30, so that each episode starts slightly differently.
 
-One more wrapper stacks the last four frames into a single observation. A single frame cannot show which way the ball is moving; four consecutive frames can. The resulting observation shape is `(84, 84, 4)`, which I confirmed by printing it.
+One more wrapper stacks the last four frames into a single observation. A single frame cannot show which way the ball is moving; four consecutive frames can. The resulting observation shape is `(84, 84, 4)`, which was confirmed by printing it.
 
 ```python
 import gymnasium as gym, ale_py
@@ -73,7 +73,7 @@ model.learn(
 model.save("ppo_breakout_1m")
 ```
 
-`CnnPolicy` is the convolutional network that turns four stacked frames into action probabilities and a value estimate. The hyperparameters follow the commonly used Atari PPO settings; I did not tune them. The checkpoint callback saves a snapshot every 100,000 steps, which is how the comparison below was made.
+`CnnPolicy` is the convolutional network that turns four stacked frames into action probabilities and a value estimate. The hyperparameters follow the commonly used Atari PPO settings; they were not tuned. The checkpoint callback saves a snapshot every 100,000 steps, which is how the comparison below was made.
 
 On this machine the run took 1,824 seconds, about 30 minutes, at roughly 550 steps per second, as reported by the training log. Without a GPU the practical cost is time, not feasibility. In short speed tests of 16,384 steps, the default single-process setup managed about 130 steps per second, while `SubprocVecEnv` with 8 environments reached 158 to 257 depending on the number of PyTorch threads, so it pays to use it.
 
@@ -83,9 +83,9 @@ The curve is the rolling mean score during training, reported by SB3. It rises f
 
 ## Step 3: evaluate honestly
 
-Training scores are not a fair test, because the policy is still exploring and rewards are clipped. I loaded saved checkpoints and played 10 complete games each, with the unclipped game score and a fresh seed.
+Training scores are not a fair test, because the policy is still exploring and rewards are clipped. Saved checkpoints were loaded and played 10 complete games each, with the unclipped game score and a fresh seed.
 
-One trap cost me time. `EpisodicLife` makes the environment report "done" when a life is lost, so a naive loop that stops at the first `done` measures a single life, not a game. The first evaluation I ran did exactly this and showed many scores of 0. The fix is to wait for the `episode` entry in the `info` dictionary, which the `Monitor` wrapper adds only when a full game ends:
+One trap cost time. `EpisodicLife` makes the environment report "done" when a life is lost, so a naive loop that stops at the first `done` measures a single life, not a game. The first evaluation did exactly this and showed many scores of 0. The fix is to wait for the `episode` entry in the `info` dictionary, which the `Monitor` wrapper adds only when a full game ends:
 
 ```python
 def play(model, n=10):
@@ -121,7 +121,7 @@ Three observations from the numbers:
 
 If 30 minutes is too long for a first try, [LunarLander](https://gymnasium.farama.org/environments/box2d/lunar_lander/) trains faster, because its observation is eight numbers rather than pixels. With PPO and `MlpPolicy`, 16 parallel environments and one million steps, training took 936 seconds. Over 20 test episodes the agent scored an average of 248.1 (standard deviation 46.8), against −172.8 for random actions. The environment is considered solved at 200.
 
-It needs the Box2D physics library, which on my Python 3.14 environment did not install with a plain `pip install "gymnasium[box2d]"`. Three things were needed: install `swig`, put the environment's `bin` directory on `PATH`, and build with `pip install --no-build-isolation box2d-py` while pointing `CC` and `CXX` at `gcc` and `g++`. On Python versions with prebuilt wheels the plain install may just work.
+It needs the Box2D physics library, which on the Python 3.14 environment did not install with a plain `pip install "gymnasium[box2d]"`. Three things were needed: install `swig`, put the environment's `bin` directory on `PATH`, and build with `pip install --no-build-isolation box2d-py` while pointing `CC` and `CXX` at `gcc` and `g++`. On Python versions with prebuilt wheels the plain install may just work.
 
 ## What can go wrong
 

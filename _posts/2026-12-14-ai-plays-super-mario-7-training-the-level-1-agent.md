@@ -76,7 +76,7 @@ steps=40960 t=169s eps=91 mean_best_x=838 max_x=1944 clears=0/50
 steps=61440 t=255s eps=168 mean_best_x=846 max_x=1677 clears=0/50
 ```
 
-Your numbers will differ in detail because the 16 processes do not run in lockstep, but the average furthest x should be a few hundred to about a thousand and no episode should be a clear yet. The full run is `python train.py 16 3000000 ppo_mario 0`. The first run of this setup (seed 0) took 5,484 seconds, about 1.5 hours, on a CPU with no GPU, with nothing else running. The training runs below used the same code, with the environment file kept in my working folder; Part 3's `mario_env.py` is a rewritten, tidier copy of it with the same actions and reward, and only the 61,440-step trial above was run with Part 3's copy.
+Your numbers will differ in detail because the 16 processes do not run in lockstep, but the average furthest x should be a few hundred to about a thousand and no episode should be a clear yet. The full run is `python train.py 16 3000000 ppo_mario 0`. The first run of this setup (seed 0) took 5,484 seconds, about 1.5 hours, on a CPU with no GPU, with nothing else running. The training runs below used the same code, with the environment file kept in the working folder; Part 3's `mario_env.py` is a rewritten, tidier copy of it with the same actions and reward, and only the 61,440-step trial above was run with Part 3's copy.
 
 ## When the level starts being cleared
 

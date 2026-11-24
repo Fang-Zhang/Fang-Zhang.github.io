@@ -38,7 +38,7 @@ For a reader who knows the dates, the second row costs three slots. For one who 
 
 Switching tasks looks free. Sophie Leroy's [2009 study](https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html) shows it is not. Across two experiments she found that people need to stop thinking about one task to fully transition to another, that it is difficult to move attention away from an unfinished task, and that subsequent performance suffers. She called the leftover "attention residue." Finishing the first task is not enough: she found that time pressure while finishing a prior task was needed to disengage from it.
 
-What this implies is modest and my own reading. If part of the desk is still occupied by the previous task, the next one runs on fewer than four slots.
+What this implies is modest and the post's own reading. If part of the desk is still occupied by the previous task, the next one runs on fewer than four slots.
 
 ## What can be changed
 

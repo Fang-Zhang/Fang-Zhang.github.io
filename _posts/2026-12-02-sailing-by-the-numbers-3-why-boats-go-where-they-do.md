@@ -22,7 +22,7 @@ Sailors distinguish two winds. The **true wind** is the wind over the water, the
 Take a 10-knot true wind blowing across the boat from the side. A boat doing 6 knots feels 11.7 knots, coming from 59 degrees off the bow. A boat doing 30 knots in the same air feels 31.6 knots from 18 degrees off the bow. The air itself has not changed, but the wind on board is three times stronger and has swung almost to the front.
 
 ![Two vector triangles: at 6 knots the apparent wind is 11.7 knots from 59 degrees; at 30 knots it is 31.6 knots from 18 degrees]({{ "/assets/pic/sailing-wind-triangle.png" | relative_url }})
-_Figure 2. The same 10-knot true wind, as felt by a slow boat and a fast one. The arithmetic is mine: apparent speed = sqrt(10² + boat speed²) when the true wind is abeam._
+_Figure 2. The same 10-knot true wind, as felt by a slow boat and a fast one. The arithmetic is the post's own: apparent speed = sqrt(10² + boat speed²) when the true wind is abeam._
 
 Sails are trimmed to the apparent wind, because that is the airflow they actually sit in. Racing crews still care about the true wind, because it describes the weather and the course, and the shift between the two is what instruments compute.
 
@@ -44,7 +44,7 @@ The trade-off is visible in the invented polar. Sailing 30 degrees off the wind 
 ![Left: a zigzag course to a windward mark at the best angle, avoiding the sector into the wind. Right: curve of speed toward the wind against true wind angle, peaking near 43 degrees]({{ "/assets/pic/sailing-vmg.png" | relative_url }})
 _Figure 4. Upwind VMG for the invented polar in Figure 3._
 
-The same reasoning applies downwind, and the result can surprise a newcomer. With this polar, sailing dead downwind at 180 degrees gives 4.3 knots toward the mark. Sailing at about 150 degrees gives 5.6 knots through the water and 4.8 knots toward the mark, so the boat does better by zigzagging downwind too, gybing from side to side. The [US Sailing guide](https://www.ussailing.org/wp-content/uploads/2018/01/Speed-Guide-Explanation.pdf) says the optimum angles for windward-leeward courses are marked on its polar diagrams, and it shows how the angle on one tack tells you the course on the other. The 150-degree figure here is a property of my invented curve, not a rule: real boats differ, and foiling boats differ most.
+The same reasoning applies downwind, and the result can surprise a newcomer. With this polar, sailing dead downwind at 180 degrees gives 4.3 knots toward the mark. Sailing at about 150 degrees gives 5.6 knots through the water and 4.8 knots toward the mark, so the boat does better by zigzagging downwind too, gybing from side to side. The [US Sailing guide](https://www.ussailing.org/wp-content/uploads/2018/01/Speed-Guide-Explanation.pdf) says the optimum angles for windward-leeward courses are marked on its polar diagrams, and it shows how the angle on one tack tells you the course on the other. The 150-degree figure here is a property of the invented curve, not a rule: real boats differ, and foiling boats differ most.
 
 ## When the boat outruns the wind
 

@@ -33,7 +33,7 @@ Richard Feynman gave the short version. An artist friend held up a flower and sa
 
 ## Why the mechanism argument fails
 
-What follows is my own argument, in three steps.
+What follows is the post's own argument, in three steps.
 
 **An explanation is also a source of questions.** Feynman's flower is explained by pollination, which raises the question of what insects see, which raises the question of whether an aesthetic sense exists in other animals. Each answer is a new frontier. A civilization that "finished" explaining itself would be one for which the explanations stopped generating questions, and nothing we know about explanation behaves that way.
 

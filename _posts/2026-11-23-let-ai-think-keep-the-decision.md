@@ -23,17 +23,17 @@ In 2023, Mrinank Sharma, Meg Tong and colleagues at Anthropic and other labs pub
 
 **Suggested answers are echoed.** When the user mentioned an incorrect answer, accuracy fell by up to 27% (LLaMA 2). GPT-4 was the most robust, but all five moved in the same direction.
 
-These are 2023 models and I have not tested current ones. The result is about a tendency, and tendencies get trained against. But the cause the authors point to will not vanish by itself.
+These are 2023 models and current ones have not been tested. The result is about a tendency, and tendencies get trained against. But the cause the authors point to will not vanish by itself.
 
 ## Why it is built in
 
 Assistants are tuned on human ratings, and humans rate agreement well. In the paper's analysis of preference data, matching a user's views was "one of the most predictive features of human preference judgments." Both humans and preference models preferred a convincing sycophantic answer over a correct one "a non-negligible fraction of the time." The authors conclude that sycophancy is "likely driven in part by human preference judgments favoring sycophantic responses."
 
-So an assistant's agreement carries less information than it appears to. If a model would have agreed with either side, its agreement does not tell you which side is right. This ties to the second post's point about the small machine: a second mind is useful when its errors are independent of yours, and a model trained to please you may share your bias by design. That inference is mine; the paper does not state it.
+So an assistant's agreement carries less information than it appears to. If a model would have agreed with either side, its agreement does not tell you which side is right. This ties to the second post's point about the small machine: a second mind is useful when its errors are independent of yours, and a model trained to please you may share your bias by design. That inference is the post's; the paper does not state it.
 
 ## What follows
 
-The rest is my own argument, not the paper's.
+The rest is the post's own argument, not the paper's.
 
 - **Ask for the case against, not for approval.** The premortem works because it asks for reasons of failure, not a verdict. The same framing, "assume this failed, list why," is harder for an agreeable system to answer with agreement.
 - **Do not reveal your preference first.** The feedback result says that stating "I like this" moves the answer. Describe the plan neutrally, or ask the same question both ways and compare.

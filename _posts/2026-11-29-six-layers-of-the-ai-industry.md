@@ -10,7 +10,7 @@ image:
 
 One chat query starts in an app, goes to a model, runs in a cloud data center, executes on a chip that a single foundry made with a machine only one company builds, and ends up as electricity drawn from a grid. Most coverage of AI covers the top of that chain. The industry is the whole chain, and each link has its own owners, its own numbers and its own degree of competition.
 
-This post lays out the chain as five layers plus a side column for capital, names who sits in each, and attaches one primary-source number per layer. The layering is a way of organizing the field, not an official taxonomy. Merging cloud and networking into one layer, and treating capital as a column rather than a layer, are my choices.
+This post lays out the chain as five layers plus a side column for capital, names who sits in each, and attaches one primary-source number per layer. The layering is a way of organizing the field, not an official taxonomy. Merging cloud and networking into one layer, and treating capital as a column rather than a layer, are choices of this post.
 
 ![Five layers of the AI industry from power and cooling to applications, with capital as a side column]({{ "/assets/pic/ai-six-layers.png" | relative_url }})
 _The stack, bottom to top. Each layer sells to the one above it. Capital flows through all of them. Sources are listed under the figure and in the sections below._

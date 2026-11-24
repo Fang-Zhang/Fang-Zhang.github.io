@@ -65,7 +65,7 @@ A fleet can contain boats of very different size, as at Sydney Hobart, so the ru
 ![Elapsed and corrected times for two boats: Boat A finishes first with 60 hours but corrects to 84 hours, Boat B takes 90 hours but corrects to 81 hours]({{ "/assets/pic/sailing-corrected-time.png" | relative_url }})
 _Figure 5. An illustration with invented ratings and times: the boat that finishes last can win on corrected time._
 
-In the figure, Boat A takes 60 hours with a TCC of 1.400, so her corrected time is 60 × 1.4 = 84 hours. Boat B takes 90 hours with a TCC of 0.900, so her corrected time is 90 × 0.9 = 81 hours. Boat A crosses the line 30 hours earlier, and Boat B wins. The numbers are mine, chosen to show the arithmetic, and are not real ratings.
+In the figure, Boat A takes 60 hours with a TCC of 1.400, so her corrected time is 60 × 1.4 = 84 hours. Boat B takes 90 hours with a TCC of 0.900, so her corrected time is 90 × 0.9 = 81 hours. Boat A crosses the line 30 hours earlier, and Boat B wins. The numbers are invented, chosen to show the arithmetic, and are not real ratings.
 
 ## What the rules mean for the numbers
 

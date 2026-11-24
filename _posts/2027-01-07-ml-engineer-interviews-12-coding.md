@@ -192,7 +192,7 @@ mine, k-means++ init: inertia over 20 seeds min  3568.2  median  3721.6  max  49
 sklearn k-means++ , n_init=1: min  3568.4  median  3695.0  max  5112.1
 ```
 
-All three versions reach the same best inertia (about 3,568) over 20 seeds, so the good solution exists for every method; the difference is in how often a run lands there. Random initialisation has a median of 4,327 and a worst case of 8,000, more than twice the best, while k-means++ has a median of 3,722 and a worst case of 4,970. The scikit-learn version with a single initialisation behaves like mine (median 3,695, worst 5,112), which is the check that the implementation is right; this test does not show that mine matches it in every case (for example empty clusters, which are handled here by leaving the centroid in place).
+All three versions reach the same best inertia (about 3,568) over 20 seeds, so the good solution exists for every method; the difference is in how often a run lands there. Random initialisation has a median of 4,327 and a worst case of 8,000, more than twice the best, while k-means++ has a median of 3,722 and a worst case of 4,970. The scikit-learn version with a single initialisation behaves like this post's implementation (median 3,695, worst 5,112), which is the check that the implementation is right; this test does not show that the post's implementation matches it in every case (for example empty clusters, which are handled here by leaving the centroid in place).
 
 **Common weak answer.** "Run it once and report the clusters." The run-to-run spread above is the reason to restart or to use k-means++ and several initialisations.
 

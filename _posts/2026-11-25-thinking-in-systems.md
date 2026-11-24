@@ -8,7 +8,7 @@ description: "A chapter-by-chapter walkthrough of Donella Meadows' Thinking in S
 
 [*Thinking in Systems: A Primer*](https://www.chelseagreen.com/product/thinking-in-systems/) by Donella Meadows (Chelsea Green, 2008) is a short book with a large claim: a system's behavior comes from its structure, not from the events that happen to it. According to [Wikipedia's entry](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer), she circulated it as a draft in 1993, died in 2001, and it was restructured and published by colleagues at the Sustainability Institute, edited by Diana Wright. Meadows was the lead author of [*The Limits to Growth*](https://www.clubofrome.org/publication/the-limits-to-growth/) and trained under [Jay Forrester](https://en.wikipedia.org/wiki/Jay_Wright_Forrester) at MIT.
 
-The full book is under copyright, and I did not use unauthorized copies. What I could read at the source was the publisher's preview and the two chapters Meadows' estate publishes free: the essay [*Leverage Points: Places to Intervene in a System*](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/) and [*Dancing with Systems*](https://donellameadows.org/archives/dancing-with-systems/). The book's chapters 6 and 7 expand these. For chapters 1 to 5 I relied on the book's published table of contents and [a reader's detailed chapter notes by Dan Lebrero](https://danlebrero.com/2021/07/21/thinking-in-systems-summary), which I could not check against the book's pages. So:
+The full book is under copyright, and unauthorized copies were not used. What could be read at the source was the publisher's preview and the two chapters Meadows' estate publishes free: the essay [*Leverage Points: Places to Intervene in a System*](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/) and [*Dancing with Systems*](https://donellameadows.org/archives/dancing-with-systems/). The book's chapters 6 and 7 expand these. For chapters 1 to 5 the post relies on the book's published table of contents and [a reader's detailed chapter notes by Dan Lebrero](https://danlebrero.com/2021/07/21/thinking-in-systems-summary), which could not be checked against the book's pages. So:
 
 - Sections 1 to 5 describe the book's first five chapters as Lebrero's notes record them, with the book's examples where the notes name them.
 - Sections 6 and 7 are checked against Meadows' own text.
@@ -64,7 +64,7 @@ Chapter 4 starts from the idea that everything we know about the world is a mode
 1. **Beguiling events.** We watch events and pay too little attention to the history behind them. Structure is the source of behavior. Figure 5 shows the common way to picture this.
 
 ![Events, patterns, structure](/assets/pic/systems-iceberg.png){: width="600" }
-_Figure 5. Events sit on the surface; the patterns and the structure that produce them are underneath. The three-level framing is a common teaching device that fits the book's point; it is my own drawing, not a figure from the book._
+_Figure 5. Events sit on the surface; the patterns and the structure that produce them are underneath. The three-level framing is a common teaching device that fits the book's point; it is the post's own drawing, not a figure from the book._
 
 2. **Nonlinear relationships.** They produce unexpected shifts between feedback loops (the spruce budworm example).
 3. **Nonexistent boundaries.** There is no single legitimate boundary around a system, and boundaries are of our own making, to be reconsidered for each problem. Too narrow a boundary produces surprises.
@@ -161,7 +161,7 @@ Her last point: systems thinking can only tell us to do these things, it cannot 
 
 ## My additions
 
-These are mine, not Meadows'.
+These are the post's, not Meadows'.
 
 - **The events-versus-structure distinction (chapter 4) is also how to debug a model or an agent.** A bad output is an event. The same failure class across many prompts is a pattern. The training data, objective, or tool design that makes it likely is the structure. Fixing outputs one by one treats events and leaves the structure alone.
 - **Meadows' point that a system's goal is what its behavior shows matches the warning about metrics.** When a measure becomes a target, it stops measuring ([Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law)). A model optimized against a proxy will pursue the proxy, whatever the designer meant. That is her goal-of-the-system lever applied to training.

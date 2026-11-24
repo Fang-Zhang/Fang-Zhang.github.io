@@ -133,7 +133,7 @@ For each layer from 0 to 2 the direction is the mean hidden state at the last pr
 - from layer 1: 6.7% and 7.3%;
 - from layer 2: 0% and 0%, with the harmless tasks at 100%, 100% and 99.7%.
 
-Adding the layer 1 direction at 4 times its unit length to every position changes nothing visible (refusal 100% and 100%, harmless tasks at 97.3%, 99.7% and 92.0%). At 8 times it breaks the harmless tasks (0% on all three) and `Y` prompts are answered with a refusal 91.3% of the time, but `X` prompts are not (0%). That is not the clean "adding the direction elicits refusal" of the paper, and I did not check what the harmless prompts produce. The addition half is therefore not reproduced here.
+Adding the layer 1 direction at 4 times its unit length to every position changes nothing visible (refusal 100% and 100%, harmless tasks at 97.3%, 99.7% and 92.0%). At 8 times it breaks the harmless tasks (0% on all three) and `Y` prompts are answered with a refusal 91.3% of the time, but `X` prompts are not (0%). That is not the clean "adding the direction elicits refusal" of the paper, and what the harmless prompts produce was not checked. The addition half is therefore not reproduced here.
 
 ## What this means
 

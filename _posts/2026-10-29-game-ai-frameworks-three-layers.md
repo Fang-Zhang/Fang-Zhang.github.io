@@ -65,7 +65,7 @@ for agent in env.agent_iter():
     env.step(int(np.random.choice(legal)))  # swap in a learned policy here
 ```
 
-To check that the API does what it says, I trained a tabular Q-learning player (about 40 lines, no neural network) as `player_1` against a random opponent. Results over 1,000 test games per trained row (2,000 for the random baseline), one seed:
+To check that the API does what it says, this post trains a tabular Q-learning player (about 40 lines, no neural network) as `player_1` against a random opponent. Results over 1,000 test games per trained row (2,000 for the random baseline), one seed:
 
 | Player 1 | Win | Draw | Loss |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ SB3 hides PPO behind `model.learn()`. CleanRL's [`ppo.py`](https://github.com/vw
 python ppo.py --env-id CartPole-v1 --total-timesteps 100000 --seed 1
 ```
 
-One compatibility note from running it. CleanRL's `pyproject.toml` pins `gymnasium==0.29.1` and Python below 3.11, and the current Gymnasium 1.4.0 returns episode statistics in a different `infos` format, so the script's logging lines found nothing until I changed a handful of lines to read `infos["episode"]` and `infos["_episode"]`. With a matching Gymnasium version this is not needed. The old `cleanrl` package on PyPI (0.4.8, from 2021) is a different, outdated codebase; use the GitHub repository.
+One compatibility note from running it. CleanRL's `pyproject.toml` pins `gymnasium==0.29.1` and Python below 3.11, and the current Gymnasium 1.4.0 returns episode statistics in a different `infos` format, so the script's logging lines found nothing until a handful of lines were changed to read `infos["episode"]` and `infos["_episode"]`. With a matching Gymnasium version this is not needed. The old `cleanrl` package on PyPI (0.4.8, from 2021) is a different, outdated codebase; use the GitHub repository.
 
 Result on CartPole, 4 parallel environments, one seed, CPU only: the run took 17.5 seconds at about 6,400 steps per second. Across 590 training episodes the mean return went from 20.0 over the first 20 episodes to 293.6 over the last 20 (the maximum is 500). Because those are training episodes with a stochastic policy, they are a progress measure, not a final evaluation.
 

@@ -32,7 +32,7 @@ The "presence in the room" that many people report in these episodes is also des
 
 In 2002 Olaf Blanke and colleagues [described in Nature](https://pubmed.ncbi.nlm.nih.gov/12239558) the repeated induction of an out-of-body experience by electrical stimulation of the right angular gyrus in a woman being evaluated for epilepsy. The same stimulation produced illusory changes in the patient's arms and legs and a feeling of whole-body displacement. The authors' reading is that such experiences may reflect a failure of the brain to integrate somatosensory and vestibular information.
 
-Note the limits. It is one patient, and a patient with epilepsy. What it shows is that the sense of where "I" am relative to my body is constructed, and can be moved by changing the construction.
+Note the limits. It is one patient, and a patient with epilepsy. What it shows is that the sense of where "I" am relative to the body is constructed, and can be moved by changing the construction.
 
 ## Twenty-one grams
 

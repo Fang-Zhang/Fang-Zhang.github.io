@@ -39,11 +39,11 @@ _Figure 3. A simplified view of the information flow under rules 33, 34 and 36 o
 
 ## An F50: the same boat for everyone
 
-[SailGP](https://sailgp.com/news/24/beginners-guide-f50-foiling-catamaran/) states the principle in one sentence: all teams race in the same boat with exactly the same equipment, and the only thing that separates them is the crew. Its guide to the F50 crew lists [six full-time roles](https://sailgp.com/news/24/beginners-guide-f50-crew): a strategist, a driver, a wing trimmer, a flight controller and two grinders. I did not find a primary source describing the F50's instrument and data rules in the way the AC75 rule describes its own, so this post does not claim any.
+[SailGP](https://sailgp.com/news/24/beginners-guide-f50-foiling-catamaran/) states the principle in one sentence: all teams race in the same boat with exactly the same equipment, and the only thing that separates them is the crew. Its guide to the F50 crew lists [six full-time roles](https://sailgp.com/news/24/beginners-guide-f50-crew): a strategist, a driver, a wing trimmer, a flight controller and two grinders. No primary source was found describing the F50's instrument and data rules in the way the AC75 rule describes its own, so this post does not claim any.
 
 ## An IMOCA 60: a box rule with fixed parts
 
-The IMOCA class is built to a box rule: the [Ocean Race](https://www.theoceanrace.com/en/news/13903_Spot-the-difference) explains that it prescribes maximum dimensions, within which designers are free, plus a set of one-design components, among them the wing mast, the outrigger poles, the rigging, the boom, the keel fin and the control system for the canting keel. The class [also says](https://www.imoca.org/en/imoca/imoca-rules) that autopilots have become increasingly sophisticated, which makes solo navigation possible. The last post in this series comes back to autopilots. As for instruments, the class pages I could read are silent, so I leave that open too.
+The IMOCA class is built to a box rule: the [Ocean Race](https://www.theoceanrace.com/en/news/13903_Spot-the-difference) explains that it prescribes maximum dimensions, within which designers are free, plus a set of one-design components, among them the wing mast, the outrigger poles, the rigging, the boom, the keel fin and the control system for the canting keel. The class [also says](https://www.imoca.org/en/imoca/imoca-rules) that autopilots have become increasingly sophisticated, which makes solo navigation possible. The last post in this series comes back to autopilots. As for instruments, the class pages that could be read are silent, so that is left open too.
 
 ## What outside information a boat may use
 
