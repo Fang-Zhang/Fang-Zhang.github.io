@@ -238,7 +238,7 @@ max Q over dataset: 624415.9 (reward-1-per-step, gamma .99 upper bound 100)
 reset arm mean eval at steps 10k, 20k, 30k: [17.7 15.6 11.7] and at 12k, 22k, 32k: [158.8 149.2 230.9]
 ```
 
-Next: Part 4 turns to applications and checks five well-known cases (game playing, chip placement, data-centre cooling, plasma control and matrix multiplication) against what the original papers claim.
+Next: [Part 4](/posts/rl-engineering-4-applications-checked/) turns to applications and checks five well-known cases (game playing, chip placement, data-centre cooling, plasma control and matrix multiplication) against what the original papers claim.
 
 ## References
 
