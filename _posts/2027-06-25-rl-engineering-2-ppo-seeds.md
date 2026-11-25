@@ -191,7 +191,7 @@ no learning-rate annealing   k= 1:  61%  k= 3:  78%  k= 5:  86%  k=10:  96%  k=2
 default weight init          k= 1:  46%  k= 3:  50%  k= 5:  51%  k=10:  51%  k=20:  51%
 ```
 
-Next: Part 3 looks at sample efficiency: replay buffers, how many gradient updates per environment step are worth it, and what offline data and simulation randomisation add.
+Next: [Part 3](/posts/rl-engineering-3-sample-efficiency/) looks at sample efficiency: replay buffers, how many gradient updates per environment step are worth it, and what offline data and simulation randomisation add.
 
 ## References
 
