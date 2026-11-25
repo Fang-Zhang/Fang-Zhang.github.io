@@ -8,7 +8,7 @@ description: "Part 6 of 6 on large language models in service work. On Banking77
 
 ## What this post finds
 
-Most service traffic is a small number of intents asked in many ways: where is my card, why did this transfer fail. The alternative to a language model there is an ordinary classifier, and the public record says when each one wins.
+Most service traffic is a small number of intents asked in many ways: card delivery status, a failed transfer. The alternative to a language model there is an ordinary classifier, and the public record says when each one wins.
 
 - **With labels, the small model wins on cost and speed.** A [2026 preprint](https://arxiv.org/abs/2608.20371) (a decision framework for intent detection, written from the experience of a production voice-AI platform) compared a fine-tuned RoBERTa, a TF-IDF classifier and Claude Haiku zero-shot. On ATIS (893 test items) RoBERTa scored 95.9 and Claude 84.1. On CLINC150 (5,500 test items, 150 intents) they were statistically tied at 89.1 and 88.5. The local RoBERTa runs in 2.4 milliseconds at no marginal cost; Claude's median latency was 981 milliseconds at 0.25 dollars per thousand calls.
 - **The model wins where the list of intents moves or the question is out of scope.** On out-of-scope detection, Claude's recall was 85.6 against 58.1 for RoBERTa and 36.4 for TF-IDF. When the intents were split into two apps, a RoBERTa fine-tuned on one app scored 96.8 there and 0.0 on the other, while a schema-prompted Claude scored 94.3 and 93.9. Under noisy speech recognition at 0 dB the TF-IDF classifier fell to 80.0 and Claude held 92.5, on 120 synthetic utterances.
