@@ -58,7 +58,7 @@ These points are this series' reading of the sources above, not claims from them
 - The five cases were chosen because they are widely cited. They are not a sample of all applications, and failures are underrepresented in published sources.
 - The chip dispute has several parties and years of updates; this post cites only the Nature paper, one independent assessment and the Nature addendum.
 
-Next: Part 5 covers applications that run in the physical world or at service scale: locomotion and manipulation, sim-to-real transfer, recommenders and resource scheduling, with the focus on engineering instead of algorithms.
+Next: [Part 5](/posts/rl-engineering-5-sim-to-real/) covers applications that run in the physical world or at service scale: locomotion and manipulation, sim-to-real transfer, recommenders and resource scheduling, with the focus on engineering instead of algorithms.
 
 ## References
 
