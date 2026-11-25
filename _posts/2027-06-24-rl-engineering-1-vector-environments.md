@@ -171,7 +171,7 @@ step 12: reward 1  terminated False  obs[0]  0.032  info keys []
 
 In `NEXT_STEP` mode the terminal step is followed by a step with reward 0 and the reset observation, so one episode costs 12 step calls and the last one carries no learning signal. In `SAME_STEP` mode the terminal step already returns the reset observation, and the true final observation sits in `info["final_obs"]`.
 
-Next: Part 2 looks at what keeps policy-gradient training stable, by removing implementation details one at a time across random seeds.
+Next: [Part 2](/posts/rl-engineering-2-ppo-seeds/) looks at what keeps policy-gradient training stable, by removing implementation details one at a time across random seeds.
 
 ## References
 
