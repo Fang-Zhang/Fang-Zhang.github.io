@@ -201,7 +201,7 @@ Figure script output (k-seed resampling: seeds per arm, 5th, 50th, 95th percenti
 [(5, np.float64(-78.4), np.float64(16.5), np.float64(119.3)), (10, np.float64(-50.5), np.float64(18.1), np.float64(89.0)), (20, np.float64(-29.6), np.float64(17.4), np.float64(67.8)), (40, np.float64(-16.8), np.float64(18.1), np.float64(53.3))]
 ```
 
-Next: Part 6 covers reinforcement learning in language models from the infrastructure side: generation cost, reward models, and why training and generation are separated.
+Next: [Part 6](/posts/rl-engineering-6-llm-infrastructure/) covers reinforcement learning in language models from the infrastructure side: generation cost, reward models, and why training and generation are separated.
 
 ## References
 
