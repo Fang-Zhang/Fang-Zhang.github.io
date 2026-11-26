@@ -159,7 +159,7 @@ low-similarity windows (similarity < 0.5, n=1328):
 query+retrieved minus query+random: -0.0011 (window-level 95% interval -0.0026 to +0.0004; per-model -0.0021, +0.0011, -0.0019, -0.0015)
 ```
 
-Next: Part 6 covers evaluation itself: how sample size, leakage and noise limit what a comparison between two models can show.
+Next: [Part 6](/posts/llm-lab-6-evaluation/) covers evaluation itself: how sample size, leakage and noise limit what a comparison between two models can show.
 
 ## References
 
