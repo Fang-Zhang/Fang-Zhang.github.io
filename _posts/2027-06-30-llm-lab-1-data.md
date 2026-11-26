@@ -192,7 +192,7 @@ A duplicated     per-run gap (val bpc minus own-training bpc): mean +0.173, rang
 A deduplicated   per-run gap (val bpc minus own-training bpc): mean +0.054, range +0.028 to +0.085
 ```
 
-Next: Part 2 covers the optimiser and hyperparameters: how sensitive training is to learning rate, warmup and batch size, and how much of that is seed noise.
+Next: [Part 2](/posts/llm-lab-2-hyperparameters/) covers the optimiser and hyperparameters: how sensitive training is to learning rate, warmup and batch size, and how much of that is seed noise.
 
 ## References
 
