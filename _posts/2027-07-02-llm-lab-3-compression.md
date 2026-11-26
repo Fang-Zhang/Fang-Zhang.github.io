@@ -120,7 +120,7 @@ prune 90%     mean 5.734  delta +3.067 (range +3.002 to +3.109)  p=0.0000
 prune 95%     mean 6.564  delta +3.897 (range +3.820 to +3.943)  p=0.0000
 ```
 
-Next: Part 4 covers decoding and sampling: temperature, top-p and speculative decoding, and what each trades between quality and latency.
+Next: [Part 4](/posts/llm-lab-4-decoding/) covers decoding and sampling: temperature, top-p and speculative decoding, and what each trades between quality and latency.
 
 ## References
 
