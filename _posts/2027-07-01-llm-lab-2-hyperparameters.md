@@ -153,7 +153,7 @@ batch 4 minus batch 16 (lr 3e-3): +0.659, Welch p=0.0001
 batch 64 minus batch 16 (lr 3e-3): -0.528, Welch p=0.0001
 ```
 
-Next: Part 3 covers quantisation and pruning: how much accuracy a model gives up per bit removed.
+Next: [Part 3](/posts/llm-lab-3-compression/) covers quantisation and pruning: how much accuracy a model gives up per bit removed.
 
 ## References
 
