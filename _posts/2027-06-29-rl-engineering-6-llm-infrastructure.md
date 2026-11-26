@@ -136,6 +136,8 @@ max abs difference between the last-position logits, full forward vs KV-cache st
 
 Part 1 measured where environment throughput stops scaling; Part 2 showed that a seed count decides whether a PPO comparison is trustworthy; Part 3 showed that a higher update-to-data ratio did not help while resets did, and that near-expert data can collapse offline learning; Part 4 attached qualifiers to five famous applications; Part 5 found no measurable benefit from simulator randomisation on CartPole at 40 seeds; this part measured the share of an iteration that goes to generation. The common thread is measurement before conclusion: the effect sizes in these experiments were often smaller than the seed noise.
 
+The next series, [Improving LLM Performance, Measured](/posts/llm-lab-1-data/), starts with data.
+
 ## References
 
 - [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155), 2022.
