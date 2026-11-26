@@ -187,7 +187,7 @@ T    k  ms/token  tokens per target call  acceptance  speedup vs plain  predicte
 1.0  8  3.01     2.38                    0.60        0.75 ± 0.02      0.82
 ```
 
-Next: Part 5 covers retrieval and context: what retrieval-augmented generation and longer context windows change, and which differences are within noise.
+Next: [Part 5](/posts/llm-lab-5-context/) covers retrieval and context: what retrieval-augmented generation and longer context windows change, and which differences are within noise.
 
 ## References
 
